@@ -10,6 +10,8 @@ The protected Vercel source is prepared under the requested project name `parkez
 
 GitHub repository: `dabhandgroup/parkezi-v8`, created by the project owner. This is the Vercel-ready source handoff; the owner will connect the repository to Vercel. Vercel has not been deployed from this repository yet. The repository is public; the actual preview password and session secret must be configured as encrypted Vercel environment variables and are excluded from the source. The earlier direct Vercel attempt was blocked by team access and the connection was subsequently removed.
 
+GitHub upload verified: all 162 prepared files match the remote `main` branch, with no deletions. Website/configuration upload commit: `d7e2785581f976982b9feba1d1d481642252e6c3`. The build and all seven authentication/adapter tests passed before upload.
+
 V12 is the current implemented design. The homepage, its matching black-hero version, and one product page (Express Pay) are built as a static HTML/CSS/JavaScript preview. The project is ready for continued design review; production form handling, final review content and the remaining website pages are outstanding.
 
 The preview is owner-private. The original parkezi.com.au website has not been replaced.

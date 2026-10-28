@@ -8,6 +8,7 @@ Entries are newest first. V-number labels identify design iterations, not hostin
 - Included both homepage versions, Express Pay, assets, protected server, build configuration, environment template, source notes, status and changelog.
 - Retained the existing V12 design and server-side password behaviour. Actual password/signing-secret values are excluded from the public repository.
 - Re-ran the build and all seven authentication/adapter tests successfully.
+- Uploaded all 162 files to `main` and verified each remote file SHA against the prepared source. No files were deleted. Upload commit: `d7e2785581f976982b9feba1d1d481642252e6c3`.
 - Vercel import and live deployment verification remain for the owner to complete.
 
 ## 28 October 2026 — Vercel package preparation
