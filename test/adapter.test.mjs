@@ -32,3 +32,24 @@ test('Vercel adapter accepts parsed form data and protects the actual HTML and i
     if (oldSecret === undefined) delete process.env.PREVIEW_SESSION_SECRET; else process.env.PREVIEW_SESSION_SECRET = oldSecret;
   }
 });
+
+test('the deployed adapter needs no environment setup and blocks unauthenticated Googlebot requests', async () => {
+  const oldPassword = process.env.PREVIEW_PASSWORD;
+  const oldSecret = process.env.PREVIEW_SESSION_SECRET;
+  delete process.env.PREVIEW_PASSWORD;
+  delete process.env.PREVIEW_SESSION_SECRET;
+  try {
+    const page = await invoke('/api/preview?__path=');
+    assert.equal(page.status, 401);
+    assert.match(page.body, /Private preview/);
+    assert.doesNotMatch(page.body, /awaiting secure configuration/);
+    const bot = await invoke('/api/preview?__path=home-v2.html', 'GET', { 'user-agent': 'Googlebot' });
+    assert.equal(bot.status, 401);
+    assert.match(bot.headers['x-robots-tag'], /noindex/);
+    const robots = await invoke('/api/preview?__path=robots.txt');
+    assert.equal(robots.status, 200);assert.match(robots.body, /User-agent: \*\nDisallow: \//);
+  } finally {
+    if (oldPassword === undefined) delete process.env.PREVIEW_PASSWORD; else process.env.PREVIEW_PASSWORD = oldPassword;
+    if (oldSecret === undefined) delete process.env.PREVIEW_SESSION_SECRET; else process.env.PREVIEW_SESSION_SECRET = oldSecret;
+  }
+});

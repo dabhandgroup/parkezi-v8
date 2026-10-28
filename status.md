@@ -6,15 +6,17 @@ Last updated: 28 October 2026 (Europe/London).
 
 ### Vercel deployment preparation
 
-The protected Vercel source is prepared under the requested project name `parkezi-v8`, using the V12 design. Local build and server-side password/session checks pass. All site files are bundled privately and served through an authenticated function; public output contains only robots.txt. Read `VERCEL-DEPLOYMENT.md` for import settings and environment variable names.
+The `parkezi-v8` Vercel preview uses the V12 design. It now includes a simple shared-password gate that requires no environment variables. The agreed password is checked against a server-side hash, and the build generates its own private session-signing key. All site files remain behind the gate. Googlebot receives an unauthenticated 401 response; `robots.txt` disallows crawling, every response carries `X-Robots-Tag: noindex`, and the HTML retains noindex metadata.
 
-GitHub repository: `dabhandgroup/parkezi-v8`, created by the project owner. This is the Vercel-ready source handoff; the owner will connect the repository to Vercel. Vercel has not been deployed from this repository yet. The repository is public; the actual preview password and session secret must be configured as encrypted Vercel environment variables and are excluded from the source. The earlier direct Vercel attempt was blocked by team access and the connection was subsequently removed.
+Repository: `dabhandgroup/parkezi-v8`. The owner has connected it to Vercel at https://parkezi-v8.vercel.app/. The previous deployment returned a configuration-required 503 because the manual environment setup was incomplete; this revision removes that requirement. The optional environment variables remain available as overrides.
+
+Verification for this change: nine local authentication/adapter tests pass, including no-environment startup, default hash login, actual protected HTML/image delivery, Googlebot rejection and robots directives.
 
 GitHub upload verified: all 162 prepared files match the remote `main` branch, with no deletions. Website/configuration upload commit: `d7e2785581f976982b9feba1d1d481642252e6c3`. The build and all seven authentication/adapter tests passed before upload.
 
 V12 is the current implemented design. The homepage, its matching black-hero version, and one product page (Express Pay) are built as a static HTML/CSS/JavaScript preview. The project is ready for continued design review; production form handling, final review content and the remaining website pages are outstanding.
 
-The preview is owner-private. The original parkezi.com.au website has not been replaced.
+The original Sites preview is owner-private. The Vercel preview uses the shared password gate. The original parkezi.com.au website has not been replaced.
 
 ## Pages and deliverables
 

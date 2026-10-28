@@ -1,8 +1,10 @@
 import { cp, mkdir, readdir, readFile, rm, writeFile } from 'node:fs/promises';
 import path from 'node:path';
+import { randomBytes } from 'node:crypto';
 
 await rm('private/site', { recursive: true, force: true });
 await mkdir('private/site', { recursive: true });
+await writeFile('private/preview-config.json', JSON.stringify({ sessionSecret: randomBytes(32).toString('hex') }));
 await cp('dist', 'private/site', { recursive: true });
 await mkdir('public', { recursive: true });
 await writeFile('public/robots.txt', 'User-agent: *\nDisallow: /\n');

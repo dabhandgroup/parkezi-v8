@@ -72,7 +72,7 @@ function cookie(request) {
   return parts.map(p => p.trim()).find(p => p.startsWith(COOKIE_NAME + '='))?.slice(COOKIE_NAME.length + 1) || '';
 }
 
-export async function handlePreview(request, { password, secret, loadAsset }) {
+export async function handlePreview(request, { password, passwordHash, secret, loadAsset }) {
   const url = new URL(request.url);
   const rawPath = url.searchParams.get('__path');
   let pathname;
@@ -80,7 +80,8 @@ export async function handlePreview(request, { password, secret, loadAsset }) {
   catch { return response('Not found', 404); }
 
   if (pathname === '/robots.txt') return response('User-agent: *\nDisallow: /\n', 200, { 'Content-Type': 'text/plain; charset=utf-8' });
-  if (!password || !secret || secret.length < 32) return response('This private preview is awaiting secure configuration.', 503, { 'Content-Type': 'text/plain; charset=utf-8' });
+  const credential = password || passwordHash;
+  if (!credential || !secret || secret.length < 32) return response('This private preview is awaiting secure configuration.', 503, { 'Content-Type': 'text/plain; charset=utf-8' });
 
   if (pathname === '/__preview/login' && request.method === 'POST') {
     if (request.headers.get('origin') !== url.origin) return response('Request not allowed', 403);
@@ -90,16 +91,17 @@ export async function handlePreview(request, { password, secret, loadAsset }) {
     const form = new URLSearchParams(body);
     const returnTo = safeReturnTo(form.get('next'));
     const candidate = form.get('password') || '';
-    if (candidate.length > 512 || !equal(candidate, password)) return loginPage(returnTo, 'That password wasn’t correct. Please try again.');
+    const candidateValue = password ? candidate : createHash('sha256').update(candidate).digest('hex');
+    if (candidate.length > 512 || !equal(candidateValue, credential)) return loginPage(returnTo, 'That password wasn’t correct. Please try again.');
     return response(null, 303, {
       Location: returnTo,
-      'Set-Cookie': `${COOKIE_NAME}=${createSession(password, secret)}; Path=/; HttpOnly; Secure; SameSite=Lax; Max-Age=${SESSION_SECONDS}`,
+      'Set-Cookie': `${COOKIE_NAME}=${createSession(credential, secret)}; Path=/; HttpOnly; Secure; SameSite=Lax; Max-Age=${SESSION_SECONDS}`,
     });
   }
 
   if (!['GET', 'HEAD'].includes(request.method)) return response('Method not allowed', 405, { Allow: 'GET, HEAD' });
   const returnTo = safeReturnTo(pathname + (rawPath === null ? url.search : ''));
-  if (!validSession(cookie(request), password, secret)) return loginPage(returnTo);
+  if (!validSession(cookie(request), credential, secret)) return loginPage(returnTo);
   if (pathname === '/__preview/login') return response(null, 303, { Location: safeReturnTo(url.searchParams.get('next')) });
   if (/[\\\u0000]/.test(pathname) || pathname.split('/').includes('..')) return response('Not found', 404);
   const asset = await loadAsset(pathname);

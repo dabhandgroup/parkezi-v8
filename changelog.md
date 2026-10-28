@@ -2,6 +2,13 @@
 
 Entries are newest first. V-number labels identify design iterations, not hosting or file-storage version numbers. Earlier history was reconstructed from this project's files and the design discussion; consolidated entries do not imply exact release dates.
 
+## 28 October 2026 — Simple password gate without setup
+
+- Confirmed that the live Vercel preview returned a configuration-required 503 due to missing environment variables.
+- Added the agreed default password as a server-side hash and automatic per-build private session signing. No Vercel variables are required; custom variables remain optional overrides.
+- Kept unauthenticated pages/assets behind the password form, 401 responses for Googlebot, robots.txt crawl blocking, noindex response headers and page metadata.
+- Updated setup instructions and project status. All nine authentication/adapter tests pass, including the no-setup flow.
+
 ## 28 October 2026 — GitHub handoff
 
 - Prepared the complete Vercel project for the owner-created `dabhandgroup/parkezi-v8` repository.

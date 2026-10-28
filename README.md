@@ -6,12 +6,9 @@ Complete V12 website design, packaged for the Vercel project **parkezi-v8**.
 
 1. Import this GitHub repository into Vercel as **parkezi-v8**.
 2. Keep the repository root as the Root Directory. Framework: **Other**. The committed `vercel.json` sets the build command and output directory.
-3. Add encrypted environment variables for **Production and Preview**:
-   - `PREVIEW_PASSWORD`: the shared password supplied by the project owner.
-   - `PREVIEW_SESSION_SECRET`: a random string of at least 32 characters (generate with `openssl rand -hex 32`).
-4. Deploy, then check the password screen and both homepage variants.
+3. Deploy. **No environment variables are required.**
 
-The preview stays locked if either environment variable is missing. Never put actual secret values in this public repository. Read [VERCEL-DEPLOYMENT.md](VERCEL-DEPLOYMENT.md) for the full setup.
+The agreed shared preview password is verified against a server-side hash. A private signing key is generated automatically for each build. Existing `PREVIEW_PASSWORD` and `PREVIEW_SESSION_SECRET` variables are optional overrides only. Read [VERCEL-DEPLOYMENT.md](VERCEL-DEPLOYMENT.md) for details.
 
 ## Pages
 

@@ -11,20 +11,24 @@ Project name requested: `parkezi-v8`. Visual design baseline: V12, including bot
 - Node.js: 24.x.
 - The committed `vercel.json` sets these build options and routes every request through `api/preview.mjs`.
 
-Set these encrypted environment variables for both Production and Preview before deploying:
+No environment variables are required. Deploy the repository root and use the agreed shared preview password. Its server-side hash is included in `server/preview-defaults.mjs`; the plaintext password is not stored in the repository or sent to the browser.
 
-| Variable | Value |
+The build generates a random session-signing key in `private/preview-config.json`, included only in the server bundle. Each rebuild rotates that key and requires visitors to unlock the preview again.
+
+Optional overrides, for an advanced setup:
+
+| Variable | Purpose |
 | --- | --- |
-| `PREVIEW_PASSWORD` | The shared preview password supplied by the project owner. |
-| `PREVIEW_SESSION_SECRET` | A random secret of at least 32 characters. Generate with `openssl rand -hex 32` or a password manager. |
+| `PREVIEW_PASSWORD` | Replace the agreed preview password. |
+| `PREVIEW_SESSION_SECRET` | Use a stable custom signing key of at least 32 characters. |
 
-Never put actual values into source control. `.env.example` contains names only. Redeploy after changing environment variables. Rotating either variable invalidates existing preview sessions.
+Keep custom values in encrypted Vercel environment variables. `.env.example` contains names only.
 
 ## How the gate works
 
 The build copies the original HTML and all assets into `private/site/`, which is included inside the server function. Only `robots.txt` is placed in the public output. The server checks the password/session before reading a site file; this covers homepage variants, Express Pay, style guide, images, fonts, scripts and styles.
 
-A successful login creates a signed, seven-day, HttpOnly, Secure, SameSite=Lax cookie. Wrong passwords and missing configuration keep the preview locked. Responses use private/no-store caching and `X-Robots-Tag` directives. The HTML retains its noindex metadata and `robots.txt` disallows crawling.
+A successful login creates a signed, seven-day, HttpOnly, Secure, SameSite=Lax cookie. Wrong passwords keep the preview locked. Automatic build configuration removes the manual setup requirement. Responses use private/no-store caching and `X-Robots-Tag` directives. The HTML retains its noindex metadata and `robots.txt` disallows crawling.
 
 This implementation does not require Vercel's paid Password Protection add-on. It is specific to this Vercel package. Opening the original `dist/*.html` files locally or publishing them directly as static output does not apply this server gate.
 
@@ -37,7 +41,7 @@ This implementation does not require Vercel's paid Password Protection add-on. I
 
 ## GitHub handoff
 
-Repository: `https://github.com/dabhandgroup/parkezi-v8`, created by the project owner. The repository is currently public. Password and signing-secret values belong only in Vercel encrypted environment variables. Import the full repository root into Vercel.
+Repository: `https://github.com/dabhandgroup/parkezi-v8`, created by the project owner. The repository is currently public. The default password is stored as a hash; its generated signing key stays in the private server bundle. Custom override values belong only in encrypted Vercel environment variables. Import the full repository root into Vercel.
 
 ## Verification
 

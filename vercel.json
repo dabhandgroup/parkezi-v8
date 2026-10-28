@@ -5,7 +5,7 @@
   "outputDirectory": "public",
   "functions": {
     "api/preview.mjs": {
-      "includeFiles": "private/site/**"
+      "includeFiles": "private/**"
     }
   },
   "routes": [

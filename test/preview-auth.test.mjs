@@ -1,5 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
+import { createHash } from 'node:crypto';
 import { COOKIE_NAME, SESSION_SECONDS, createSession, handlePreview, safeReturnTo, validSession } from '../server/preview-auth.mjs';
 
 const password = 'fixture-password';
@@ -52,6 +53,15 @@ test('missing password or signing secret fails closed', async () => {
   assert.equal((await handlePreview(req('/'), { ...options, password: undefined })).status, 503);
   assert.equal((await handlePreview(req('/'), { ...options, secret: undefined })).status, 503);
   assert.equal((await handlePreview(req('/'), { ...options, secret: 'short' })).status, 503);
+});
+
+test('the default password hash supports login without a password environment variable', async () => {
+  const fallback = { ...options, password: undefined, passwordHash: createHash('sha256').update(password).digest('hex') };
+  const accepted = await handlePreview(login(password), fallback);
+  assert.equal(accepted.status, 303);
+  const cookie = accepted.headers.get('set-cookie').split(';')[0];
+  assert.equal((await handlePreview(req('/home-v2.html', { headers: { cookie } }), fallback)).status, 200);
+  assert.equal((await handlePreview(login('wrong'), fallback)).status, 401);
 });
 
 test('cross-origin login is rejected and redirect destinations stay on the same site', async () => {

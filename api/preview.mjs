@@ -1,8 +1,16 @@
 import { readFile } from 'node:fs/promises';
 import path from 'node:path';
 import { handlePreview } from '../server/preview-auth.mjs';
+import { DEFAULT_PASSWORD_HASH } from '../server/preview-defaults.mjs';
 
 const root = path.join(process.cwd(), 'private', 'site');
+let generatedConfig;
+async function previewSecret() {
+  const configured = process.env.PREVIEW_SESSION_SECRET;
+  if (configured && configured.length >= 32) return configured;
+  generatedConfig ||= readFile(path.join(process.cwd(), 'private', 'preview-config.json'), 'utf8').then(JSON.parse).catch(() => ({}));
+  return (await generatedConfig).sessionSecret;
+}
 const types = { '.html': 'text/html; charset=utf-8', '.css': 'text/css; charset=utf-8', '.js': 'text/javascript; charset=utf-8', '.json': 'application/json; charset=utf-8', '.svg': 'image/svg+xml', '.avif': 'image/avif', '.webp': 'image/webp', '.png': 'image/png', '.jpg': 'image/jpeg', '.jpeg': 'image/jpeg', '.woff2': 'font/woff2', '.woff': 'font/woff', '.ico': 'image/x-icon', '.txt': 'text/plain; charset=utf-8' };
 
 async function loadAsset(pathname) {
@@ -39,7 +47,7 @@ export default async function handler(req, res) {
     const headers = new Headers();
     for (const [key, value] of Object.entries(req.headers)) if (value !== undefined) headers.set(key, Array.isArray(value) ? value.join(', ') : value);
     const request = new Request(requestUrl, { method: req.method, headers, body });
-    const response = await handlePreview(request, { password: process.env.PREVIEW_PASSWORD, secret: process.env.PREVIEW_SESSION_SECRET, loadAsset });
+    const response = await handlePreview(request, { password: process.env.PREVIEW_PASSWORD, passwordHash: DEFAULT_PASSWORD_HASH, secret: await previewSecret(), loadAsset });
     res.writeHead(response.status, Object.fromEntries(response.headers));
     res.end(Buffer.from(await response.arrayBuffer()));
   } catch {
