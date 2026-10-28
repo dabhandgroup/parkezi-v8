@@ -7,7 +7,8 @@ Entries are newest first. V-number labels identify design iterations, not hostin
 - Confirmed that the live Vercel preview returned a configuration-required 503 due to missing environment variables.
 - Added the agreed default password as a server-side hash and automatic per-build private session signing. No Vercel variables are required; custom variables remain optional overrides.
 - Kept unauthenticated pages/assets behind the password form, 401 responses for Googlebot, robots.txt crawl blocking, noindex response headers and page metadata.
-- Updated setup instructions and project status. All nine authentication/adapter tests pass, including the no-setup flow.
+- Updated setup instructions and project status. All nine authentication/adapter tests pass, including the no-setup flow. The real agreed-password login passed locally without environment variables.
+- Pushed fix commit `051864418d72366e8499e81af422719c012bcdf3`; Vercel reported a successful deployment. Verified all 12 changed files on GitHub. External live HTTP verification was blocked by the workspace network.
 
 ## 28 October 2026 — GitHub handoff
 

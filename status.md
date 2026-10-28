@@ -10,7 +10,7 @@ The `parkezi-v8` Vercel preview uses the V12 design. It now includes a simple sh
 
 Repository: `dabhandgroup/parkezi-v8`. The owner has connected it to Vercel at https://parkezi-v8.vercel.app/. The previous deployment returned a configuration-required 503 because the manual environment setup was incomplete; this revision removes that requirement. The optional environment variables remain available as overrides.
 
-Verification for this change: nine local authentication/adapter tests pass, including no-environment startup, default hash login, actual protected HTML/image delivery, Googlebot rejection and robots directives.
+Verification for this change: nine local authentication/adapter tests pass, including no-environment startup, default hash login, actual protected HTML/image delivery, Googlebot rejection and robots directives. The real agreed-password login also passed through the local deployment adapter with no environment variables. GitHub commit `051864418d72366e8499e81af422719c012bcdf3` received a successful Vercel deployment status, and all 12 changed source files were verified against remote main. Final external live HTTP verification was unavailable because the workspace network rejected access; no cloud-browser sign-in was used.
 
 GitHub upload verified: all 162 prepared files match the remote `main` branch, with no deletions. Website/configuration upload commit: `d7e2785581f976982b9feba1d1d481642252e6c3`. The build and all seven authentication/adapter tests passed before upload.
 
