@@ -1,0 +1,16 @@
+/* Preserve the V4 visual design and interactions; retain V5 arrow motion. */
+.button .icon,.text-link .icon{transition:transform .28s ease}
+.button:hover .icon,.text-link:hover .icon{transform:translateX(3px)}
+/* Shorter, wider handset; compact internal spacing rather than stretching the shell. */
+.iphone{width:180px;height:370px}
+.phone-app-head{margin-bottom:12px}
+.phone-app h3{margin-bottom:9px}
+.phone-app h4{margin-top:10px}
+.phone-event{padding-block:6px}
+.phone-action{margin-top:9px}
+.phone-bottom-nav{padding-top:9px;padding-bottom:6px}
+@media(max-width:1180px){.iphone{width:160px;height:329px}}
+@media(max-width:960px) and (min-width:721px){.iphone{width:180px;height:370px}}
+@media(max-width:720px){.iphone{width:154px;height:316px}.phone-app-head{margin-bottom:9px}.phone-app h3{margin-bottom:7px}.phone-app h4{margin-top:8px}.phone-event{padding-block:5px}.phone-action{margin-top:7px}.phone-bottom-nav{padding-block:7px 5px}}
+@media(max-width:480px){.iphone{width:126px;height:259px}.phone-app-head{margin-bottom:8px}.phone-app h3{margin-bottom:6px}.phone-app h4{margin-top:7px}.phone-event{padding-block:4px}.phone-action{margin-top:6px}.phone-bottom-nav{padding-block:6px 4px}}
+@media(prefers-reduced-motion:reduce){.button .icon,.text-link .icon{transition:none}}

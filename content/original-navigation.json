@@ -1,0 +1,95 @@
+[
+  {
+    "name": "Systems",
+    "links": [
+      {
+        "name": "PARKEZI®Paid Parking Commercial Parking Stations Airport Parking Shopping Centres",
+        "url": "/systems#paid-parking"
+      },
+      {
+        "name": "PARKEZI®Two-Way Hotels Business Complexes Residential Complexes Commercial Complexes",
+        "url": "/systems#two-way-parking"
+      },
+      {
+        "name": "PARKEZI®One-Way Small businesses Caravan Parks Short-term parking",
+        "url": "/systems#one-way-parking"
+      }
+    ]
+  },
+  {
+    "name": "Products",
+    "links": [
+      {
+        "name": "Express Pay Our hero unit offers drivers easy, convenient access from their vehicle, making it the ideal system for most parking needs. More Info",
+        "url": "/products/express-pay/"
+      },
+      {
+        "name": "Step & Pay An add-on to Express Pay that can be placed in convenient locations like foyers or lift wells, allowing easy prepayment before entering their vehicle. More Info",
+        "url": "/products/step-and-pay/"
+      },
+      {
+        "name": "Scan & Go A self-contained system for simple entry or exit access control, using an ANPR camera to identify whitelisted vehicles. More Info",
+        "url": "/products/scan-and-go/"
+      },
+      {
+        "name": "Scan & Go Mini All the benefits of Scan & Go, but suitable for limited space areas. More Info",
+        "url": "/products/scan-and-go-mini/"
+      },
+      {
+        "name": "SolarGate+ Portable, Secure & Smart Access Control for Construction, Events, and Industrial Sites More Info",
+        "url": "/products/solargate-mobile-boom-gate/"
+      },
+      {
+        "name": "Take the hard out of hardware installation",
+        "url": "/installation/"
+      }
+    ]
+  },
+  {
+    "name": "Pricing",
+    "url": "/pricing/",
+    "links": []
+  },
+  {
+    "name": "About",
+    "links": [
+      {
+        "name": "About Us",
+        "url": "/about-us/"
+      },
+      {
+        "name": "Installation",
+        "url": "/installation/"
+      },
+      {
+        "name": "Case Studies",
+        "url": "/our-work/"
+      },
+      {
+        "name": "Blog",
+        "url": "/blog/"
+      },
+      {
+        "name": "FAQs",
+        "url": "/faqs/"
+      }
+    ]
+  },
+  {
+    "name": "Integrations",
+    "links": [
+      {
+        "name": "Cameras",
+        "url": "/integrations/adaptive-recognition/"
+      },
+      {
+        "name": "Access Control",
+        "url": "/integrations/beninca/"
+      },
+      {
+        "name": "Payment Systems",
+        "url": "/integrations/windcave/"
+      }
+    ]
+  }
+]

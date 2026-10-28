@@ -1,0 +1,88 @@
+[
+  {
+    "question": "Who is Parkezi designed for?",
+    "paragraphs": [
+      "Parkezi is ideal for parking operators managing parking lots in commercial complexes, hotels, airports, shopping malls, hospitals, and universities. It also serves individuals and corporate clients looking for parking space optimisation."
+    ]
+  },
+  {
+    "question": "How is Parkezi different to other parking systems?",
+    "paragraphs": [
+      "We have designed Parkezi to be affordable, flexible simple to use and above all, reliable. We can often integrate Parkezi with existing carpark hardware as well as existing in-house software you may be using. Parkezi has an easy to use browser based interface that gives you a fast and easy way to configure and update your system and monitor it in real time. 100% of revenue goes direct to your bank accounts (less transaction processing fees)."
+    ]
+  },
+  {
+    "question": "Can I integrate Parkezi with existing carpark hardware or software systems?",
+    "paragraphs": [
+      "Yes, we can usually integrate Parkezi with existing carpark hardware including ANPR cameras, boom gates and sliding gates. Parkezi has an open API that allows it to communicate with many other software packages that also support open API communication."
+    ]
+  },
+  {
+    "question": "What geographic locations can you currently service?",
+    "paragraphs": [
+      "We are able to install systems in most locations across Australia and New Zealand, with South East Asia support to be added in the not too distant future."
+    ]
+  },
+  {
+    "question": "Are you able to manage our carpark for us?",
+    "paragraphs": [
+      "Yes, we can do this if needed. We can answer queries from the carpark intercom and resolve customer or payment issues 24 hours a day without you needing to be involved."
+    ]
+  },
+  {
+    "question": "What features does the Parkezi software offer?",
+    "paragraphs": [
+      "The software provides an easy to use interface to configure access control whitelists, time of day pricing structures, multiple zone access control and reporting on revenue, car park activity and other useful data."
+    ]
+  },
+  {
+    "question": "How reliable is Parkezi?",
+    "paragraphs": [
+      "Our software runs on an industrial PC with GSM data backup located at your facility, so even if your internet goes down, your carpark will still function. UPS backup power can also be arranged. All customer data is stored on secure and reliable Australian based servers with 99.98% uptime."
+    ]
+  },
+  {
+    "question": "What payment methods are available to carpark customers?",
+    "paragraphs": [
+      "Our 'Express Pay' and 'Step and Go' terminals provide an easy and convenient way for customers to pay for their parking. It is also possible for them to pay you directly and then for their car numberplate to be flagged for instant exit from the carpark. You can also offer customers the ability to pay via a web based browser interface from their mobile or even use a QR code to allow them to exit the carpark."
+    ]
+  },
+  {
+    "question": "What reseller opportunities are available?",
+    "paragraphs": [
+      "We have a reseller program for access and gate automation companies to resell ParkEzi. Contact us for more details."
+    ]
+  },
+  {
+    "question": "What is ticketless parking?",
+    "paragraphs": [
+      "Tickless parking refers to a system where drivers can park their vehicles without the need to obtain a physical ticket or permit. Instead of traditional tickets, the system uses technology like automatic number plate recognition (ANPR) to identify vehicles as they enter and leave parking facilities.",
+      "Here's a simplified way it usually works:",
+      "Entry: As the vehicle enters the parking lot, its license plate is scanned logging the vehicle's entry time.",
+      "Duration: The parking system monitors how long the vehicle remains in the parking facility.",
+      "Exit: When the vehicle leaves, its exit time is recorded using the same identification method. The system calculates the parking fee based on the duration of the stay.",
+      "Payment: Drivers pay for their parking time via a credit card reader or online payment system."
+    ]
+  },
+  {
+    "question": "What payment options are available for purchasing Parkezi?",
+    "paragraphs": [
+      "We offer two options:",
+      "Purchase Outright: You can buy the system outright with a one-time payment.",
+      "Rent-to-Own: You can rent the system with a plan that allows you to own it after 24–36 months."
+    ]
+  },
+  {
+    "question": "Where does the revenue go?",
+    "paragraphs": [
+      "With Parkezi, 100% of the revenue is yours. We configure your payment systems so that all revenue is deposited directly into your account. We don't take any percentage."
+    ]
+  },
+  {
+    "question": "Permanent parkers vs casual parkers",
+    "paragraphs": [
+      "Permanent Parkers: Individuals who park regularly or long-term, typically holding monthly or annual passes for consistent access. Examples include employees of nearby businesses or residents with reserved parking spaces. This is managed via a cloud-based portal by the parking management company.",
+      "Casual Parkers: Individuals who park occasionally, paying for each visit based on time spent parked. Parkezi software can calculate time spent onsite and then charge using a dynamic pricing structure."
+    ]
+  }
+]

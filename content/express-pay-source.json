@@ -1,0 +1,279 @@
+{
+  "source": "https://www.parkezi.com.au/products/express-pay/",
+  "faqs": [
+    {
+      "question": "Is Express Pay a ticketless parking system?",
+      "answer": "<p class=\"ep-faq-a\">Yes. Express Pay eliminates paper tickets by securely linking all payments directly to a vehicle’s licence plate using ANPR technology.</p>\n            "
+    },
+    {
+      "question": "Does Express Pay support contactless payments?",
+      "answer": "<p class=\"ep-faq-a\">Yes. Drivers can complete payment using contactless tap-and-go or supported mobile payment methods.</p>\n            "
+    },
+    {
+      "question": "Does Express Pay require servicing?",
+      "answer": "<p class=\"ep-faq-a\">Maintenance requirements are minimal. With no moving mechanical parts, wear and tear is significantly reduced compared to traditional ticketing systems.<br><br>General inspections are recommended to ensure optimal performance. The enclosure includes three intake cooling fans to regulate internal temperature in all weather conditions. The air filter should be cleaned or replaced annually as part of routine maintenance.</p>\n            "
+    },
+    {
+      "question": "Is it suitable for busy car parks?",
+      "answer": "<p class=\"ep-faq-a\">Absolutely. Express Pay is designed for high-traffic environments, reducing congestion and improving vehicle throughput during peak periods.</p>\n            "
+    }
+  ],
+  "comparison": [
+    {
+      "category": "software",
+      "feature": "PARKEZI® software",
+      "description": "Secure cloud-based management platform with real-time control and monitoring.",
+      "values": [
+        "Included",
+        "Included",
+        "Included"
+      ]
+    },
+    {
+      "category": "software",
+      "feature": "Access control",
+      "description": "Add whitelisted vehicles for seamless 24/7 contactless entry and exit.",
+      "values": [
+        "Included",
+        "Included",
+        "Included"
+      ]
+    },
+    {
+      "category": "software",
+      "feature": "Car park usage and revenue data",
+      "description": "Live reporting on occupancy, turnover, and revenue performance.",
+      "values": [
+        "Included",
+        "Included",
+        "Included"
+      ]
+    },
+    {
+      "category": "software",
+      "feature": "User training and tech support",
+      "description": "Ongoing onboarding, assistance, and technical support when you need it.",
+      "values": [
+        "Included",
+        "Included",
+        "Included"
+      ]
+    },
+    {
+      "category": "software",
+      "feature": "Software and feature upgrades",
+      "description": "Continuous improvements with automatic updates and new feature releases.",
+      "values": [
+        "Included",
+        "Included",
+        "Included"
+      ]
+    },
+    {
+      "category": "software",
+      "feature": "Integration with third-party software",
+      "description": "Connect with booking platforms, property systems, and external management tools.",
+      "values": [
+        "Included",
+        "Included",
+        "Included"
+      ]
+    },
+    {
+      "category": "software",
+      "feature": "Single-user apartment parking restrictions",
+      "description": "Restrict individual apartments to allocated vehicles or specific parking limits.",
+      "values": [
+        "Not included",
+        "Included",
+        "Included"
+      ]
+    },
+    {
+      "category": "software",
+      "feature": "Parking zones",
+      "description": "Create and manage separate areas with customised rules, access levels, and pricing.",
+      "values": [
+        "Not included",
+        "Included",
+        "Included"
+      ]
+    },
+    {
+      "category": "software",
+      "feature": "Dynamic pricing",
+      "description": "Adjust parking rates based on time, demand, or special events.",
+      "values": [
+        "Not included",
+        "Included",
+        "Included"
+      ]
+    },
+    {
+      "category": "software",
+      "feature": "User entry and exit history",
+      "description": "Detailed logs of vehicle movements for auditing and reporting.",
+      "values": [
+        "Not included",
+        "Included",
+        "Included"
+      ]
+    },
+    {
+      "category": "hardware",
+      "feature": "Automatic Number Plate Recognition (ANPR)",
+      "description": "High-accuracy plate recognition for seamless, ticketless vehicle entry and exit.",
+      "values": [
+        "1",
+        "2",
+        "4"
+      ]
+    },
+    {
+      "category": "hardware",
+      "feature": "Boom gates and anti-tailgate feature",
+      "description": "Identifies and blocks tailgating vehicles trying to exit without paying, protecting site revenue.",
+      "values": [
+        "1",
+        "2",
+        "2"
+      ]
+    },
+    {
+      "category": "hardware",
+      "feature": "Entry signage",
+      "description": "Strategically positioned printed signage to direct vehicle flow and explain payment options.",
+      "values": [
+        "Included",
+        "Included",
+        "Included"
+      ]
+    },
+    {
+      "category": "hardware",
+      "feature": "QR code reader with one-time use access coupon",
+      "description": "Scan single-use QR codes for validated entry, events, or prepaid access.",
+      "values": [
+        "Included",
+        "Included",
+        "Included"
+      ]
+    },
+    {
+      "category": "hardware",
+      "feature": "49” Dynamic pricing entry display screen",
+      "description": "Large-format digital display showing live pricing, availability, and site messaging.",
+      "values": [
+        "Included",
+        "Included",
+        "Included"
+      ]
+    },
+    {
+      "category": "hardware",
+      "feature": "Exit station with 15” display screen",
+      "description": "Interactive exit terminal for payment confirmation and real-time driver guidance.",
+      "values": [
+        "Not included",
+        "Included",
+        "Included"
+      ]
+    },
+    {
+      "category": "hardware",
+      "feature": "Windcave EMV credit card reader",
+      "description": "Secure, PCI-compliant contactless and chip payment processing.",
+      "values": [
+        "Not included",
+        "Included",
+        "Included"
+      ]
+    },
+    {
+      "category": "hardware",
+      "feature": "Uninterrupted power supply (USP) – battery backup",
+      "description": "Maintains system operation during power outages to prevent downtime.",
+      "values": [
+        "Optional",
+        "Optional",
+        "Included"
+      ]
+    },
+    {
+      "category": "hardware",
+      "feature": "GSM modem for backup internet data link",
+      "description": "Automatic mobile data failover to keep the system online if primary internet drops.",
+      "values": [
+        "Optional",
+        "Optional",
+        "Included"
+      ]
+    },
+    {
+      "category": "hardware",
+      "feature": "Protection bollards for onsite assets",
+      "description": "Heavy-duty bollards protecting onsite equipment from vehicle impact.",
+      "values": [
+        "Optional",
+        "Optional",
+        "Included"
+      ]
+    },
+    {
+      "category": "hardware",
+      "feature": "PARKEZI® Portable for temporary sites",
+      "description": "Rapid-deploy parking solution designed for events, construction sites, or short-term installations.",
+      "values": [
+        "Not included",
+        "Included",
+        "Included"
+      ]
+    }
+  ],
+  "original_article_copy": [
+    "Fast, Ticketless Parking Payments Without the Queues",
+    "Nobody enjoys lining up at a payment machine after a long day. Drivers want to enter, park, pay and leave without delay. Express Pay by Parkezi is designed to make that happen.",
+    "Express Pay is a ticketless parking system that simplifies payment while keeping traffic moving. It removes the need for paper tickets and bulky payment kiosks, replacing them with a faster, smarter, cloud-connected solution.",
+    "Whether you manage a shopping centre, hotel, hospital or commercial site, Express Pay helps you deliver a smoother experience for drivers while improving revenue accuracy behind the scenes.",
+    "How Express Pay Works",
+    "Express Pay integrates with Parkezi’s ANPR parking system to recognise vehicles on entry and exit.",
+    "When a vehicle enters your car park:",
+    "The number plate is captured automatically",
+    "The user’s parking session has started",
+    "The boom gate opens for them to enter",
+    "Before returning to their vehicle, drivers can pay by either:",
+    "Using the on-foot pay station (Step & Pay)",
+    "Scanning a QR code and paying via our app-less Parkezi Pay system",
+    "Drivers can also complete payment instantly using contactless tap-and-go at the exit terminal. Once payment is confirmed, exit is seamless.",
+    "Ideal For",
+    "Designed for ModernAustralian Car Parks",
+    "Express Pay is ideal for high-traffic environments where speed and reliability matter. It works particularly well for:",
+    "Retail and shopping centres",
+    "Hotels and hospitality venues",
+    "Health facilities",
+    "Commercial office buildings",
+    "Mixed-use developments",
+    "By removing traditional ticket hardware, you also reduce maintenance costs and downtime.",
+    "If you are already using Parkezi’s parking automation system, Express Pay integrates seamlessly into your existing setup.",
+    "Why Operators Choose Express Pay",
+    "Faster Exit Flow",
+    "Express Pay removes the need for physical tickets. On exit, the vehicle’s licence plate is automatically scanned and payment is verified in real time. If parking hasn’t been prepaid, drivers can simply use contactless tap-and-go at the exit terminal. No tickets. No searching. No delays.",
+    "Lower Hardware Maintenance",
+    "Traditional pay stations require servicing, receipt rolls and frequent repairs. Express Pay reduces reliance on heavy machinery and is completely paperless.",
+    "Accurate Revenue Reporting",
+    "Every transaction is logged in real time through Parkezi’s cloud parking management software, giving you complete visibility.",
+    "Flexible Payment Options",
+    "Drivers can choose how they want to pay, including mobile-friendly and contactless options.",
+    "Part of a Smarter Parking Ecosystem",
+    "Express Pay is not a standalone product. It forms part of a complete parking management software solution in Australia.",
+    "When combined with:",
+    "ANPR cameras",
+    "Parking analytics and reporting",
+    "Cloud-based management dashboards",
+    "You gain a fully integrated parking access control system that improves performance across your entire site.",
+    "Learn more about Parkezi’s full parking systems",
+    "Built for Scalability",
+    "Whether you manage one site or multiple locations across Brisbane, Melbourne or Sydney, Express Pay can scale with your operation.",
+    "Because it is cloud-based, updates and reporting are centralised. That means consistent performance across every location."
+  ]
+}
