@@ -10,6 +10,8 @@ Complete V12 website design, packaged for the Vercel project **parkezi-v8**.
 
 The agreed shared preview password is verified against a server-side hash. A private signing key is generated automatically for each build. Existing environment variables are optional: `PREVIEW_PASSWORD` adds an alternative password without disabling the agreed one, and `PREVIEW_SESSION_SECRET` sets a custom signing key. Read [VERCEL-DEPLOYMENT.md](VERCEL-DEPLOYMENT.md) for details.
 
+Password entry ignores capitals and spacing, including invisible whitespace from pasting. The password form includes a Show/Hide control. This is a simple shared preview gate, not an account login.
+
 ## Pages
 
 | URL | Page |

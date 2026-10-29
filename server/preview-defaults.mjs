@@ -1,2 +1,3 @@
-// Default shared preview credential. The plaintext is not included in source or browser assets.
-export const DEFAULT_PASSWORD_HASH = '483bdab5894fd4b659b6d393da3d72472ed752236f91526778490b0513edd91a';
+// Shared preview credential, normalised for case and spacing before hashing.
+// The plaintext is not included in source or browser assets.
+export const DEFAULT_PASSWORD_HASH = '6f82b5b4b1acc7577b215f9b20212f3588d721d8ef95fc17cc28a62e45d79355';

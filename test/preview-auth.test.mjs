@@ -75,6 +75,17 @@ test('the agreed password also works when an older optional password is configur
   assert.equal((await handlePreview(login('wrong'), configured)).status, 401);
 });
 
+test('preview passwords accept case, spacing and paste variations without accepting the wrong password', async () => {
+  const fallback = { ...options, password: undefined, passwordHash: createHash('sha256').update(password).digest('hex') };
+  for (const candidate of ['FIXTURE-PASSWORD', '  Fixture-Password  ', 'fixture - password', '\u200bfixture-password\u00a0']) {
+    for (const configuration of [options, fallback]) {
+      assert.equal((await handlePreview(login(candidate), configuration)).status, 303);
+    }
+  }
+  assert.equal((await handlePreview(login('a different password'), fallback)).status, 401);
+  assert.equal((await handlePreview(login('   '), fallback)).status, 401);
+});
+
 test('previously opened forms with a null or missing origin can submit from the same site', async () => {
   for (const originValue of ['null', undefined]) {
     const headers = { 'content-type': 'application/x-www-form-urlencoded', 'sec-fetch-site': 'same-origin' };

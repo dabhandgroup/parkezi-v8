@@ -13,6 +13,8 @@ Project name requested: `parkezi-v8`. Visual design baseline: V12, including bot
 
 No environment variables are required. Deploy the repository root and use the agreed shared preview password. Its server-side hash is included in `server/preview-defaults.mjs`; the plaintext password is not stored in the repository or sent to the browser.
 
+This casual preview gate normalises capitals and whitespace before checking the password. The stored hash corresponds to that normalised value. Existing environment settings may be removed without replacing them. The form has a Show/Hide password control; its script is permitted by a fresh CSP nonce on each response.
+
 The build generates a random session-signing key in `private/preview-config.json`, included only in the server bundle. Each rebuild rotates that key and requires visitors to unlock the preview again.
 
 Optional settings, for an advanced setup:

@@ -4,6 +4,14 @@ Last updated: 29 October 2026 (Europe/London).
 
 ## Current position
 
+### Forgiving password entry
+
+The owner removed the Vercel variables and supplied a screenshot showing a wrong-password message. A fresh live HTTP check accepted the exact agreed password but rejected lowercase and no-space variants. The screenshot does not reveal what was entered, so the specific typed value is unknown.
+
+Password checking now ignores case, spaces and invisible whitespace from pasting. Updated the default hash to match that normalised value and added an accessible Show/Hide password control. No variables need to be restored. Crawler blocking, noindex and private asset serving remain in place.
+
+Verification: the build and all 12 local tests pass. Direct adapter checks with both variables absent accepted the agreed, lowercase/no-space and differently spaced variants and served the actual homepage. The password-control script passed syntax and CSP-nonce checks. A local Chromium download failed, so no new browser click-through result is claimed. Deployment and live HTTP verification of this change are pending.
+
 ### Vercel preview login repair
 
 Reproduced the reported `Request not allowed` response on the live preview. The password page's `no-referrer` policy makes browser form submissions send `Origin: null`, while the login handler required an exact origin. Changed the policy to `same-origin` and added compatibility for previously opened forms only when browser Fetch Metadata confirms a same-origin submission. Cross-origin requests remain rejected.

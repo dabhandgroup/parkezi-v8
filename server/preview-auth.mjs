@@ -31,9 +31,36 @@ export function safeReturnTo(value) {
 }
 
 function loginPage(returnTo, message = '', status = 401) {
-  return response(`<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow"><title>Parkezi · Private preview</title><style>*{box-sizing:border-box}body{margin:0;min-height:100svh;display:grid;place-items:center;background:radial-gradient(ellipse at top,#e6ebef,#f6f7f9 60%);color:#202a34;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;padding:24px}main{width:100%;max-width:440px;background:#fff;border:1px solid #e1e6ea;border-radius:22px;padding:40px;box-shadow:0 24px 70px #2233440d}.brand{font-size:23px;letter-spacing:.19em;margin-bottom:35px}h1{font-size:29px;font-weight:500;letter-spacing:-.04em;margin:0 0 14px}p{font-size:16px;line-height:1.65;color:#667480;margin:0 0 26px}label{display:block;font-size:14px;margin-bottom:9px}input,button{font:inherit;font-size:16px;width:100%;min-height:50px;border-radius:100px}input{border:1px solid #cfd7df;padding:13px 18px;background:#fff}button{border:0;background:#1b2530;color:#fff;margin-top:15px;cursor:pointer;transition:background .2s}button:hover{background:#354353}:focus-visible{outline:2px solid #657c91;outline-offset:4px}.error{color:#a33030;font-size:14px;margin:15px 0 0}@media(max-width:430px){main{padding:30px 24px}}</style></head><body><main><div class="brand" aria-label="Parkezi">PARKEZI</div><h1>Private preview.</h1><p>Enter the password to view the Parkezi website.</p><form method="post" action="/__preview/login"><input type="hidden" name="next" value="${escape(safeReturnTo(returnTo))}"><label for="preview-password">Password</label><input id="preview-password" name="password" type="password" autocomplete="current-password" required autofocus maxlength="512"${message ? ' aria-invalid="true" aria-describedby="login-error"' : ''}>${message ? `<p class="error" id="login-error" role="alert">${escape(message)}</p>` : ''}<button type="submit">View website <span aria-hidden="true">→</span></button></form></main></body></html>`, status, {
+  const nonce = randomBytes(16).toString('base64');
+  return response(`<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow"><title>Parkezi · Private preview</title>
+<style>
+*{box-sizing:border-box}body{margin:0;min-height:100svh;display:grid;place-items:center;background:radial-gradient(ellipse at top,#e6ebef,#f6f7f9 60%);color:#202a34;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;padding:24px}
+main{width:100%;max-width:440px;background:#fff;border:1px solid #e1e6ea;border-radius:22px;padding:40px;box-shadow:0 24px 70px #2233440d}.brand{font-size:23px;letter-spacing:.19em;margin-bottom:35px}h1{font-size:29px;font-weight:500;letter-spacing:-.04em;margin:0 0 14px}p{font-size:16px;line-height:1.65;color:#667480;margin:0 0 26px}label{display:block;font-size:14px;margin-bottom:9px}
+input,button{font:inherit;font-size:16px}input,.submit{width:100%;min-height:50px;border-radius:100px}input{border:1px solid #cfd7df;padding:13px 80px 13px 18px;background:#fff}.submit{border:0;background:#1b2530;color:#fff;margin-top:15px;cursor:pointer;transition:background .2s}.submit:hover{background:#354353}
+.password-field{position:relative}.password-toggle{position:absolute;right:8px;top:5px;min-height:40px;min-width:58px;border:0;border-radius:100px;background:transparent;color:#344555;font-size:14px;font-weight:500;cursor:pointer}.password-toggle:hover{background:#eef1f4}.hint{font-size:14px;line-height:1.5;margin:10px 0 0}.error{color:#a33030;font-size:14px;margin:15px 0 0}:focus-visible{outline:2px solid #657c91;outline-offset:4px}@media(max-width:430px){main{padding:30px 24px}}
+</style></head><body><main><div class="brand" aria-label="Parkezi">PARKEZI</div><h1>Private preview.</h1><p>Enter the password to view the Parkezi website.</p>
+<form method="post" action="/__preview/login" accept-charset="UTF-8">
+<input type="hidden" name="next" value="${escape(safeReturnTo(returnTo))}">
+<label for="preview-password">Password</label><div class="password-field">
+<input id="preview-password" name="password" type="password" autocomplete="current-password" autocapitalize="none" spellcheck="false" required autofocus maxlength="512" aria-describedby="password-hint${message ? ' login-error' : ''}"${message ? ' aria-invalid="true"' : ''}>
+<button class="password-toggle" type="button" aria-label="Show password" aria-controls="preview-password" aria-pressed="false">Show</button></div>
+<p class="hint" id="password-hint">Capitals and spaces don’t matter.</p>
+${message ? `<p class="error" id="login-error" role="alert">${escape(message)}</p>` : ''}
+<button class="submit" type="submit">View website <span aria-hidden="true">→</span></button></form></main>
+<script nonce="${nonce}">
+const input = document.getElementById('preview-password');
+const toggle = document.querySelector('.password-toggle');
+toggle.addEventListener('click', () => {
+  const visible = input.type === 'password';
+  input.type = visible ? 'text' : 'password';
+  toggle.textContent = visible ? 'Hide' : 'Show';
+  toggle.setAttribute('aria-label', visible ? 'Hide password' : 'Show password');
+  toggle.setAttribute('aria-pressed', String(visible));
+});
+</script></body></html>`, status, {
     'Content-Type': 'text/html; charset=utf-8',
-    'Content-Security-Policy': "default-src 'none'; style-src 'unsafe-inline'; form-action 'self'; frame-ancestors 'none'; base-uri 'none'",
+    'Content-Security-Policy': `default-src 'none'; style-src 'unsafe-inline'; script-src 'nonce-${nonce}'; form-action 'self'; frame-ancestors 'none'; base-uri 'none'`,
   });
 }
 
@@ -41,6 +68,10 @@ function equal(a, b) {
   const ah = createHash('sha256').update(String(a)).digest();
   const bh = createHash('sha256').update(String(b)).digest();
   return timingSafeEqual(ah, bh);
+}
+
+function normalisePassword(value) {
+  return String(value).normalize('NFKC').replace(/[\s\u200B-\u200D\uFEFF]+/gu, '').toLowerCase();
 }
 
 function sessionKey(password, secret) {
@@ -97,8 +128,9 @@ export async function handlePreview(request, { password, passwordHash, secret, l
     const form = new URLSearchParams(body);
     const returnTo = safeReturnTo(form.get('next'));
     const candidate = form.get('password') || '';
-    const passwordMatches = password && equal(candidate, password);
-    const hashMatches = passwordHash && equal(createHash('sha256').update(candidate).digest('hex'), passwordHash);
+    const normalised = normalisePassword(candidate);
+    const passwordMatches = password && equal(normalised, normalisePassword(password));
+    const hashMatches = passwordHash && equal(createHash('sha256').update(normalised).digest('hex'), passwordHash);
     // The agreed shared password remains usable even if an older deployment
     // has a different optional PREVIEW_PASSWORD configured.
     if (candidate.length > 512 || !(passwordMatches || hashMatches)) return loginPage(returnTo, 'That password wasn’t correct. Please try again.');
