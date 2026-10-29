@@ -10,6 +10,7 @@ Entries are newest first. V-number labels identify design iterations, not hostin
 - Replaced the Express Pay mobile-payment graphic with a decorative QR-style scan card using the official Lucide QR icon. Included the upstream licence; no real payment QR is encoded.
 - Stopped changing the default preview signing key on every build. One 90-day browser cookie now covers all pages and survives normal deployments. Updated setup documentation to explain the casual default and optional private-key override.
 - All 13 authentication/adapter tests pass, including session reuse after a rebuild and fresh server instance. JavaScript syntax, all local asset references, unique IDs and QR SVG checks pass.
+- Commit `e53e82de54590352e8b4c4ca1f55fca6bbf7f848` deployed successfully on Vercel. A live HTTP cookie jar reused one 90-day login across both homepages and Express Pay. Verified the new dark menu/logo styles, header synchronisation and QR asset with noindex retained.
 - Automatic approval review rejected cloud-browser inspection because of the owner's earlier no-cloud-browser instruction. Verification continues through source and live HTTP checks; the rejected action was not retried.
 
 ## 29 October 2026 — Dropdown card contrast and headings

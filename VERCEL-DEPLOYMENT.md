@@ -45,7 +45,7 @@ This implementation does not require Vercel's paid Password Protection add-on. I
 
 ## GitHub handoff
 
-Repository: `https://github.com/dabhandgroup/parkezi-v8`, created by the project owner. The repository is currently public. The default password is stored as a hash; its generated signing key stays in the private server bundle. Custom override values belong only in encrypted Vercel environment variables. Import the full repository root into Vercel.
+Repository: `https://github.com/dabhandgroup/parkezi-v8`, created by the project owner. The repository is currently public. The default password is stored as a hash; the stable fallback signing key is for casual preview access as described above. Custom override values belong only in encrypted Vercel environment variables. Import the full repository root into Vercel.
 
 ## Verification
 
