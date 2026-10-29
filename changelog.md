@@ -7,7 +7,8 @@ Entries are newest first. V-number labels identify design iterations, not hostin
 - Checked the supplied wrong-password screenshot and re-tested the live endpoint. The exact agreed password worked; case and spacing variations were rejected. The screenshot does not establish the entered value.
 - Made this casual preview password case-insensitive and ignored spaces and invisible paste whitespace. Updated the stored default hash accordingly. No Vercel variables are required or need restoring.
 - Added an accessible Show/Hide password button and nonce-authorised script. Kept the password form and Google crawler blocking.
-- Build and all 12 local tests pass. Verified real default-password variants and actual homepage delivery through the adapter with no environment variables; checked script syntax and CSP nonce. Local Chromium download was unavailable. Live deployment verification is pending.
+- Build and all 12 local tests pass. Verified real default-password variants and actual homepage delivery through the adapter with no environment variables; checked script syntax and CSP nonce. Local Chromium download was unavailable.
+- Fix commit `29a3d96df85690de41588d88d424dd2cb064fed3` deployed successfully on Vercel. Four live password variants passed through login and loaded the homepage. Verified the Show/Hide control and its CSP nonce in the served HTML. Googlebot remained blocked, robots.txt disallowed crawling, noindex remained active and a wrong password was rejected.
 
 ## 29 October 2026 — Browser password submission repair
 

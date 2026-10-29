@@ -10,7 +10,7 @@ The owner removed the Vercel variables and supplied a screenshot showing a wrong
 
 Password checking now ignores case, spaces and invisible whitespace from pasting. Updated the default hash to match that normalised value and added an accessible Show/Hide password control. No variables need to be restored. Crawler blocking, noindex and private asset serving remain in place.
 
-Verification: the build and all 12 local tests pass. Direct adapter checks with both variables absent accepted the agreed, lowercase/no-space and differently spaced variants and served the actual homepage. The password-control script passed syntax and CSP-nonce checks. A local Chromium download failed, so no new browser click-through result is claimed. Deployment and live HTTP verification of this change are pending.
+Verification: the build and all 12 local tests pass. Direct adapter checks with both variables absent accepted the agreed, lowercase/no-space and differently spaced variants and served the actual homepage. The password-control script passed syntax and CSP-nonce checks. Fix commit `29a3d96df85690de41588d88d424dd2cb064fed3` deployed successfully on Vercel. Live HTTP logins passed for all four variants: lowercase/no-space, original spelling, extra spaces and invisible paste whitespace. Each issued a session cookie and loaded the homepage with a 200 response and noindex header. The live Show/Hide control and matching CSP nonce were present; Googlebot remained blocked, robots.txt disallowed crawling, and a wrong password was rejected. A local Chromium download failed, so no new browser click-through result is claimed.
 
 ### Vercel preview login repair
 
