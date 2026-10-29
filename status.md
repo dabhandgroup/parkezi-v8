@@ -4,6 +4,12 @@ Last updated: 29 October 2026 (Europe/London).
 
 ## Current position
 
+### Navigation menu refinements
+
+Added white backgrounds and subtle borders to all five About cards, retaining white on hover and keyboard focus. Restored a simple Products heading and added Systems to match the existing About Parkezi and Integrations headings. Removed the hardware-installation strip beneath the product cards. Product image lift and text rollover animations remain in place, with extra desktop clearance beneath the restored heading. Mobile accordion labels remain the menu headings, without duplicate headings inside them.
+
+Applied the shared navigation changes to the white homepage, both black-hero variations, Express Pay and the developer style guide. The build passes; all five pages contain the expected four headings, omit the installation strip and have unique IDs. Deployment and visual verification are pending. The owner also requested a client email with homepage and Express Pay preview links; this is a draft only, with no email sending authorised.
+
 ### Forgiving password entry
 
 The owner removed the Vercel variables and supplied a screenshot showing a wrong-password message. A fresh live HTTP check accepted the exact agreed password but rejected lowercase and no-space variants. The screenshot does not reveal what was entered, so the specific typed value is unknown.
@@ -54,7 +60,7 @@ Matching black hero: https://parkezi-homepage-preview-v2.harry516378.chatgpt.sit
 - Refined responsive homepage with individually positioned product units, aligned desktop bases, larger mobile units, client logos and Google rating badges.
 - White and black hero variants with phone-first CTAs and secondary outlined Contact buttons.
 - Utility bar, mega menus, full-screen mobile menu, animated hamburger/X, larger navigation logo, original favicon and separate header shrink/expand thresholds.
-- Product dropdown with larger imagery, no heading tier, stationary cards, image lift beyond card edges, text rollovers and consistent action arrows.
+- Product dropdown with larger imagery, a consistent section heading, stationary cards, image lift beyond card edges, text rollovers and consistent action arrows.
 - SolarGate outdoor feature with original boom and black mount rotating together around the axle. A generated repair layer fills the cabinet surface behind the mount.
 - Installation/support section, dark software section, and laptop/phone demos that update together.
 - Mercure installation gallery and draggable project carousel with client logos.

@@ -2,6 +2,14 @@
 
 Entries are newest first. V-number labels identify design iterations, not hosting or file-storage version numbers. Earlier history was reconstructed from this project's files and the design discussion; consolidated entries do not imply exact release dates.
 
+## 29 October 2026 — Dropdown card contrast and headings
+
+- Gave About Us, Installation, Case Studies, Blog and FAQs white card backgrounds with subtle borders against the grey dropdown panel.
+- Restored Products and added Systems headings, matching About Parkezi and Integrations. Removed the hardware-installation line beneath the product cards.
+- Preserved product image lift, text rollovers and arrow animations. Allowed extra desktop clearance for the images and avoided duplicate headings inside the mobile accordions.
+- Applied the navigation changes to all five pages, including Express Pay and the developer style guide. The build passes; checked heading presence, removal of the installation strip and unique IDs across all pages. Deployment verification is pending.
+- Preparing the requested client email with homepage and Express Pay preview links. No email has been sent.
+
 ## 29 October 2026 — Forgiving preview password entry
 
 - Checked the supplied wrong-password screenshot and re-tested the live endpoint. The exact agreed password worked; case and spacing variations were rejected. The screenshot does not establish the entered value.

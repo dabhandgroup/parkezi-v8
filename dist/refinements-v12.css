@@ -7,3 +7,9 @@
 @media(prefers-reduced-motion:reduce){.product-card .product-image img,.header-v4 .mega-product-image img{transition:none;transform:none!important}}
 
 .footer-v4 .footer-partners-column img[alt="Smart Access"]{filter:grayscale(1) invert(1);mix-blend-mode:multiply;opacity:.85;max-height:38px;width:130px;max-width:100%}.footer-v4 .footer-partners-column>a:has(img[alt="Smart Access"]){height:38px}
+
+/* Clear white About cards and matching dropdown headings. */
+.header-v4 #mega-about .mega-link{background:#fff;border:1px solid #e0e5e9}
+.header-v4 #mega-about .mega-link:hover,.header-v4 #mega-about .mega-link:focus-visible{background:#fff;border-color:#b6c1cb}
+@media(min-width:971px){.header-v4 #mega-products .mega-inner{padding-top:35px}.header-v4 #mega-products .mega-heading{margin-bottom:40px}}
+@media(max-width:970px){.header-v4 #mega-systems .mega-heading{display:none}}
