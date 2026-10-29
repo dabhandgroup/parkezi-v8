@@ -2,6 +2,14 @@
 
 Entries are newest first. V-number labels identify design iterations, not hosting or file-storage version numbers. Earlier history was reconstructed from this project's files and the design discussion; consolidated entries do not imply exact release dates.
 
+## 29 October 2026 — Remove internal wording from client layouts
+
+- The owner confirmed the layouts have been sent to the client and asked for no AI/internal design notes apart from Google review placeholders.
+- Removed the floating Design previews controls from all five pages and removed their JavaScript handlers. Replaced preview page titles/descriptions with normal page metadata.
+- Removed software-interface demonstration notes and captions, cleaned accessibility labels, and removed internal preview explanations from dynamic form/newsletter/review messages and the developer guide.
+- Kept the clearly labelled Google review placeholders and the owner's approved personal Hey Blake scope popup. Unconnected forms use honest phone/email fallbacks and do not claim successful delivery.
+- Build, JavaScript syntax, visible-copy, local-asset and unique-ID checks pass. Live deployment verification is pending.
+
 ## 29 October 2026 — Dark navigation, logos and remembered access
 
 - Fixed Home V2 logo rendering by preserving the original marks and blending away their light backgrounds. Added the utility-bar divider and refined the header boundary.

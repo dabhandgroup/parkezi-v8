@@ -4,6 +4,14 @@ Last updated: 29 October 2026 (Europe/London).
 
 ## Current position
 
+### Client-facing copy check
+
+The owner has sent the layouts to Blake and requested no AI notes or internal design wording on the site, apart from the Google review placeholders. Audited all five HTML pages and dynamic interface/dialog messages. Removed the floating Design previews toolbar and its JavaScript handlers, preview wording in page titles and descriptions, dashboard demonstration notes and interface captions. Cleaned corresponding accessibility labels and neutralised the style-guide preview copy.
+
+Google review placeholders remain clearly identified. The owner's explicitly requested personal Hey Blake scope popup and booking link are retained. The enquiry and newsletter still have no delivery endpoints; they now use plain contact fallbacks without internal preview commentary or false sent/subscribed confirmations.
+
+Verification: build and changed JavaScript syntax checks pass. All five pages pass visible-copy scanning, local-asset and unique-ID checks; all 12 homepage review placeholders remain. Dynamic copy checks confirm the toolbar handlers and preview explanations are absent and the approved scope popup remains. Deployment verification is pending. No email was sent by the assistant.
+
 ### Dark homepage polish and remembered preview access
 
 Corrected the Home V2 client-logo strip by removing the flattening brightness filter and blending the original marks into the dark hero. Added a fine divider under the utility bar and strengthened the existing navigation/hero separator. Desktop dropdowns and the full-screen mobile menu now use dark panels, cards, borders and readable text on Home V2; the white homepage and product-page navigation retain their white theme.
