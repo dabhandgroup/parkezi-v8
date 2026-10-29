@@ -7,7 +7,8 @@ Entries are newest first. V-number labels identify design iterations, not hostin
 - Reproduced the live `Request not allowed` response when the login POST has a null origin. The form's own no-referrer policy caused that browser behaviour.
 - Changed the gate's referrer policy to same-origin. Previously opened forms may still submit when browser Fetch Metadata confirms a same-origin request; genuine cross-origin submissions remain blocked.
 - Ensured the agreed shared password remains accepted alongside an older optional environment password. The live endpoint also rejected the agreed password with a valid explicit origin before this change; the remote environment value was not inspected.
-- Updated setup guidance and added two regression tests. The build and all 11 local tests pass. Live verification of this repair is pending deployment.
+- Updated setup guidance and added two regression tests. The build and all 11 local tests pass.
+- Fix commit `548f5bf2cbc3da715bfd677456ca0381bc38b67c` deployed successfully on Vercel. Live HTTP checks passed for normal and null-origin password submissions, redirect/session creation, both homepages, Express Pay and a protected SVG. Googlebot remained unauthenticated with a 401, robots.txt disallowed crawling and noindex headers remained in place. Wrong passwords and cross-origin submissions were rejected.
 
 ## 28 October 2026 — Simple password gate without setup
 

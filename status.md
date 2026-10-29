@@ -10,7 +10,7 @@ Reproduced the reported `Request not allowed` response on the live preview. The 
 
 The agreed password is now accepted even when an older optional `PREVIEW_PASSWORD` is configured. Before the repair, the live endpoint also rejected the agreed password when sent with an explicit valid origin; the remote environment is not inspectable, so the underlying configured value is not claimed as verified. Updated the optional-setting documentation accordingly.
 
-Verification: the build and all 11 local authentication/adapter tests pass, including both regression cases. Live deployment and end-to-end HTTP verification of this repair are pending. No cloud browser or account sign-in was used.
+Verification: the build and all 11 local authentication/adapter tests pass, including both regression cases. Fix commit `548f5bf2cbc3da715bfd677456ca0381bc38b67c` deployed successfully on Vercel. Live HTTP checks passed for both normal-origin and old-page null-origin password submissions: each returned a 303 redirect and session cookie. Both homepage variants, Express Pay and a protected SVG returned 200 with the cookie. Unauthenticated Googlebot returned 401, robots.txt disallowed crawling, and noindex headers remained present. Wrong passwords and cross-origin submissions were rejected. No cloud browser or account sign-in was used.
 
 ### Vercel deployment background
 
