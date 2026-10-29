@@ -10,7 +10,7 @@ The owner has sent the layouts to Blake and requested no AI notes or internal de
 
 Google review placeholders remain clearly identified. The owner's explicitly requested personal Hey Blake scope popup and booking link are retained. The enquiry and newsletter still have no delivery endpoints; they now use plain contact fallbacks without internal preview commentary or false sent/subscribed confirmations.
 
-Verification: build and changed JavaScript syntax checks pass. All five pages pass visible-copy scanning, local-asset and unique-ID checks; all 12 homepage review placeholders remain. Dynamic copy checks confirm the toolbar handlers and preview explanations are absent and the approved scope popup remains. Deployment verification is pending. No email was sent by the assistant.
+Verification: build and changed JavaScript syntax checks pass. All five pages pass visible-copy scanning, local-asset and unique-ID checks; all 12 homepage review placeholders remain. Dynamic copy checks confirm the toolbar handlers and preview explanations are absent and the approved scope popup remains. Commit `46bca9b4f16a7aa37fc0bff4297f5a43de56d124` deployed successfully on Vercel. Live HTML and accessibility-copy scans passed across all five pages, and the served JavaScript contains the cleaned dialog/form/newsletter text. Internal status.md and changelog.md URLs return 404; noindex remains active. No email was sent by the assistant.
 
 ### Dark homepage polish and remembered preview access
 

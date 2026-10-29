@@ -8,7 +8,7 @@ Entries are newest first. V-number labels identify design iterations, not hostin
 - Removed the floating Design previews controls from all five pages and removed their JavaScript handlers. Replaced preview page titles/descriptions with normal page metadata.
 - Removed software-interface demonstration notes and captions, cleaned accessibility labels, and removed internal preview explanations from dynamic form/newsletter/review messages and the developer guide.
 - Kept the clearly labelled Google review placeholders and the owner's approved personal Hey Blake scope popup. Unconnected forms use honest phone/email fallbacks and do not claim successful delivery.
-- Build, JavaScript syntax, visible-copy, local-asset and unique-ID checks pass. Live deployment verification is pending.
+- Build, JavaScript syntax, visible-copy, local-asset and unique-ID checks pass. Commit `46bca9b4f16a7aa37fc0bff4297f5a43de56d124` deployed successfully on Vercel. All five live pages and their accessibility text passed the copy scan; served JavaScript contained the cleaned dynamic messages. Internal project-note URLs return 404 and noindex remains in place.
 
 ## 29 October 2026 — Dark navigation, logos and remembered access
 
