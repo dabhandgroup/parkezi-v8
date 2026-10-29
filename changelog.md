@@ -7,8 +7,9 @@ Entries are newest first. V-number labels identify design iterations, not hostin
 - Gave About Us, Installation, Case Studies, Blog and FAQs white card backgrounds with subtle borders against the grey dropdown panel.
 - Restored Products and added Systems headings, matching About Parkezi and Integrations. Removed the hardware-installation line beneath the product cards.
 - Preserved product image lift, text rollovers and arrow animations. Allowed extra desktop clearance for the images and avoided duplicate headings inside the mobile accordions.
-- Applied the navigation changes to all five pages, including Express Pay and the developer style guide. The build passes; checked heading presence, removal of the installation strip and unique IDs across all pages. Deployment verification is pending.
-- Preparing the requested client email with homepage and Express Pay preview links. No email has been sent.
+- Applied the navigation changes to all five pages, including Express Pay and the developer style guide. The build passes; checked heading presence, removal of the installation strip and unique IDs across all pages.
+- Commit `095de300648bc61fbff69fccc71039148c3d6902` deployed successfully on Vercel. Live homepage, black-hero and Express Pay HTML and shared CSS checks passed with noindex retained. No new browser visual check was performed during this pass.
+- Prepared the requested client email with homepage, black-hero option and Express Pay preview links. No email has been sent.
 
 ## 29 October 2026 — Forgiving preview password entry
 
