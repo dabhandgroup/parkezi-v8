@@ -1,7 +1,7 @@
 import { createHash, createHmac, randomBytes, timingSafeEqual } from 'node:crypto';
 
 export const COOKIE_NAME = '__Host-parkezi_preview';
-export const SESSION_SECONDS = 7 * 24 * 60 * 60;
+export const SESSION_SECONDS = 90 * 24 * 60 * 60;
 const NO_INDEX = 'noindex, nofollow, noarchive, nosnippet, noimageindex';
 const baseHeaders = {
   'X-Robots-Tag': NO_INDEX,

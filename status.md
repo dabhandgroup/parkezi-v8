@@ -4,6 +4,16 @@ Last updated: 29 October 2026 (Europe/London).
 
 ## Current position
 
+### Dark homepage polish and remembered preview access
+
+Corrected the Home V2 client-logo strip by removing the flattening brightness filter and blending the original marks into the dark hero. Added a fine divider under the utility bar and strengthened the existing navigation/hero separator. Desktop dropdowns and the full-screen mobile menu now use dark panels, cards, borders and readable text on Home V2; the white homepage and product-page navigation retain their white theme.
+
+The header position is synchronised before a dropdown opens and after fonts load, with rounded measurements to avoid repeated fractional updates. Increased the pointer-leave grace period slightly. Replaced the Express Pay mobile-payment illustration with a QR-style scan graphic using the official Lucide QR icon, with its licence included. It is decorative and does not encode a payment destination.
+
+Repeated password prompts were caused by a new signing key on every deployment. The casual preview gate now uses a stable default key and a 90-day cookie shared by all pages and tabs on the same browser/domain. No environment variables are required. The fallback key is derivable from the public preview configuration, consistent with the owner's requested casual access gate; a private environment key remains optional. Googlebot rejection, robots blocking and noindex remain enabled.
+
+Verification: all 13 tests pass, including one login reused across all four page routes after rebuilding and loading a fresh server module. Changed JavaScript passes syntax checks; all local assets and unique IDs are valid. New QR artwork parses as SVG. Cloud-browser inspection was rejected by automatic approval review because of the owner's earlier instruction against using that browser; no attempt was made to bypass the rejection. Live deployment checks remain to be recorded.
+
 ### Navigation menu refinements
 
 Added white backgrounds and subtle borders to all five About cards, retaining white on hover and keyboard focus. Restored a simple Products heading and added Systems to match the existing About Parkezi and Integrations headings. Removed the hardware-installation strip beneath the product cards. Product image lift and text rollover animations remain in place, with extra desktop clearance beneath the restored heading. Mobile accordion labels remain the menu headings, without duplicate headings inside them.
@@ -30,7 +40,7 @@ Verification: the build and all 11 local authentication/adapter tests pass, incl
 
 ### Vercel deployment background
 
-The `parkezi-v8` Vercel preview uses the V12 design. It includes a simple shared-password gate that requires no environment variables. The agreed password is checked against a server-side hash, and the build generates its own private session-signing key. All site files remain behind the gate. Googlebot receives an unauthenticated 401 response; `robots.txt` disallows crawling, every response carries `X-Robots-Tag: noindex`, and the HTML retains noindex metadata.
+The `parkezi-v8` Vercel preview uses the V12 design with later refinements. It includes a simple shared-password gate that requires no environment variables. The agreed password is checked against a server-side hash, and the default preview signing key remains stable across builds. A 90-day cookie unlocks all site files in the same browser. Googlebot receives an unauthenticated 401 response; `robots.txt` disallows crawling, every response carries `X-Robots-Tag: noindex`, and the HTML retains noindex metadata.
 
 Repository: `dabhandgroup/parkezi-v8`. The owner has connected it to Vercel at https://parkezi-v8.vercel.app/. The earlier deployment returned a configuration-required 503 because the manual environment setup was incomplete; the 28 October change removed that requirement. Environment settings remain optional; an alternative password no longer disables the agreed default.
 

@@ -16,3 +16,36 @@
 
 /* A more compact Systems panel, retaining readable type and large photographs. */
 @media(min-width:971px){.header-v4 #mega-systems .mega-inner{padding-block:24px 26px}.header-v4 #mega-systems .mega-heading{margin-bottom:18px}.header-v4 .mega-systems{gap:16px}.header-v4 .mega-system>img{height:200px}.header-v4 .mega-system>span{padding:16px 20px 18px}.header-v4 .mega-use-cases{margin-top:10px;gap:6px;line-height:1.45}}
+
+/* Dark hero: blend the original logo backgrounds away without flattening the marks. */
+.black-hero .logo-window{mix-blend-mode:screen}
+.black-hero .logo-group img{filter:grayscale(1) invert(1) brightness(1.7) contrast(1.1);mix-blend-mode:normal;opacity:.88}
+.black-hero .site-header.header-v4{border-bottom:1px solid #ffffff20}
+.black-hero .utility-bar{border-bottom:0;box-shadow:inset 0 -1px 0 #ffffff18}
+
+/* The dark homepage keeps the same navigation palette when a dropdown opens. */
+.black-hero .header-v4 .mega-panel{background:#111519;color:#f3f5f7;border-color:#ffffff18;box-shadow:0 24px 40px #0005;color-scheme:dark}
+.black-hero .header-v4 .mega-heading h2,.black-hero .header-v4 .mega-link-name{color:#f3f5f7}
+.black-hero .header-v4 .mega-heading>p,.black-hero .header-v4 .mega-description{color:#b0bac5}
+.black-hero .header-v4 .mega-product,.black-hero .header-v4 .mega-system,.black-hero .header-v4 #mega-about .mega-link,.black-hero .header-v4 #mega-integrations .mega-link{background:#1a2026;border-color:#ffffff16}
+.black-hero .header-v4 .mega-product:hover,.black-hero .header-v4 .mega-product:focus-visible,.black-hero .header-v4 .mega-system:hover,.black-hero .header-v4 .mega-system:focus-visible,.black-hero .header-v4 #mega-about .mega-link:hover,.black-hero .header-v4 #mega-about .mega-link:focus-visible,.black-hero .header-v4 #mega-integrations .mega-link:hover,.black-hero .header-v4 #mega-integrations .mega-link:focus-visible{background:#232b34;border-color:#657586}
+.black-hero .header-v4 .mega-more{color:#d9e1ea}
+.black-hero .header-v4 .mega-product-image{background:radial-gradient(ellipse at center,#ffffff08,transparent 72%)}
+.black-hero .header-v4 .mega-product-image img{filter:brightness(1.14) drop-shadow(-5px 8px 8px #0005)}
+.black-hero .header-v4 .mega-use-cases .icon,.black-hero .header-v4 #mega-about .mega-link>.icon:first-child,.black-hero .header-v4 .mega-simple-grid .icon{color:#9aa9b9}
+.black-hero .header-v4 .button-outline:hover,.black-hero .header-v4 .button-outline:focus-visible{background:#ffffff10;color:#fff}
+@media(max-width:970px){.black-hero.menu-open .site-header.header-v4,.black-hero .header-v4 .main-nav{background:#0c1014;color:#f3f5f7}.black-hero.menu-open .site-header>.header-inner>.brand img{filter:brightness(0) invert(1)}.black-hero.menu-open .header-v4 .hamburger i{background:#fff}.black-hero.menu-open .header-v4 .menu-toggle,.black-hero.menu-open .header-v4 .menu-label,.black-hero .header-v4 .nav-trigger,.black-hero .header-v4 .nav-plain,.black-hero .header-v4 .nav-trigger:hover,.black-hero .header-v4 .nav-plain:hover{color:#f3f5f7}.black-hero.menu-open .header-actions>.button-dark{background:#fff;color:#171d24}.black-hero .header-v4 .nav-item{border-color:#ffffff1a}.black-hero .header-v4 .nav-plain{border-bottom-color:#ffffff1a!important}.black-hero .header-v4 .mega-panel{background:transparent;border:0;box-shadow:none}.black-hero .header-v4 .mobile-menu-top,.black-hero .header-v4 .mobile-menu-bottom>div a,.black-hero.menu-open .utility-bar{color:#aab5c2}.black-hero .header-v4 .mobile-menu-bottom>div{border-color:#ffffff1a}.black-hero .header-v4 .mobile-menu-bottom>.button-outline{color:#fff;border-color:#ffffff55}}
+
+/* A QR-style illustration, not a scannable destination or a real payment code. */
+.payment-mobile-illustration.scan-pay-art{gap:14px}
+.scan-pay-card{display:flex;flex-direction:column;align-items:center;gap:14px;padding:18px 22px;background:linear-gradient(145deg,#fff,#f1f4f7);border:1px solid #dce3ea;border-radius:18px;box-shadow:0 15px 35px #2637500d}
+.scan-pay-art .scan-pay-brand{font-size:10px;font-weight:600;letter-spacing:.13em;line-height:1.3;color:#4b5e72}
+.scan-pay-target{display:grid;place-items:center;width:112px;height:112px;background:#fff;border:1px solid #e2e7ed;border-radius:10px;position:relative;overflow:hidden}
+.scan-pay-qr{width:88px;height:88px}
+.scan-pay-target:after{content:"";position:absolute;left:10px;right:10px;top:42%;height:1px;background:#607a9366;box-shadow:0 0 8px #607a9340;transition:top .7s ease}
+.payment-mobile:hover .scan-pay-target:after{top:70%}
+.scan-pay-art .scan-pay-caption{font-size:14px;line-height:1.3;letter-spacing:-.01em;color:#34495f}
+.scan-pay-art .scan-pay-badge{display:inline-flex;align-items:center;gap:7px;padding:9px 12px;border:1px solid #dce4ea;border-radius:100px;background:#fff;box-shadow:0 4px 12px #26375005;font-size:14px;line-height:1.2;letter-spacing:0;color:#43586b}
+.scan-pay-badge .icon{width:16px;height:16px;stroke-width:1.8}
+@media(max-width:970px){.payment-mobile-illustration.scan-pay-art{gap:10px}.scan-pay-card{padding:14px 20px;gap:10px}.scan-pay-target{width:96px;height:96px}.scan-pay-qr{width:76px;height:76px}}
+@media(prefers-reduced-motion:reduce){.scan-pay-target:after{transition:none}}

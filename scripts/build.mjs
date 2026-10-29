@@ -1,10 +1,14 @@
 import { cp, mkdir, readdir, readFile, rm, writeFile } from 'node:fs/promises';
 import path from 'node:path';
-import { randomBytes } from 'node:crypto';
+import { createHash } from 'node:crypto';
+import { DEFAULT_PASSWORD_HASH } from '../server/preview-defaults.mjs';
 
 await rm('private/site', { recursive: true, force: true });
 await mkdir('private/site', { recursive: true });
-await writeFile('private/preview-config.json', JSON.stringify({ sessionSecret: randomBytes(32).toString('hex') }));
+// This is a casual shared preview gate. Keep its default key stable so a
+// deployment does not sign everyone out; a private environment key is optional.
+const sessionSecret = createHash('sha256').update('parkezi-v8/shared-preview/session/v1:').update(DEFAULT_PASSWORD_HASH).digest('hex');
+await writeFile('private/preview-config.json', JSON.stringify({ sessionSecret }));
 await cp('dist', 'private/site', { recursive: true });
 await mkdir('public', { recursive: true });
 await writeFile('public/robots.txt', 'User-agent: *\nDisallow: /\n');

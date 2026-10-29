@@ -8,7 +8,7 @@ Complete V12 website design, packaged for the Vercel project **parkezi-v8**.
 2. Keep the repository root as the Root Directory. Framework: **Other**. The committed `vercel.json` sets the build command and output directory.
 3. Deploy. **No environment variables are required.**
 
-The agreed shared preview password is verified against a server-side hash. A private signing key is generated automatically for each build. Existing environment variables are optional: `PREVIEW_PASSWORD` adds an alternative password without disabling the agreed one, and `PREVIEW_SESSION_SECRET` sets a custom signing key. Read [VERCEL-DEPLOYMENT.md](VERCEL-DEPLOYMENT.md) for details.
+The agreed shared preview password is verified against a server-side hash. The default preview signing key stays stable across builds, so one unlock covers every page and later deployments in the same browser for 90 days. Existing environment variables are optional: `PREVIEW_PASSWORD` adds an alternative password without disabling the agreed one, and `PREVIEW_SESSION_SECRET` sets a private signing key. Read [VERCEL-DEPLOYMENT.md](VERCEL-DEPLOYMENT.md) for details.
 
 Password entry ignores capitals and spacing, including invisible whitespace from pasting. The password form includes a Show/Hide control. This is a simple shared preview gate, not an account login.
 

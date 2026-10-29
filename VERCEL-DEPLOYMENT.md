@@ -15,7 +15,7 @@ No environment variables are required. Deploy the repository root and use the ag
 
 This casual preview gate normalises capitals and whitespace before checking the password. The stored hash corresponds to that normalised value. Existing environment settings may be removed without replacing them. The form has a Show/Hide password control; its script is permitted by a fresh CSP nonce on each response.
 
-The build generates a random session-signing key in `private/preview-config.json`, included only in the server bundle. Each rebuild rotates that key and requires visitors to unlock the preview again.
+The build writes a stable preview signing key to `private/preview-config.json`, included in the server bundle. Its default value is derived consistently from the preview credential configuration, so rebuilds do not sign visitors out. This fallback is for the agreed casual preview gate and is derivable from the public source; it is not a private secret. A private `PREVIEW_SESSION_SECRET` remains an optional override. Changing the password or signing configuration can invalidate an existing session.
 
 Optional settings, for an advanced setup:
 
@@ -30,7 +30,7 @@ Keep custom values in encrypted Vercel environment variables. `.env.example` con
 
 The build copies the original HTML and all assets into `private/site/`, which is included inside the server function. Only `robots.txt` is placed in the public output. The server checks the password/session before reading a site file; this covers homepage variants, Express Pay, style guide, images, fonts, scripts and styles.
 
-A successful login creates a signed, seven-day, HttpOnly, Secure, SameSite=Lax cookie. Wrong passwords keep the preview locked. Automatic build configuration removes the manual setup requirement. Responses use private/no-store caching and `X-Robots-Tag` directives. The HTML retains its noindex metadata and `robots.txt` disallows crawling.
+A successful login creates a signed, 90-day, HttpOnly, Secure, SameSite=Lax cookie with Path=/. One unlock covers all pages and tabs on the same domain in that browser. Clearing cookies, using a different browser/device or changing the signing configuration requires another unlock. Wrong passwords keep the preview locked. Automatic build configuration removes the manual setup requirement. Responses use private/no-store caching and `X-Robots-Tag` directives. The HTML retains its noindex metadata and `robots.txt` disallows crawling.
 
 The gate uses `Referrer-Policy: same-origin` so ordinary browser form submissions retain their origin. Previously opened forms with a null origin are accepted only when the browser's Fetch Metadata identifies a same-origin submission. Cross-origin login submissions remain rejected.
 
