@@ -13,3 +13,6 @@
 .header-v4 #mega-about .mega-link:hover,.header-v4 #mega-about .mega-link:focus-visible{background:#fff;border-color:#b6c1cb}
 @media(min-width:971px){.header-v4 #mega-products .mega-inner{padding-top:35px}.header-v4 #mega-products .mega-heading{margin-bottom:40px}}
 @media(max-width:970px){.header-v4 #mega-systems .mega-heading{display:none}}
+
+/* A more compact Systems panel, retaining readable type and large photographs. */
+@media(min-width:971px){.header-v4 #mega-systems .mega-inner{padding-block:24px 26px}.header-v4 #mega-systems .mega-heading{margin-bottom:18px}.header-v4 .mega-systems{gap:16px}.header-v4 .mega-system>img{height:200px}.header-v4 .mega-system>span{padding:16px 20px 18px}.header-v4 .mega-use-cases{margin-top:10px;gap:6px;line-height:1.45}}

@@ -4,6 +4,7 @@ Entries are newest first. V-number labels identify design iterations, not hostin
 
 ## 29 October 2026 — Dropdown card contrast and headings
 
+- Follow-up to the owner's Systems-menu screenshot: tightened desktop panel padding, heading/card/list gaps and photograph height, without reducing text sizes or changing the mobile layout.
 - Gave About Us, Installation, Case Studies, Blog and FAQs white card backgrounds with subtle borders against the grey dropdown panel.
 - Restored Products and added Systems headings, matching About Parkezi and Integrations. Removed the hardware-installation line beneath the product cards.
 - Preserved product image lift, text rollovers and arrow animations. Allowed extra desktop clearance for the images and avoided duplicate headings inside the mobile accordions.
