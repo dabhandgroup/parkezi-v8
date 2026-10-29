@@ -1,14 +1,22 @@
 # Parkezi redesign — project status
 
-Last updated: 28 October 2026 (Europe/London).
+Last updated: 29 October 2026 (Europe/London).
 
 ## Current position
 
-### Vercel deployment preparation
+### Vercel preview login repair
 
-The `parkezi-v8` Vercel preview uses the V12 design. It now includes a simple shared-password gate that requires no environment variables. The agreed password is checked against a server-side hash, and the build generates its own private session-signing key. All site files remain behind the gate. Googlebot receives an unauthenticated 401 response; `robots.txt` disallows crawling, every response carries `X-Robots-Tag: noindex`, and the HTML retains noindex metadata.
+Reproduced the reported `Request not allowed` response on the live preview. The password page's `no-referrer` policy makes browser form submissions send `Origin: null`, while the login handler required an exact origin. Changed the policy to `same-origin` and added compatibility for previously opened forms only when browser Fetch Metadata confirms a same-origin submission. Cross-origin requests remain rejected.
 
-Repository: `dabhandgroup/parkezi-v8`. The owner has connected it to Vercel at https://parkezi-v8.vercel.app/. The previous deployment returned a configuration-required 503 because the manual environment setup was incomplete; this revision removes that requirement. The optional environment variables remain available as overrides.
+The agreed password is now accepted even when an older optional `PREVIEW_PASSWORD` is configured. Before the repair, the live endpoint also rejected the agreed password when sent with an explicit valid origin; the remote environment is not inspectable, so the underlying configured value is not claimed as verified. Updated the optional-setting documentation accordingly.
+
+Verification: the build and all 11 local authentication/adapter tests pass, including both regression cases. Live deployment and end-to-end HTTP verification of this repair are pending. No cloud browser or account sign-in was used.
+
+### Vercel deployment background
+
+The `parkezi-v8` Vercel preview uses the V12 design. It includes a simple shared-password gate that requires no environment variables. The agreed password is checked against a server-side hash, and the build generates its own private session-signing key. All site files remain behind the gate. Googlebot receives an unauthenticated 401 response; `robots.txt` disallows crawling, every response carries `X-Robots-Tag: noindex`, and the HTML retains noindex metadata.
+
+Repository: `dabhandgroup/parkezi-v8`. The owner has connected it to Vercel at https://parkezi-v8.vercel.app/. The earlier deployment returned a configuration-required 503 because the manual environment setup was incomplete; the 28 October change removed that requirement. Environment settings remain optional; an alternative password no longer disables the agreed default.
 
 Verification for this change: nine local authentication/adapter tests pass, including no-environment startup, default hash login, actual protected HTML/image delivery, Googlebot rejection and robots directives. The real agreed-password login also passed through the local deployment adapter with no environment variables. GitHub commit `051864418d72366e8499e81af422719c012bcdf3` received a successful Vercel deployment status, and all 12 changed source files were verified against remote main. Final external live HTTP verification was unavailable because the workspace network rejected access; no cloud-browser sign-in was used.
 

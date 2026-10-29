@@ -9,7 +9,7 @@ const baseHeaders = {
   'CDN-Cache-Control': 'no-store',
   'Vercel-CDN-Cache-Control': 'no-store',
   'X-Content-Type-Options': 'nosniff',
-  'Referrer-Policy': 'no-referrer',
+  'Referrer-Policy': 'same-origin',
   'X-Frame-Options': 'DENY',
 };
 
@@ -84,15 +84,24 @@ export async function handlePreview(request, { password, passwordHash, secret, l
   if (!credential || !secret || secret.length < 32) return response('This private preview is awaiting secure configuration.', 503, { 'Content-Type': 'text/plain; charset=utf-8' });
 
   if (pathname === '/__preview/login' && request.method === 'POST') {
-    if (request.headers.get('origin') !== url.origin) return response('Request not allowed', 403);
+    const origin = request.headers.get('origin');
+    // Previously opened forms used no-referrer, which makes browser form POSTs
+    // send Origin: null. Fetch Metadata still identifies a same-origin submit.
+    const sameOrigin = origin && origin !== 'null'
+      ? origin === url.origin
+      : request.headers.get('sec-fetch-site') === 'same-origin';
+    if (!sameOrigin) return response('Request not allowed', 403);
     if (!request.headers.get('content-type')?.startsWith('application/x-www-form-urlencoded')) return response('Unsupported form', 415);
     const body = await request.text();
     if (body.length > 8192) return response('Request too large', 413);
     const form = new URLSearchParams(body);
     const returnTo = safeReturnTo(form.get('next'));
     const candidate = form.get('password') || '';
-    const candidateValue = password ? candidate : createHash('sha256').update(candidate).digest('hex');
-    if (candidate.length > 512 || !equal(candidateValue, credential)) return loginPage(returnTo, 'That password wasn’t correct. Please try again.');
+    const passwordMatches = password && equal(candidate, password);
+    const hashMatches = passwordHash && equal(createHash('sha256').update(candidate).digest('hex'), passwordHash);
+    // The agreed shared password remains usable even if an older deployment
+    // has a different optional PREVIEW_PASSWORD configured.
+    if (candidate.length > 512 || !(passwordMatches || hashMatches)) return loginPage(returnTo, 'That password wasn’t correct. Please try again.');
     return response(null, 303, {
       Location: returnTo,
       'Set-Cookie': `${COOKIE_NAME}=${createSession(credential, secret)}; Path=/; HttpOnly; Secure; SameSite=Lax; Max-Age=${SESSION_SECONDS}`,

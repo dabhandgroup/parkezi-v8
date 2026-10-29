@@ -15,11 +15,11 @@ No environment variables are required. Deploy the repository root and use the ag
 
 The build generates a random session-signing key in `private/preview-config.json`, included only in the server bundle. Each rebuild rotates that key and requires visitors to unlock the preview again.
 
-Optional overrides, for an advanced setup:
+Optional settings, for an advanced setup:
 
 | Variable | Purpose |
 | --- | --- |
-| `PREVIEW_PASSWORD` | Replace the agreed preview password. |
+| `PREVIEW_PASSWORD` | Add an alternative password. The agreed password remains accepted. |
 | `PREVIEW_SESSION_SECRET` | Use a stable custom signing key of at least 32 characters. |
 
 Keep custom values in encrypted Vercel environment variables. `.env.example` contains names only.
@@ -29,6 +29,8 @@ Keep custom values in encrypted Vercel environment variables. `.env.example` con
 The build copies the original HTML and all assets into `private/site/`, which is included inside the server function. Only `robots.txt` is placed in the public output. The server checks the password/session before reading a site file; this covers homepage variants, Express Pay, style guide, images, fonts, scripts and styles.
 
 A successful login creates a signed, seven-day, HttpOnly, Secure, SameSite=Lax cookie. Wrong passwords keep the preview locked. Automatic build configuration removes the manual setup requirement. Responses use private/no-store caching and `X-Robots-Tag` directives. The HTML retains its noindex metadata and `robots.txt` disallows crawling.
+
+The gate uses `Referrer-Policy: same-origin` so ordinary browser form submissions retain their origin. Previously opened forms with a null origin are accepted only when the browser's Fetch Metadata identifies a same-origin submission. Cross-origin login submissions remain rejected.
 
 This implementation does not require Vercel's paid Password Protection add-on. It is specific to this Vercel package. Opening the original `dist/*.html` files locally or publishing them directly as static output does not apply this server gate.
 

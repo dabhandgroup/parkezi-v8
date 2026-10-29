@@ -2,6 +2,13 @@
 
 Entries are newest first. V-number labels identify design iterations, not hosting or file-storage version numbers. Earlier history was reconstructed from this project's files and the design discussion; consolidated entries do not imply exact release dates.
 
+## 29 October 2026 — Browser password submission repair
+
+- Reproduced the live `Request not allowed` response when the login POST has a null origin. The form's own no-referrer policy caused that browser behaviour.
+- Changed the gate's referrer policy to same-origin. Previously opened forms may still submit when browser Fetch Metadata confirms a same-origin request; genuine cross-origin submissions remain blocked.
+- Ensured the agreed shared password remains accepted alongside an older optional environment password. The live endpoint also rejected the agreed password with a valid explicit origin before this change; the remote environment value was not inspected.
+- Updated setup guidance and added two regression tests. The build and all 11 local tests pass. Live verification of this repair is pending deployment.
+
 ## 28 October 2026 — Simple password gate without setup
 
 - Confirmed that the live Vercel preview returned a configuration-required 503 due to missing environment variables.

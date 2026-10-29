@@ -21,6 +21,7 @@ test('every page and asset is blocked before the password; no content is read', 
     assert.match(await response.text(), /Private preview/);
     assert.match(response.headers.get('x-robots-tag'), /noindex/);
     assert.match(response.headers.get('cache-control'), /no-store/);
+    assert.equal(response.headers.get('referrer-policy'), 'same-origin');
   }
   assert.deepEqual(reads, []);
 });
@@ -62,6 +63,31 @@ test('the default password hash supports login without a password environment va
   const cookie = accepted.headers.get('set-cookie').split(';')[0];
   assert.equal((await handlePreview(req('/home-v2.html', { headers: { cookie } }), fallback)).status, 200);
   assert.equal((await handlePreview(login('wrong'), fallback)).status, 401);
+});
+
+test('the agreed password also works when an older optional password is configured', async () => {
+  const configured = { ...options, password: 'older-configured-password', passwordHash: createHash('sha256').update(password).digest('hex') };
+  const accepted = await handlePreview(login(password), configured);
+  assert.equal(accepted.status, 303);
+  const cookie = accepted.headers.get('set-cookie').split(';')[0];
+  assert.equal((await handlePreview(req('/', { headers: { cookie } }), configured)).status, 200);
+  assert.equal((await handlePreview(login('older-configured-password'), configured)).status, 303);
+  assert.equal((await handlePreview(login('wrong'), configured)).status, 401);
+});
+
+test('previously opened forms with a null or missing origin can submit from the same site', async () => {
+  for (const originValue of ['null', undefined]) {
+    const headers = { 'content-type': 'application/x-www-form-urlencoded', 'sec-fetch-site': 'same-origin' };
+    if (originValue !== undefined) headers.origin = originValue;
+    const request = req('/__preview/login', { method: 'POST', headers, body: new URLSearchParams({ password, next: '/home-v2.html' }) });
+    const accepted = await handlePreview(request, options);
+    assert.equal(accepted.status, 303);
+    assert.equal(accepted.headers.get('location'), '/home-v2.html');
+  }
+  for (const site of ['cross-site', 'same-site', 'none', '']) {
+    const request = req('/__preview/login', { method: 'POST', headers: { origin: 'null', 'sec-fetch-site': site, 'content-type': 'application/x-www-form-urlencoded' }, body: new URLSearchParams({ password }) });
+    assert.equal((await handlePreview(request, options)).status, 403);
+  }
 });
 
 test('cross-origin login is rejected and redirect destinations stay on the same site', async () => {
