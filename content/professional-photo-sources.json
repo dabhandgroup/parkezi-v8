@@ -79,7 +79,7 @@
         1100,
         1650
       ],
-      "use": "34-inch display catalogue artwork",
+      "use": "Step & Pay page: 34-inch larger-screen configuration, not a separate product",
       "active": true
     },
     {
@@ -92,9 +92,10 @@
         1100,
         1650
       ],
-      "use": "Updated Step & Pay page catalogue and on-foot payment artwork",
+      "use": "Step & Pay page/configuration, existing page catalogue and on-foot payment artwork",
       "active": true
     }
   ],
-  "correctionEvent": "parkezi:2026-11-01:restore-menus-dark-home:v1"
+  "correctionEvent": "parkezi:2026-11-01:restore-menus-dark-home:v1",
+  "productTaxonomyCorrection": "parkezi:2026-11-01:34inch-step-pay-option:v1"
 }

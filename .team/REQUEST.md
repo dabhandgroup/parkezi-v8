@@ -10,3 +10,7 @@ Event `parkezi:2026-11-01:professional-photos-authorised:v1`, DAB-47. Harry corr
 
 Event `parkezi:2026-11-01:restore-menus-dark-home:v1`. Harry requested the dark version as the actual homepage and explicitly reverted menu alterations: the professional photos belong on page sections. His installation/support screenshot is positively approved for direction and stays. This supersedes menu photo/product-menu additions above. Preserve page photography and product catalogue additions. Main/production release remains unauthorised.
 
+## Current correction - 34-inch Step & Pay option
+
+Event parkezi:2026-11-01:34inch-step-pay-option:v1, explicit Brain request from Harry, actual date 1 November 2026. The 34-inch display is the same Step & Pay product with a larger screen. Remove its standalone catalogue entry and include it on a Step & Pay page. Preserve all other approved work and all source assets. Same DAB-47/branch/draft PR; no new issue/builder, main merge or production publication.
+

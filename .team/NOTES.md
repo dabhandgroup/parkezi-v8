@@ -19,3 +19,11 @@ Builder /root: source recovered, baseline captured, authenticated GitHub clone/f
 
 Menu photo/six-product-menu claims above describe the previous candidate and are superseded. Original five-product/icon About menus are restored exactly across six pages, including preserved white alternative. Only page catalogues keep the 34-inch display and supplied Step & Pay updates. Index and home-v2 are now the same matching dark homepage. The support photo remains the exact previously praised derivative. Prior review evidence for 5c667bf is stale for affected areas; preserve pass 1 and recheck the final revision once.
 
+## Review completion and larger-screen correction
+
+Pass 2 completed BLOCKED against 20e70d4: matching preview redirected to Vercel SSO; source aligned but no actual UI journeys/mobile wraps. Report and hash are preserved in root workstream reviews; documentation advisory fixed at 44bf3b2. Two passes consumed; no third. Harry subsequently clarified 34-inch is a Step & Pay screen option. The new local product page and removal of standalone taxonomy require fresh GPT self-checks; no independent verification will be claimed for those later changes.
+
+## Step & Pay configuration self-check result
+
+Seven HTML pages passed assets/IDs/noindex, five-product taxonomy and menu-design parity with only Step & Pay destination changes. Express Pay gallery 5 slides and Step & Pay gallery 2 slides match thumbnails/captions/zoom. New Step page anchors/schema/copy checks pass. All approved homepage support/platform/case-study/projects/enquiry sections and all source/derived assets are unchanged. Node24 build and 13/13 tests pass, with the same-cookie adapter test extended to Step & Pay and white home. Exact source-check JSON is in scratch/step-pay-option-checks.json. Hosted UI/mobile wrapping remains unverified; no independent pass remains.
+

@@ -29,3 +29,10 @@ Selected review cycle key: `DAB-47:professional-photos-2026-11-01`, maxPasses 2,
 - PHOTO-C03: Original client assets remain unchanged. Node 24 build, 13 existing tests, all six pages local assets/unique IDs/noindex, gallery parity and exact original-header comparisons pass. New authored copy follows guardrails.
 - PHOTO-C04: Independent final revision checks desktop/tablet/mobile original menus, dark default, support photo crop, catalogue, gallery arrows/keyboard/swipe/lightbox and new/affected 320/390 heading wrapping. Actual unavailable browser/access checks are BLOCKED. Pass 1 is superseded/cancellation requested; only pass 2 remains within this outcome cap. Keep PR draft and no unverified Done or production acceptance.
 
+## ACTIVE Step & Pay correction criteria - supersede conflicting taxonomy/page criteria above
+
+- STEP-34-01: Every product catalogue/menu contains the original five product families, with no separate 34-inch display card/link/SKU. Source assets remain present and unchanged.
+- STEP-34-02: Local step-pay.html presents Step & Pay and its optional 34-inch larger-screen configuration, using the supplied imagery and only source-supported descriptions. Existing Step & Pay product links, including the hero/catalogue/menu/Express Pay related links, open the new page. The two-image gallery has consistent controls/captions and options/contact anchors.
+- STEP-34-03: Approved dark default and white alternative, original five-product/icon menu design, professional page/support images, Express Pay five-image gallery and gate/noindex/form behaviour remain. Only Step & Pay menu destinations may change to the local page. Node24 build, existing tests, local assets/IDs/anchors/schema/gallery parity and unchanged assets pass.
+- STEP-34-04: Record final SHA/tree/PR/preview identity and GPT self-check evidence. Prior independent source evidence is stale for changed taxonomy/page/link areas. Two-pass cap remains exhausted, no further reviewer. Actual browser/mobile wrapping/runtime checks remain BLOCKED/unverified and draft PR/DAB-47 stay open; no owner acceptance/merge/production claim.
+

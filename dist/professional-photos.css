@@ -2,11 +2,6 @@
 .support-v8 .support-photo img[src*="parkezi-team-exhibition"] {
   object-position: 50% 50%;
 }
-.product-card-display {
-  display: block;
-  color: inherit;
-  text-decoration: none;
-}
 #products .product-card h3 {
   white-space: normal;
 }
@@ -40,23 +35,15 @@
   height: auto;
   aspect-ratio: 1;
 }
-@media (min-width: 1101px) {
-  #products .product-grid {
-    grid-template-columns: repeat(6, minmax(0, 1fr));
-  }
-}
-@media (min-width: 701px) and (max-width: 1100px) {
-  #products .product-grid {
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-  }
-}
-@media (min-width: 481px) and (max-width: 700px) {
-  #products .product-grid {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
-}
-@media (max-width: 480px) {
-  #products .product-grid {
-    grid-template-columns: minmax(0, 1fr);
-  }
-  }
+
+/* Step & Pay uses the existing product-page gallery with two configurations. */
+.step-pay-page .gallery-thumbs { grid-template-columns: repeat(2, minmax(0, 88px)); }
+.step-pay-page .step-studio, .step-option-image { background: #050607; }
+.step-pay-page .step-studio img { object-fit: contain; filter: none; }
+.step-options { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 24px; }
+.step-option { min-width: 0; border: 1px solid #e2e7eb; border-radius: 14px; overflow: hidden; }
+.step-option-image img { display: block; width: 100%; height: 400px; object-fit: contain; }
+.step-option-copy { padding: 26px; }
+.step-option-copy h3 { font-size: clamp(22px, 2.5vw, 30px); line-height: 1.2; margin-bottom: 14px; }
+.step-option-copy p { color: #65717c; line-height: 1.7; margin-bottom: 22px; }
+@media (max-width: 700px) { .step-options { grid-template-columns: minmax(0, 1fr); } .step-option-image img { height: 340px; } }

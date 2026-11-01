@@ -25,3 +25,11 @@
 4. Check exact baseline menu parity, dark/white routes, assets/IDs/noindex and gallery regressions, then push the same draft PR.
 5. Cancel the stale pass-1 candidate, preserve the ledger and use at most the one remaining independent pass against the corrected final revision.
 
+## Larger-screen correction plan
+
+1. Preserve final review report/ledger: two passes consumed; no third.
+2. Remove standalone display catalogue cards and restore five-product layout.
+3. Reuse current Express Pay PDP components for local step-pay.html with supplied Step & Pay/34-inch configuration imagery and source-supported copy. Route existing Step & Pay links there without menu redesign.
+4. Check all page assets/IDs/noindex, five-product taxonomy, local anchors/links and both two-image Step and five-image Express galleries, dark default and unchanged approved photos/original assets. Run Node24 build/tests and changed JS syntax.
+5. Push same PR, record exact final SHA/tree/preview and source evidence. Disclose stale prior review/blocked browser evidence; no production release.
+
