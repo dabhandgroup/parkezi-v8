@@ -18,7 +18,7 @@ The professional photographs show an exhibition, product demonstrations and team
 
 All 11 supplied photos were inspected. NV-01, NV-03, NV-04, NV-05, NV-08 and NV-10 remain available in the original archive; the selected images cover these subjects without repeating near-identical booth views. The six videos are retained in the source archive and have not been embedded.
 
-About Us still links to the existing client site. This amendment refreshes the shared About menu and homepage support/company imagery; it does not claim a redesigned About page.
+About Us still links to the existing client site. This amendment refreshes homepage support/company imagery while preserving the original shared menus; it does not claim a redesigned About page.
 
 Exact input/output hashes, dimensions and byte sizes: content/professional-photo-sources.json. Seven new WebP assets total 492,254 bytes.
 
