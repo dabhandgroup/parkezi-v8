@@ -1,0 +1,242 @@
+{
+  "observedAt": "2026-11-01",
+  "source": "https://www.parkezi.com.au",
+  "mapId": "01a1970f-aacd-7056-819f-afa3f864cb44",
+  "scope": "All discovered HTML pages; image URLs excluded",
+  "pages": [
+    {
+      "url": "https://www.parkezi.com.au",
+      "title": "Parkezi: Smart Parking Automation Systems",
+      "description": "Discover ticketless, cloud-based parking automation and ANPR systems designed for Australian businesses."
+    },
+    {
+      "url": "https://www.parkezi.com.au/systems",
+      "title": "Parking Automation Systems",
+      "description": "A parking payment machine with a screen, keypad, card slot, and instructions for. Express Pay. Our hero unit offers drivers easy, convenient access from their ..."
+    },
+    {
+      "url": "https://www.parkezi.com.au/pricing",
+      "title": "Parking System Pricing",
+      "description": "A parking payment machine with a screen, keypad, card slot, and instructions for. Express Pay. Our hero unit offers drivers easy, convenient access from their ..."
+    },
+    {
+      "url": "https://www.parkezi.com.au/our-work",
+      "title": "Parking Automation Projects",
+      "description": "A parking payment machine with a screen, keypad, card slot, and instructions for. Express Pay. Our hero unit offers drivers easy, convenient access from their ..."
+    },
+    {
+      "url": "https://www.parkezi.com.au/installation",
+      "title": "Parking System Installation",
+      "description": "A Practical, Structured Approach to Installation. Every car park is different. Layout, traffic flow, power supply, connectivity and user behaviour all influence ..."
+    },
+    {
+      "url": "https://www.parkezi.com.au/about-us",
+      "title": "About Parkezi",
+      "description": "We design and deliver custom-built parking software that can be configured and developed to suit your site's unique challenges. Not force you into a rigid, ..."
+    },
+    {
+      "url": "https://www.parkezi.com.au/faqs",
+      "title": "Parking Automation FAQs",
+      "description": "Parkezi has an easy to use browser based interface that gives you a fast and easy way to configure and update your system and monitor it in real time. 100% of ..."
+    },
+    {
+      "url": "https://www.parkezi.com.au/testimonials",
+      "title": "Parkezi Client Testimonials",
+      "description": "Hear from Australian businesses using Parkezi's parking automation and ANPR solutions."
+    },
+    {
+      "url": "https://www.parkezi.com.au/contact",
+      "title": "Contact Parkezi",
+      "description": "A parking payment machine with a screen, keypad, card slot, and instructions for. Express Pay. Our hero unit offers drivers easy, convenient access from their ..."
+    },
+    {
+      "url": "https://www.parkezi.com.au/blog",
+      "title": "Parking Technology Insights",
+      "description": "Explore expert blogs on ANPR, ticketless parking, and automation trends shaping modern car parks."
+    },
+    {
+      "url": "https://www.parkezi.com.au/products/express-pay",
+      "title": "Express Pay Parking System - Parkezi",
+      "description": "Fast, Ticketless Parking Payments Without the Queues Nobody enjoys lining up at a payment machine after a long day. Drivers want to enter, park, pay and leave without delay. Express Pay by Parkezi is designed to make that happen. Express Pay is a ticketless parking system that simplifies payment while keeping traffic moving. It removes the need for paper tickets and bulky payment kiosks ..."
+    },
+    {
+      "url": "https://www.parkezi.com.au/products/step-and-pay",
+      "title": "Step & Pay Parking System - Parkezi",
+      "description": "Simple, ticketless parking with Parkezi's Step & Pay automated system."
+    },
+    {
+      "url": "https://www.parkezi.com.au/products/scan-and-go",
+      "title": "Scan & Go Parking System - Parkezi",
+      "description": "Streamline entry with Parkezi's Scan & Go ANPR car park access control."
+    },
+    {
+      "url": "https://www.parkezi.com.au/products/scan-and-go-mini"
+    },
+    {
+      "url": "https://www.parkezi.com.au/products/solargate-mobile-boom-gate"
+    },
+    {
+      "url": "https://www.parkezi.com.au/products/info-board",
+      "title": "Info Board - Parkezi Products",
+      "description": "Parkezi Info Board: digital parking information display for Australian facilities."
+    },
+    {
+      "url": "https://www.parkezi.com.au/services/maintenance"
+    },
+    {
+      "url": "https://www.parkezi.com.au/services/integrations"
+    },
+    {
+      "url": "https://www.parkezi.com.au/services/paid-parking",
+      "title": "Paid Parking Systems - Parkezi",
+      "description": "Paid Parking Designed for parking environments requiring payment integration 1300 309 998 Enquire A Seamless Parking Experience Proudly Australian-owned and managed, PARKEZI® is a world-class parking automation system that makes your car park management a breeze."
+    },
+    {
+      "url": "https://www.parkezi.com.au/services/two-way",
+      "title": "Two-Way Parking Systems - Parkezi",
+      "description": "A Seamless Parking Experience Proudly Australian-owned and managed, PARKEZI® is a world-class parking automation system that makes your car park management a breeze."
+    },
+    {
+      "url": "https://www.parkezi.com.au/services/one-way"
+    },
+    {
+      "url": "https://www.parkezi.com.au/integrations/beninca",
+      "title": "Beninca Gate Integration - Parkezi",
+      "description": "Connect Beninca gates with Parkezi's ticketless parking and access control systems."
+    },
+    {
+      "url": "https://www.parkezi.com.au/integrations/selea",
+      "title": "Selea - Parkezi Integrations",
+      "description": "Parkezi integrates with Selea ANPR cameras for advanced parking access control."
+    },
+    {
+      "url": "https://www.parkezi.com.au/integrations/adaptive-recognition",
+      "title": "Adaptive Recognition Integration - Parkezi",
+      "description": "Adaptive Recognition are leaders in image processing technology and ANPR cameras for traffic control applications."
+    },
+    {
+      "url": "https://www.parkezi.com.au/integrations/windcave",
+      "title": "Windcave Payment Integration - Parkezi",
+      "description": "Enable contactless Windcave payments in your express or step-and-pay parking systems."
+    },
+    {
+      "url": "https://www.parkezi.com.au/project/knight-frank-chatswood"
+    },
+    {
+      "url": "https://www.parkezi.com.au/project/parklea-markets",
+      "title": "Parking Upgrade for Parklea Markets - Parkezi",
+      "description": "Parkezi boosted access and traffic flow at Parklea Markets with a smart parking upgrade. Connect with Parkezi today for smart automation parking services."
+    },
+    {
+      "url": "https://www.parkezi.com.au/project/mercure-sydney-macquarie-park"
+    },
+    {
+      "url": "https://www.parkezi.com.au/project/mercure-hotel-sydney-manly",
+      "title": "Parking Automation for Mercure Manly - Parkezi",
+      "description": "Parkezi installed a streamlined parking system at Mercure Hotel Manly to improve guest convenience. Connect with Parkezi for automation parking system."
+    },
+    {
+      "url": "https://www.parkezi.com.au/project/parkly-penrith",
+      "title": "Smart Parking Systems for Parkly Penrith - Parkezi",
+      "description": "Parkezi installed a modern parking system at Parkly Penrith designed for safety, access and smooth flow. Connect with Parkezi for automation parking system."
+    },
+    {
+      "url": "https://www.parkezi.com.au/project/quest-apartments",
+      "title": "Parking Automation for Quest Apartments - Parkezi",
+      "description": "Parkezi improved access and control for Quest Apartments with secure automated parking technology. Connect with Parkezi for automation parking system."
+    },
+    {
+      "url": "https://www.parkezi.com.au/project/tasman-holiday-parks",
+      "title": "Smart Parking at Tasman Holiday Parks - Parkezi",
+      "description": "Parkezi delivered a smooth parking upgrade for Tasman Holiday Parks with reliable, easy to use automation. Connect with Parkezi for automation parking system."
+    },
+    {
+      "url": "https://www.parkezi.com.au/project/cleanaway-eastern-creek-site"
+    },
+    {
+      "url": "https://www.parkezi.com.au/post/how-much-does-a-parking-automation-system-cost-in-australia",
+      "title": "Parking Automation System Costs in Australia",
+      "description": "Learn how much a parking automation system costs in Australia, including factors that affect pricing and long term value."
+    },
+    {
+      "url": "https://www.parkezi.com.au/post/how-ticketless-parking-improves-customer-experience-and-revenue",
+      "title": "How Ticketless Parking Improves Experience and Revenue",
+      "description": "Ticketless parking systems streamline operations by reducing the amount of physical hardware on site. With fewer moving parts, there are fewer ..."
+    },
+    {
+      "url": "https://www.parkezi.com.au/post/contactless-vs-traditional-parking-systems-which-is-right-for-your-site"
+    },
+    {
+      "url": "https://www.parkezi.com.au/post/five-common-parking-management-challenges-and-how-anpr-solves-them"
+    },
+    {
+      "url": "https://www.parkezi.com.au/post/how-anpr-improves-security-in-commercial-and-residential-car-parks",
+      "title": "How ANPR Improves Security in Commercial and ...",
+      "description": "For residential complexes, office buildings and commercial facilities, vehicle access control is just as important as front-door security."
+    },
+    {
+      "url": "https://www.parkezi.com.au/post/how-cloud-parking-management-software-simplifies-multi-site-operations",
+      "title": "How Cloud Parking Management Software Simplifies Multi-Site ...",
+      "description": "Cloud-based systems allow operators to log in and see occupancy, revenue and system status across all sites in real time."
+    },
+    {
+      "url": "https://www.parkezi.com.au/post/how-do-boom-gates-work"
+    },
+    {
+      "url": "https://www.parkezi.com.au/post/smart-parking-for-property-developers-adding-value-with-automation",
+      "title": "Smart Parking for Property Developers",
+      "description": "When people think about modern property development, they usually picture architecture, landscaping or stylish interiors."
+    },
+    {
+      "url": "https://www.parkezi.com.au/post/the-future-of-parking-automation-in-australia",
+      "title": "The Future of Parking Automation in Australia",
+      "description": "Discover how smart parking automation, ANPR and cloud systems are shaping the future of car parks in Australia and improving the driver experience with Parkezi."
+    },
+    {
+      "url": "https://www.parkezi.com.au/post/what-to-look-for-in-an-automatic-number-plate-recognition-system"
+    },
+    {
+      "url": "https://www.parkezi.com.au/post/why-automatic-number-plate-recognition-anpr-carpark-access-systems-make-sense-for-strata-managers-and-residents-alike"
+    },
+    {
+      "url": "https://www.parkezi.com.au/legal/privacy-policy",
+      "title": "Privacy Policy - Parkezi",
+      "description": "Read Parkezi's privacy policy on handling your data and using our smart parking platforms."
+    },
+    {
+      "url": "https://www.parkezi.com.au/success/newsletter",
+      "title": "Subscribed - Parkezi",
+      "description": "Thank you for subscribing to the Parkezi newsletter."
+    },
+    {
+      "url": "https://www.parkezi.com.au/post/improve-parking-revenue-without-increasing-fees",
+      "title": "Improve Parking Revenue Without Raising Fees | Parkezi",
+      "description": "Learn how Australian car park operators can improve parking revenue by reducing leakage, increasing turnover and using smarter parking technology."
+    },
+    {
+      "url": "https://www.parkezi.com.au/post/why-sydney-property-managers-are-investing-in-parking-automation",
+      "title": "Sydney Property Managers & Parking Automation",
+      "description": "See how parking automation helps Sydney property managers create revenue, control access, reduce administration and improve the property ..."
+    },
+    {
+      "url": "https://www.parkezi.com.au/post/choose-the-right-parking-access-control-system-for-your-site",
+      "title": "Choosing a Parking Access Control System",
+      "description": "Choosing a parking access control system? Compare ANPR, access cards, security, tailgating prevention, integrations and long-term costs."
+    },
+    {
+      "url": "https://www.parkezi.com.au/post/how-ticketless-parking-validation-works-for-retail-and-hospitality-sites",
+      "title": "Ticketless Parking Validation for Retail & Hospitality",
+      "description": "See how ticketless parking validation simplifies parking for hotels, restaurants and mixed-use sites while reducing manual processes and ..."
+    },
+    {
+      "url": "https://www.parkezi.com.au/post/tenant-parking-quota-management-solves-a-common-commercial-property-problem",
+      "title": "Tenant Parking Quota Management Explained",
+      "description": "Learn how tenant parking quota management helps commercial properties enforce bay allocations, prevent misuse and reduce parking ..."
+    },
+    {
+      "url": "https://www.parkezi.com.au/post/anpr-cameras-improve-two-way-parking-systems-in-high-traffic-sites",
+      "title": "ANPR for Two-Way Parking Systems",
+      "description": "Learn how ANPR cameras improve two-way parking systems by controlling access, reducing lane contention and creating more efficient vehicle ..."
+    }
+  ]
+}

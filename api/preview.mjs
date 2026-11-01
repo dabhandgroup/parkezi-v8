@@ -16,11 +16,15 @@ const types = { '.html': 'text/html; charset=utf-8', '.css': 'text/css; charset=
 async function loadAsset(pathname) {
   let relative = pathname.replace(/^\/+/, '') || 'index.html';
   if (relative.endsWith('/')) relative += 'index.html';
-  if (relative === 'style-guide') relative += '/index.html';
   const absolute = path.resolve(root, relative);
   if (!absolute.startsWith(root + path.sep)) return null;
   try { return { body: await readFile(absolute), contentType: types[path.extname(absolute).toLowerCase()] || 'application/octet-stream' }; }
-  catch { return null; }
+  catch {
+    // Preserve the source site's extensionless page URLs as well as trailing slashes.
+    if (path.extname(relative)) return null;
+    try { return { body: await readFile(path.join(absolute, 'index.html')), contentType: types['.html'] }; }
+    catch { return null; }
+  }
 }
 
 export default async function handler(req, res) {

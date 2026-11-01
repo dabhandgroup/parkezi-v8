@@ -26,7 +26,7 @@
 }
 .gallery-thumbs {
   display: grid;
-  grid-template-columns: repeat(5, minmax(0, 1fr));
+  grid-template-columns: repeat(var(--gallery-count, 4), minmax(0, 1fr));
 }
 .gallery-thumbs .gallery-thumb {
   width: 100%;

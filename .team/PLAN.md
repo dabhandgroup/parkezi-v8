@@ -33,3 +33,22 @@
 4. Check all page assets/IDs/noindex, five-product taxonomy, local anchors/links and both two-image Step and five-image Express galleries, dark default and unchanged approved photos/original assets. Run Node24 build/tests and changed JS syntax.
 5. Push same PR, record exact final SHA/tree/preview and source evidence. Disclose stale prior review/blocked browser evidence; no production release.
 
+## Full-site implementation checklist
+
+1. Capture all52 discovered HTML pages and compare live sitemap (45 routes, no missing). Preserve raw/source coverage and caveats.
+2. Apply all named homepage/Step/Express/review/spacing improvements.
+3. Reuse approved header/footer/enquiry/PDP components for About, installation, pricing, systems/services, remaining products, integrations, projects, articles, FAQs/contact/legal and newsletter routes. Preserve source facts, remove repeated chrome/low-value infographic and source placeholders.
+4. Replace old external/internal scope popups with real local page journeys, maintaining menu design and external account/maps/provider links.
+5. Source/data/route/asset/ID/schema/copy/gallery/build/test checks across every generated route. No real submissions.
+6. Push exact final identity to same PR/preview; keep current review cap exhausted and browser limitations explicit, update/read back canonical Linear and local/mapped logs.
+
+
+## Full-site implementation result
+
+- [x] Capture 52 discovered source routes and all 45 sitemap routes, preserve source records and caveats.
+- [x] Apply Step & Pay, Express gallery, Pay on foot, Why photography, Reviews and spacing corrections.
+- [x] Build local About, product, systems, services, integrations, projects, article, FAQ, contact and legal routes with approved shared components.
+- [x] Connect internal routes and extensionless serving, preserving gate/noindex and truthful unconnected forms.
+- [x] Run Node24 build, 13 auth/adapter tests and static reference/gallery/taxonomy checks.
+- [ ] Record final commit/tree, same draft PR and automatic preview receipts in owner logs/Linear.
+- [ ] Actual browser/mobile/wrapping review and Harry acceptance remain unverified. Two-pass cap is exhausted; no replacement review is authorised.

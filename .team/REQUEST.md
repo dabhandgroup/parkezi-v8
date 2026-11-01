@@ -14,3 +14,7 @@ Event `parkezi:2026-11-01:restore-menus-dark-home:v1`. Harry requested the dark 
 
 Event parkezi:2026-11-01:34inch-step-pay-option:v1, explicit Brain request from Harry, actual date 1 November 2026. The 34-inch display is the same Step & Pay product with a larger screen. Remove its standalone catalogue entry and include it on a Step & Pay page. Preserve all other approved work and all source assets. Same DAB-47/branch/draft PR; no new issue/builder, main merge or production publication.
 
+## Current expanded scope - full-site redesign and refinements
+
+Event parkezi:2026-11-01:full-site-redesign-and-refinements:v1. Harry authorised all current PARKEZI pages redesigned from their live content, plus original Step cutout/lift/lead, secondary screen options, no blurry Express image4, improved Pay on foot and Why Choose photos, useful systems/About content, four desktop reviews with corrected headings and tighter padding. Same branch/PR/DAB-47, no new builder or production release. Source map52 pages and all45 sitemap routes captured. Preserve earlier corrections and approved photo/support/menu/dark design.
+

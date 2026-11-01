@@ -36,3 +36,16 @@ Selected review cycle key: `DAB-47:professional-photos-2026-11-01`, maxPasses 2,
 - STEP-34-03: Approved dark default and white alternative, original five-product/icon menu design, professional page/support images, Express Pay five-image gallery and gate/noindex/form behaviour remain. Only Step & Pay menu destinations may change to the local page. Node24 build, existing tests, local assets/IDs/anchors/schema/gallery parity and unchanged assets pass.
 - STEP-34-04: Record final SHA/tree/PR/preview identity and GPT self-check evidence. Prior independent source evidence is stale for changed taxonomy/page/link areas. Two-pass cap remains exhausted, no further reviewer. Actual browser/mobile wrapping/runtime checks remain BLOCKED/unverified and draft PR/DAB-47 stay open; no owner acceptance/merge/production claim.
 
+## ACTIVE full-site/refinement criteria
+
+- SITE-01: All52 mapped source HTML paths (including45 sitemap routes) have captured source/provenance and working redesigned local output/aliases. Coverage ledger identifies templates, source caveats and intentional deviations. No invented missing product/maintenance/review proof.
+- SITE-02: Original Step cutout leads and lifts/rolls on product cards; larger screen is secondary configuration. Express gallery excludes the blurry Range Rover image4 while retaining other liked images. Pay on foot, Why Choose professional images, useful systems/About content, Reviews + Google reviews inline, four desktop cards and reduced section padding implemented. Dark default/menu design/support photograph preserved.
+- SITE-03: All remaining company/product/service/integration/project/article/contact/FAQ/legal/newsletter pages use captured client content, correct local links, descriptive genuine local images, metadata/schema/noindex and existing truthful form behaviour. No fake delivery, price, warranty, review or hardware specification.
+- SITE-04: Exact final SHA/tree/diff and PR/preview readbacks; all route/assets/IDs/anchors/content/schema/build/auth/gallery checks recorded as actual self-checks. Two-pass review cap retained; existing evidence stale on changed scope, no additional reviewer. Browser/mobile/font-loaded wrapping remains unverified without actual supported evidence; no Done/owner release claim.
+
+
+## Full-site evidence state
+
+SITE-01..03 implemented and owner self-checked against captured 52-route inventory; every live sitemap route is included. SITE-02's original menu design is retained with local destinations. Four reviews remain labelled samples, not newly asserted testimonials. No missing product specifications are invented. All original asset blobs are preserved.
+
+SITE-04 source/build/auth evidence will be bound to the final candidate identity in the owner manifest. Independent evidence for changed pages, navigation, gallery, spacing, photography and wrapping is stale; runtime/visual/mobile checks are BLOCKED/unverified. The prior two-pass ledger remains exhausted. No Ready/Done or launch acceptance is claimed.

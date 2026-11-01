@@ -1,5 +1,5 @@
 (()=>{
- const root=document.body.classList.contains('style-guide')?'../':'';
+ const root='/';
  document.querySelectorAll('.country-picker').forEach((picker)=>{
   const data=JSON.parse(picker.dataset.countries),native=picker.querySelector('select'),trigger=picker.querySelector('.country-trigger'),panel=picker.querySelector('.country-panel'),search=picker.querySelector('.country-search'),list=picker.querySelector('.country-options'),empty=picker.querySelector('.country-empty');
   let selected='au';

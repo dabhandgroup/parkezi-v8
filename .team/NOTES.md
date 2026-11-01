@@ -27,3 +27,15 @@ Pass 2 completed BLOCKED against 20e70d4: matching preview redirected to Vercel 
 
 Seven HTML pages passed assets/IDs/noindex, five-product taxonomy and menu-design parity with only Step & Pay destination changes. Express Pay gallery 5 slides and Step & Pay gallery 2 slides match thumbnails/captions/zoom. New Step page anchors/schema/copy checks pass. All approved homepage support/platform/case-study/projects/enquiry sections and all source/derived assets are unchanged. Node24 build and 13/13 tests pass, with the same-cookie adapter test extended to Step & Pay and white home. Exact source-check JSON is in scratch/step-pay-option-checks.json. Hosted UI/mobile wrapping remains unverified; no independent pass remains.
 
+## Source capture and expanded scope
+
+52/52 source HTML pages captured (11 Firecrawl,41 direct public HTTP after credits exhausted). All45 live sitemap routes included. Raw snapshots in scratch, metadata/text under content/source-site. Source maintenance placeholder, Selea/pricing mismatch, thin Info Board details and generic testimonial copy require cautious curation, not copying as proof. No Playwright, new account setup or credit purchase. Existing completed two-pass review remains historical/blocked and cannot cover this expanded work.
+
+
+## Full-site implementation self-checks, 1 November 2026
+
+52 captured source routes now map to local HTML pages, including all 45 sitemap entries. There are 58 HTML files including retained alternatives and root product aliases. New pages reuse the approved HTML nav/footer, larger enquiry form and gallery components, with curated content and genuine supplied photography. No framework/dependency migration. All 114 original asset blobs remain unchanged. The old Step and Go typo, stale uptime/accuracy promises and wrong first-person supplier copy are corrected without inventing specifications. Source captures and caveats are retained.
+
+Harry's refinements are implemented: original Step cutout leads the gallery and lifts in the catalogue; 34-inch remains secondary; Express gallery is four images without the blurry Range Rover; Pay on foot is clearer; Why photos are professional; the seamless diagram is replaced by system choices/useful About content; Reviews heading and Google label are corrected; four large-screen sample cards and tighter section spacing. The praised support photo and approved menu design remain. Navigation destinations now point to local redesigned pages, so historical byte-identical-header claims are superseded for links, not appearance.
+
+Build and 13 auth/adapter tests pass, including all 52 routes with/without trailing slashes and persistent session after rebuild. Static route/reference/schema/IDs/menu/gallery checks are self-checks only. Actual hover, swipe, loaded-font wrapping at 320/390, tablet/mobile layout and contact journeys are unverified. Passes remain 2/2, latest independent report on 20e70d4 BLOCKED by Vercel SSO and stale for changed scope. No third pass, new builder, duplicate issue, main merge or production release.

@@ -1,0 +1,42 @@
+[
+  {
+    "route": "/services/maintenance/",
+    "sourceProblem": "Source contains Need some text here placeholder.",
+    "treatment": "Use published pricing/installation support and preventative-maintenance facts; no invented contract/SLA."
+  },
+  {
+    "route": "/integrations/selea/",
+    "sourceProblem": "Current source shows Purchase Plans/rent-to-own, unrelated to Selea.",
+    "treatment": "Compatibility enquiry page based on published flexible-hardware architecture, no blanket Selea support guarantee."
+  },
+  {
+    "route": "/products/info-board/",
+    "sourceProblem": "Thin generic copy and an Express Pay image; product specifications not established.",
+    "treatment": "Purposeful information-display enquiry page, no unsupported specifications or substitution of the 34-inch Step option."
+  },
+  {
+    "route": "/testimonials/",
+    "sourceProblem": "Generic named testimonial examples are unverified; earlier approved sample policy applies.",
+    "treatment": "Retain clearly labelled sample review cards and official Google profile link, do not promote source examples to verified proof."
+  },
+  {
+    "route": "/success/newsletter/",
+    "sourceProblem": "Source success message would imply actual subscription delivery, unconnected in this preview.",
+    "treatment": "Informational PARKEZI updates page with legitimate contact/LinkedIn actions; no false subscribed confirmation."
+  },
+  {
+    "route": "/services/",
+    "sourceProblem": "Source templates repeat conflicting 99.8/99.9 accuracy, warranty and installation-count claims.",
+    "treatment": "Do not introduce new numeric proof panels from shared boilerplate; use supported operational descriptions."
+  },
+  {
+    "route": "/post/",
+    "sourceProblem": "Legacy article illustrations include conceptual/generated-looking equipment and dashboards.",
+    "treatment": "Use genuine supplied exhibition/people/equipment photos as editorial imagery, not claimed client installations or real software/revenue screenshots."
+  },
+  {
+    "route": "/post/ and /faqs/",
+    "sourceProblem": "Two legacy articles use Smart Parking Solutions first-person copy and unverified 99.8% accuracy; an old FAQ states 99.98% uptime and names Step and Go.",
+    "treatment": "Adapt the maintenance/contact voice to PARKEZI, use site-specific ANPR hardware guidance without an accuracy promise, confirm backup configuration with the team and correct Step & Pay naming. Original captures retained."
+  }
+]
