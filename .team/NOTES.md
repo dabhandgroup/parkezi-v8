@@ -15,3 +15,7 @@ Builder /root: source recovered, baseline captured, authenticated GitHub clone/f
 - Builder browser checks not performed: current harness policy prohibits preview tools for checking the builder's own edit. Independent reviewer must gather its own actual supported-browser evidence; no static test is represented as visual acceptance. Existing Vercel main URL does not prove this task branch.
 - Current amendment files and product copy contain no newly authored em dashes or decorative eyebrow labels. Actual font-loaded heading wrapping remains a browser requirement, not a source-only PASS.
 
+## Superseding correction
+
+Menu photo/six-product-menu claims above describe the previous candidate and are superseded. Original five-product/icon About menus are restored exactly across six pages, including preserved white alternative. Only page catalogues keep the 34-inch display and supplied Step & Pay updates. Index and home-v2 are now the same matching dark homepage. The support photo remains the exact previously praised derivative. Prior review evidence for 5c667bf is stale for affected areas; preserve pass 1 and recheck the final revision once.
+

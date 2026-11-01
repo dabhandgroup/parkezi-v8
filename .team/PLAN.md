@@ -17,3 +17,11 @@
 5. Freeze exact code SHA/tree, open/link PR from issue branch, and obtain one selected-model independent pass (maximum two total). Browser evidence absent means BLOCKED, not PASS.
 6. Keep DAB-47 In Progress and local/mapped logs accurate; owner approval/merge/release remain open.
 
+## Corrected plan
+
+1. Restore original headers/menus from origin/main on every existing page.
+2. Make matching dark home-v2 content the index; retain white alternative at home-white.html and document routes.
+3. Preserve the liked support image, professional page/gallery photos and supplied catalogue artwork. Remove photography-only menu CSS.
+4. Check exact baseline menu parity, dark/white routes, assets/IDs/noindex and gallery regressions, then push the same draft PR.
+5. Cancel the stale pass-1 candidate, preserve the ledger and use at most the one remaining independent pass against the corrected final revision.
+

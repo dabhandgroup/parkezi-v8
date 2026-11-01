@@ -22,3 +22,10 @@ Builder: GPT owning Parkezi session. Independent reviewer: selected Grok 4.6 thr
 
 Selected review cycle key: `DAB-47:professional-photos-2026-11-01`, maxPasses 2, separate from historical completed setup reviews. Root ledger/report path: `/Users/harrylang/Documents/Clients/Parkezi/website-v8/.team/reviews/`.
 
+## ACTIVE corrected criteria - supersede conflicting PHOTO-01/02/04 wording above
+
+- PHOTO-C01: Headers/menus on all six current pages are byte-identical to each corresponding origin/main source (home-white uses original index header). Original five products and icon About cards remain; photography CSS does not alter menus. Dark homepage uses original dark menu styling.
+- PHOTO-C02: Index is the matching dark homepage, identical to home-v2.html. White alternative remains at home-white.html, routes documented, no redirects/gate/noindex change. Keep the installation/support image Harry praised, professional page-section photos, five-image Express Pay gallery and product catalogue updates.
+- PHOTO-C03: Original client assets remain unchanged. Node 24 build, 13 existing tests, all six pages local assets/unique IDs/noindex, gallery parity and exact original-header comparisons pass. New authored copy follows guardrails.
+- PHOTO-C04: Independent final revision checks desktop/tablet/mobile original menus, dark default, support photo crop, catalogue, gallery arrows/keyboard/swipe/lightbox and new/affected 320/390 heading wrapping. Actual unavailable browser/access checks are BLOCKED. Pass 1 is superseded/cancellation requested; only pass 2 remains within this outcome cap. Keep PR draft and no unverified Done or production acceptance.
+

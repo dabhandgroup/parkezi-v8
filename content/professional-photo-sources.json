@@ -14,7 +14,8 @@
         1600,
         1280
       ],
-      "use": "Company and support photo"
+      "use": "Company and support photo",
+      "active": true
     },
     {
       "source": "PARKEZI-NV-11.jpg",
@@ -26,7 +27,8 @@
         1100,
         1375
       ],
-      "use": "About Us navigation"
+      "use": "Prepared derivative, not active after Harry restored original menus",
+      "active": false
     },
     {
       "source": "PARKEZI-NV-09.jpg",
@@ -38,7 +40,8 @@
         1100,
         1375
       ],
-      "use": "Installation navigation"
+      "use": "Prepared derivative, not active after Harry restored original menus",
+      "active": false
     },
     {
       "source": "PARKEZI-NV-06.jpg",
@@ -50,7 +53,8 @@
         1100,
         1375
       ],
-      "use": "Express Pay gallery"
+      "use": "Express Pay gallery",
+      "active": true
     },
     {
       "source": "PARKEZI-NV-02.jpg",
@@ -62,7 +66,8 @@
         1100,
         1375
       ],
-      "use": "Homepage camera/benefits photo"
+      "use": "Homepage camera/benefits photo",
+      "active": true
     },
     {
       "source": "attachment-1.png",
@@ -74,7 +79,8 @@
         1100,
         1650
       ],
-      "use": "34-inch display catalogue artwork"
+      "use": "34-inch display catalogue artwork",
+      "active": true
     },
     {
       "source": "attachment-2.png",
@@ -86,7 +92,9 @@
         1100,
         1650
       ],
-      "use": "Updated Step & Pay catalogue and on-foot payment artwork"
+      "use": "Updated Step & Pay page catalogue and on-foot payment artwork",
+      "active": true
     }
-  ]
+  ],
+  "correctionEvent": "parkezi:2026-11-01:restore-menus-dark-home:v1"
 }
