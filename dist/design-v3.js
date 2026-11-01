@@ -9,7 +9,7 @@
  });
  const gallery=q('#productGallery');
  if(gallery){
-  const slides=qa('.gallery-slide',gallery),thumbs=qa('[data-gallery-thumb]'),labels=['Express Pay · full unit','Contactless payment','Vehicle exit','Installed at a car park'];let current=0,raf;
+  const slides=qa('.gallery-slide',gallery),thumbs=qa('[data-gallery-thumb]'),labels=slides.map(slide=>q('img',slide).alt);let current=0,raf;
   function update(){current=Math.max(0,Math.min(slides.length-1,Math.round(gallery.scrollLeft/gallery.clientWidth)));thumbs.forEach((b,i)=>b.setAttribute('aria-pressed',String(i===current)));q('#galleryCaption').textContent=labels[current];}
   function go(index){gallery.scrollTo({left:((index+slides.length)%slides.length)*gallery.clientWidth,behavior:reduced()?'instant':'smooth'});}
   thumbs.forEach((b,i)=>b.addEventListener('click',()=>go(i)));

@@ -1,0 +1,78 @@
+/* Client-supplied photography and product artwork, November 2026. */
+.header-v4 #mega-about .about-menu-photo {
+  width: 72px;
+  height: 72px;
+  flex: 0 0 72px;
+  object-fit: cover;
+  object-position: center 35%;
+  border-radius: 8px;
+}
+.support-v8 .support-photo img[src*="parkezi-team-exhibition"] {
+  object-position: 50% 50%;
+}
+.product-card-display {
+  display: block;
+  color: inherit;
+  text-decoration: none;
+}
+#products .product-card h3 {
+  white-space: normal;
+}
+#products .product-card p {
+  max-width: none;
+}
+.product-image.product-studio,
+.header-v4 .mega-product-image.product-studio,
+.payment-method-art.product-studio {
+  background: #050607;
+  border-radius: 10px;
+  overflow: hidden;
+  padding: 0;
+}
+.product-image.product-studio img,
+.header-v4 .mega-product-image.product-studio img,
+.payment-method-art.product-studio img {
+  width: 100%;
+  height: 100%;
+  max-width: 100%;
+  object-fit: contain;
+  filter: none;
+  transform: none !important;
+}
+.gallery-thumbs {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+}
+.gallery-thumbs .gallery-thumb {
+  width: 100%;
+  min-width: 0;
+  max-width: 100%;
+  height: auto;
+  aspect-ratio: 1;
+}
+@media (min-width: 1101px) {
+  #products .product-grid,
+  .header-v4 .mega-products {
+    grid-template-columns: repeat(6, minmax(0, 1fr));
+  }
+}
+@media (min-width: 701px) and (max-width: 1100px) {
+  #products .product-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+@media (min-width: 481px) and (max-width: 700px) {
+  #products .product-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+@media (max-width: 480px) {
+  #products .product-grid {
+    grid-template-columns: minmax(0, 1fr);
+  }
+  .header-v4 #mega-about .about-menu-photo {
+    width: 56px;
+    height: 56px;
+    flex-basis: 56px;
+  }
+}
