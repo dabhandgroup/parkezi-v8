@@ -49,3 +49,9 @@ Selected review cycle key: `DAB-47:professional-photos-2026-11-01`, maxPasses 2,
 SITE-01..03 implemented and owner self-checked against captured 52-route inventory; every live sitemap route is included. SITE-02's original menu design is retained with local destinations. Four reviews remain labelled samples, not newly asserted testimonials. No missing product specifications are invented. All original asset blobs are preserved.
 
 SITE-04 source/build/auth evidence will be bound to the final candidate identity in the owner manifest. Independent evidence for changed pages, navigation, gallery, spacing, photography and wrapping is stale; runtime/visual/mobile checks are BLOCKED/unverified. The prior two-pass ledger remains exhausted. No Ready/Done or launch acceptance is claimed.
+
+## Active navigation criteria - 2 November 2026
+
+- NAV-01: Transparent homepage top remains; the scrolled homepage and inner pages use the same black header, white logo/controls and dark dropdown palette. Preserve menu items/destinations and approved page content.
+- NAV-02: Observe actual local desktop hover/keyboard/Escape and mobile menu open/close/accordion/link/overflow/scroll behaviour at 320/390 and tablet widths. Label resized Chromium separately from native mobile browsers. Record native Safari/Chrome and hosted-access blockers without taking over other sessions or bypassing protection.
+- NAV-03: Existing build, auth/adapter, route/asset/metadata checks pass. Exact final SHA/tree, CSS hash, same draft PR and preview receipt recorded. Preserve the exhausted 2/2 review ledger and disclose stale navigation evidence. No Done, merge or production release inferred.

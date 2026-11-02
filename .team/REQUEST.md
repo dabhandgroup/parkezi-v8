@@ -18,3 +18,6 @@ Event parkezi:2026-11-01:34inch-step-pay-option:v1, explicit Brain request from 
 
 Event parkezi:2026-11-01:full-site-redesign-and-refinements:v1. Harry authorised all current PARKEZI pages redesigned from their live content, plus original Step cutout/lift/lead, secondary screen options, no blurry Express image4, improved Pay on foot and Why Choose photos, useful systems/About content, four desktop reviews with corrected headings and tighter padding. Same branch/PR/DAB-47, no new builder or production release. Source map52 pages and all45 sitemap routes captured. Preserve earlier corrections and approved photo/support/menu/dark design.
 
+## Current navigation correction - 2 November 2026
+
+Event `parkezi:2026-11-02:consistent-dark-navigation:v1`. Harry wants one consistent navigation treatment across the site and a mobile check. Keep the transparent dark desktop homepage top, use a solid black header on scroll and inner pages, and the same dark dropdown/mobile palette everywhere. Preserve menu groups/items/layout and all approved content. GPT owns implementation/self-checks on the same DAB-47 branch/PR. No production release or additional review cycle authorised.

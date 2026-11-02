@@ -52,3 +52,10 @@
 - [x] Run Node24 build, 13 auth/adapter tests and static reference/gallery/taxonomy checks.
 - [ ] Record final commit/tree, same draft PR and automatic preview receipts in owner logs/Linear.
 - [ ] Actual browser/mobile/wrapping review and Harry acceptance remain unverified. Two-pass cap is exhausted; no replacement review is authorised.
+
+## Navigation correction checklist - 2 November 2026
+
+- [x] Apply the existing dark homepage palette through the shared header stylesheet, leaving the top-of-home transparency and all menu content intact.
+- [x] Exercise local desktop 1280/1024 and responsive 320/390/768 Chromium navigation, contrast, keyboard and links. Actual iPhone Safari blocked by DEVICE_IN_USE after one bounded retry; iPad and Android Chrome unavailable. Hosted check blocked by Vercel SSO.
+- [ ] Record final build/tests/source identity and update the same draft PR/preview.
+- [ ] Emit the concise owner checkpoint for routine Grok log maintenance; disclose pending mirror until actual readback.
