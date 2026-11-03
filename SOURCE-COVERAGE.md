@@ -57,3 +57,7 @@ Both Step & Pay models are grouped in the homepage hero and the single Step & Pa
 Two genuine Quest Apartments hardware photographs from the original site now appear on all six product routes with accurate installation captions. They show general PARKEZI payment/access hardware, without claiming to depict the illustrated larger model. Source/derivative hashes are in `content/additional-product-photos.json`.
 
 Owner build/source/fixture checks are separate from actual rendered verification. Supported Chrome access failed, device controls are unavailable and the cloud browser prompt could not start because credits were insufficient. Current dropdown/hover/mobile/font-loaded checks are BLOCKED. Independent review remains at two consumed passes; no replacement was launched.
+
+## System hero self-check - 3 November 2026
+
+Only the three identified system pages receive the new hero/form layout. scripts/build-pages.mjs moves the existing form into the hero, retaining custom country/attachments/submit behaviour and unique IDs; optional address is no longer required. Footer retains contact/address/hours and adds a lazy head-office map with a return-to-form link. dist/system-enquiry.js provides scoped validation; other product/home HTML is byte-identical to3530b81. No Basin or provider changes. Cloud/Chrome access failures from the same session remain unresolved; no repeated paid browser prompt or third reviewer was started. These source/fixture checks cannot prove actual fold placement or current responsive appearance.

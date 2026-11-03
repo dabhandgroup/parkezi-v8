@@ -29,3 +29,7 @@ Event `parkezi:2026-11-03:product-models-sections-content-audit:v1`. Harry reque
 ## 3 November 2026 - final model UI and image correction
 
 Event `parkezi:2026-11-03:custom-selector-generated-unit:v1`. Direct Harry request, exact message timestamp unavailable. Use a custom elegant dropdown rather than system UI. Generate a transparent wider-screen Step & Pay cutout with ChatGPT matching the standard image format. Keep both as one product family and lift both together when hovering either on the homepage. Add real original-site equipment photographs, without inventing larger-model installation evidence. Preserve the standard first image, approved dark home/menu/support, existing assets and same PR. Continue the already authorised share-host deployment. No confirmed numeric model dimension.
+
+## System hero and early enquiry - 3 November 2026
+
+Event `parkezi:2026-11-03:system-hero-early-enquiry:v1`. Harry says the One-Way/Two-Way service heroes feel sparse and requests more useful information, the original image and a form higher up, ideally in the first desktop screen. Apply a matching layout to the third system page, Paid Parking. Same DAB-47/branch/PR and ongoing authorised V8 share-host updates. No product-page redesign or new form-delivery endpoint inferred.

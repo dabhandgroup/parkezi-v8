@@ -76,3 +76,12 @@
 - [x] Retain standard first image, one Step family, dark default, original menus, support and source content; refresh owner source/fixture checks.
 - [ ] Freeze/push same PR, update authorised share host and bind final deployment/source receipts.
 - [ ] Record critical release logs and exact evidence. Actual final browser/mobile checks remain BLOCKED; existing review cap stays 2/2.
+
+## System hero implementation - 3 November 2026
+
+- [x] Reuse source-backed system benefits and original photographs, with a compact enquiry card beside the desktop hero.
+- [x] Move the single existing enquiry form into each hero; core fields visible, optional address/files expandable, custom country UI and attachments retained. Mobile order is information, form, image.
+- [x] Preserve current unavailable-delivery dialog and visible phone/email fallback. Add scoped name/phone/email validation, AU formatting, inline feedback and16px field floor.
+- [x] Node24 build,18 owner tests,58-page static/52-route source audit; original114 assets and approved product/home HTML unchanged.
+- [ ] Freeze/push same PR and deploy authorised share host, record source/alias readback and critical logs.
+- [ ] Actual desktop fold, responsive overflow, field focus/autofill, keyboard and font-loaded wrap checks remain BLOCKED by known unsupported browser access. Review cap2/2 unchanged.

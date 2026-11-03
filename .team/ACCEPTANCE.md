@@ -70,3 +70,10 @@ SITE-04 source/build/auth evidence will be bound to the final candidate identity
 - MODEL-02: Selected ChatGPT-generated larger-screen cutout has real alpha, preserved full PNG and lossless website derivative with prompts/reference/hashes. Original assets remain unchanged. One Step & Pay family contains both units, whose shared wrapper lifts together; reduced-motion fallback remains.
 - MODEL-03: All six product routes contain accurately captioned real original Quest hardware photos and SolarGate, support, dashboard and source FAQs. Original system/menu photographs are preserved.
 - MODEL-04: Build, 15 owner tests, local route/assets/schema checks and refreshed 52-route content comparison bound to final source. Actual rendered dropdown/hover/mobile/font wrapping remains BLOCKED by unavailable Chrome/device controls and cloud credit failure. Two-pass independent cap preserved. Share-host publication does not imply full acceptance or Done.
+
+## Active system hero criteria
+
+- HERO-01: Paid Parking, Two-Way and One-Way first section includes accurate system lead/benefits, the original system photo and one labelled enquiry form. Desktop uses two columns; narrow layout places form before image. Actual first-screen placement requires rendered evidence.
+- HERO-02: Exactly one enquiryForm/country/attachment ID set per page; all existing #enquire links reach the hero. Core first/last/email/phone/message fields visible; optional address/files expand without hidden required-field traps. Custom dropdown only, readable16px controls, autofill/focus and zoom preserved.
+- HERO-03: Digit-free name input, numeric phone input with AU formatting, email/phone validation and in-field tick/error feedback. No new endpoint, real submission or false delivery claim; visible phone/email fallback. Product/home content and original assets unchanged.
+- HERO-04: Final SHA/tree and V8 host/readback, appropriate source/fixture checks, existing2/2 ledger and stale affected hero/form evidence disclosed. Rendered/keyboard/mobile/fold checks BLOCKED until actual supported browser access; no Ready/Done acceptance inferred.

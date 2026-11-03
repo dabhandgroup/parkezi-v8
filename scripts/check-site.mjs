@@ -48,6 +48,20 @@ for(const file of files.filter(f=>f.endsWith('.css'))){
  }
 }
 for(const entry of coverage.entries)assert.ok(documents.has(path.resolve(entry.file)),entry.file);
+for(const route of ['paid-parking','two-way','one-way']){
+ const html=documents.get(path.join(root,`services/${route}/index.html`));
+ assert.match(html,/class="system-hero wrap"/);
+ assert.equal((html.match(/id="enquiryForm"/g)||[]).length,1,`${route}: one form only`);
+ const hero=html.slice(html.indexOf('class="system-hero wrap"'),html.indexOf('</section>',html.indexOf('class="system-hero wrap"')));
+ assert.match(hero,/data-system-enquiry/);assert.match(hero,/id="enquire"/);
+ assert.match(hero,/class="system-hero-highlights"/);
+ assert.match(hero,/class="system-hero-media"/);
+ assert.match(hero,/Online enquiries are currently unavailable/);
+ assert.match(hero,/class="system-form-details"/);
+ assert.ok(!/<input[^>]*name="address"[^>]*\srequired/.test(hero),`${route}: optional collapsed address cannot block validation`);
+ assert.match(html,/<script type="module" src="\/system-enquiry.js"><\/script>/);
+ assert.equal((html.match(/class="country-picker|class="phone-input country-picker/g)||[]).length,1,`${route}: one custom country picker`);
+}
 assert.equal(await readFile('dist/index.html','utf8'),await readFile('dist/home-v2.html','utf8'),'dark home alias');
 for(const name of ['express-pay.html','step-pay.html']){
  const html=documents.get(path.join(root,name));const gallery=html.slice(html.indexOf('id="productGallery"')-200,html.indexOf('class="pdp-summary"'));

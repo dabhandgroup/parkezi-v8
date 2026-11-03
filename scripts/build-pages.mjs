@@ -58,6 +58,38 @@ const systemInfo={
  'services/two-way':{title:'Control entry and exit',text:'Manage authorised vehicles in both directions. PARKEZI Two-Way supports controlled access at gated communities, office complexes and other sites where entry and exit need to be managed.',items:['Number plate recognition for authorised vehicles','Access rules for residents, staff and visitors','Control security gates, boom gates and garage doors','Live occupancy and vehicle counts','Cloud management and reporting'],fit:'Office complexes, residential buildings and industrial sites',related:'scan-and-go'},
  'services/one-way':{title:'A simpler access setup',text:'A straightforward system focused on entry access control. Use number plate recognition to manage authorised vehicle entry, with a setup matched to how your site operates.',items:['ANPR entry for registered vehicles','Site-specific access rules','Induction-loop opening on exit','Cloud-based access management'],fit:'Small businesses, caravan parks and visitor parking',related:'scan-and-go-mini'}
 };
+function systemEnquiry(p) {
+  let form = /<form\b[^>]*id="enquiryForm"[\s\S]*?<\/form>/.exec(enquiry)?.[0];
+  if (!form) throw new Error('Missing approved enquiry form');
+  const address = /<label\b[^>]*>\s*Address\s*\*[\s\S]*?<\/label>/i.exec(form)?.[0];
+  const attachments = /<div class="attachment-field">[\s\S]*?(?=<div class="form-bottom">)/.exec(form)?.[0];
+  if (!address || !attachments) throw new Error('Missing optional enquiry details');
+  form = form.replace('id="enquiryForm"',`id="enquiryForm" data-system-enquiry data-system="${esc(p.title)}" aria-labelledby="systemEnquiryTitle"`)
+    .replace('<div class="form-fields">',`<input type="hidden" name="system" value="${esc(p.title)}"><div class="form-fields">`)
+    .replace(address,'')
+    .replace(attachments,`<details class="system-form-details"><summary>Add site details or files ${icon('plus')}</summary><div class="system-form-extras"><div class="form-fields">${address.replace(/Address\s*\*/,'Site address (optional)').replace(/\srequired(?:="")?/,'')}</div>${attachments}</div></details>`)
+    .replace('placeholder="First name"','placeholder="James"')
+    .replace('placeholder="Last name"','placeholder="Bond"')
+    .replace('placeholder="Email address"','placeholder="jamesbond@email.com"')
+    .replace('placeholder="Phone number"','placeholder="0412 345 678" inputmode="tel" pattern="[0-9 ]{7,22}"')
+    .replace('rows="4"','rows="2"')
+    .replace('Tell us about your site or what you need','Site location, spaces and access needs')
+    .replace('By submitting this form, you accept Parkezi’s','Please read our')
+    .replace('<div class="form-bottom">','<div class="form-bottom"><p class="system-form-availability">Online enquiries are currently unavailable. <a href="tel:1300309998">Call us</a> or <a href="mailto:info@parkezi.com.au">email our team</a>.</p>');
+  return `<div class="system-enquiry-card" id="enquire"><h2 id="systemEnquiryTitle">Discuss your site</h2><p class="system-form-intro">Tell us what your car park needs.</p>${form}</div>`;
+}
+function systemHero(p,s) {
+  const highlights = {
+    'services/paid-parking':['Ticketless visitor payments','Access for staff and registered vehicles','Site-specific tariffs and free-parking periods'],
+    'services/two-way':['ANPR entry and exit for authorised vehicles','Access rules for residents, staff and visitors','Live occupancy and vehicle counts'],
+    'services/one-way':['Number plate recognition on entry','Site-specific vehicle access rules','Induction-loop opening on exit']
+  }[p.sourcePath];
+  return `<section class="system-hero wrap" id="home"><div class="system-hero-copy">${crumb(p)}<h1>${esc(p.title)}</h1><p class="hero-lead">${esc(p.lead)}</p><ul class="system-hero-highlights">${highlights.map(t=>`<li>${icon('check')}<span>${esc(t)}</span></li>`).join('')}</ul><p class="system-hero-fit"><strong>Suited to</strong> ${esc(s.fit)}.</p></div>${systemEnquiry(p)}<figure class="system-hero-media"><img src="/${p.image}" alt="${esc(p.imageAlt||p.title)}" fetchpriority="high" decoding="async"><figcaption>Explore the setup for your site. <a href="/systems/">Compare systems ${icon('arrow')}</a></figcaption></figure></section>`;
+}
+function systemContact() {
+  const form = /<form\b[^>]*id="enquiryForm"[\s\S]*?<\/form>/.exec(enquiry)?.[0];
+  return enquiry.replace('id="enquire"','id="contact-details"').replace('contact-v7"','contact-v7 system-contact-summary"').replace(form,`<div class="system-office-map"><iframe title="PARKEZI head office at Barangaroo, Sydney" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" src="https://www.google.com/maps?q=Three%20International%20Towers%2C%20300%20Barangaroo%20Ave%2C%20Barangaroo%20NSW%202000&amp;output=embed"></iframe><a class="button button-outline" href="#enquire">Discuss your site ${icon('arrow')}</a></div>`);
+}
 const hardware={
  'products/scan-and-go':{subtitle:'Number plate access control',images:[['scan-go.webp','Scan & Go access control unit',true],['parkezi-anpr-unit-detail.webp','PARKEZI ANPR equipment at an industry exhibition',false]],highlights:['Self-contained access control unit','ANPR identification of whitelisted vehicles','Entry or exit access control'],body:'<h2>Recognise authorised vehicles</h2><p>Scan & Go is a self-contained system for entry or exit access control. Its ANPR camera identifies whitelisted vehicles so access can be managed around the users and rules at your site.</p><h2>Connected access</h2><p>Use PARKEZI to manage vehicle permissions and access rules. Talk to the team about camera positioning, your existing barriers and the configuration your site needs.</p>'},
  'products/scan-and-go-mini':{subtitle:'Access control for tighter spaces',images:[['scan-go-mini.webp','Scan & Go Mini camera and controller',true],['mini-camera.webp','Scan & Go Mini camera',true],['mini-controller.webp','Scan & Go Mini controller',true]],highlights:['Compact ANPR access control','Separate camera and control components','Suitable for limited-space locations'],body:'<h2>A compact configuration</h2><p>Scan & Go Mini offers the benefits of Scan & Go in a configuration suited to limited-space areas. Its compact components let you plan camera and controller placement around the entrance.</p><h2>Plan the placement</h2><p>Speak to PARKEZI about the available mounting space, existing equipment and access rules. The team can help assess the configuration for your site.</p>'},
@@ -78,7 +110,7 @@ async function content(p) {
     case 'systems': return hero(p)+systemCards.replace('id="systems"','id="system-options"')+comparison;
     case 'service': {
       const s=systemInfo[p.sourcePath];
-      return hero(p)+(s?`<section class="section wrap"><div class="editorial-split"><h2>${s.title}</h2><div class="editorial-copy"><p>${s.text}</p><ul>${s.items.map(t=>`<li>${t}</li>`).join('')}</ul><p><strong>Suitable sites:</strong> ${s.fit}.</p><a class="text-link" href="/products/${s.related}/">Explore the hardware ${icon('arrow')}</a></div></div></section><section class="section tinted-section"><div class="wrap editorial-split"><h2>Configure your system</h2><div class="editorial-copy"><p>Your traffic flow, users, access rules and existing hardware help determine the setup. PARKEZI can assess the site and configure the software around your requirements.</p><a class="text-link" href="/systems/">Compare system features ${icon('arrow')}</a></div></div></section>`:splitSections(p.bodyHtml))+(p.sourcePath==='services/integrations'?`<section class="section wrap"><div class="section-header"><h2>Integration options</h2></div>${cards(pages.filter(q=>q.kind==='integration'),'Explore integration')}</section>`:'');
+      return (s?systemHero(p,s):hero(p))+(s?`<section class="section wrap"><div class="editorial-split"><h2>${s.title}</h2><div class="editorial-copy"><p>${s.text}</p><ul>${s.items.map(t=>`<li>${t}</li>`).join('')}</ul><p><strong>Suitable sites:</strong> ${s.fit}.</p><a class="text-link" href="/products/${s.related}/">Explore the hardware ${icon('arrow')}</a></div></div></section><section class="section tinted-section"><div class="wrap editorial-split"><h2>Configure your system</h2><div class="editorial-copy"><p>Your traffic flow, users, access rules and existing hardware help determine the setup. PARKEZI can assess the site and configure the software around your requirements.</p><a class="text-link" href="/systems/">Compare system features ${icon('arrow')}</a></div></div></section>`:splitSections(p.bodyHtml))+(p.sourcePath==='services/integrations'?`<section class="section wrap"><div class="section-header"><h2>Integration options</h2></div>${cards(pages.filter(q=>q.kind==='integration'),'Explore integration')}</section>`:'');
     }
     case 'our-work': return hero(p,{noImage:true})+`<section class="section wrap">${cards(pages.filter(q=>q.kind==='project'),'View project')}</section>`;
     case 'blog': return hero(p,{noImage:true})+`<section class="section wrap">${cards(pages.filter(q=>q.kind==='article').sort((a,b)=>new Date(b.date)-new Date(a.date)),'Read article')}</section>`;
@@ -110,6 +142,7 @@ function absolute(html) {
 function document(p,main){
   let prefix=base.slice(0,base.indexOf('<main'));
   let suffix=base.slice(base.indexOf('</main>')+7);
+  if(systemInfo[p.sourcePath]) suffix=suffix.replace('</body>','<script type="module" src="/system-enquiry.js"></script></body>');
   prefix=prefix.replace(/<title>[\s\S]*?<\/title>/,`<title>${esc(p.metaTitle||p.title+' | PARKEZI')}</title>`)
     .replace(/<meta name="description" content="[^"]*">/,`<meta name="description" content="${esc(p.description||p.lead)}">`)
     .replace(/<link rel="preload"[^>]*as="image"[^>]*>/g,'')
@@ -122,7 +155,7 @@ function document(p,main){
   if(p.kind==='product')schema.brand={"@type":"Brand",name:"PARKEZI"};
   const structured=p.sourcePath.startsWith('products/') ? {'@context':'https://schema.org','@graph':[schema, {'@type':'FAQPage',mainEntity:productQuestions(p).map(q=>({'@type':'Question',name:q.question,acceptedAnswer:{'@type':'Answer',text:q.paragraphs.join(' ')}}))}]} : schema;
   prefix=prefix.replace('</head>',`<script type="application/ld+json">${JSON.stringify(structured).replace(/</g,'\\u003c')}</script></head>`);
-  return absolute(`${prefix}<main id="main">${main}${enquiry}</main>${suffix}`);
+  return absolute(`${prefix}<main id="main">${main}${systemInfo[p.sourcePath]?systemContact():enquiry}</main>${suffix}`);
 }
 let generated=0;
 for(const p of pages){
