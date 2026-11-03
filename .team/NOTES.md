@@ -55,3 +55,17 @@ Both supplied model images already have alpha; only studio CSS classes changed, 
 52-route owner source audit includes searchable before/after text,854 curated p/li units and no unmatched preserved rich-body paragraphs. Reworded content/source defects are explicitly documented; no browser/runtime/semantic completeness claim. Original menu/system photographs replace people in the three system heroes. Pricing partner/site works/training, About temporary payments and system loop/occupancy/barrier/revenue facts restored. All114 original asset blobs unchanged.
 
 Current supported device/preview tools are absent and separate Chrome host unavailable. No Safari/Chrome simulator, cloud-rendered selector, actual mobile wraps/computed fields or production journey pass can be claimed. Existing independent review remains2/2 exhausted; affected prior evidence stale. Baseline named share host was deployed at63dNja/source dbb3382 before the added amendments; the current source must receive a new frozen identity/deployment.
+
+## 3 November 2026 - custom selector and generated wider-screen unit
+
+Event `parkezi:2026-11-03:custom-selector-generated-unit:v1` supersedes the earlier reuse-only image approach above. Harry explicitly requested a ChatGPT-generated transparent cutout, a custom dropdown and grouped homepage movement.
+
+The Standard/Larger screen selector now uses an animated custom listbox with thumbnails, keyboard navigation, selection, Escape/outside dismissal and gallery synchronisation. No native model select popup remains. Screen dimensions are still unconfirmed.
+
+Built-in ChatGPT image_gen created `artwork/step-pay-wide-generated.png` from the original standard and supplied larger-screen references. A targeted second image edit corrected the vertical PARKEZI wordmark. The selected 1024x1536 RGBA PNG has real transparent pixels; the website uses a lossless WebP derivative. Full prompts, reference paths and SHA256 evidence are in `content/generated-step-pay.json`. It is an expressly requested product illustration, not a real installation photo or confirmed hardware specification. All supplied/original source assets remain preserved.
+
+Both Step & Pay models are grouped in the homepage hero and the single Step & Pay catalogue card. Hover/focus moves their wrapper together; reduced-motion preferences remove this movement. They remain one product family, with the standard model first in the product gallery.
+
+Two genuine Quest Apartments hardware photographs from the original site now appear on all six product routes with accurate installation captions. They show general PARKEZI payment/access hardware, without claiming to depict the illustrated larger model. Source/derivative hashes are in `content/additional-product-photos.json`.
+
+Owner build/source/fixture checks are separate from actual rendered verification. Supported Chrome access failed, device controls are unavailable and the cloud browser prompt could not start because credits were insufficient. Current dropdown/hover/mobile/font-loaded checks are BLOCKED. Independent review remains at two consumed passes; no replacement was launched.

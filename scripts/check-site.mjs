@@ -55,7 +55,7 @@ for(const name of ['express-pay.html','step-pay.html']){
  assert.equal(count,name.startsWith('express')?4:2,`${name}: gallery count`);
  if(name.startsWith('step')){
   assert.match(gallery,/src="assets\/step-pay\.webp/);
-  assert.ok(gallery.indexOf('assets/step-pay.webp')<gallery.indexOf('assets/parkezi-display-34-inch.webp'));
+  assert.ok(gallery.indexOf('assets/step-pay.webp')<gallery.indexOf('assets/step-pay-wide-generated.webp'));
  }
 }
 const report={htmlFiles:htmlFiles.length,sourceRoutes:coverage.entries.length,localReferences:references,structuredDataBlocks:schemas,sourceOnlyChecks:true,browserChecks:'UNVERIFIED: no supported current-revision browser evidence; two-pass review cap exhausted'};

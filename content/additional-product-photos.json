@@ -1,0 +1,16 @@
+[
+  {
+    "original": "dist/assets/quest-entry.avif",
+    "output": "dist/assets/quest-entry-photo.webp",
+    "sourceSha256": "9cfae862039f87ccbd77be084c6e55942b1b87aa81ae548cdf428aff9d22d009",
+    "outputSha256": "933a0760fd56551c40afe4d8ca30cdbadf88d31d0dd5980589fd7a5051b379d3",
+    "context": "Real original-site Quest Apartments payment/access installation, not a photograph of the generated larger model."
+  },
+  {
+    "original": "dist/assets/quest-installation-detail.avif",
+    "output": "dist/assets/quest-installation-detail-photo.webp",
+    "sourceSha256": "e7728bf7a6547d0b21eb81bfe3b44e96fd673ef93c66d7867c61bb99209c07e6",
+    "outputSha256": "7e9e774a2ac394eea502f4c36fd75ce3744714e4de23fb850bab4e4fa8cc9d1c",
+    "context": "Real original-site Quest Apartments payment/access installation, not a photograph of the generated larger model."
+  }
+]

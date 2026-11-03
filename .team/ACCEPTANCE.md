@@ -63,3 +63,10 @@ SITE-04 source/build/auth evidence will be bound to the final candidate identity
 - PRODUCT-03: Every product route retains SolarGate, then approved support, dashboard and source FAQ blocks; original system comparison content retained, native show-more FAQs and FAQ schema consistent.
 - PRODUCT-04:52-route original/current text audit with source/output hashes, restored omissions and intentional source corrections. Source/fixtures are not live semantic/visual verification.
 - PRODUCT-05: Exact final SHA/tree/deployment readback; maintain2/2 cap, record blocked cloud/Chrome/Safari/mobile checks and pending screen-size confirmation. Requested share-host deployment is not full QA acceptance or Done.
+
+## Final custom model criteria - 3 November 2026
+
+- MODEL-01: Custom thumbnail listbox, labelled trigger, selected state and keyboard/dismissal controls synchronise with both model gallery slides. No native model select UI. Standard remains first; neutral labels until screen size is confirmed.
+- MODEL-02: Selected ChatGPT-generated larger-screen cutout has real alpha, preserved full PNG and lossless website derivative with prompts/reference/hashes. Original assets remain unchanged. One Step & Pay family contains both units, whose shared wrapper lifts together; reduced-motion fallback remains.
+- MODEL-03: All six product routes contain accurately captioned real original Quest hardware photos and SolarGate, support, dashboard and source FAQs. Original system/menu photographs are preserved.
+- MODEL-04: Build, 15 owner tests, local route/assets/schema checks and refreshed 52-route content comparison bound to final source. Actual rendered dropdown/hover/mobile/font wrapping remains BLOCKED by unavailable Chrome/device controls and cloud credit failure. Two-pass independent cap preserved. Share-host publication does not imply full acceptance or Done.

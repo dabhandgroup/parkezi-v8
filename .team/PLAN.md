@@ -68,3 +68,11 @@
 - [x] Build,15 tests and58-page source/static checks; field16px safeguard. Real browser/simulator/cloud checks blocked by unavailable controls, no fake PASS.
 - [ ] Push the same draft PR, record exact source/preview, then update the named share host under the ongoing deployment request.
 - [ ] Critical release/current logs reconciled/read back;2/2 independent ledger remains exhausted.
+
+## Final custom model result - 3 November 2026
+
+- [x] Generate and inspect transparent larger-screen illustration and targeted branding correction; preserve original sources and record prompts/alpha/hashes.
+- [x] Replace native model select with custom listbox, group both homepage units for joint hover, add original-site real installation photos.
+- [x] Retain standard first image, one Step family, dark default, original menus, support and source content; refresh owner source/fixture checks.
+- [ ] Freeze/push same PR, update authorised share host and bind final deployment/source receipts.
+- [ ] Record critical release logs and exact evidence. Actual final browser/mobile checks remain BLOCKED; existing review cap stays 2/2.

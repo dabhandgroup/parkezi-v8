@@ -9,6 +9,7 @@ This is an owner source-content audit, not independent or visual QA. All52 captu
 - **CONTENT-03 FIXED IN SOURCE** - Pricing/About/system configurations: Condensed copy omitted useful installation partner/site-work/training details, temporary integrated payments, loop exit, occupancy and barrier facts. Restored these captured facts without reintroducing conflicting numeric proof.
 - **CONTENT-04 FIXED IN SOURCE** - Paid/Two-Way/One-Way: People/exhibition hero images did not represent the system type. Reused the exact original menu photos as lossless WebP derivatives.
 - **CONTENT-05 PENDING CONFIRMATION** - Step & Pay: User gave uncertain7.4-inch versus earlier34-inch size. Standard/Larger screen UI has no numeric size claim; original artwork retained.
+- **CONTENT-07 FIXED IN SOURCE** - Step & Pay/homepage: Native model selector and reused larger artwork did not meet the requested custom UI/generated-image treatment. Custom animated listbox and ChatGPT transparent model illustration; both homepage units share one hover target, genuine Quest photos added.
 - **CONTENT-06 BLOCKED** - All routes/browser journeys: No current cloud/Chrome/simulator controls are available. Do not call this a visual, live-runtime or independent review. Actual selector/menu/mobile/font wrapping checks remain unverified.
 
 ## Complete route matrix

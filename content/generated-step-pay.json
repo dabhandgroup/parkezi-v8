@@ -1,0 +1,26 @@
+{
+  "event": "parkezi:2026-11-03:custom-selector-generated-unit:v1",
+  "tool": "Built-in ChatGPT image_gen",
+  "mode": "Referenced product illustration with transparent background",
+  "prompt": "Use case: product-mockup / precise-object-edit. Create one high-resolution transparent-background PARKEZI Step & Pay larger-screen unit cutout for the website. Input image 1 is the approved standard Step & Pay product: use its nearly straight-on front view, upright floor stand, full-unit composition and restrained realistic studio product lighting as the visual format. Input image 2 is the supplied larger-screen Step & Pay unit: preserve its actual wider/larger black housing, payment hardware, PARKEZI branding, stand and base, but present it nearly straight-on like image 1, rather than the oblique angle. The product must clearly read as the wider-screen sibling of the same product family, not an unrelated advertising display or a new product. Keep the screen and payment details faithful to the supplied reference, with no invented ports, accessories, badges, specifications or promotional text. Show the entire unit and base, centred with about 8 percent breathing room around its silhouette. Crisp clean edges, realistic charcoal/navy metal and glass, subtle dimensional highlights. Deliver a real PNG alpha cutout on genuinely transparent background, including only a very subtle translucent grounding shadow at the foot if needed. No solid white or black backdrop, no checkerboard baked into the image, no environment, floor plane, extra text or watermark. This is an expressly requested product illustration for client review, not a purported new real-world installation photograph.",
+  "references": [
+    "dist/assets/step-pay.webp",
+    "dist/assets/parkezi-step-pay-updated.webp"
+  ],
+  "png": "artwork/step-pay-wide-generated.png",
+  "website": "dist/assets/step-pay-wide-generated.webp",
+  "limits": "Generated client-review product illustration, not a real installation photograph or technical specification; model screen dimensions unconfirmed. Original supplied assets preserved.",
+  "correctionPrompt": "Precise text-only correction to this existing product illustration. Keep the exact machine, screen UI, geometry, colours, hardware, lighting, stand, foot and composition unchanged. Correct only the vertical wordmark on the narrow RIGHT SIDE of the housing: it must read P A R K E Z I, exactly PARKEZI, with a Z rather than an N. The front screen's PARKEZI wordmark is already correct and must remain unchanged. Preserve actual transparent alpha background and clean cutout edges; do not add a backdrop, scene, floor or extra shadow. No other product or design changes.",
+  "selectedDefaultOutput": "/Users/harrylang/.codex/generated_images/01a1961c-1da4-7cb3-8742-00e25edd2c24/exec-c990c921-d1b8-455f-b1fc-8ce56e7d50dc.png",
+  "pngSha256": "ecae9fcac94131860e60d7b413c9cc01a3159d53b13e4390ca7f238172f9515e",
+  "webpSha256": "295b9f89f906e726ca36d277de9a1570d3ad1409cc2565b43e5339c2148c0e1e",
+  "dimensions": [
+    1024,
+    1536
+  ],
+  "alphaExtrema": [
+    0,
+    254
+  ],
+  "fullyTransparentPixels": 989988
+}
