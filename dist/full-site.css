@@ -208,3 +208,15 @@ body.design-v7 .header-v4 :focus-visible { outline-color: #b4c6d7; }
   body.design-v7 .header-v4 .mobile-menu-top,
   body.design-v7 .header-v4 .mobile-menu-bottom > div a { color: #b0bac5; }
 }
+
+/* Direction and product selection controls requested for the client preview. */
+.system-choice > .system-direction-icon { align-self: flex-end; }
+.model-picker { margin: 26px 0; }
+.model-picker label { display: block; font-size: 16px; font-weight: 500; margin-bottom: 10px; color: #202b34; }
+.model-picker select { display: block; width: 100%; max-width: 430px; min-height: 52px; padding: 13px 42px 13px 16px; border: 1px solid #b5c0c9; border-radius: 10px; background-color: #fff; color: #202b34; font-family: inherit; font-size: max(1rem,16px); line-height: 1.4; cursor: pointer; color-scheme: light; }
+.model-picker select:focus-visible { outline: 2px solid #516c82; outline-offset: 3px; }
+.model-picker p { font-size: 14px; line-height: 1.6; color: #687581; margin-top: 10px; max-width: 430px; }
+body.design-v7 input:not([type="checkbox"]):not([type="radio"]),
+body.design-v7 textarea, body.design-v7 select, body.design-v7 [contenteditable="true"],
+body.design-v7 .country-trigger, body.design-v7 .country-option { font-size: max(1rem,16px); }
+body.design-v7 input:-webkit-autofill, body.design-v7 textarea:-webkit-autofill, body.design-v7 select:-webkit-autofill { font-size: max(1rem,16px); }

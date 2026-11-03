@@ -59,3 +59,12 @@
 - [x] Exercise local desktop 1280/1024 and responsive 320/390/768 Chromium navigation, contrast, keyboard and links. Actual iPhone Safari blocked by DEVICE_IN_USE after one bounded retry; iPad and Android Chrome unavailable. Hosted check blocked by Vercel SSO.
 - [ ] Record final build/tests/source identity and update the same draft PR/preview.
 - [ ] Emit the concise owner checkpoint for routine Grok log maintenance; disclose pending mirror until actual readback.
+
+## Product/content amendment checklist - 3 November2026
+
+- [x] Direction icons, original system-page photographs and two-model Step dropdown/light gallery treatment.
+- [x] Preserve SolarGate and add support/dashboard/source FAQs and system-feature comparison to all6 product routes.
+- [x] Compare all52 source routes, restore identified content gaps, create searchable before/after report with deliberate exceptions.
+- [x] Build,15 tests and58-page source/static checks; field16px safeguard. Real browser/simulator/cloud checks blocked by unavailable controls, no fake PASS.
+- [ ] Push the same draft PR, record exact source/preview, then update the named share host under the ongoing deployment request.
+- [ ] Critical release/current logs reconciled/read back;2/2 independent ledger remains exhausted.

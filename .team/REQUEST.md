@@ -21,3 +21,7 @@ Event parkezi:2026-11-01:full-site-redesign-and-refinements:v1. Harry authorised
 ## Current navigation correction - 2 November 2026
 
 Event `parkezi:2026-11-02:consistent-dark-navigation:v1`. Harry wants one consistent navigation treatment across the site and a mobile check. Keep the transparent dark desktop homepage top, use a solid black header on scroll and inner pages, and the same dark dropdown/mobile palette everywhere. Preserve menu groups/items/layout and all approved content. GPT owns implementation/self-checks on the same DAB-47 branch/PR. No production release or additional review cycle authorised.
+
+## Product models, shared sections and audit - 3 November2026
+
+Event `parkezi:2026-11-03:product-models-sections-content-audit:v1`. Harry requests paired up/down and single-direction system-card icons; Step & Pay right-side model selector updating the gallery; consistent light/shadow treatment for both units; original menu photographs on Paid/Two-Way/One-Way pages; SolarGate, installation/support, dashboard and FAQs on all product pages; complete before/after content comparison against the captured original. Screen dimension remains unconfirmed (earlier34-inch vs uncertain7.4), so use Standard/Larger screen. This steers the ongoing share-host deployment request to the amended final build, same DAB-47/PR/host, no main merge or messaging.

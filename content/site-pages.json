@@ -86,10 +86,10 @@
       "title": "About PARKEZI",
       "metaTitle": "About PARKEZI",
       "description": "Learn how Parkezi leads Australia in smart, contactless parking automation and ANPR car park management.",
-      "lead": "Custom-built parking software, configured around your site and supported by an Australian-based team.",
+      "lead": "Australian-owned parking software, configured around your site and supported by an Australian-based team.",
       "image": "assets/parkezi-exhibition-team-wide.webp",
       "imageAlt": "PARKEZI representatives and equipment at an exhibition",
-      "bodyHtml": "<h2>Built for your site</h2><p>We design and deliver custom-built parking software that can be configured and developed to suit your site's unique challenges.</p><p>Specialised access rules, tailored validation workflows and third-party integrations can be configured around your requirements. Because PARKEZI is built in-house, workflows and rules can evolve as your needs change.</p><h2>Software that fits</h2><p>We work alongside property owners, facility managers and parking operators to improve day-to-day operations without disrupting established workflows.</p><ul><li>ANPR vehicle recognition</li><li>Cloud management, reporting and remote access, without on-site servers</li><li>Flexible pricing, registered-user rules and booking systems</li><li>Custom tariffs and free-parking periods</li><li>Integrations across hardware and third-party systems</li><li>Multiple payment options, including app-less QR payments</li></ul><h2>Sites we support</h2><p>Different sites need different approaches to traffic, access, payments and reporting.</p><ul><li>Hotels and mixed-use developments</li><li>Commercial buildings and garages</li><li>Hospitals and medical precincts</li><li>Container yards and logistics sites</li><li>Residential complexes</li><li>Retail centres, event venues and high-turnover sites</li></ul><p>Portable boom gate access is also available for events and work sites, supported by an Australian-based team.</p>",
+      "bodyHtml": "<h2>Built for your site</h2><p>We design and deliver custom-built parking software that can be configured and developed to suit your site's unique challenges.</p><p>Specialised access rules, tailored validation workflows and third-party integrations can be configured around your requirements. Because PARKEZI is built in-house, workflows and rules can evolve as your needs change.</p><h2>Software that fits</h2><p>We work alongside property owners, facility managers and parking operators to improve day-to-day operations without disrupting established workflows.</p><ul><li>ANPR vehicle recognition</li><li>Cloud management, reporting and remote access, without on-site servers</li><li>Flexible pricing, registered-user rules and booking systems</li><li>Custom tariffs and free-parking periods</li><li>Integrations across hardware and third-party systems</li><li>Multiple payment options, including app-less QR payments</li></ul><h2>Sites we support</h2><p>Different sites need different approaches to traffic, access, payments and reporting.</p><ul><li>Hotels and mixed-use developments</li><li>Commercial buildings and garages</li><li>Hospitals and medical precincts</li><li>Container yards and logistics sites</li><li>Residential complexes</li><li>Retail centres, event venues and high-turnover sites</li></ul><p>Portable boom gate access with integrated payments is also available for events, work sites and temporary parking, supported by an Australian-based team.</p>",
       "date": ""
     },
     {
@@ -280,8 +280,8 @@
       "metaTitle": "Scan & Go Parking System - Parkezi",
       "description": "A self-contained access control unit that uses ANPR to identify whitelisted vehicles.",
       "lead": "A self-contained access control unit that uses ANPR to identify whitelisted vehicles.",
-      "image": "assets/parkezi-product-demonstration.webp",
-      "imageAlt": "PARKEZI representative demonstrating parking equipment",
+      "image": "assets/scan-go.webp",
+      "imageAlt": "Scan & Go ANPR access control unit",
       "bodyHtml": "<p>The ideal system for most parking needs.</p>\nExpress Pay\n<p>The ideal system for most parking needs.</p>\n<p><a href=\"https://www.parkezi.com.au/products/scan-and-go\">Download Specs</a></p>\n<h2>System Features</h2>\n<p>Software</p>\n<p>Hardware</p>\n<p>Software</p>\n<p>Parkezi® One Way</p>\n<p>Parkezi® Two Way</p>\n<p>Parkezi® Paid Parking</p>\n<p>PARKEZI® software (cloud-based)</p>\n<p>PARKEZI® software</p>\n<p>Access control (whitelist and blacklist)</p>\n<p>Access control</p>\n<p>Car park usage and revenue data</p>\n<p>Car park usage and revenue data</p>\n<p>User training and tech support</p>\n<p>User training and tech support</p>\n<p>Software and feature upgrades</p>\n<p>Software and feature upgrades</p>\n<p>Integration with third-party software</p>\n<p>Integration with third-party software</p>\n<p>Single-user apartment parking restrictions</p>\n<p>Single-user apartment parking restrictions</p>\n<p>Parking zones</p>\n<p>Parking zones</p>\n<p>Dynamic pricing</p>\n<p>Dynamic pricing</p>\n<p>User entry and exit history</p>\n<p>User entry and exit history</p>\n<p>Software</p>\n<p>Parkezi® One Way</p>\n<p>Parkezi® Two Way</p>\n<p>Parkezi® Paid Parking</p>\n<p>PARKEZI® software (cloud-based)</p>\n<p>Automatic Number Plate Recognition \n(ANPR)</p>\n<p>1</p>\n<p>2</p>\n<p>4</p>\n<p>Access control (whitelist and blacklist)</p>\n<p>Boom gates and anti-tailgate feature</p>\n<p>1</p>\n<p>2</p>\n<p>2</p>\n<p>Car park usage and revenue data</p>\n<p>Entry signage</p>\n<p>User training and tech support</p>\n<p>QR code reader with one-time use access coupon</p>\n<p>Software and feature upgrades</p>\n<p>Integration with third-party software</p>\n<p>49” Dynamic pricing entry display screen</p>\n<p>Single-user apartment parking restrictions</p>\n<p>Exit station with 15” display screen</p>\n<p>Parking zones</p>\n<p>Windcave EMV credit card reader</p>\n<p>Dynamic pricing</p>\n<p>Uninterrupted power supply (USP) \n -  battery backup</p>\n<p>Optional</p>\n<p>Optional</p>\n<p>User entry and exit history</p>\n<p>GSM modem for backup internet data link</p>\n<p>Optional</p>\n<p>Optional</p>\n<p>User entry and exit history</p>\n<p>Protection bollards for onsite assets</p>\n<p>Optional</p>\n<p>Optional</p>\n<p>User entry and exit history</p>\n<p>PARKEZI® Portable for temporary sites</p>",
       "date": ""
     },
@@ -295,8 +295,8 @@
       "metaTitle": "Scan & Go Mini System - Parkezi",
       "description": "ANPR access control with compact components for limited-space locations.",
       "lead": "ANPR access control with compact components for limited-space locations.",
-      "image": "assets/parkezi-team-advice.webp",
-      "imageAlt": "PARKEZI representative speaking with a visitor",
+      "image": "assets/scan-go-mini.webp",
+      "imageAlt": "Scan & Go Mini camera and controller",
       "bodyHtml": "<p>The ideal system for most parking needs.</p>\nExpress Pay\n<p>The ideal system for most parking needs.</p>\n<p><a href=\"https://www.parkezi.com.au/products/scan-and-go-mini\">Download Specs</a></p>\n<h2>System Features</h2>\n<p>Software</p>\n<p>Hardware</p>\n<p>Software</p>\n<p>Parkezi® One Way</p>\n<p>Parkezi® Two Way</p>\n<p>Parkezi® Paid Parking</p>\n<p>PARKEZI® software (cloud-based)</p>\n<p>PARKEZI® software</p>\n<p>Access control (whitelist and blacklist)</p>\n<p>Access control</p>\n<p>Car park usage and revenue data</p>\n<p>Car park usage and revenue data</p>\n<p>User training and tech support</p>\n<p>User training and tech support</p>\n<p>Software and feature upgrades</p>\n<p>Software and feature upgrades</p>\n<p>Integration with third-party software</p>\n<p>Integration with third-party software</p>\n<p>Single-user apartment parking restrictions</p>\n<p>Single-user apartment parking restrictions</p>\n<p>Parking zones</p>\n<p>Parking zones</p>\n<p>Dynamic pricing</p>\n<p>Dynamic pricing</p>\n<p>User entry and exit history</p>\n<p>User entry and exit history</p>\n<p>Software</p>\n<p>Parkezi® One Way</p>\n<p>Parkezi® Two Way</p>\n<p>Parkezi® Paid Parking</p>\n<p>PARKEZI® software (cloud-based)</p>\n<p>Automatic Number Plate Recognition \n(ANPR)</p>\n<p>1</p>\n<p>2</p>\n<p>4</p>\n<p>Access control (whitelist and blacklist)</p>\n<p>Boom gates and anti-tailgate feature</p>\n<p>1</p>\n<p>2</p>\n<p>2</p>\n<p>Car park usage and revenue data</p>\n<p>Entry signage</p>\n<p>User training and tech support</p>\n<p>QR code reader with one-time use access coupon</p>\n<p>Software and feature upgrades</p>\n<p>Integration with third-party software</p>\n<p>49” Dynamic pricing entry display screen</p>\n<p>Single-user apartment parking restrictions</p>\n<p>Exit station with 15” display screen</p>\n<p>Parking zones</p>\n<p>Windcave EMV credit card reader</p>\n<p>Dynamic pricing</p>\n<p>Uninterrupted power supply (USP) \n -  battery backup</p>\n<p>Optional</p>\n<p>Optional</p>\n<p>User entry and exit history</p>\n<p>GSM modem for backup internet data link</p>\n<p>Optional</p>\n<p>Optional</p>\n<p>User entry and exit history</p>\n<p>Protection bollards for onsite assets</p>\n<p>Optional</p>\n<p>Optional</p>\n<p>User entry and exit history</p>\n<p>PARKEZI® Portable for temporary sites</p>",
       "date": ""
     },
@@ -310,8 +310,8 @@
       "metaTitle": "Parkezi | SolarGate+ Mobile Boom Gate",
       "description": "Solar-powered, portable access control for construction sites, events and temporary parking.",
       "lead": "Solar-powered, portable access control for construction sites, events and temporary parking.",
-      "image": "assets/parkezi-exhibition-team-wide.webp",
-      "imageAlt": "PARKEZI exhibition stand and parking equipment",
+      "image": "assets/solargate-portable-barrier.webp",
+      "imageAlt": "SolarGate+ portable boom gate",
       "bodyHtml": "<p>Portable, Secure &amp; Smart Access Control for Construction, Events, and Industrial Sites</p>\n<p>A Mobile Boom Gate That Works Anywhere </p>\n<h2>Portable access control</h2>\n<p>Not every car park is permanent. Construction sites, events, temporary worksites and overflow areas all need controlled access, but installing fixed infrastructure is not always practical.</p>\n<p>SolarGate+ by Parkezi is a mobile boom gate system designed for flexibility. It delivers reliable parking access control without complex electrical installation.</p>\n<p>Ideal for locations where:</p>\n<ul>\n<li>\n<p>Power access is limited</p>\n</li>\n<li>\n<p>The site layout changes regularly</p>\n</li>\n<li>\n<p>Access control is temporary</p>\n</li>\n<li>\n<p>Rapid deployment is required</p>\n</li>\n</ul>\n<p>Because it operates on solar power, it reduces the need for trenching or electrical works  -  making installation faster and more cost-effective.</p>\n<p>Integrated with Parkezi's Smart Parking Systems </p>\n<h2>Connected to PARKEZI</h2>\n<p>SolarGate+ is more than just a physical barrier. It integrates with Parkezi’s ANPR parking system and cloud parking management platform.</p>\n<p>That means you can:</p>\n<ul>\n<li>\n<p>Control access via licence plate recognition</p>\n</li>\n<li>\n<p>Keypad access for users</p>\n</li>\n<li>\n<p>Built in intercom that can call</p>\n</li>\n<li>\n<p>Monitor vehicle movements remotely</p>\n</li>\n<li>\n<p>Apply temporary permissions</p>\n</li>\n<li>\n<p>Track entry and exit logs</p>\n</li>\n</ul>\n<p>Even in temporary environments, you maintain full visibility and control.</p>\n<p><a href=\"https://www.parkezi.com.au/systems/\">Learn more about how ANPR integrates with boom gates</a></p>\n<h2>Why SolarGate+</h2>\n<p>Fast Setup</p>\n<p>Designed for quick deployment. Positioned and configured without major site works.</p>\n<p>Solar-Powered Efficiency</p>\n<p>Reduces reliance on mains power and lowers energy costs across the site.</p>\n<p>Flexible Use Cases</p>\n<p>Construction site access, event parking, temporary traffic management, overflow car park control.</p>\n<p>Scalable &amp; Relocatable</p>\n<p>When the site changes, the gate moves with it. No infrastructure left behind.</p>\n<p>Practical for High-Demand Environments </p>\n<h2>Smarter Installation</h2>\n<p>Construction and event sites often experience unpredictable traffic patterns. SolarGate+ works alongside Parkezi’s parking management software to manage peak flow while maintaining access security.</p>\n<p>For operators looking for a portable parking gate system that integrates with modern ticketless technology, SolarGate+ offers a reliable solution.</p>\n<p>Designed for Australian Conditions </p>\n<h2>Australian site conditions</h2>\n<p>Built for durability, SolarGate+ is suited to Australian environments where heat, dust and varying weather conditions are common.</p>\n<p>It provides the reliability required for industrial and remote use while remaining simple to operate  -  so your team can focus on the site, not the gate.</p>\n<p>Frequently Asked Questions </p>\n<h2>Questions answered</h2>\n<p>Does SolarGate+ require mains power?</p>\n<p>No. It operates using solar power, reducing installation complexity.</p>\n<p>Can it integrate with ANPR?</p>\n<p>Yes. SolarGate+ can be paired with Parkezi's ANPR system for automated access control.</p>\n<p>Is it suitable for short-term events?</p>\n<p>Yes. It is designed specifically for temporary and flexible deployment.</p>\n<p>Can it be relocated easily?</p>\n<p>Yes. The system is mobile and can be repositioned as site needs change.</p>\n<h2>Discuss your site</h2>\n<p>If your site requires a portable, solar-powered boom gate that works with modern parking automation, SolarGate+ delivers both flexibility and control. Talk to Parkezi about how SolarGate+ can support your project or temporary site.</p>",
       "date": ""
     },
@@ -371,8 +371,8 @@
       "metaTitle": "Paid Parking Systems - Parkezi",
       "description": "Ticketless parking payments and controlled access for visitors and registered vehicles.",
       "lead": "Ticketless parking payments and controlled access for visitors and registered vehicles.",
-      "image": "assets/parkezi-team-advice.webp",
-      "imageAlt": "PARKEZI representative speaking with a visitor",
+      "image": "assets/paid-parking-original.webp",
+      "imageAlt": "Shopping centre parking context from the original PARKEZI site",
       "bodyHtml": "<p>Designed for parking environments requiring payment integration</p>",
       "date": ""
     },
@@ -386,8 +386,8 @@
       "metaTitle": "Two-Way Parking Systems - Parkezi",
       "description": "Control vehicle entry and exit for sites with shared access points.",
       "lead": "Control vehicle entry and exit for sites with shared access points.",
-      "image": "assets/parkezi-exhibition-team-wide.webp",
-      "imageAlt": "PARKEZI exhibition stand and parking equipment",
+      "image": "assets/two-way-parking-original.webp",
+      "imageAlt": "Underground car park from the original PARKEZI site",
       "bodyHtml": "<p>Ideal for car parks requiring controlled access, such as gated communities or office complexes</p>",
       "date": ""
     },
@@ -401,8 +401,8 @@
       "metaTitle": "One-Way Parking Systems - Parkezi",
       "description": "Control a single direction of vehicle access with number plate recognition.",
       "lead": "Control a single direction of vehicle access with number plate recognition.",
-      "image": "assets/parkezi-anpr-unit-detail.webp",
-      "imageAlt": "PARKEZI ANPR equipment on display at an exhibition",
+      "image": "assets/one-way-parking-original.webp",
+      "imageAlt": "Parked vehicles from the original PARKEZI site",
       "bodyHtml": "<p>A straightforward solution focused on entry access control</p>",
       "date": ""
     },

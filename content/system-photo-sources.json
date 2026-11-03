@@ -1,0 +1,35 @@
+[
+  {
+    "source": "dist/assets/parking-entry.avif",
+    "output": "dist/assets/paid-parking-original.webp",
+    "sourceSha256": "a06d61b0e44abcde5764cd722c0e21d689e2aa46a99e6adc9a289c1dc08b3774",
+    "outputSha256": "12eb8fef7aa8b6164e02075fe39e66769929217334d41ff007fc33ae6f9ee07e",
+    "size": [
+      1800,
+      1273
+    ],
+    "treatment": "Same decoded source image, lossless WebP format conversion, no retouching."
+  },
+  {
+    "source": "dist/assets/two-way.avif",
+    "output": "dist/assets/two-way-parking-original.webp",
+    "sourceSha256": "983ff3ac6598bf3810aa7796121501928f0ac5298cef0054490a92ebd23311f0",
+    "outputSha256": "4c648fcd33980bc857addfbd785a86f9fed0c49bbb64c08b91acac4dd7bd14db",
+    "size": [
+      400,
+      400
+    ],
+    "treatment": "Same decoded source image, lossless WebP format conversion, no retouching."
+  },
+  {
+    "source": "dist/assets/one-way.avif",
+    "output": "dist/assets/one-way-parking-original.webp",
+    "sourceSha256": "b7c3e02afd78186b7b5749a1649f6e0d8e0efc3cb2ca878787c70a814679f85c",
+    "outputSha256": "5966b772751397f684a372e438944e30b693d4fe3ffe0ab88468a46c612faae4",
+    "size": [
+      400,
+      400
+    ],
+    "treatment": "Same decoded source image, lossless WebP format conversion, no retouching."
+  }
+]

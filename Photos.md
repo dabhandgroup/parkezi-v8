@@ -23,3 +23,9 @@ The blurry Range Rover is removed from Express Pay's gallery and other active pl
 New About, products, services and article pages use supplied people/equipment photographs. Project stories use the correct source client brand where suitable photography is unavailable. Legacy article images were captured and preserved as source derivatives but are not used as technical product proof.
 
 Exact source/output hashes, dimensions and file sizes are recorded in `content/professional-photo-sources.json` and `content/site-image-sources.json`. All 114 original asset blobs remain byte-for-byte unchanged.
+
+## 3 November2026 - model and system-image correction
+
+Harry requests the same light studio format for both Step & Pay models. Both supplied WebP illustrations already have alpha, so the original larger unit now uses the same contain/light-background/drop-shadow CSS as the standard unit. No image generation, background extraction, product retouching or invented hardware was needed. Original pixels/assets are preserved. The model selector uses Standard/Larger screen pending confirmation of the spoken7.4-inch versus earlier34-inch dimension.
+
+Paid Parking, Two-Way and One-Way page heroes now reuse the same original photographs as the existing menu, as Harry requested. Lossless WebP format derivatives preserve decoded pixels; source/output hashes are in content/system-photo-sources.json. Company/support photographs remain in their approved sections. The supplied photo set offers useful genuine equipment/exhibition views, but no verified extra view of the larger Step & Pay model; no unrelated image is added as if it were that unit.

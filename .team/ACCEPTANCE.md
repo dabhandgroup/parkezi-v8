@@ -55,3 +55,11 @@ SITE-04 source/build/auth evidence will be bound to the final candidate identity
 - NAV-01: Transparent homepage top remains; the scrolled homepage and inner pages use the same black header, white logo/controls and dark dropdown palette. Preserve menu items/destinations and approved page content.
 - NAV-02: Observe actual local desktop hover/keyboard/Escape and mobile menu open/close/accordion/link/overflow/scroll behaviour at 320/390 and tablet widths. Label resized Chromium separately from native mobile browsers. Record native Safari/Chrome and hosted-access blockers without taking over other sessions or bypassing protection.
 - NAV-03: Existing build, auth/adapter, route/asset/metadata checks pass. Exact final SHA/tree, CSS hash, same draft PR and preview receipt recorded. Preserve the exhausted 2/2 review ledger and disclose stale navigation evidence. No Done, merge or production release inferred.
+
+## Active product/content criteria - 3 November2026
+
+- PRODUCT-01: Clear paired/single direction icons and original menu photographs for the three system types; all original source assets preserved.
+- PRODUCT-02: Two Step models selected by a labelled right-side dropdown, synced both ways with the gallery; both existing transparent units use the same studio CSS. No unconfirmed numeric screen dimension or third product family. Editable text uses at least16px CSS floor without restricting zoom.
+- PRODUCT-03: Every product route retains SolarGate, then approved support, dashboard and source FAQ blocks; original system comparison content retained, native show-more FAQs and FAQ schema consistent.
+- PRODUCT-04:52-route original/current text audit with source/output hashes, restored omissions and intentional source corrections. Source/fixtures are not live semantic/visual verification.
+- PRODUCT-05: Exact final SHA/tree/deployment readback; maintain2/2 cap, record blocked cloud/Chrome/Safari/mobile checks and pending screen-size confirmation. Requested share-host deployment is not full QA acceptance or Done.

@@ -1,0 +1,13 @@
+{
+  "source": "Approved existing homepage/Express Pay components",
+  "requestedOrder": [
+    "products/SolarGate",
+    "support",
+    "platform",
+    "faqs"
+  ],
+  "faqSource": "Captured client FAQs plus existing product-specific answers",
+  "events": [
+    "parkezi:2026-11-03:product-models-sections-content-audit:v1"
+  ]
+}
