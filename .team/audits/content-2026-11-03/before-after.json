@@ -66,7 +66,7 @@
       "sourceCaptureFile": "content/source-site/home.json",
       "sourceCaptureSha256": "1377d44eb2a83d0dd9fe16943ef8df8f432c81ee0de482dac65f75992bc6719b",
       "targetFile": "dist/index.html",
-      "targetSha256": "981671ece8303adbafc6f3097f44338a075b752eabea328ddd6a912bbb46a39c",
+      "targetSha256": "e44a1c87ba6e6c86978ada40e95eccd20f11bd9dd4aafc4afe47478f1c76386a",
       "kind": "existing",
       "sourceHeadings": [
         "Intelligent car park management",
@@ -134,7 +134,7 @@
       "sourceCaptureFile": "content/source-site/systems.json",
       "sourceCaptureSha256": "0019d6a1853bbf61bfb615b35c345c9ec70323df7b6d6d9f9e6092bbc5aac9c3",
       "targetFile": "dist/systems/index.html",
-      "targetSha256": "8502e68ae33ee6ad43ef138e8306588dce6e7f2e3d282bca94b610fd7d8da357",
+      "targetSha256": "f8ee2084eaab220c91c9ed8412d262fcdad08b5fd7499a8ad9a02a415fecc171",
       "kind": "systems",
       "sourceHeadings": [
         "Automated Parking Systems",
@@ -182,7 +182,7 @@
       "sourceCaptureFile": "content/source-site/pricing.json",
       "sourceCaptureSha256": "30a6d9b8492c19ef8af8a7c0b40e5df22ddee3dc098a2758f263d1c939494a96",
       "targetFile": "dist/pricing/index.html",
-      "targetSha256": "9e6968318bc9cc440b3820425c9b118584f8f9669778e7cc2d10023280830908",
+      "targetSha256": "c7010d7a9216ed64106cad7f2c5cbbd8b0820ec2394e271e962eb26b4776e897",
       "kind": "pricing",
       "sourceHeadings": [
         "Purchase Plans",
@@ -229,7 +229,7 @@
       "sourceCaptureFile": "content/source-site/our-work.json",
       "sourceCaptureSha256": "c5d6f7c2bfadbf85ed03ca65cecb743086ad401744d6bf5c37de1da144507c58",
       "targetFile": "dist/our-work/index.html",
-      "targetSha256": "c0fc51e297c8b6fa4eca67f0b1dd1b618f41f6fcabb340fd2880f883a6adf3cb",
+      "targetSha256": "c9abb9751eb6ec9a97dc27a6db9b176f805698786428efd628c94574720294b8",
       "kind": "our-work",
       "sourceHeadings": [
         "Our Work",
@@ -265,7 +265,7 @@
       "sourceCaptureFile": "content/source-site/installation.json",
       "sourceCaptureSha256": "8a4551d5a730bb904fe3e5880fe7a5260de4bae39c16aea30151124a18bcd1d0",
       "targetFile": "dist/installation/index.html",
-      "targetSha256": "4f192a6bf72d0721641c6010c87a14b334fa819952e2480da4e7c603a3c25b3c",
+      "targetSha256": "8c46ca8ed2f21699617b8dc55751c177defe1883feaac553dc338c518d7964b3",
       "kind": "editorial",
       "sourceHeadings": [
         "Installation",
@@ -315,7 +315,7 @@
       "sourceCaptureFile": "content/source-site/about-us.json",
       "sourceCaptureSha256": "af0180b8de233a150b772d4dfb86948d5417fa6d1d2a7e03fbe5951f63fb130b",
       "targetFile": "dist/about-us/index.html",
-      "targetSha256": "a370b2a6ce130c985cc0d6ffc7d062c6545178fb765ef692f01703a34bc31b9e",
+      "targetSha256": "a223ede03c451e4cfeaedf58e2d83cc9579a8cce7cd1cb02bfc2a44d8ce62f2d",
       "kind": "about-us",
       "sourceHeadings": [
         "About Parkezi",
@@ -354,7 +354,7 @@
       "sourceCaptureFile": "content/source-site/faqs.json",
       "sourceCaptureSha256": "947910784601f0e3ff51214e2c8eab7e17741886bf8f81973b3471f18a8e5281",
       "targetFile": "dist/faqs/index.html",
-      "targetSha256": "b7001c6e4ddc62b3fc24cdb587fad95377e0ee464f248f96d185050a4e98f734",
+      "targetSha256": "6c0ec70222d70536bb0925cdf8a70a46b6f2d26daf514b525ed42a07b4375cf3",
       "kind": "faqs",
       "sourceHeadings": [
         "Frequently Asked Questions"
@@ -391,7 +391,7 @@
       "sourceCaptureFile": "content/source-site/testimonials.json",
       "sourceCaptureSha256": "b14af7d4cfadeedb33fc0af81a63f535de8a0d56e9a4207c2d02bc25a939891e",
       "targetFile": "dist/testimonials/index.html",
-      "targetSha256": "b097cbf4eee004134b13068b6e6a273e9b2de7ba3d3a3731a9615bbec1d59614",
+      "targetSha256": "9958726a5554b3d4b14a137bde237522616b38c5f5df2d4bf38f0c81578842ed",
       "kind": "testimonials",
       "sourceHeadings": [
         "Parkezi® Testimonials"
@@ -428,7 +428,7 @@
       "sourceCaptureFile": "content/source-site/contact.json",
       "sourceCaptureSha256": "b993e34997fb13ad055b3ed942571b767ea28cf9ec20bebc1ab3e5c68a2c2d4d",
       "targetFile": "dist/contact/index.html",
-      "targetSha256": "7664ea4f3df323c737ffec17b8f795626d77b90e9a5a29c9adac31cc749efad0",
+      "targetSha256": "6cf75b515d3cf3de00605bbe6a6c4e4783e84450c9c7f77efc3564c38b56e9c9",
       "kind": "contact",
       "sourceHeadings": [
         "Contact Parkezi®",
@@ -459,7 +459,7 @@
       "sourceCaptureFile": "content/source-site/blog.json",
       "sourceCaptureSha256": "11e0e933f9522c17aac4323f8cfdcc08d8361b5bdb056bbcbec3d2cf375dea26",
       "targetFile": "dist/blog/index.html",
-      "targetSha256": "4f1748504c31267f335574b9b04be9125493d3c956dee4599f9752ca28159766",
+      "targetSha256": "99f6da4a2cc5cc84521e792f9b4cfeffa58044aadc3e9f2df939de4573bd6ad1",
       "kind": "blog",
       "sourceHeadings": [
         "Blog"
@@ -521,7 +521,7 @@
       "sourceCaptureFile": "content/source-site/products__express-pay.json",
       "sourceCaptureSha256": "86eddcfa4c7a1f9d42cb2b86366909dc1f948bb2bc1a07edee26c073f24d19a3",
       "targetFile": "dist/products/express-pay/index.html",
-      "targetSha256": "3ed091d9402ab3b654c61eebb593cedb17fff2283b1399a9efa848eb889d72d4",
+      "targetSha256": "8ccc13f3aecfb00ab41a2764dd162540a726d05dd9a957916e17e809acdf8ca3",
       "kind": "existing",
       "sourceHeadings": [
         "Parkezi® Express Pay",
@@ -605,7 +605,7 @@
       "sourceCaptureFile": "content/source-site/products__step-and-pay.json",
       "sourceCaptureSha256": "228045c053d3592752982d5ba0f106aaad1bbe611f94a3c86a9d05646881612c",
       "targetFile": "dist/products/step-and-pay/index.html",
-      "targetSha256": "60313f8af0b13ce88c89b40346e2b9e3618984e164c1e0b05624d99fa320b531",
+      "targetSha256": "23891004ca43da993be089ae36dc6431c023325cf1210fe9a3c907150bb0c0d4",
       "kind": "existing",
       "sourceHeadings": [
         "Parkezi ® Step & Pay",
@@ -659,7 +659,7 @@
       "sourceCaptureFile": "content/source-site/products__scan-and-go.json",
       "sourceCaptureSha256": "7b2b3e27c3e2bc18527951c5725335dd86cee2c24e9dd6e3699374983363d782",
       "targetFile": "dist/products/scan-and-go/index.html",
-      "targetSha256": "7825fa98412ae549a586a4135712d2480bc45392454875fede4273e8d0757771",
+      "targetSha256": "28a613929e76369f136e784877f17c357190c281e47f31bc6e8d61d2a2c01de4",
       "kind": "product",
       "sourceHeadings": [
         "Parkezi ® Scan & Go",
@@ -713,7 +713,7 @@
       "sourceCaptureFile": "content/source-site/products__scan-and-go-mini.json",
       "sourceCaptureSha256": "d7bd05b6657fec28aaf05084eb2ae20ded10dea6dc18d8adb50e7097dd8772b2",
       "targetFile": "dist/products/scan-and-go-mini/index.html",
-      "targetSha256": "6e5ad695f2eef277af1b6bb4460e8df1a75ba1e1f783317b8567eeeaabcf351c",
+      "targetSha256": "d823c68c64fbb74b3e8d8775657e731c6fdf68a2af555f88375213bad61b5bb8",
       "kind": "product",
       "sourceHeadings": [
         "Parkezi ® Scan & Go Mini",
@@ -767,7 +767,7 @@
       "sourceCaptureFile": "content/source-site/products__solargate-mobile-boom-gate.json",
       "sourceCaptureSha256": "d8056afd1ad02b786f23377275a11e6084f5a381a7149cdd77a968afcddc02f1",
       "targetFile": "dist/products/solargate-mobile-boom-gate/index.html",
-      "targetSha256": "c51d85017dc1ba44b6c82311daf408eb073bb43213c7ce33a4fadd060846af81",
+      "targetSha256": "88122d86df22ca2ecb65770e4e3e3722789b867d837b6178f3871a97206f70c1",
       "kind": "product",
       "sourceHeadings": [
         "SolarGate+ Mobile Boom Gate",
@@ -830,7 +830,7 @@
       "sourceCaptureFile": "content/source-site/products__info-board.json",
       "sourceCaptureSha256": "25d475fc7fcb8d5c0aed81aefee1fab1c61d925b5fad3446c5769f0230f78bce",
       "targetFile": "dist/products/info-board/index.html",
-      "targetSha256": "d38de4fcf78d26d0a765f571eaa41340346a073160e8e0411b30d632384a0cbc",
+      "targetSha256": "6700dba03d7a76314163a595c9c1a0ca84d5ae2f826608698c9ae1dca3cc103f",
       "kind": "standard",
       "sourceHeadings": [
         "Parkezi ® Info Board",
@@ -884,7 +884,7 @@
       "sourceCaptureFile": "content/source-site/services__maintenance.json",
       "sourceCaptureSha256": "0576877a3c3b39e8e55e241f19c68204907f96d4867492a33de48fa5e4015e9a",
       "targetFile": "dist/services/maintenance/index.html",
-      "targetSha256": "cc54474af1397162fe1fe71b0c1660a96c20197fe36fc4b3ea8314a66ef55686",
+      "targetSha256": "b7d3cd70bce6da4e9da2c4214335a6e3f9f22ea2508a6644bfbf4543a3f31610",
       "kind": "service",
       "sourceHeadings": [
         "Parkezi®",
@@ -927,7 +927,7 @@
       "sourceCaptureFile": "content/source-site/services__integrations.json",
       "sourceCaptureSha256": "14d6e24a3e20a5898d6dbcc86d860103ebbbd093a004a27414fb9664525d2278",
       "targetFile": "dist/services/integrations/index.html",
-      "targetSha256": "517549b065be3ffa94f282b38357ebbbdbd3a0f8522411f9bae25ee885040c0c",
+      "targetSha256": "28e34c43c8265203d9da942a9026d6e231ab0e8a0b927cd3558125bf65d82497",
       "kind": "service",
       "sourceHeadings": [
         "Parkezi® integrates with most existing parking hardware",
@@ -974,7 +974,7 @@
       "sourceCaptureFile": "content/source-site/services__paid-parking.json",
       "sourceCaptureSha256": "4747b16c59eaf626516e97920d01a9f906f66fb3a87a192cc019e66a00a4f256",
       "targetFile": "dist/services/paid-parking/index.html",
-      "targetSha256": "8d64574bc33d0f3ca42a3c0ad9e9701bedc58ea1e82a6eeb2706075c60c70a4a",
+      "targetSha256": "13cfd79286c32c04e3222b8acc92541596e81063f1d0becba324aaf24cbb3899",
       "kind": "service",
       "sourceHeadings": [
         "Parkezi®",
@@ -1017,7 +1017,7 @@
       "sourceCaptureFile": "content/source-site/services__two-way.json",
       "sourceCaptureSha256": "db43bcfabfcdd88e67dca4b1f551efd17fbfa3010b1f6ce756ed06ccd05f467d",
       "targetFile": "dist/services/two-way/index.html",
-      "targetSha256": "2f12e8daa0d408d75b05a653d34b142c1cf43812430f78e95c336a4717b8184c",
+      "targetSha256": "7d2e5233d91c53da7a398378de8fea8551be3c4589804aab7466c169b35ae0b9",
       "kind": "service",
       "sourceHeadings": [
         "Parkezi®",
@@ -1062,7 +1062,7 @@
       "sourceCaptureFile": "content/source-site/services__one-way.json",
       "sourceCaptureSha256": "1841d562b26e3083cd8d6e548a023a2cd6a8e92c15f894cd634166c79de86f6c",
       "targetFile": "dist/services/one-way/index.html",
-      "targetSha256": "65976ac35d6a6a4972cc7b31d7167630182f6c16246ddaf3090db63fa851cfe2",
+      "targetSha256": "d0d15f87ef954e99f138d78ca94d273e8ad11d8d82ad88537310471a9aefb2ae",
       "kind": "service",
       "sourceHeadings": [
         "Parkezi®",
@@ -1107,7 +1107,7 @@
       "sourceCaptureFile": "content/source-site/integrations__beninca.json",
       "sourceCaptureSha256": "14410d08b880c8e0bde9a85cf2e58453ca60177fb7ebca80387b401d797d3081",
       "targetFile": "dist/integrations/beninca/index.html",
-      "targetSha256": "4833e5d481ef305c324674935afe870dd12b8426f2b2c37049c9679d656793ca",
+      "targetSha256": "2f2d0c63b2d068b799e00be67e661a119ce99a24a28ae2955566cc1e2a37887d",
       "kind": "integration",
       "sourceHeadings": [
         "Parkezi ® Partners with Beninca",
@@ -1144,7 +1144,7 @@
       "sourceCaptureFile": "content/source-site/integrations__selea.json",
       "sourceCaptureSha256": "737858ba745cf30df859b7a99119e9cfe9e9ce2b5710961e4d069f83a0d5f014",
       "targetFile": "dist/integrations/selea/index.html",
-      "targetSha256": "1e42cdb3fc953effb7b8ba413f0ba957991786acb532c02b04c59db9edd3c2ee",
+      "targetSha256": "28ccbe3b2392df75c79617f2112448dc1576177c8554e6300ccc1fb5fa523efb",
       "kind": "integration",
       "sourceHeadings": [
         "Purchase Plans",
@@ -1175,7 +1175,7 @@
       "sourceCaptureFile": "content/source-site/integrations__adaptive-recognition.json",
       "sourceCaptureSha256": "c34133e2446ccf525886365b1e66a002f624dd8c633ac461a5e65311fba49d2f",
       "targetFile": "dist/integrations/adaptive-recognition/index.html",
-      "targetSha256": "7d13a40d1b0d40321ab936444449b578c22417b8d0cd066ab0e4c4d68a7cb433",
+      "targetSha256": "34cae889c939a2f5c336f31a15799d1943f659c364ed78fddda9d66b5fe486b6",
       "kind": "integration",
       "sourceHeadings": [
         "Parkezi® Have Partnered with Adaptive Recognition",
@@ -1212,7 +1212,7 @@
       "sourceCaptureFile": "content/source-site/integrations__windcave.json",
       "sourceCaptureSha256": "09b246f7a47e01654ef7edcd636fbd172ce839862ac3f4f1fec2ac743fc8a16f",
       "targetFile": "dist/integrations/windcave/index.html",
-      "targetSha256": "d731872474b9708e39c174dda5a9291771ebe5468ebb39d6c0131906ab0d2168",
+      "targetSha256": "252a58b8d244bf70fbdd25b1043baefd2350fd456eb9503e0a3a32800d2bdb19",
       "kind": "integration",
       "sourceHeadings": [
         "Parkezi ® Partners with Windcave",
@@ -1249,7 +1249,7 @@
       "sourceCaptureFile": "content/source-site/project__knight-frank-chatswood.json",
       "sourceCaptureSha256": "f9d37baef0949ee9341fb3b7004c54f6e38a524987d8a9c41a0864a9126ae585",
       "targetFile": "dist/project/knight-frank-chatswood/index.html",
-      "targetSha256": "3a439c09434e62a5990b72bc7f0ef08203e727240c9552909b67f78ed127651c",
+      "targetSha256": "14eea466fe42726e31bfbc6df8b425331589b4d543e26d148a87e82149b28af6",
       "kind": "project",
       "sourceHeadings": [
         "Knight Frank Chatswood",
@@ -1286,7 +1286,7 @@
       "sourceCaptureFile": "content/source-site/project__parklea-markets.json",
       "sourceCaptureSha256": "ff9b27b2f4c4b25a92cfd67cbe75eee4670264b766da84db46d4ecfeddfac9a6",
       "targetFile": "dist/project/parklea-markets/index.html",
-      "targetSha256": "8cf4069f463bce4aa4ea9545ecaa8784adf790305f2b14a1a35c035e57350a8b",
+      "targetSha256": "1bf898a5f25d11e31b108b03f3f2a624ae728ed96b869d4bb36750e6c87b112c",
       "kind": "project",
       "sourceHeadings": [
         "Parklea Markets",
@@ -1321,7 +1321,7 @@
       "sourceCaptureFile": "content/source-site/project__mercure-sydney-macquarie-park.json",
       "sourceCaptureSha256": "b10a4978b2f9538c1539a2c126916a3564e9bbc47ce790d6c87223b3a22b0e80",
       "targetFile": "dist/project/mercure-sydney-macquarie-park/index.html",
-      "targetSha256": "56cfda9d25736e65363e6792bb01d78f60f02c16d2bee85c774f4d96166f09c1",
+      "targetSha256": "b581701ad1c9cfee213f16c3a7b447aaa49af599f5e833a256fb0bab8224efb7",
       "kind": "project",
       "sourceHeadings": [
         "Mercure Sydney Macquarie Park",
@@ -1356,7 +1356,7 @@
       "sourceCaptureFile": "content/source-site/project__mercure-hotel-sydney-manly.json",
       "sourceCaptureSha256": "259ca4c3b8e3e338a7e1db048e8cb3ac17594003d10d286be645140b604ff796",
       "targetFile": "dist/project/mercure-hotel-sydney-manly/index.html",
-      "targetSha256": "13378fa69ad9fc9337400c3ad7f62d7b9bf81cf7f5a82fee073ef4b3f5a90307",
+      "targetSha256": "eaec167a6357e8f21500e93998c009f8810d96211429399efbffdf4867ebb6b9",
       "kind": "project",
       "sourceHeadings": [
         "Mercure Hotel Sydney Manly",
@@ -1390,7 +1390,7 @@
       "sourceCaptureFile": "content/source-site/project__parkly-penrith.json",
       "sourceCaptureSha256": "d3c1e4d4fcb2864241176656bb0cbd6a85d0c76bcfb76d45f5b425c57218b932",
       "targetFile": "dist/project/parkly-penrith/index.html",
-      "targetSha256": "608eb56bd20ae0481077398be309f70b29e24a36eb611c3677d0fc4d1a8e5650",
+      "targetSha256": "ea10fd1662514132f435377325496f330ee0219d82bfa3c24d6847e9e65a4cec",
       "kind": "project",
       "sourceHeadings": [
         "Parkly Penrith",
@@ -1427,7 +1427,7 @@
       "sourceCaptureFile": "content/source-site/project__quest-apartments.json",
       "sourceCaptureSha256": "d0755cf6fdfa8b1c964e18bfe52dcc38c3a06b2c5a1f2d79c4d598969f245151",
       "targetFile": "dist/project/quest-apartments/index.html",
-      "targetSha256": "9b00d02d5526c7c13ac4130294f5e82a1266ba51ffe0a760498e7ef690ae904d",
+      "targetSha256": "eb9f16d59338c38ba447c56e08acc8f3adb2d2adff4e3c317e4a0502b396d923",
       "kind": "project",
       "sourceHeadings": [
         "Quest Apartments",
@@ -1468,7 +1468,7 @@
       "sourceCaptureFile": "content/source-site/project__tasman-holiday-parks.json",
       "sourceCaptureSha256": "37d2435bade05311bf6b0175a3aa38bc0467232d6ffd0789227af052a4bf5efd",
       "targetFile": "dist/project/tasman-holiday-parks/index.html",
-      "targetSha256": "f40f84b148bdef4c14251f0632a15dd6556c00878297525756c4e0274405a5ef",
+      "targetSha256": "45b4a22227fa7faf501f4d6b1b7b30434d1a986291c4bdd3922413c955b194e4",
       "kind": "project",
       "sourceHeadings": [
         "Tasman Holiday Parks",
@@ -1503,7 +1503,7 @@
       "sourceCaptureFile": "content/source-site/project__cleanaway-eastern-creek-site.json",
       "sourceCaptureSha256": "d1d2dca245e1e67cdf6d3472d2a131bf83857c12b460d2aa2251bbbcabb9af74",
       "targetFile": "dist/project/cleanaway-eastern-creek-site/index.html",
-      "targetSha256": "624513df43042e30bf5a78ed07cf978cea38a9a60822260f22964c6ec3367d83",
+      "targetSha256": "f2c58554ce200d8eccb025ee573e634850eec18dbed111b8eb3261b19ec036aa",
       "kind": "project",
       "sourceHeadings": [
         "Cleanaway Eastern Creek Site",
@@ -1537,7 +1537,7 @@
       "sourceCaptureFile": "content/source-site/post__how-much-does-a-parking-automation-system-cost-in-australia.json",
       "sourceCaptureSha256": "4cf7c53414a52d0d66b97893f2c751963a12a1da227f15a2d1e6564791e46fb9",
       "targetFile": "dist/post/how-much-does-a-parking-automation-system-cost-in-australia/index.html",
-      "targetSha256": "f3924a543433c3c4be1daa45545100e8d898c6bdaadff74f25f043a2668dbc09",
+      "targetSha256": "baf89b696a54600cb190b3a0e41e851382ed312896dbed96908ba838543d86bb",
       "kind": "article",
       "sourceHeadings": [
         "How Much Does a Parking Automation System Cost in Australia?",
@@ -1587,7 +1587,7 @@
       "sourceCaptureFile": "content/source-site/post__how-ticketless-parking-improves-customer-experience-and-revenue.json",
       "sourceCaptureSha256": "98f0b63380c32c589fbc07555a7ff7758fb5e385eb1626811112aa61c15e9414",
       "targetFile": "dist/post/how-ticketless-parking-improves-customer-experience-and-revenue/index.html",
-      "targetSha256": "3b8a7248549ab1d3189712947b735a434b3c7885076dabe1f8059a72224f15cd",
+      "targetSha256": "b7cc4b68ef03d7f4ae8fa96db7e82be9a1856cf34063ee58167836cdebcde9c3",
       "kind": "article",
       "sourceHeadings": [
         "How Ticketless Parking Improves Customer Experience and Revenue",
@@ -1641,7 +1641,7 @@
       "sourceCaptureFile": "content/source-site/post__contactless-vs-traditional-parking-systems-which-is-right-for-your-site.json",
       "sourceCaptureSha256": "8903e7b4c6b44b1c6c8bfd130af14772efbd617088d0788b07741f121cfd3e99",
       "targetFile": "dist/post/contactless-vs-traditional-parking-systems-which-is-right-for-your-site/index.html",
-      "targetSha256": "8ed1ba446d0a6e96964eca430da0afdda7d0255accbdf81bf70fc66c9df9b88a",
+      "targetSha256": "25d7c7560b964fccb5c03c75b55f18b3d792fdee18f70b174a10dd4030f84673",
       "kind": "article",
       "sourceHeadings": [
         "Contactless vs Traditional Parking Systems: Which Is Right for Your Site?",
@@ -1689,7 +1689,7 @@
       "sourceCaptureFile": "content/source-site/post__five-common-parking-management-challenges-and-how-anpr-solves-them.json",
       "sourceCaptureSha256": "a2b3e87929d4690bfe232e69744d7b3f1da66118ebd4c7e119d84b124b8084a4",
       "targetFile": "dist/post/five-common-parking-management-challenges-and-how-anpr-solves-them/index.html",
-      "targetSha256": "41d8c34734c06e93f67bef5eecdcb21002c4a126cba5f9fe9d55c69b66fee112",
+      "targetSha256": "1f5edc2318bed31d48d85011c7455cfacd9df8bb773bfe9e6f8bac4c49f81a63",
       "kind": "article",
       "sourceHeadings": [
         "Five Common Parking Management Challenges (and How ANPR Solves Them)",
@@ -1733,7 +1733,7 @@
       "sourceCaptureFile": "content/source-site/post__how-anpr-improves-security-in-commercial-and-residential-car-parks.json",
       "sourceCaptureSha256": "02adae4da80b34eb718a47faba9275cadb19fac253fef1f7adda23fac6070edd",
       "targetFile": "dist/post/how-anpr-improves-security-in-commercial-and-residential-car-parks/index.html",
-      "targetSha256": "d45d51768ce5edf6820963ad4380e950f5bc9dbfc269e12b00400932b72f98ce",
+      "targetSha256": "7a4646f9961f4769e790aa3907d4b5ba5191abb622aa55550e75130ba7a70243",
       "kind": "article",
       "sourceHeadings": [
         "How ANPR Improves Security in Commercial and Residential Car Parks",
@@ -1779,7 +1779,7 @@
       "sourceCaptureFile": "content/source-site/post__how-cloud-parking-management-software-simplifies-multi-site-operations.json",
       "sourceCaptureSha256": "6f186adad6c8600c48647327e0c4182cfe29181ffab806b94b6819419e9ec0db",
       "targetFile": "dist/post/how-cloud-parking-management-software-simplifies-multi-site-operations/index.html",
-      "targetSha256": "242a0cf57fdd4eb340baa901f8c6ba009b69d772669a3db4d3c847aac01049b6",
+      "targetSha256": "bf07bf4e1d993f9388628ea247e2332980dad066712f6e123fe0dd996eee731c",
       "kind": "article",
       "sourceHeadings": [
         "How Cloud Parking Management Software Simplifies Multi-Site Operations",
@@ -1823,7 +1823,7 @@
       "sourceCaptureFile": "content/source-site/post__how-do-boom-gates-work.json",
       "sourceCaptureSha256": "5ecd2712eb98d46f27204fcb2b3e85d1dbb588c29f0826d43080964f5e662319",
       "targetFile": "dist/post/how-do-boom-gates-work/index.html",
-      "targetSha256": "3efa82623a3fd803a5e24319cd74257819a7662c76bd910962273ada5b437449",
+      "targetSha256": "957f0192626b85d8bd70b0b70a32b77bd4046c8a167c8be92372df926b67d55e",
       "kind": "article",
       "sourceHeadings": [
         "How Do Boom Gates Work?",
@@ -1857,7 +1857,7 @@
       "sourceCaptureFile": "content/source-site/post__smart-parking-for-property-developers-adding-value-with-automation.json",
       "sourceCaptureSha256": "0a73946cb7c23ff4778bdcdde6a9b18bfb984bb1f4eb86f38ac599689381cbed",
       "targetFile": "dist/post/smart-parking-for-property-developers-adding-value-with-automation/index.html",
-      "targetSha256": "622521136d7bdaaea3c4900587181a7447767a3faa0b4f23df10dcbe07599729",
+      "targetSha256": "fe42372bc62dac8cadc823b9c06329bc21d83734c4ae31a7c68d8392a63c68d5",
       "kind": "article",
       "sourceHeadings": [
         "Smart Parking for Property Developers: Adding Value with Automation",
@@ -1915,7 +1915,7 @@
       "sourceCaptureFile": "content/source-site/post__the-future-of-parking-automation-in-australia.json",
       "sourceCaptureSha256": "84da7d3a49e92cb7cb363cfe86eba37c9d1dccf8755168718775fe3ef968bb85",
       "targetFile": "dist/post/the-future-of-parking-automation-in-australia/index.html",
-      "targetSha256": "c7c42bdb5da7d0c87ed5b4fa00b19d4cd24277a93a5b4c187a1c6c89d80b20cc",
+      "targetSha256": "91919a15597e58344410d5f31d3364eb11d2043fd9978cc072978fd5191cf9d6",
       "kind": "article",
       "sourceHeadings": [
         "The Future of Parking Automation in Australia",
@@ -1959,7 +1959,7 @@
       "sourceCaptureFile": "content/source-site/post__what-to-look-for-in-an-automatic-number-plate-recognition-system.json",
       "sourceCaptureSha256": "a156330a68d410985cfce8a0e939e13cf1c3b5e0ac8155cb94d8a5075ee989e5",
       "targetFile": "dist/post/what-to-look-for-in-an-automatic-number-plate-recognition-system/index.html",
-      "targetSha256": "f15807263b6ae820fbebcf599cd7fd319877361db39d9f25ddc436bc1ce8fcb9",
+      "targetSha256": "c271887891fd4756c326ae7ead68656b1a82e867c21c009f076bd97a58b30697",
       "kind": "article",
       "sourceHeadings": [
         "What to look for in an Automatic Number Plate Recognition (Parkezi) system",
@@ -2001,7 +2001,7 @@
       "sourceCaptureFile": "content/source-site/post__why-automatic-number-plate-recognition-anpr-carpark-access-systems-make-sense-for-strata-managers-and-residents-alike.json",
       "sourceCaptureSha256": "eeea9eaf46527b0c46ea10c7b57dbba1294c48fa90e3c3a08e81eee7c0cab7de",
       "targetFile": "dist/post/why-automatic-number-plate-recognition-anpr-carpark-access-systems-make-sense-for-strata-managers-and-residents-alike/index.html",
-      "targetSha256": "ecc88e2ccd841f61cb37cb7897d2917a8b519828bce7847dc4ebf729fdaacaa4",
+      "targetSha256": "da57e269c4fe328a47ddc98a9176435c2789c5ef958e2406990e4978ded9f4ec",
       "kind": "article",
       "sourceHeadings": [
         "Why Automatic Number Plate Recognition (Anpr) Carpark Access Systems Make Sense for Strata Managers and Residents Alike",
@@ -2031,7 +2031,7 @@
       "sourceCaptureFile": "content/source-site/legal__privacy-policy.json",
       "sourceCaptureSha256": "5b17c89b479f0df322ee5380b9473361b5e03f3897c02ddbe0aa7df33e912923",
       "targetFile": "dist/legal/privacy-policy/index.html",
-      "targetSha256": "d027947badd9a55a108eb21746a79c382ccb7b4f026f3af9b9cb3fff46cc2c51",
+      "targetSha256": "5c694b0a23cc11356d3c8ca9f7fefc69750884054ded553d1a9eae2e35945317",
       "kind": "legal",
       "sourceHeadings": [],
       "targetHeadings": [
@@ -2064,7 +2064,7 @@
       "sourceCaptureFile": "content/source-site/success__newsletter.json",
       "sourceCaptureSha256": "c621575c34faa33c79e24e501d0798e852dcf61757a70332a6fdf5027dea9e52",
       "targetFile": "dist/success/newsletter/index.html",
-      "targetSha256": "84ba1bf65679deadd170004212a3a4fb794c7f6edcd7bf57ae89ac70876c7402",
+      "targetSha256": "8a3bcc0a4c3abfce7c5f39ff107e2f02bb0a5ee93b5e64000a7394a9147ddbd1",
       "kind": "newsletter",
       "sourceHeadings": [
         "You've Joined"
@@ -2094,7 +2094,7 @@
       "sourceCaptureFile": "content/source-site/post__improve-parking-revenue-without-increasing-fees.json",
       "sourceCaptureSha256": "c9f0e5204cac77dbb3c675e49439111343f55444c3bb7f982d86e65b49f4e5d1",
       "targetFile": "dist/post/improve-parking-revenue-without-increasing-fees/index.html",
-      "targetSha256": "d31e29b3120a56832d772c5c1543245bead12a0c1674f63efb058b593029f233",
+      "targetSha256": "ba86a99d50b14f1493997ebed6cb9a1b376a16a6b9ab5deb923e5996f6ad4dc8",
       "kind": "article",
       "sourceHeadings": [
         "How to Improve Parking Revenue Without Increasing Fees",
@@ -2156,7 +2156,7 @@
       "sourceCaptureFile": "content/source-site/post__why-sydney-property-managers-are-investing-in-parking-automation.json",
       "sourceCaptureSha256": "09b7949c2c3d15fd2e2de56b84773d5fea02ed0fd1f55cd618309b1c1fcbbb19",
       "targetFile": "dist/post/why-sydney-property-managers-are-investing-in-parking-automation/index.html",
-      "targetSha256": "8b2d77500972ac341d74f897f6d584d4cb9b9ed90f413b746f6912437380ff5c",
+      "targetSha256": "e233c32b23bdc6712bd015eb0495cd699b1c34c01635ec7aa7cf4dd17f21f914",
       "kind": "article",
       "sourceHeadings": [
         "Why Sydney Property Managers Are Investing in Parking Automation",
@@ -2218,7 +2218,7 @@
       "sourceCaptureFile": "content/source-site/post__choose-the-right-parking-access-control-system-for-your-site.json",
       "sourceCaptureSha256": "6cdb74b6378e80c6d6bbdb85628c4e751ceced3dfa4d85d7488746a884106a5d",
       "targetFile": "dist/post/choose-the-right-parking-access-control-system-for-your-site/index.html",
-      "targetSha256": "6594f2cab48360a8d861b59117ab35a3c87983da88fcddca3e4c978803e873ea",
+      "targetSha256": "62ff25818aef5d1b113fae3ebb55c2869fc537ebc8ab4dcc8129ece2da2a2c2e",
       "kind": "article",
       "sourceHeadings": [
         "How to Choose the Right Parking Access Control System for Your Site",
@@ -2282,7 +2282,7 @@
       "sourceCaptureFile": "content/source-site/post__how-ticketless-parking-validation-works-for-retail-and-hospitality-sites.json",
       "sourceCaptureSha256": "718bc49a8a475170340042dc4259e9f752d6970c3712b6039f767ea0a26e17a5",
       "targetFile": "dist/post/how-ticketless-parking-validation-works-for-retail-and-hospitality-sites/index.html",
-      "targetSha256": "de038edddf31f5d94829c7ca4f41811fd0167a435155bae230cdbca9ad58d1e5",
+      "targetSha256": "d424ce2d422f1b09b83a0c98d39c5fe3101a56c029dff0745048a111cf42d9a3",
       "kind": "article",
       "sourceHeadings": [
         "How Ticketless Parking Validation Works for Retail and Hospitality Sites",
@@ -2346,7 +2346,7 @@
       "sourceCaptureFile": "content/source-site/post__tenant-parking-quota-management-solves-a-common-commercial-property-problem.json",
       "sourceCaptureSha256": "fc8b149d2ab8c4bcdc02adf408b37d51314665a01cf31921783a33f454fa8f55",
       "targetFile": "dist/post/tenant-parking-quota-management-solves-a-common-commercial-property-problem/index.html",
-      "targetSha256": "4f11c2db2658dcea94b316d017525be1c612e8240aa6c3a241d3b331f0084f1a",
+      "targetSha256": "76612e7c9328f0d755c2fa2674e84b9bbea4c69c538fd29044933e58fef99cc8",
       "kind": "article",
       "sourceHeadings": [
         "How Tenant Parking Quota Management Solves a Common Commercial Property Problem",
@@ -2406,7 +2406,7 @@
       "sourceCaptureFile": "content/source-site/post__anpr-cameras-improve-two-way-parking-systems-in-high-traffic-sites.json",
       "sourceCaptureSha256": "66c055f9d85568eca84c00bba0981e2331ae146ba2e0634a5295cc32b0963c15",
       "targetFile": "dist/post/anpr-cameras-improve-two-way-parking-systems-in-high-traffic-sites/index.html",
-      "targetSha256": "ce7618bc8101d3b6a0c7e1a7382d508cc769e69c01c176d203cc1fccc382f5e2",
+      "targetSha256": "4c3a27d750cdad7e435c963157dcf2ca0d9f814e6e50d9bf46fa37aa46c84021",
       "kind": "article",
       "sourceHeadings": [
         "How ANPR Cameras Improve Two-Way Parking Systems in High-Traffic Sites",
