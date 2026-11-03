@@ -73,7 +73,7 @@ for(const name of ['index.html','home-v2.html','home-v2-alt.html','home-white.ht
  const stage=html.slice(start,end);
  assert.equal((stage.match(/class="hero-unit /g)||[]).length,5,`${name}: five product families`);
  assert.equal((stage.match(/class="step-pair"/g)||[]).length,1,`${name}: one grouped Step pair`);
- assert.match(stage,/step-pay-wide-generated.webp/);
+ assert.match(stage,/step-pay-wide-blue.webp/);
  assert.match(html,/data-product-previous aria-label="Previous product"/);
  assert.match(html,/data-product-next aria-label="Next product"/);
 }
@@ -83,7 +83,7 @@ for(const name of ['express-pay.html','step-pay.html']){
  assert.equal(count,name.startsWith('express')?4:2,`${name}: gallery count`);
  if(name.startsWith('step')){
   assert.match(gallery,/src="assets\/step-pay\.webp/);
-  assert.ok(gallery.indexOf('assets/step-pay.webp')<gallery.indexOf('assets/step-pay-wide-generated.webp'));
+  assert.ok(gallery.indexOf('assets/step-pay.webp')<gallery.indexOf('assets/step-pay-wide-blue.webp'));
  }
 }
 const report={htmlFiles:htmlFiles.length,sourceRoutes:coverage.entries.length,localReferences:references,structuredDataBlocks:schemas,sourceOnlyChecks:true,browserChecks:'UNVERIFIED: no supported current-revision browser evidence; two-pass review cap exhausted'};

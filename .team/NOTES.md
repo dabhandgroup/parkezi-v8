@@ -73,3 +73,7 @@ Owner build/source/fixture checks are separate from actual rendered verification
 ## System hero self-check - 3 November 2026
 
 Only the three identified system pages receive the new hero/form layout. scripts/build-pages.mjs moves the existing form into the hero, retaining custom country/attachments/submit behaviour and unique IDs; optional address is no longer required. Footer retains contact/address/hours and adds a lazy head-office map with a return-to-form link. dist/system-enquiry.js provides scoped validation; other product/home HTML is byte-identical to3530b81. No Basin or provider changes. Cloud/Chrome access failures from the same session remain unresolved; no repeated paid browser prompt or third reviewer was started. These source/fixture checks cannot prove actual fold placement or current responsive appearance.
+
+## Matching finish/two-up source evidence
+
+A new ChatGPT image_gen edit matches the larger unit exterior to the original standard reference, saving artwork/step-pay-wide-blue.png and dist/assets/step-pay-wide-blue.webp. Earlier source/generated assets are unchanged. Full prompt and alpha/hash evidence in content/generated-step-pay-blue.json. Active home/catalogue/Step gallery references use the blue sibling. Mobile hero now uses two equal snap panels per viewport, a grid image/caption layout, and visible-range/actual-scroll-end controller logic. Owner tests cover last-window clamping and keyboard/focus paths with fixtures, not a real browser. Numerical screen size remains unconfirmed; no form-delivery/provider change.

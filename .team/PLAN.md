@@ -85,3 +85,11 @@
 - [x] Node24 build,18 owner tests,58-page static/52-route source audit; original114 assets and approved product/home HTML unchanged.
 - [ ] Freeze/push same PR and deploy authorised share host, record source/alias readback and critical logs.
 - [ ] Actual desktop fold, responsive overflow, field focus/autofill, keyboard and font-loaded wrap checks remain BLOCKED by known unsupported browser access. Review cap2/2 unchanged.
+
+## Matching finish/two-up checklist
+
+- [x] Built-in ChatGPT image edit inspected: blue-grey exterior, unchanged wider unit geometry/UI/branding, real alpha; PNG and lossless WebP sibling saved with prompt/hash provenance.
+- [x] Two family panels per mobile viewport, bottom-aligned contain images, dedicated caption row, visible-range counter and clamped last-window controls. Step variants stay together; desktop composition and corrected card SVGs retained.
+- [x] Build,19 tests,58-page static and52-route source audit; all previous image assets unchanged.
+- [ ] Freeze/push same PR, deploy authorised host, read back source/alias and critical logs.
+- [ ] Actual current responsive/finish-in-page/keyboard/swipe/wrapping checks require supported browser evidence. Existing2/2 review ledger unchanged.

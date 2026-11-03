@@ -77,3 +77,9 @@ SITE-04 source/build/auth evidence will be bound to the final candidate identity
 - HERO-02: Exactly one enquiryForm/country/attachment ID set per page; all existing #enquire links reach the hero. Core first/last/email/phone/message fields visible; optional address/files expand without hidden required-field traps. Custom dropdown only, readable16px controls, autofill/focus and zoom preserved.
 - HERO-03: Digit-free name input, numeric phone input with AU formatting, email/phone validation and in-field tick/error feedback. No new endpoint, real submission or false delivery claim; visible phone/email fallback. Product/home content and original assets unchanged.
 - HERO-04: Final SHA/tree and V8 host/readback, appropriate source/fixture checks, existing2/2 ledger and stale affected hero/form evidence disclosed. Rendered/keyboard/mobile/fold checks BLOCKED until actual supported browser access; no Ready/Done acceptance inferred.
+
+## Active matching finish/two-up criteria
+
+- PAIR-01: Larger Step illustration uses the same blue-grey finish as the standard reference while preserving hardware and branding. Actual transparent PNG, lossless derivative, full prompt/source/output identity and earlier assets retained. Owner inspection is not independent review or authentic product proof.
+- PAIR-02: Two product families fit per mobile viewport with both Step models grouped; images use a shared bottom-aligned region and captions occupy a separate row without overlay. Last window shows families4-5, disabled next at true scroll end, keyboard/arrow behaviour retained, desktop layout unchanged.
+- PAIR-03: Build/fixtures/local routes/gallery/schema/source audit pass. Exact source/deployment readbacks, scoped logs and preserved2/2 review state. Current rendered mobile/wrapping/colour pairing unverified without actual supported browser access; no Done/acceptance inferred.

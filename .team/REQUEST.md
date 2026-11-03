@@ -33,3 +33,7 @@ Event `parkezi:2026-11-03:custom-selector-generated-unit:v1`. Direct Harry reque
 ## System hero and early enquiry - 3 November 2026
 
 Event `parkezi:2026-11-03:system-hero-early-enquiry:v1`. Harry says the One-Way/Two-Way service heroes feel sparse and requests more useful information, the original image and a form higher up, ideally in the first desktop screen. Apply a matching layout to the third system page, Paid Parking. Same DAB-47/branch/PR and ongoing authorised V8 share-host updates. No product-page redesign or new form-delivery endpoint inferred.
+
+## Matching Step finish and two-up mobile - 3 November 2026
+
+Event `parkezi:2026-11-03:matched-step-finish-two-up:v1`, direct Harry IMG_6378 feedback. Match the two Step & Pay colours and improve positioning; show two products per mobile screen. Match the generated wider unit to the standard blue-grey finish, preserve hardware/branding/transparency, and retain earlier assets. Show two product-family panels per mobile viewport, Step pair together, baseline-aligned imagery with captions in a separate row. Same DAB-47/branch/PR and ongoing authorised V8 share-host request. No numeric screen size or new family.

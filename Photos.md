@@ -43,3 +43,7 @@ Both Step & Pay models are grouped in the homepage hero and the single Step & Pa
 Two genuine Quest Apartments hardware photographs from the original site now appear on all six product routes with accurate installation captions. They show general PARKEZI payment/access hardware, without claiming to depict the illustrated larger model. Source/derivative hashes are in `content/additional-product-photos.json`.
 
 Owner build/source/fixture checks are separate from actual rendered verification. Supported Chrome access failed, device controls are unavailable and the cloud browser prompt could not start because credits were insufficient. Current dropdown/hover/mobile/font-loaded checks are BLOCKED. Independent review remains at two consumed passes; no replacement was launched.
+
+## Matching finish/two-up source evidence
+
+A new ChatGPT image_gen edit matches the larger unit exterior to the original standard reference, saving artwork/step-pay-wide-blue.png and dist/assets/step-pay-wide-blue.webp. Earlier source/generated assets are unchanged. Full prompt and alpha/hash evidence in content/generated-step-pay-blue.json. Active home/catalogue/Step gallery references use the blue sibling. Mobile hero now uses two equal snap panels per viewport, a grid image/caption layout, and visible-range/actual-scroll-end controller logic. Owner tests cover last-window clamping and keyboard/focus paths with fixtures, not a real browser. Numerical screen size remains unconfirmed; no form-delivery/provider change.

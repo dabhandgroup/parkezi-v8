@@ -73,16 +73,19 @@
   const next=controls.querySelector('[data-product-next]');
   const position=controls.querySelector('[data-product-position]');
   const mobile=()=>window.matchMedia('(max-width:970px)').matches;
+  const maximum=()=>Math.max(0,stage.scrollWidth-stage.clientWidth);
   const current=()=>units.reduce((best,item,index)=>Math.abs(item.offsetLeft-stage.scrollLeft)<Math.abs(units[best].offsetLeft-stage.scrollLeft)?index:best,0);
   const sync=()=>{
     const index=current();
-    previous.disabled=index===0;next.disabled=index===units.length-1;
-    position.textContent=`${index+1} of ${units.length}`;
+    const visible=Math.max(1,Math.round(stage.clientWidth/units[0].offsetWidth));
+    previous.disabled=stage.scrollLeft<=1;next.disabled=stage.scrollLeft>=maximum()-1;
+    const last=Math.min(units.length,index+visible);
+    position.textContent=last===index+1?`${index+1} of ${units.length}`:`${index+1}-${last} of ${units.length}`;
   };
   const go=index=>{
     index=Math.max(0,Math.min(units.length-1,index));
     if(!mobile()) return index;
-    stage.scrollTo({left:units[index].offsetLeft,behavior:window.matchMedia('(prefers-reduced-motion: reduce)').matches?'instant':'smooth'});
+    stage.scrollTo({left:Math.min(units[index].offsetLeft,maximum()),behavior:window.matchMedia('(prefers-reduced-motion: reduce)').matches?'instant':'smooth'});
     return index;
   };
   previous.addEventListener('click',()=>go(current()-1));
