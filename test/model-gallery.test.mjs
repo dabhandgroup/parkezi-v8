@@ -11,7 +11,7 @@ test('custom Step picker supports click, keyboard, dismissal and gallery synchro
   const options=['Standard','Larger screen'].map(text=>{const o=element();o.querySelector=()=>({textContent:text});return o;});
   const gallery=element();gallery.clientWidth=480;gallery.scrollLeft=0;gallery.querySelectorAll=()=>[{dataset:{model:'0'}},{dataset:{model:'1'}}];gallery.scrollTo=({left})=>{gallery.scrollLeft=left;gallery.events.scroll?.();};
   const picker=element();picker.classList={add(){},remove(){}};picker.contains=e=>[picker,trigger,panel,...options].includes(e);picker.querySelector=s=>s==='.model-trigger'?trigger:s==='[role="listbox"]'?panel:s==='#stepModelValue'?label:value;picker.querySelectorAll=()=>options;
-  document.querySelector=s=>s==='[data-model-picker]'?picker:gallery;
+  document.querySelector=s=>s==='[data-model-picker]'?picker:s==='#productGallery'?gallery:null;
   vm.runInNewContext(await readFile('dist/full-site.js','utf8'),{document,window:{matchMedia:()=>({matches:true})},requestAnimationFrame:fn=>fn(),setTimeout:fn=>{fn();return 1;},clearTimeout(){}});
   trigger.events.click();assert.equal(trigger.attrs['aria-expanded'],'true');assert.equal(panel.hidden,false);assert.equal(document.activeElement,options[0]);
   const key=key=>({key,preventDefault(){},stopPropagation(){}});
@@ -20,6 +20,25 @@ test('custom Step picker supports click, keyboard, dismissal and gallery synchro
   gallery.scrollLeft=0;gallery.events.scroll();assert.equal(value.value,'0');
   trigger.events.keydown(key('End'));assert.equal(document.activeElement,options[1]);panel.events.keydown(key('Escape'));assert.equal(trigger.attrs['aria-expanded'],'false');
   trigger.events.click();document.events.pointerdown({target:{}});assert.equal(trigger.attrs['aria-expanded'],'false');
+});
+
+test('mobile product row supports arrows, keyboard, swipe position and desktop no-op',async()=>{
+  let focused=-1,mobile=true;
+  const units=Array.from({length:5},(_,i)=>({offsetLeft:i*300,focus(){focused=i;}}));
+  const stage={scrollLeft:0,events:{},querySelectorAll:()=>units,addEventListener(type,fn){this.events[type]=fn;},scrollTo({left,behavior}){this.scrollLeft=left;this.behavior=behavior;this.events.scroll?.();}};
+  const button=()=>({disabled:false,events:{},addEventListener(type,fn){this.events[type]=fn;}});
+  const previous=button(),next=button(),position={textContent:''};
+  const controls={querySelector:s=>s==='[data-product-previous]'?previous:s==='[data-product-next]'?next:position};
+  const document={querySelector:s=>s==='[data-mobile-products]'?stage:s==='[data-mobile-product-controls]'?controls:null};
+  const window={matchMedia:q=>({matches:q.includes('max-width')?mobile:true}),addEventListener(){}};
+  vm.runInNewContext(await readFile('dist/full-site.js','utf8'),{document,window});
+  assert.equal(previous.disabled,true);assert.equal(position.textContent,'1 of 5');
+  next.events.click();assert.equal(stage.scrollLeft,300);assert.equal(position.textContent,'2 of 5');assert.equal(stage.behavior,'instant');
+  const key=key=>({key,preventDefault(){}});
+  stage.events.keydown(key('End'));assert.equal(stage.scrollLeft,1200);assert.equal(focused,4);assert.equal(next.disabled,true);
+  stage.scrollLeft=600;stage.events.scroll();assert.equal(position.textContent,'3 of 5');
+  stage.events.keydown(key('Home'));assert.equal(stage.scrollLeft,0);assert.equal(focused,0);
+  mobile=false;next.events.click();assert.equal(stage.scrollLeft,0);
 });
 
 test('all product pages have shared content/photos and Step uses only a custom two-model control',async()=>{

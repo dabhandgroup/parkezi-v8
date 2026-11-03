@@ -63,6 +63,20 @@ for(const route of ['paid-parking','two-way','one-way']){
  assert.equal((html.match(/class="country-picker|class="phone-input country-picker/g)||[]).length,1,`${route}: one custom country picker`);
 }
 assert.equal(await readFile('dist/index.html','utf8'),await readFile('dist/home-v2.html','utf8'),'dark home alias');
+for(const name of ['index.html','home-v2.html','home-v2-alt.html','home-white.html','systems/index.html']){
+ const html=documents.get(path.join(root,name));
+ for(const [original,direction] of [['car','two'],['shield','one']]){
+  assert.match(html,new RegExp(`class="system-choice-icons"[^>]*>[\\s\\S]*?href="#i-${original}"[\\s\\S]*?href="#i-traffic-${direction}"`),`${name}: paired original/direction icon row`);
+ }
+ if(name==='systems/index.html')continue;
+ const start=html.indexOf('data-mobile-products');const end=html.indexOf('data-mobile-product-controls',start);
+ const stage=html.slice(start,end);
+ assert.equal((stage.match(/class="hero-unit /g)||[]).length,5,`${name}: five product families`);
+ assert.equal((stage.match(/class="step-pair"/g)||[]).length,1,`${name}: one grouped Step pair`);
+ assert.match(stage,/step-pay-wide-generated.webp/);
+ assert.match(html,/data-product-previous aria-label="Previous product"/);
+ assert.match(html,/data-product-next aria-label="Next product"/);
+}
 for(const name of ['express-pay.html','step-pay.html']){
  const html=documents.get(path.join(root,name));const gallery=html.slice(html.indexOf('id="productGallery"')-200,html.indexOf('class="pdp-summary"'));
  const count=(gallery.match(/class="gallery-slide\b/g)||[]).length;
