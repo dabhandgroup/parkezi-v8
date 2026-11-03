@@ -1,9 +1,10 @@
 export const cleanName = value => value.replace(/\p{N}/gu,'');
 
 export function formatPhone(value,country='AU') {
-  const digits=value.replace(/\D/g,'').slice(0,15);
+  let digits=value.replace(/\D/g,'').slice(0,15);
   if(country!=='AU') return digits;
-  const groups=digits.startsWith('0') ? (/^0[45]/.test(digits)?[4,3,3]:[2,4,4]) : [3,3,3];
+  if(digits.startsWith('61')&&digits.length===11) digits='0'+digits.slice(2);
+  const groups=/^1[38]00/.test(digits)?[4,3,3]:/^13/.test(digits)?[2,2,2]:digits.startsWith('0') ? (/^0[45]/.test(digits)?[4,3,3]:[2,4,4]) : [3,3,3];
   let offset=0;
   return groups.map(size=>{const part=digits.slice(offset,offset+size);offset+=size;return part;}).filter(Boolean).join(' ')+(digits.length>offset?' '+digits.slice(offset):'');
 }
@@ -11,7 +12,7 @@ export function formatPhone(value,country='AU') {
 export function validPhone(value,country='AU') {
   if(!/^[\d ]+$/.test(value)) return false;
   const digits=value.replace(/\D/g,'');
-  return country==='AU' ? (digits.startsWith('0')?digits.length===10:digits.length===9) : digits.length>=7&&digits.length<=15;
+  return country==='AU' ? /^(?:0?[234578]\d{8}|13\d{4}|1[38]00\d{6})$/.test(digits) : digits.length>=7&&digits.length<=15;
 }
 
 function initialise(form) {

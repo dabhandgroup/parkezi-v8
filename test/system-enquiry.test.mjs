@@ -12,6 +12,10 @@ test('system enquiry sanitises and formats Australian mobile and landline number
   assert.equal(formatPhone('04a12-345-678'),'0412 345 678');
   assert.equal(formatPhone('0212345678'),'02 1234 5678');
   assert.equal(formatPhone('412345678'),'412 345 678');
+  assert.equal(formatPhone('+61 412 345 678'),'0412 345 678');
+  assert.equal(formatPhone('1300309998'),'1300 309 998');
+  assert.equal(validPhone('1300 309 998'),true);
+  assert.equal(validPhone('13 22 66'),true);
   assert.equal(validPhone('0412 345 678'),true);
   assert.equal(validPhone('02 1234 5678'),true);
   assert.equal(validPhone('0412 345'),false);
