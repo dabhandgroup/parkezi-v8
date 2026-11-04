@@ -4,7 +4,7 @@ import vm from 'node:vm';
 import { readFile } from 'node:fs/promises';
 
 test('custom Step picker supports click, keyboard, dismissal and gallery synchronisation',async()=>{
-  const document={activeElement:null,events:{},addEventListener(type,fn){this.events[type]=fn;}};
+  const document={activeElement:null,events:{},querySelectorAll:()=>[],addEventListener(type,fn){this.events[type]=fn;}};
   const element=()=>({attrs:{},events:{},hidden:false,focus(){document.activeElement=this;},setAttribute(k,v){this.attrs[k]=v;},getAttribute(k){return this.attrs[k];},addEventListener(k,fn){this.events[k]=fn;}});
   const trigger=element(),panel=element(),value={value:'0'},label={textContent:''};
   trigger.attrs['aria-expanded']='false';panel.hidden=true;
@@ -29,7 +29,7 @@ test('mobile product row supports arrows, keyboard, swipe position and desktop n
   const button=()=>({disabled:false,events:{},addEventListener(type,fn){this.events[type]=fn;}});
   const previous=button(),next=button(),position={textContent:''};
   const controls={querySelector:s=>s==='[data-product-previous]'?previous:s==='[data-product-next]'?next:position};
-  const document={querySelector:s=>s==='[data-mobile-products]'?stage:s==='[data-mobile-product-controls]'?controls:null};
+  const document={querySelector:s=>s==='[data-mobile-products]'?stage:s==='[data-mobile-product-controls]'?controls:null,querySelectorAll:()=>[]};
   const window={matchMedia:q=>({matches:q.includes('max-width')?mobile:true}),addEventListener(){}};
   vm.runInNewContext(await readFile('dist/full-site.js','utf8'),{document,window});
   assert.equal(previous.disabled,true);assert.equal(position.textContent,'1-2 of 5');
@@ -42,6 +42,18 @@ test('mobile product row supports arrows, keyboard, swipe position and desktop n
   mobile=false;next.events.click();assert.equal(stage.scrollLeft,0);
 });
 
+test('catalogue Step pair matches Scan & Go height after resizing',async()=>{
+  let height=200,change;
+  const reference={getBoundingClientRect:()=>({height}),addEventListener(){}};
+  const properties={};
+  const card={parentElement:{querySelector:selector=>{assert.equal(selector,'.product-image > img[src*="scan-go.webp"]');return reference;}},style:{setProperty:(key,value)=>{properties[key]=value;}}};
+  const document={querySelector:()=>null,querySelectorAll:()=>[card]};
+  class ResizeObserver { constructor(callback){change=callback;} observe(element){assert.equal(element,reference);} }
+  vm.runInNewContext(await readFile('dist/full-site.js','utf8'),{document,ResizeObserver});
+  assert.equal(properties['--pair-display-height'],'200px');
+  height=240;change();assert.equal(properties['--pair-display-height'],'240px');
+});
+
 test('all product pages have shared content/photos and Step uses only a custom two-model control',async()=>{
   const coverage=JSON.parse(await readFile('content/route-coverage.json','utf8'));
   for(const entry of coverage.entries.filter(e=>e.source.includes('/products/'))){
@@ -50,6 +62,6 @@ test('all product pages have shared content/photos and Step uses only a custom t
     assert.match(html,/id="features"/);assert.match(html,/id="installations"/);assert.match(html,/quest-installation-detail-photo.webp/);assert.match(html,/Automated traffic management/);assert.match(html,/data-extra-faq/);
   }
   const step=await readFile('dist/step-pay.html','utf8');assert.match(step,/data-model-picker/);assert.match(step,/role="listbox"/);assert.match(step,/data-model-option="0"/);assert.match(step,/data-model-option="1"/);assert.doesNotMatch(step,/<select[^>]*id="stepModel"/);
-  assert.match(step,/assets\/step-pay-wide-blue.webp/);assert.doesNotMatch(step,/class="gallery-slide step-studio"/);
+  assert.match(step,/assets\/step-pay-wide-navy.webp/);assert.doesNotMatch(step,/class="gallery-slide step-studio"/);
   const home=await readFile('dist/index.html','utf8');assert.match(home,/step-pair-stage/);assert.match(home,/Explore both Step &amp; Pay models/);assert.match(home,/step-pair-card/);
 });

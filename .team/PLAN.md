@@ -93,3 +93,14 @@
 - [x] Build,19 tests,58-page static and52-route source audit; all previous image assets unchanged.
 - [ ] Freeze/push same PR, deploy authorised host, read back source/alias and critical logs.
 - [ ] Actual current responsive/finish-in-page/keyboard/swipe/wrapping checks require supported browser evidence. Existing2/2 review ledger unchanged.
+
+## Current CTA/Step correction - 4 November 2026
+
+- [x] Replace system-page closing map/contact block with a concise shared CTA; preserve hero form and footer contact information.
+- [x] New darker navy generated sibling, original assets preserved; tighten and centre the pair with normalized transparent-margin presentation frames.
+- [x] Catalogue physical height follows Scan & Go, including responsive resize; both units fit at 320/390/768/1024/1280.
+- [x] Local static browser check, actual geometry, font wrapping and safe DOM-activated CTA/model/menu/scroll journeys. Fix oversized grid tracks, shrunken pair and narrow-card height mismatch, then recheck.
+- [x] Build and20 tests/static/source audit. Preserve prior2/2 independent ledger; cancel retired mandatory Grok gate without calling it PASS.
+- [ ] Publish exact final tree to existing GitHub task branch and let connected Vercel Git Preview build. Record immutable deployment and source identity in owner logs. Hosted gate remains a separate verification limit.
+
+The old direct share-host promotion checklist is superseded by Harry's GitHub-only rule. Do not invoke an old deploy recipe. Actual current local browser evidence is in .team/reviews/owner-cta-responsive-2026-11-04.json; historical blocked reports remain historical.

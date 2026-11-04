@@ -83,3 +83,11 @@ SITE-04 source/build/auth evidence will be bound to the final candidate identity
 - PAIR-01: Larger Step illustration uses the same blue-grey finish as the standard reference while preserving hardware and branding. Actual transparent PNG, lossless derivative, full prompt/source/output identity and earlier assets retained. Owner inspection is not independent review or authentic product proof.
 - PAIR-02: Two product families fit per mobile viewport with both Step models grouped; images use a shared bottom-aligned region and captions occupy a separate row without overlay. Last window shows families4-5, disabled next at true scroll end, keyboard/arrow behaviour retained, desktop layout unchanged.
 - PAIR-03: Build/fixtures/local routes/gallery/schema/source audit pass. Exact source/deployment readbacks, scoped logs and preserved2/2 review state. Current rendered mobile/wrapping/colour pairing unverified without actual supported browser access; no Done/acceptance inferred.
+
+## Current CTA/Step criteria - 4 November 2026
+
+- CTA-01: All3 system pages have a compact closing CTA with enquiry, phone and email actions, no large map and exactly one existing hero enquiry form. Full contact information remains in the footer/contact route.
+- CTA-02: Desktop lineup is contained; Step siblings form one close group with a shared centred caption and coordinated darker navy finish. Original assets remain unchanged.
+- CTA-03: Both catalogue Step units match the rendered Scan & Go height at320/390/768/1024/1280. Two mobile hero families fit per viewport; captions have their own row and controls reach the final4-5of5 window.
+- CTA-04: Build,20 tests, static references, source audit and actual local browser geometry/journeys have exact evidence. Headings fit at most3 lines; new CTA heading is1 line at320/390. Default hero form text computes16px. Physical touch, trusted keyboard/autofill and hosted gated rendering remain separately unverified.
+- CTA-05: Same draft PR/branch, exact remote commit/tree and connected Git Preview provenance recorded. No direct Vercel upload/promotion or Production merge. Grok cancellation is preserved as cancellation, no new review pass and no Done/owner acceptance inferred.

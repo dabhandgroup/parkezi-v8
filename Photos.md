@@ -47,3 +47,9 @@ Owner build/source/fixture checks are separate from actual rendered verification
 ## Matching finish/two-up source evidence
 
 A new ChatGPT image_gen edit matches the larger unit exterior to the original standard reference, saving artwork/step-pay-wide-blue.png and dist/assets/step-pay-wide-blue.webp. Earlier source/generated assets are unchanged. Full prompt and alpha/hash evidence in content/generated-step-pay-blue.json. Active home/catalogue/Step gallery references use the blue sibling. Mobile hero now uses two equal snap panels per viewport, a grid image/caption layout, and visible-range/actual-scroll-end controller logic. Owner tests cover last-window clamping and keyboard/focus paths with fixtures, not a real browser. Numerical screen size remains unconfirmed; no form-delivery/provider change.
+
+## Darker navy and paired presentation - 4 November 2026
+
+Active wider-screen references now use artwork/step-pay-wide-navy.png and dist/assets/step-pay-wide-navy.webp, a further built-in ChatGPT edit with a darker slate/navy exterior. The selected complete transparent image was visually inspected. Earlier source/generated images remain unchanged. Exact output hashes, references, alpha evidence and instruction summary are in content/generated-step-pay-navy.json. The verbatim prompt was not recovered after compaction and is explicitly not claimed.
+
+Presentation-only CSS frames normalize transparent margins without modifying the source images. Both units sit close together, share a centred caption, and move together on existing hover. Catalogue units match the actual Scan & Go image height, with a slight overlap and a two-card tablet scroller so height is retained without overflow. Actual local320/390/768/1024/1280 measurements are recorded in the owner self-check JSON.

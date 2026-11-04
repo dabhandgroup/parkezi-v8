@@ -100,3 +100,18 @@
   window.addEventListener('resize',sync);
   sync();
 })();
+
+(() => {
+  document.querySelectorAll('.step-pair-card').forEach(card=>{
+    const reference=card.parentElement.querySelector('.product-image > img[src*="scan-go.webp"]');
+    if(!reference) return;
+    const sync=()=>{
+      const height=reference.getBoundingClientRect().height;
+      if(height>0) card.style.setProperty('--pair-display-height',`${height}px`);
+    };
+    sync();
+    if(typeof ResizeObserver!=='undefined') new ResizeObserver(sync).observe(reference);
+    else window.addEventListener('resize',sync);
+    reference.addEventListener('load',sync);
+  });
+})();

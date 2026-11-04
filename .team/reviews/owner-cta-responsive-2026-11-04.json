@@ -1,0 +1,612 @@
+{
+  "observedAt": "2026-11-04T18:16:47.170Z",
+  "browser": "T3 Code Electron 44 / Chromium 152, owned background incognito tab",
+  "localOrigin": "http://127.0.0.1:4287",
+  "measurements": [
+    {
+      "frame": {
+        "height": 315,
+        "width": 185.609375,
+        "x": 278.609375,
+        "y": 2718.046875
+      },
+      "headings": [
+        {
+          "lines": 2,
+          "text": "Your car park, your way."
+        },
+        {
+          "lines": 2,
+          "text": "Choose your system"
+        }
+      ],
+      "scan": {
+        "height": 294,
+        "width": 65.875,
+        "x": 578.0859375,
+        "y": 2731.046875
+      },
+      "scrollWidth": 320,
+      "stage": {
+        "height": 274,
+        "width": 284,
+        "x": 18,
+        "y": 531.046875
+      },
+      "stageCards": [
+        {
+          "height": 260,
+          "width": 136,
+          "x": 18,
+          "y": 533.046875
+        },
+        {
+          "height": 260,
+          "width": 136,
+          "x": 166,
+          "y": 533.046875
+        },
+        {
+          "height": 260,
+          "width": 136,
+          "x": 314,
+          "y": 533.046875
+        },
+        {
+          "height": 260,
+          "width": 136,
+          "x": 462,
+          "y": 533.046875
+        },
+        {
+          "height": 260,
+          "width": 136,
+          "x": 610,
+          "y": 533.046875
+        }
+      ],
+      "step": [
+        {
+          "height": 293.9765625,
+          "width": 88.015625,
+          "x": 278.2890625,
+          "y": 2731.0703125
+        },
+        {
+          "height": 293.9921875,
+          "width": 114.3984375,
+          "x": 350.140625,
+          "y": 2731.0546875
+        }
+      ],
+      "width": 320
+    },
+    {
+      "frame": {
+        "height": 315,
+        "width": 225.953125,
+        "x": 321.953125,
+        "y": 2577.59375
+      },
+      "headings": [
+        {
+          "lines": 2,
+          "text": "Your car park, your way."
+        },
+        {
+          "lines": 1,
+          "text": "Choose your system"
+        }
+      ],
+      "scan": {
+        "height": 294,
+        "width": 65.875,
+        "x": 681.9453125,
+        "y": 2590.59375
+      },
+      "scrollWidth": 390,
+      "stage": {
+        "height": 274,
+        "width": 348,
+        "x": 21,
+        "y": 511.859375
+      },
+      "stageCards": [
+        {
+          "height": 260,
+          "width": 168,
+          "x": 21,
+          "y": 513.859375
+        },
+        {
+          "height": 260,
+          "width": 168,
+          "x": 201,
+          "y": 513.859375
+        },
+        {
+          "height": 260,
+          "width": 168,
+          "x": 381,
+          "y": 513.859375
+        },
+        {
+          "height": 260,
+          "width": 168,
+          "x": 561,
+          "y": 513.859375
+        },
+        {
+          "height": 260,
+          "width": 168,
+          "x": 741,
+          "y": 513.859375
+        }
+      ],
+      "step": [
+        {
+          "height": 293.9765625,
+          "width": 88.015625,
+          "x": 341.8046875,
+          "y": 2590.6171875
+        },
+        {
+          "height": 293.9921875,
+          "width": 114.3984375,
+          "x": 413.65625,
+          "y": 2590.6015625
+        }
+      ],
+      "width": 390
+    },
+    {
+      "frame": {
+        "height": 212,
+        "width": 312,
+        "x": 410,
+        "y": 1796.5546875
+      },
+      "headings": [
+        {
+          "lines": 1,
+          "text": "Your car park, your way."
+        },
+        {
+          "lines": 1,
+          "text": "Choose your system"
+        }
+      ],
+      "scan": {
+        "height": 185,
+        "width": 41.453125,
+        "x": 911.2734375,
+        "y": 1815.5546875
+      },
+      "scrollWidth": 768,
+      "stage": {
+        "height": 274,
+        "width": 720,
+        "x": 24,
+        "y": 444.890625
+      },
+      "stageCards": [
+        {
+          "height": 260,
+          "width": 354,
+          "x": 24,
+          "y": 446.890625
+        },
+        {
+          "height": 260,
+          "width": 354,
+          "x": 390,
+          "y": 446.890625
+        },
+        {
+          "height": 260,
+          "width": 354,
+          "x": 756,
+          "y": 446.890625
+        },
+        {
+          "height": 260,
+          "width": 354,
+          "x": 1122,
+          "y": 446.890625
+        },
+        {
+          "height": 260,
+          "width": 354,
+          "x": 1488,
+          "y": 446.890625
+        }
+      ],
+      "step": [
+        {
+          "height": 184.984375,
+          "width": 55.3828125,
+          "x": 507.3984375,
+          "y": 1815.5703125
+        },
+        {
+          "height": 184.9921875,
+          "width": 71.984375,
+          "x": 552.609375,
+          "y": 1815.5625
+        }
+      ],
+      "width": 768
+    },
+    {
+      "frame": {
+        "height": 235,
+        "width": 432,
+        "x": 538,
+        "y": 1842.3125
+      },
+      "headings": [
+        {
+          "lines": 1,
+          "text": "Your car park, your way."
+        },
+        {
+          "lines": 1,
+          "text": "Choose your system"
+        }
+      ],
+      "scan": {
+        "height": 211,
+        "width": 47.2734375,
+        "x": 1216.359375,
+        "y": 1858.3125
+      },
+      "scrollWidth": 1024,
+      "stage": {
+        "height": 430,
+        "width": 982,
+        "x": 21,
+        "y": 462.2890625
+      },
+      "stageCards": [
+        {
+          "height": 430,
+          "width": 148.1953125,
+          "x": 471.2421875,
+          "y": 462.2890625
+        },
+        {
+          "height": 430,
+          "width": 259.3515625,
+          "x": 629.671875,
+          "y": 462.2890625
+        },
+        {
+          "height": 430,
+          "width": 118.5625,
+          "x": 342.4453125,
+          "y": 462.2890625
+        },
+        {
+          "height": 430,
+          "width": 103.7421875,
+          "x": 899.2578125,
+          "y": 462.2890625
+        },
+        {
+          "height": 430,
+          "width": 311.2109375,
+          "x": 21,
+          "y": 462.2890625
+        }
+      ],
+      "step": [
+        {
+          "height": 210.9765625,
+          "width": 63.1640625,
+          "x": 687.1640625,
+          "y": 1858.3359375
+        },
+        {
+          "height": 210.9921875,
+          "width": 82.1015625,
+          "x": 738.7265625,
+          "y": 1858.3203125
+        }
+      ],
+      "width": 1024
+    },
+    {
+      "frame": {
+        "height": 264,
+        "width": 184.3984375,
+        "x": 308.3984375,
+        "y": 1842.046875
+      },
+      "headings": [
+        {
+          "lines": 1,
+          "text": "Your car park, your way."
+        },
+        {
+          "lines": 1,
+          "text": "Choose your system"
+        }
+      ],
+      "scan": {
+        "height": 236,
+        "width": 52.875,
+        "x": 613.5546875,
+        "y": 1862.046875
+      },
+      "scrollWidth": 1280,
+      "stage": {
+        "height": 430,
+        "width": 1238,
+        "x": 21,
+        "y": 475.9921875
+      },
+      "stageCards": [
+        {
+          "height": 430,
+          "width": 186.8984375,
+          "x": 588.6015625,
+          "y": 475.9921875
+        },
+        {
+          "height": 430,
+          "width": 327.0703125,
+          "x": 788.296875,
+          "y": 475.9921875
+        },
+        {
+          "height": 430,
+          "width": 149.5234375,
+          "x": 426.28125,
+          "y": 475.9921875
+        },
+        {
+          "height": 430,
+          "width": 130.8359375,
+          "x": 1128.1640625,
+          "y": 475.9921875
+        },
+        {
+          "height": 430,
+          "width": 392.484375,
+          "x": 21,
+          "y": 475.9921875
+        }
+      ],
+      "step": [
+        {
+          "height": 235.96875,
+          "width": 70.6484375,
+          "x": 325.84375,
+          "y": 1862.078125
+        },
+        {
+          "height": 235.984375,
+          "width": 91.828125,
+          "x": 383.515625,
+          "y": 1862.0625
+        }
+      ],
+      "width": 1280
+    }
+  ],
+  "cta": [
+    {
+      "beforeFooter": "FOOTER",
+      "ctaHeight": 204,
+      "ctaLines": 0.9964923469387754,
+      "formIds": [
+        "enquiryForm",
+        "newsletterPreview",
+        ""
+      ],
+      "scrollWidth": 1280,
+      "width": 1280
+    },
+    {
+      "actions": [
+        {
+          "href": "#enquire",
+          "text": "Discuss your site\nDiscuss your site"
+        },
+        {
+          "href": "tel:1300309998",
+          "text": "1300 309 998\n1300 309 998"
+        },
+        {
+          "href": "mailto:info@parkezi.com.au",
+          "text": "info@parkezi.com.au"
+        }
+      ],
+      "ctaHeight": 305.3828125,
+      "forms": 0,
+      "headingLines": 0.9998866489955356,
+      "maps": 0,
+      "scrollWidth": 768,
+      "width": 768
+    },
+    {
+      "ctaHeight": 359,
+      "headingLines": 1.0044642857142856,
+      "overflow": false,
+      "width": 390
+    },
+    {
+      "actions": [
+        {
+          "height": 49,
+          "href": "#enquire",
+          "width": 284
+        },
+        {
+          "height": 50,
+          "href": "tel:1300309998",
+          "width": 284
+        },
+        {
+          "height": 23,
+          "href": "mailto:info@parkezi.com.au",
+          "width": 170
+        }
+      ],
+      "ctaHeight": 359,
+      "enquiryCount": 1,
+      "fields": [
+        {
+          "fontSize": "16px",
+          "type": "text"
+        },
+        {
+          "fontSize": "16px",
+          "type": "text"
+        },
+        {
+          "fontSize": "16px",
+          "type": "email"
+        },
+        {
+          "fontSize": "16px",
+          "type": "tel"
+        },
+        {
+          "fontSize": "16px",
+          "type": "search"
+        },
+        {
+          "fontSize": "16px",
+          "type": "textarea"
+        },
+        {
+          "fontSize": "16px",
+          "type": "text"
+        },
+        {
+          "fontSize": "16px",
+          "type": "file"
+        }
+      ],
+      "headingLines": 1.0044642857142856,
+      "scrollWidth": 320,
+      "width": 320
+    }
+  ],
+  "journeys": {
+    "ctaToForm": {
+      "fields": [
+        {
+          "fontSize": "16px",
+          "type": "text"
+        },
+        {
+          "fontSize": "16px",
+          "type": "text"
+        },
+        {
+          "fontSize": "16px",
+          "type": "email"
+        },
+        {
+          "fontSize": "16px",
+          "type": "tel"
+        },
+        {
+          "fontSize": "16px",
+          "type": "search"
+        },
+        {
+          "fontSize": "16px",
+          "type": "textarea"
+        },
+        {
+          "fontSize": "16px",
+          "type": "text"
+        },
+        {
+          "fontSize": "16px",
+          "type": "file"
+        }
+      ],
+      "formHeading": "Discuss your site",
+      "formTop": 171.8046875,
+      "hash": "#enquire",
+      "headerBottom": 63.453125,
+      "visible": true
+    },
+    "customModel": {
+      "closed": "false",
+      "galleryIndex": 1,
+      "label": "Larger screen",
+      "largerImage": "assets/step-pay-wide-navy.webp",
+      "opened": "true",
+      "scrollWidth": 390,
+      "selected": "true",
+      "url": "http://127.0.0.1:4287/step-pay.html",
+      "width": 390
+    },
+    "mobileNavigation": {
+      "closed": "false",
+      "open": "true"
+    },
+    "carousel": {
+      "lastScroll": 540,
+      "maxScroll": 540,
+      "nextDisabled": true,
+      "position": "4-5 of 5",
+      "width": 390
+    }
+  },
+  "findingsFixed": [
+    "Desktop auto grid row grew past its 430px stage; fixed with an explicit bounded grid row.",
+    "Implicit content-width column shrank the Step pair; fixed with a full-width grid column.",
+    "Catalogue pair shrank below Scan & Go at narrow widths; fixed physical sizing, slight overlap and two-card tablet scroller."
+  ],
+  "limits": [
+    "Local static files were explicitly requested for checking. Hosted gate/protection unchanged.",
+    "Hosted Git candidate still needs readback/access verification after publication.",
+    "Keyboard handling has VM fixture evidence; actual trusted keyboard/touch gestures and autofill not checked.",
+    "Initial 320px CTA captures contained a transition/paint artifact. Stable 390px CTA and desktop captures inspected;320px DOM geometry/wrapping checked.",
+    "Closing a pre-existing Crisp panel sent no messages and changed no service settings."
+  ],
+  "independentReview": "Default Grok stage canceled by Harry, no replacement. Prior reports and 2/2 ledger preserved.",
+  "screenshotPaths": [
+    {
+      "name": "hero1280snap",
+      "path": "/Users/harrylang/.t3/userdata/browser-artifacts/browser-screenshot-127-0-0-1-mw2fhhqq-2aec4fa1.png"
+    },
+    {
+      "name": "home390closedchat",
+      "path": "/Users/harrylang/.t3/userdata/browser-artifacts/browser-screenshot-127-0-0-1-mw2fjw92-540c7fd4.png"
+    },
+    {
+      "name": "cta1280snap",
+      "path": "/Users/harrylang/.t3/userdata/browser-artifacts/browser-screenshot-127-0-0-1-mw2fmv4u-4e1605e3.png"
+    },
+    {
+      "name": "cta390snap",
+      "path": "/Users/harrylang/.t3/userdata/browser-artifacts/browser-screenshot-127-0-0-1-mw2ft5y8-380c6ffd.png"
+    }
+  ],
+  "desktopStepCaption": {
+    "width": 1280,
+    "pairCenterX": 951.83,
+    "captionCenterX": 951.83,
+    "basis": "Actual browser bounding rectangles after grid correction"
+  },
+  "productFileSha256": {
+    "dist/index.html": "334d3bc2986aa745fb435b89b36797d54bd4400c8ab5a6cd47a66d2500076aba",
+    "dist/full-site.css": "d400fefc29d14699bbead97d50128e9eaef38e7dc127f7f2e05cba8207d5b9e2",
+    "dist/full-site.js": "0fff9171f5e023b15237edb7d454ffb3cd83f4dd31dbd45beb4c831a9c7ac0b0",
+    "dist/step-pay.html": "b646d4b18592612ada34ba41dc934e056f69c9d5914b6d3ac68df4adbd7bdfc0",
+    "dist/services/paid-parking/index.html": "270436c667953da5e6d368301f3e0d0cc3d1ed42d0e43af6a97326f4a8c717db",
+    "dist/services/two-way/index.html": "3354bf9b4326570cc49dab19ea8643065157e14e97a419209123eaa5565943b8",
+    "dist/services/one-way/index.html": "4dd9f115a9aa6ae098ff38fac19f21871f15107f444d32d86d314f1cc22ca72a"
+  },
+  "cleanup": {
+    "ownTabClosed": true,
+    "localServer": "loopback only; stopped after checking"
+  }
+}

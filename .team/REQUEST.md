@@ -37,3 +37,11 @@ Event `parkezi:2026-11-03:system-hero-early-enquiry:v1`. Harry says the One-Way/
 ## Matching Step finish and two-up mobile - 3 November 2026
 
 Event `parkezi:2026-11-03:matched-step-finish-two-up:v1`, direct Harry IMG_6378 feedback. Match the two Step & Pay colours and improve positioning; show two products per mobile screen. Match the generated wider unit to the standard blue-grey finish, preserve hardware/branding/transparency, and retain earlier assets. Show two product-family panels per mobile viewport, Step pair together, baseline-aligned imagery with captions in a separate row. Same DAB-47/branch/PR and ongoing authorised V8 share-host request. No numeric screen size or new family.
+
+## 4 November 2026 - Compact CTA and Step pair correction
+
+Event `parkezi:2026-11-04:compact-cta-responsive-step:v1`. Direct Harry screenshots and Paid Parking URL. Use a compact map-free closing CTA on the three system pages, retaining the existing single hero enquiry form. Tighten the Step siblings, centre their shared caption, improve their navy finish and prevent responsive collisions. Latest direct clarification: both catalogue models must match Scan & Go height. This supersedes the temporary 5% Express Pay interpretation. Preserve original assets, product family, menus and other approved content.
+
+Harry requested local built-static checks followed by staging static. The pasted T3 new-session URL was explicitly ignored; no new session is created. This remains the existing HTML/CSS/JavaScript project, with static `dist` assets and its existing gated Node adapter, not a Next.js migration. Local checks use loopback only and do not remove hosted protection.
+
+Standing events `workforce:2026-11-04:cancel-grok-reviews:v1` and `workforce:2026-11-04:github-only-deployments:v1`: no Grok or automatic replacement reviewer, preserve reports/counts; connected GitHub source only for releases. Continue same task branch/draft PR. Main remains Vercel Production; task branch is Git Preview. No direct upload/promotion, main merge, settings migration or client-domain launch inferred.
