@@ -72,8 +72,9 @@ for(const name of ['index.html','home-v2.html','home-v2-alt.html','home-white.ht
  const start=html.indexOf('data-mobile-products');const end=html.indexOf('data-mobile-product-controls',start);
  const stage=html.slice(start,end);
  assert.equal((stage.match(/class="hero-unit /g)||[]).length,5,`${name}: five product families`);
- assert.equal((stage.match(/class="step-pair"/g)||[]).length,1,`${name}: one grouped Step pair`);
- assert.match(stage,/step-pay-wide-navy.webp/);
+ assert.equal((stage.match(/class="step-pair"/g)||[]).length,0,`${name}: original single Step hero`);
+ assert.match(stage,/src="assets\/step-pay\.webp/);
+ assert.doesNotMatch(stage,/step-pay-wide/);
  assert.match(html,/data-product-previous aria-label="Previous product"/);
  assert.match(html,/data-product-next aria-label="Next product"/);
 }
@@ -86,5 +87,5 @@ for(const name of ['express-pay.html','step-pay.html']){
   assert.ok(gallery.indexOf('assets/step-pay.webp')<gallery.indexOf('assets/step-pay-wide-navy.webp'));
  }
 }
-const report={htmlFiles:htmlFiles.length,sourceRoutes:coverage.entries.length,localReferences:references,structuredDataBlocks:schemas,sourceOnlyChecks:true,browserChecks:'Recorded separately in .team/reviews/owner-cta-responsive-2026-11-04.json; static checks do not establish browser acceptance'};
+const report={htmlFiles:htmlFiles.length,sourceRoutes:coverage.entries.length,localReferences:references,structuredDataBlocks:schemas,sourceOnlyChecks:true,browserChecks:'Recorded separately in .team/reviews/owner-hero-restore-2026-11-04.json; static checks do not establish browser acceptance'};
 console.log(JSON.stringify(report,null,2));

@@ -63,5 +63,5 @@ test('all product pages have shared content/photos and Step uses only a custom t
   }
   const step=await readFile('dist/step-pay.html','utf8');assert.match(step,/data-model-picker/);assert.match(step,/role="listbox"/);assert.match(step,/data-model-option="0"/);assert.match(step,/data-model-option="1"/);assert.doesNotMatch(step,/<select[^>]*id="stepModel"/);
   assert.match(step,/assets\/step-pay-wide-navy.webp/);assert.doesNotMatch(step,/class="gallery-slide step-studio"/);
-  const home=await readFile('dist/index.html','utf8');assert.match(home,/step-pair-stage/);assert.match(home,/Explore both Step &amp; Pay models/);assert.match(home,/step-pair-card/);
+  const home=await readFile('dist/index.html','utf8');assert.doesNotMatch(home,/step-pair-stage/);assert.match(home,/Explore Step &amp; Pay/);assert.match(home,/step-pair-card/);
 });

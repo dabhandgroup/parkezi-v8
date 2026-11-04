@@ -365,36 +365,9 @@ body.design-v7 .step-model-art { display: block; position: relative; flex: none;
 body.design-v7 .step-model-art > img { display: block; position: absolute; width: var(--art-width) !important; height: var(--art-height) !important; max-width: none !important; max-height: none; left: var(--art-left); top: var(--art-top); object-fit: fill; transform: none !important; }
 body.design-v7 .step-model-art + .step-model-art { margin-left: -3px; }
 body.design-v7 .step-pair-card .step-model-art { width: calc(var(--pair-display-height,248px) * var(--art-ratio)); max-width: none; }
-body.design-v7 .step-pair-card .step-model-art + .step-model-art { margin-left: calc(var(--pair-display-height,248px) * -.055); }
+body.design-v7 .step-pair-card .step-model-art + .step-model-art { margin-left: 8px; }
 @media (min-width:721px) and (max-width:1100px) {
   body.design-v7 .product-grid { grid-auto-flow: column; grid-template-columns: none; grid-auto-columns: calc((100% - 12px) / 2); gap: 12px; overflow-x: auto; scroll-snap-type: x mandatory; padding-bottom: 14px; }
-}
-@media (min-width:971px) {
-  body.design-v7 .product-stage.individual-units.step-pair-stage {
-    display: grid; grid-template-columns: minmax(0,2.1fr) minmax(0,.8fr) minmax(0,1fr) minmax(0,1.75fr) minmax(0,.7fr); grid-template-rows: minmax(0,1fr);
-    gap: clamp(10px,1vw,20px); align-items: end; width: min(calc(100% - 42px),1240px); max-width: none;
-    height: 430px; aspect-ratio: auto; margin: 24px auto 0 !important; left: auto; transform: none; overflow: visible;
-  }
-  body.design-v7 .product-stage.individual-units.step-pair-stage > .stage-floor { display: none; }
-  body.design-v7 .product-stage.individual-units.step-pair-stage > .hero-unit {
-    display: grid; grid-template-columns: minmax(0,1fr); grid-template-rows: minmax(0,1fr) 32px; gap: 12px; position: relative !important; grid-row: 1;
-    left: auto !important; right: auto; top: auto; bottom: auto !important; width: 100% !important; height: 100% !important;
-    min-width: 0; min-height: 0; aspect-ratio: auto; padding: 10px 0 16px; align-items: end; justify-items: center;
-  }
-  body.design-v7 .product-stage.individual-units.step-pair-stage > .hero-unit::after { display: none; }
-  body.design-v7 .product-stage.step-pair-stage .unit-solar { grid-column: 1; z-index: 1; }
-  body.design-v7 .product-stage.step-pair-stage .unit-scan { grid-column: 2; z-index: 2; }
-  body.design-v7 .product-stage.step-pair-stage .unit-express { grid-column: 3; z-index: 3; }
-  body.design-v7 .product-stage.step-pair-stage .unit-step { grid-column: 4; z-index: 4; }
-  body.design-v7 .product-stage.step-pair-stage .unit-mini { grid-column: 5; z-index: 5; }
-  body.design-v7 .product-stage.step-pair-stage .hero-unit > img { grid-row: 1; width: 100%; height: 100%; min-height: 0; max-width: none; object-fit: contain; object-position: center bottom; }
-  body.design-v7 .product-stage.step-pair-stage .unit-solar > img { width: 160%; justify-self: start; object-position: left bottom; pointer-events: none; }
-  body.design-v7 .product-stage.step-pair-stage .step-pair { grid-row: 1; width: 100%; height: 100%; min-height: 0; }
-  body.design-v7 .product-stage.step-pair-stage .step-model-art { max-width: calc(360px * var(--art-ratio)); }
-  body.design-v7 .product-stage.step-pair-stage .mini-parts { grid-row: 1; display: flex; flex-direction: column; align-items: center; justify-content: flex-end; gap: 12px; width: 100%; height: 100%; min-height: 0; }
-  body.design-v7 .product-stage.step-pair-stage .mini-camera { height: 44px; width: 64px; max-width: 100%; object-fit: contain; }
-  body.design-v7 .product-stage.step-pair-stage .mini-controller { height: 190px; width: auto; max-width: 100%; object-fit: contain; }
-  body.design-v7 .product-stage.step-pair-stage .unit-caption { grid-row: 2; position: static; left: auto !important; top: auto; bottom: auto; transform: none; justify-self: center; align-self: center; max-width: 100%; margin: 0; font-size: 12px; }
 }
 @media (max-width:970px) {
   .system-footer-cta-grid { grid-template-columns: minmax(0,1fr); gap: 24px; }
@@ -411,7 +384,7 @@ body.design-v7 .step-pair-card .step-model-art + .step-model-art { margin-left: 
 /* Two product families per mobile viewport. */
 .mobile-product-controls { display: none; }
 @media (max-width:970px) {
-  body.design-v7 .product-stage.individual-units.step-pair-stage[data-mobile-products] {
+  body.design-v7 .product-stage.individual-units[data-mobile-products] {
     display: flex; position: relative; align-items: stretch; gap: 12px; width: calc(100% - 42px); max-width: 720px;
     height: auto; aspect-ratio: auto; left: auto; margin: 24px auto 0 !important; padding: 2px 0 12px;
     transform: none; overflow-x: auto; overflow-y: hidden; scroll-snap-type: x mandatory; scroll-padding-inline: 0;
@@ -458,5 +431,10 @@ body.design-v7 .step-pair-card .step-model-art + .step-model-art { margin-left: 
   body.design-v7.black-hero .mobile-product-controls button { border-color: #ffffff40; }
 }
 @media (max-width:380px) {
-  body.design-v7 .product-stage.individual-units.step-pair-stage[data-mobile-products] { width: calc(100% - 36px); }
+  body.design-v7 .product-stage.individual-units[data-mobile-products] { width: calc(100% - 36px); }
+}
+
+/* Keep full-size catalogue siblings separate on the narrowest phone cards. */
+@media (max-width:380px) {
+  body.design-v7 .product-grid { grid-auto-columns: minmax(260px,81%); }
 }

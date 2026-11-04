@@ -104,3 +104,10 @@
 - [ ] Publish exact final tree to existing GitHub task branch and let connected Vercel Git Preview build. Record immutable deployment and source identity in owner logs. Hosted gate remains a separate verification limit.
 
 The old direct share-host promotion checklist is superseded by Harry's GitHub-only rule. Do not invoke an old deploy recipe. Actual current local browser evidence is in .team/reviews/owner-cta-responsive-2026-11-04.json; historical blocked reports remain historical.
+
+## Hero restoration - 4 November 2026
+
+- [x] Restore original a6a890e hero button artwork/desktop positions across four home variants; retain current mobile carousel order/controls.
+- [x] Catalogue pair keeps Scan & Go height and gains8px gap; minimum260px narrow-phone cards fit both units.
+- [x] Actual local browser checks at320/390/768/1024/1101/1280/1440, source/button comparisons, selector journey and20 tests.
+- [ ] Freeze the existing PR candidate and verify its connected Git Preview; owner log receipt records final source/deployment after publication. No Production change.

@@ -1,0 +1,620 @@
+{
+  "event": "parkezi:2026-11-04:restore-compact-hero-separate-step:v1",
+  "checkedAt": "2026-11-04T19:33:16.510Z",
+  "builder": "Owning GPT, self-checks only",
+  "browser": "T3 owned background incognito Electron44/Chromium152",
+  "origin": "http://127.0.0.1:4287/",
+  "baseline": "8c992ec95ec1ec1e41dfa08cb1b80c08468465f0",
+  "originalHeroSource": "a6a890e07751a8849c18814981d30583f484c5c0",
+  "measurements": [
+    {
+      "gap": 8,
+      "headings": [
+        {
+          "lines": 2,
+          "text": "Your car park, your way."
+        },
+        {
+          "lines": 2,
+          "text": "Choose your system"
+        }
+      ],
+      "hero": [
+        {
+          "height": 260,
+          "name": "express",
+          "width": 136,
+          "x": 18,
+          "y": 375.046875
+        },
+        {
+          "height": 260,
+          "name": "step",
+          "width": 136,
+          "x": 166,
+          "y": 375.046875
+        },
+        {
+          "height": 260,
+          "name": "scan",
+          "width": 136,
+          "x": 314,
+          "y": 375.046875
+        },
+        {
+          "height": 260,
+          "name": "mini",
+          "width": 136,
+          "x": 462,
+          "y": 375.046875
+        },
+        {
+          "height": 260,
+          "name": "solar",
+          "width": 136,
+          "x": 610,
+          "y": 375.046875
+        }
+      ],
+      "pairFits": true,
+      "scanHeight": 294,
+      "scrollWidth": 320,
+      "stage": {
+        "height": 274,
+        "width": 284,
+        "x": 18,
+        "y": 373.046875
+      },
+      "step": [
+        {
+          "height": 293.9765625,
+          "width": 88.015625,
+          "x": 314.7890625,
+          "y": 2573.0703125
+        },
+        {
+          "height": 293.9921875,
+          "width": 114.3984375,
+          "x": 410.8046875,
+          "y": 2573.0546875
+        }
+      ],
+      "width": 320
+    },
+    {
+      "gap": 8,
+      "headings": [
+        {
+          "lines": 2,
+          "text": "Your car park, your way."
+        },
+        {
+          "lines": 1,
+          "text": "Choose your system"
+        }
+      ],
+      "hero": [
+        {
+          "height": 260,
+          "name": "express",
+          "width": 168,
+          "x": 21,
+          "y": 355.859375
+        },
+        {
+          "height": 260,
+          "name": "step",
+          "width": 168,
+          "x": 201,
+          "y": 355.859375
+        },
+        {
+          "height": 260,
+          "name": "scan",
+          "width": 168,
+          "x": 381,
+          "y": 355.859375
+        },
+        {
+          "height": 260,
+          "name": "mini",
+          "width": 168,
+          "x": 561,
+          "y": 355.859375
+        },
+        {
+          "height": 260,
+          "name": "solar",
+          "width": 168,
+          "x": 741,
+          "y": 355.859375
+        }
+      ],
+      "pairFits": true,
+      "scanHeight": 294,
+      "scrollWidth": 390,
+      "stage": {
+        "height": 274,
+        "width": 348,
+        "x": 21,
+        "y": 353.859375
+      },
+      "step": [
+        {
+          "height": 293.9765625,
+          "width": 88.015625,
+          "x": 329.71875,
+          "y": 2432.6171875
+        },
+        {
+          "height": 293.9921875,
+          "width": 114.3984375,
+          "x": 425.734375,
+          "y": 2432.6015625
+        }
+      ],
+      "width": 390
+    },
+    {
+      "gap": 8,
+      "headings": [
+        {
+          "lines": 1,
+          "text": "Your car park, your way."
+        },
+        {
+          "lines": 1,
+          "text": "Choose your system"
+        }
+      ],
+      "hero": [
+        {
+          "height": 260,
+          "name": "express",
+          "width": 354,
+          "x": 24,
+          "y": 288.890625
+        },
+        {
+          "height": 260,
+          "name": "step",
+          "width": 354,
+          "x": 390,
+          "y": 288.890625
+        },
+        {
+          "height": 260,
+          "name": "scan",
+          "width": 354,
+          "x": 756,
+          "y": 288.890625
+        },
+        {
+          "height": 260,
+          "name": "mini",
+          "width": 354,
+          "x": 1122,
+          "y": 288.890625
+        },
+        {
+          "height": 260,
+          "name": "solar",
+          "width": 354,
+          "x": 1488,
+          "y": 288.890625
+        }
+      ],
+      "pairFits": true,
+      "scanHeight": 185,
+      "scrollWidth": 768,
+      "stage": {
+        "height": 274,
+        "width": 720,
+        "x": 24,
+        "y": 286.890625
+      },
+      "step": [
+        {
+          "height": 184.984375,
+          "width": 55.3828125,
+          "x": 498.3125,
+          "y": 1657.5703125
+        },
+        {
+          "height": 184.9921875,
+          "width": 71.984375,
+          "x": 561.6953125,
+          "y": 1657.5625
+        }
+      ],
+      "width": 768
+    },
+    {
+      "gap": 8,
+      "headings": [
+        {
+          "lines": 1,
+          "text": "Your car park, your way."
+        },
+        {
+          "lines": 1,
+          "text": "Choose your system"
+        }
+      ],
+      "hero": [
+        {
+          "height": 363,
+          "name": "express",
+          "width": 98.3984375,
+          "x": 541.515625,
+          "y": 339.2890625
+        },
+        {
+          "height": 407,
+          "name": "step",
+          "width": 118.078125,
+          "x": 649.7578125,
+          "y": 295.2890625
+        },
+        {
+          "height": 330,
+          "name": "scan",
+          "width": 78.71875,
+          "x": 443.1171875,
+          "y": 372.2890625
+        },
+        {
+          "height": 252,
+          "name": "mini",
+          "width": 88.5546875,
+          "x": 807.1953125,
+          "y": 450.2890625
+        },
+        {
+          "height": 390,
+          "name": "solar",
+          "width": 585,
+          "x": 187.2734375,
+          "y": 339.2890625
+        }
+      ],
+      "pairFits": true,
+      "scanHeight": 211,
+      "scrollWidth": 1024,
+      "stage": {
+        "height": 460,
+        "width": 984,
+        "x": 20,
+        "y": 277.2890625
+      },
+      "step": [
+        {
+          "height": 210.9765625,
+          "width": 63.1640625,
+          "x": 677.3671875,
+          "y": 1703.3359375
+        },
+        {
+          "height": 210.9921875,
+          "width": 82.1015625,
+          "x": 748.53125,
+          "y": 1703.3203125
+        }
+      ],
+      "width": 1024
+    },
+    {
+      "gap": 8,
+      "headings": [
+        {
+          "lines": 1,
+          "text": "Your car park, your way."
+        },
+        {
+          "lines": 1,
+          "text": "Choose your system"
+        }
+      ],
+      "hero": [
+        {
+          "height": 363,
+          "name": "express",
+          "width": 106.09375,
+          "x": 582.328125,
+          "y": 343.9140625
+        },
+        {
+          "height": 407,
+          "name": "step",
+          "width": 127.3125,
+          "x": 699.0390625,
+          "y": 299.9140625
+        },
+        {
+          "height": 330,
+          "name": "scan",
+          "width": 84.875,
+          "x": 476.2265625,
+          "y": 376.9140625
+        },
+        {
+          "height": 252,
+          "name": "mini",
+          "width": 95.484375,
+          "x": 868.796875,
+          "y": 454.9140625
+        },
+        {
+          "height": 390,
+          "name": "solar",
+          "width": 585,
+          "x": 200.3671875,
+          "y": 343.9140625
+        }
+      ],
+      "pairFits": true,
+      "scanHeight": 211,
+      "scrollWidth": 1101,
+      "stage": {
+        "height": 460,
+        "width": 1061,
+        "x": 20,
+        "y": 281.9140625
+      },
+      "step": [
+        {
+          "height": 210.9765625,
+          "width": 63.1640625,
+          "x": 263.8671875,
+          "y": 1710.96875
+        },
+        {
+          "height": 210.9921875,
+          "width": 82.1015625,
+          "x": 335.03125,
+          "y": 1710.953125
+        }
+      ],
+      "width": 1101
+    },
+    {
+      "gap": 8,
+      "headings": [
+        {
+          "lines": 1,
+          "text": "Your car park, your way."
+        },
+        {
+          "lines": 1,
+          "text": "Choose your system"
+        }
+      ],
+      "hero": [
+        {
+          "height": 363,
+          "name": "express",
+          "width": 124,
+          "x": 677.1953125,
+          "y": 353.4921875
+        },
+        {
+          "height": 407,
+          "name": "step",
+          "width": 148.796875,
+          "x": 813.59375,
+          "y": 309.4921875
+        },
+        {
+          "height": 330,
+          "name": "scan",
+          "width": 99.1953125,
+          "x": 553.1953125,
+          "y": 386.4921875
+        },
+        {
+          "height": 252,
+          "name": "mini",
+          "width": 111.59375,
+          "x": 1012,
+          "y": 464.4921875
+        },
+        {
+          "height": 420,
+          "name": "solar",
+          "width": 630,
+          "x": 255.59375,
+          "y": 323.4921875
+        }
+      ],
+      "pairFits": true,
+      "scanHeight": 236,
+      "scrollWidth": 1280,
+      "stage": {
+        "height": 460,
+        "width": 1240,
+        "x": 20,
+        "y": 291.4921875
+      },
+      "step": [
+        {
+          "height": 235.96875,
+          "width": 70.6484375,
+          "x": 315.359375,
+          "y": 1707.578125
+        },
+        {
+          "height": 235.984375,
+          "width": 91.828125,
+          "x": 394.0078125,
+          "y": 1707.5625
+        }
+      ],
+      "width": 1280
+    },
+    {
+      "gap": 8,
+      "headings": [
+        {
+          "lines": 1,
+          "text": "Your car park, your way."
+        },
+        {
+          "lines": 1,
+          "text": "Choose your system"
+        }
+      ],
+      "hero": [
+        {
+          "height": 363,
+          "name": "express",
+          "width": 124,
+          "x": 757.1953125,
+          "y": 362.2890625
+        },
+        {
+          "height": 407,
+          "name": "step",
+          "width": 148.796875,
+          "x": 893.59375,
+          "y": 318.2890625
+        },
+        {
+          "height": 330,
+          "name": "scan",
+          "width": 99.1953125,
+          "x": 633.1953125,
+          "y": 395.2890625
+        },
+        {
+          "height": 252,
+          "name": "mini",
+          "width": 111.59375,
+          "x": 1092,
+          "y": 473.2890625
+        },
+        {
+          "height": 420,
+          "name": "solar",
+          "width": 630,
+          "x": 335.59375,
+          "y": 332.2890625
+        }
+      ],
+      "pairFits": true,
+      "scanHeight": 236,
+      "scrollWidth": 1440,
+      "stage": {
+        "height": 460,
+        "width": 1240,
+        "x": 100,
+        "y": 300.2890625
+      },
+      "step": [
+        {
+          "height": 235.96875,
+          "width": 70.6484375,
+          "x": 384.15625,
+          "y": 1721.078125
+        },
+        {
+          "height": 235.984375,
+          "width": 91.828125,
+          "x": 462.8046875,
+          "y": 1721.0625
+        }
+      ],
+      "width": 1440
+    }
+  ],
+  "desktop": {
+    "overflow": false,
+    "stage": {
+      "height": 460,
+      "width": 1240,
+      "x": 20,
+      "y": 290.9921875
+    },
+    "stepImages": [
+      "assets/step-pay.webp?v=parkezi12"
+    ],
+    "units": [
+      {
+        "height": 363,
+        "name": "express",
+        "width": 124,
+        "x": 677.1953125,
+        "y": 352.9921875
+      },
+      {
+        "height": 407,
+        "name": "step",
+        "width": 148.796875,
+        "x": 813.59375,
+        "y": 308.9921875
+      },
+      {
+        "height": 330,
+        "name": "scan",
+        "width": 99.1953125,
+        "x": 553.1953125,
+        "y": 385.9921875
+      },
+      {
+        "height": 252,
+        "name": "mini",
+        "width": 111.59375,
+        "x": 1012,
+        "y": 463.9921875
+      },
+      {
+        "height": 420,
+        "name": "solar",
+        "width": 630,
+        "x": 255.59375,
+        "y": 322.9921875
+      }
+    ],
+    "width": 1280
+  },
+  "modelJourney": {
+    "closed": "false",
+    "galleryIndex": 1,
+    "opened": "true",
+    "selection": "Larger screen",
+    "source": "assets/step-pay-wide-navy.webp",
+    "url": "http://127.0.0.1:4287/step-pay.html"
+  },
+  "sourceChecks": {
+    "originalHeroButtons": "All five original button fragments identical across four home variants; current mobile order retained",
+    "unchangedHTML": [
+      "dist/step-pay.html",
+      "dist/products/step-and-pay/index.html",
+      "dist/services/paid-parking/index.html",
+      "dist/services/one-way/index.html",
+      "dist/services/two-way/index.html"
+    ]
+  },
+  "screenshots": [
+    {
+      "name": "revertHeroSnapshot",
+      "path": "/Users/harrylang/.t3/userdata/browser-artifacts/browser-screenshot-127-0-0-1-mw2ifhbd-0b00b1a2.png"
+    },
+    {
+      "name": "restoreMobileSnap",
+      "path": "/Users/harrylang/.t3/userdata/browser-artifacts/browser-screenshot-127-0-0-1-mw2iigjf-837f4508.png"
+    },
+    {
+      "name": "restoreCatalogueClean",
+      "path": "/Users/harrylang/.t3/userdata/browser-artifacts/browser-screenshot-127-0-0-1-mw2il4xs-ad5bc045.png"
+    }
+  ],
+  "limits": [
+    "DOM-activated browser journeys, not trusted keyboard or physical touch tests.",
+    "Hosted exact candidate needs publication/access check; known Vercel login remains unchanged.",
+    "No native device/autofill claims. No production publication or extra independent review."
+  ],
+  "cleanup": {
+    "ownTabClosed": true,
+    "localServer": "loopback only, stopped after checking"
+  }
+}

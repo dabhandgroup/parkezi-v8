@@ -45,3 +45,7 @@ Event `parkezi:2026-11-04:compact-cta-responsive-step:v1`. Direct Harry screensh
 Harry requested local built-static checks followed by staging static. The pasted T3 new-session URL was explicitly ignored; no new session is created. This remains the existing HTML/CSS/JavaScript project, with static `dist` assets and its existing gated Node adapter, not a Next.js migration. Local checks use loopback only and do not remove hosted protection.
 
 Standing events `workforce:2026-11-04:cancel-grok-reviews:v1` and `workforce:2026-11-04:github-only-deployments:v1`: no Grok or automatic replacement reviewer, preserve reports/counts; connected GitHub source only for releases. Continue same task branch/draft PR. Main remains Vercel Production; task branch is Git Preview. No direct upload/promotion, main merge, settings migration or client-domain launch inferred.
+
+## Hero restoration and catalogue gap - 4 November 2026
+
+Event `parkezi:2026-11-04:restore-compact-hero-separate-step:v1`. Harry rejects the wider/busier8c992ec hero and requests its original compact composition. Restore original five-unit desktop artwork with a single standard Step & Pay; retain mobile carousel and click-through to the approved two-model custom selector. Catalogue height is approved, but separate the two units visibly. Preserve all other approved content, compact CTA and original assets. Same task branch/PR and Git-only staging scope.

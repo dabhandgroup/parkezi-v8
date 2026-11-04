@@ -91,3 +91,10 @@ SITE-04 source/build/auth evidence will be bound to the final candidate identity
 - CTA-03: Both catalogue Step units match the rendered Scan & Go height at320/390/768/1024/1280. Two mobile hero families fit per viewport; captions have their own row and controls reach the final4-5of5 window.
 - CTA-04: Build,20 tests, static references, source audit and actual local browser geometry/journeys have exact evidence. Headings fit at most3 lines; new CTA heading is1 line at320/390. Default hero form text computes16px. Physical touch, trusted keyboard/autofill and hosted gated rendering remain separately unverified.
 - CTA-05: Same draft PR/branch, exact remote commit/tree and connected Git Preview provenance recorded. No direct Vercel upload/promotion or Production merge. Grok cancellation is preserved as cancellation, no new review pass and no Done/owner acceptance inferred.
+
+## Current hero restoration criteria
+
+- RESTORE-01: Original five-unit desktop home hero and original single standard Step image; keep the current mobile two-family carousel and its click-through.
+- RESTORE-02: Both catalogue models retain Scan & Go height and have a positive visible gap, with no card/document overflow at320/390/768/1024/1101/1280/1440.
+- RESTORE-03: Product model selector/gallery and three compact CTA HTML pages remain byte-identical to8c992ec; actual click-through and Larger screen selection work locally. Assets unchanged.
+- RESTORE-04: Build/tests/static/source checks plus current owner browser evidence recorded; exact final Git commit/tree and connected Preview verified. Hosted protection is not bypassed, prior reports/2-pass ledger retained, no default Grok/replacement review.

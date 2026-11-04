@@ -74,7 +74,7 @@
       "sourceCaptureFile": "content/source-site/home.json",
       "sourceCaptureSha256": "1377d44eb2a83d0dd9fe16943ef8df8f432c81ee0de482dac65f75992bc6719b",
       "targetFile": "dist/index.html",
-      "targetSha256": "334d3bc2986aa745fb435b89b36797d54bd4400c8ab5a6cd47a66d2500076aba",
+      "targetSha256": "2d30224a11dd180b948f39a6a65e99ea414cbbbaba32c226d755d6fdeeaeea44",
       "kind": "existing",
       "sourceHeadings": [
         "Intelligent car park management",
