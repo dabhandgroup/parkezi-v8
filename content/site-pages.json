@@ -479,11 +479,10 @@
       "metaTitle": "Smart Parking for Knight Frank Chatswood - Parkezi",
       "description": "Parkezi introduced a secure parking solution at Knight Frank Chatswood with better access control. Connect with Parkezi for automation parking system.",
       "lead": "Knight Frank were frustrated by their previous parking system suppliers charging unreasonable fees and delivering a substandard level of service to their clients.  They selected PARKEZI as the replacement system to manage their visitor parking and payments. They particularly liked how all parking revenue goes direct to their accounts, with no commission being charged.",
-      "image": "assets/knight-frank-brand.webp",
-      "imageAlt": "Knight Frank Chatswood logo",
+      "image": "assets/knight-frank-parking-entrance.webp",
+      "imageAlt": "A vehicle leaving the Knight Frank Chatswood car park through its automated barrier",
       "bodyHtml": "<h4>How it works</h4><p><strong>Pay on Exit:</strong> Customers are granted access to the parking station for 15mins free parking.  When they are ready to leave, they simply tap their credit card at the Step&amp;Pay pay station or X-press exit pay station to pay their parking fee.</p><p><strong>Instant Digital Receipts:</strong> After payment, users can scan an on-screen QR code for a receipt that can be saved directly to their phone, no paper, no hassle.</p><p><strong>Standalone: </strong>Our system requires only a 240V power connection, no local internet or complex setup. Just our X-press paystation and two reliable <a href=\"https://www.linkedin.com/company/beninc%C3%A0-australia/\"><strong>Benincà Australia</strong></a> boom gates.</p><p><strong>Flexible Pass Options: </strong>The Parkly App allows regular customers to buy weekly or monthly passes, generating a daily one-time QR code for entry, easy for users and great for recurring revenue.</p><p><strong>Integration-Friendly: </strong>The system can also be integrated with third-party payment platforms, making it adaptable to a variety of site requirements.</p><p>This straightforward setup stops revenue leaks and delivers a frictionless customer experience. </p>",
-      "date": "",
-      "imageKind": "logo"
+      "date": ""
     },
     {
       "sourcePath": "project/parklea-markets",

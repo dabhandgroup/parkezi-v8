@@ -1,0 +1,448 @@
+{
+  "event": "parkezi:2026-11-05:desktop-hero-hover-photo-restoration:v1",
+  "checkedAt": "2026-11-05T19:15:39.144Z",
+  "checkType": "Owning GPT self-check; no independent review",
+  "baseline": "c0508e3c4bedd83e4eb96ae316f21b7035ccc1c9",
+  "reference": "a6a890e07751a8849c18814981d30583f484c5c0:dist/home-v2.html",
+  "scope": [
+    "Desktop original compact five-product composition with SolarGate behind group on left, original single Step image, hover/focus-only captions",
+    "Existing mobile/tablet Swiper retained with original combined Mini image",
+    "Reliable uses actual outdoor equipment installation; Knight Frank original car photo restored losslessly"
+  ],
+  "browser": {
+    "environment": "Owned T3 background incognito Chromium, built local static output127.0.0.1:4292",
+    "responsive": [
+      {
+        "controls": "flex",
+        "desktop": "none",
+        "documentWidth": 320,
+        "headingLines": 1.9998352504193626,
+        "labels": [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        "miniMobileImages": 1,
+        "mobile": "block",
+        "per": 2,
+        "slideWidth": 133,
+        "stageWidth": 278,
+        "width": 320
+      },
+      {
+        "controls": "flex",
+        "desktop": "none",
+        "documentWidth": 390,
+        "headingLines": 1.9999049119756576,
+        "labels": [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        "miniMobileImages": 1,
+        "mobile": "block",
+        "per": 2,
+        "slideWidth": 168,
+        "stageWidth": 348,
+        "width": 390
+      },
+      {
+        "controls": "flex",
+        "desktop": "none",
+        "documentWidth": 768,
+        "headingLines": 0.9999017295597484,
+        "labels": [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        "miniMobileImages": 1,
+        "mobile": "block",
+        "per": 3,
+        "slideWidth": 231.328125,
+        "stageWidth": 726,
+        "width": 768
+      },
+      {
+        "controls": "none",
+        "desktop": "block",
+        "documentWidth": 971,
+        "headingLines": 0.9999800394785445,
+        "labels": [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        "miniMobileImages": 1,
+        "mobile": "none",
+        "per": 3,
+        "slideWidth": 0,
+        "stageWidth": 0,
+        "width": 971
+      },
+      {
+        "controls": "none",
+        "desktop": "block",
+        "documentWidth": 1024,
+        "headingLines": 0.9999598647807978,
+        "labels": [
+          "0",
+          "0",
+          "0",
+          "0",
+          "0"
+        ],
+        "miniMobileImages": 1,
+        "mobile": "none",
+        "per": 3,
+        "slideWidth": 0,
+        "stageWidth": 0,
+        "width": 1024
+      },
+      {
+        "controls": "none",
+        "desktop": "block",
+        "documentWidth": 1280,
+        "headingLines": 0.9999594999299458,
+        "labels": [
+          "0",
+          "0",
+          "1",
+          "0",
+          "0"
+        ],
+        "miniMobileImages": 1,
+        "mobile": "none",
+        "per": 3,
+        "slideWidth": 0,
+        "stageWidth": 0,
+        "width": 1280
+      }
+    ],
+    "desktop1440": {
+      "desktop": "block",
+      "documentWidth": 1440,
+      "mobile": "none",
+      "reliable": "assets/parkezi-driveway-access-overview.webp",
+      "units": [
+        {
+          "box": {
+            "bottom": 904.7890625,
+            "height": 252,
+            "left": 1092,
+            "right": 1203.59375,
+            "top": 652.7890625,
+            "width": 111.59375,
+            "x": 1092,
+            "y": 652.7890625
+          },
+          "labelOpacity": "0",
+          "name": "mini"
+        },
+        {
+          "box": {
+            "bottom": 904.7890625,
+            "height": 330,
+            "left": 633.1953125,
+            "right": 732.390625,
+            "top": 574.7890625,
+            "width": 99.1953125,
+            "x": 633.1953125,
+            "y": 574.7890625
+          },
+          "labelOpacity": "0",
+          "name": "scan"
+        },
+        {
+          "box": {
+            "bottom": 904.7890625,
+            "height": 363,
+            "left": 757.1953125,
+            "right": 881.1953125,
+            "top": 541.7890625,
+            "width": 124,
+            "x": 757.1953125,
+            "y": 541.7890625
+          },
+          "labelOpacity": "0",
+          "name": "express"
+        },
+        {
+          "box": {
+            "bottom": 904.7890625,
+            "height": 407,
+            "left": 893.59375,
+            "right": 1042.390625,
+            "top": 497.7890625,
+            "width": 148.796875,
+            "x": 893.59375,
+            "y": 497.7890625
+          },
+          "labelOpacity": "0",
+          "name": "step"
+        },
+        {
+          "box": {
+            "bottom": 931.7890625,
+            "height": 420,
+            "left": 335.59375,
+            "right": 965.59375,
+            "top": 511.7890625,
+            "width": 630,
+            "x": 335.59375,
+            "y": 511.7890625
+          },
+          "labelOpacity": "0",
+          "name": "solar"
+        }
+      ],
+      "width": 1440
+    },
+    "nativeHover": {
+      "hovered": [
+        {
+          "name": "mini",
+          "opacity": "0",
+          "visibility": "hidden"
+        },
+        {
+          "name": "scan",
+          "opacity": "1",
+          "visibility": "visible"
+        },
+        {
+          "name": "express",
+          "opacity": "0",
+          "visibility": "hidden"
+        },
+        {
+          "name": "step",
+          "opacity": "0",
+          "visibility": "hidden"
+        },
+        {
+          "name": "solar",
+          "opacity": "0",
+          "visibility": "hidden"
+        }
+      ],
+      "visibleHeroPanels": 5
+    },
+    "nativeMobileNext": {
+      "doc": 390,
+      "index": 1,
+      "range": "2-3 of 5",
+      "width": 390
+    },
+    "nativeMobileEnd": {
+      "index": 3,
+      "lastDisabled": true,
+      "miniImage": "assets/scan-go-mini.webp",
+      "overflow": false,
+      "range": "4-5 of 5"
+    },
+    "photos": {
+      "knightPhoto": "assets/knight-frank-parking-entrance.webp",
+      "overflow": false,
+      "whyPhotos": [
+        {
+          "loaded": true,
+          "src": "assets/parkezi-express-pay-exhibition.webp"
+        },
+        {
+          "loaded": true,
+          "src": "assets/parkezi-anpr-unit-exhibition.webp"
+        },
+        {
+          "loaded": true,
+          "src": "assets/parkezi-driveway-access-overview.webp"
+        }
+      ]
+    },
+    "screenshots": {
+      "desktop1440": "/Users/harrylang/.t3/userdata/browser-artifacts/browser-screenshot-127-0-0-1-mw3wyj82-06cf0e06.png",
+      "mobile390Last": "/Users/harrylang/.t3/userdata/browser-artifacts/browser-screenshot-127-0-0-1-mw3x77g0-b7998a07.png",
+      "why1280": "/Users/harrylang/.t3/userdata/browser-artifacts/browser-screenshot-127-0-0-1-mw3xc66l-7def22b0.png"
+    },
+    "notes": [
+      "At desktop971/1024/1280/1440 all five original composition items shown; mobile stage/controls hidden. Captions hidden at rest; native hover reveals only Scan label.",
+      "At320/390 two mobile panels;768 three. Native next reaches2-3of5 and native End reaches4-5of5 with next disabled; combined Mini unchanged. No document overflow observed.",
+      "Font-loaded hero heading2lines at320/390 and1line at desktop/tablet. All three Why Choose images loaded, distinct actual installation in Reliable with no standing person.",
+      "Background snapshots taken immediately after resize/scroll occasionally showed stale/blank compositor frames. Settled includeImage snapshot inspected; no product-page layout mutation used to force screenshot.",
+      "Crisp welcome UI appeared during inspection and was closed locally without typing or submitting a message."
+    ],
+    "limits": [
+      "Resized Chromium is not physical iOS/Safari/touch verification.",
+      "Hosted authenticated rendering remains separately limited by unchanged gate/SSO. No real enquiries or client messages."
+    ]
+  },
+  "checks": {
+    "buildProtectedFiles": 243,
+    "tests": 19,
+    "testsFailed": 0,
+    "htmlFiles": 58,
+    "routes": 52,
+    "localReferences": 11641,
+    "schemaBlocks": 62,
+    "sourceCuratedUnits": 854,
+    "unmatchedPreservedRichBodyParagraphs": 0
+  },
+  "review": {
+    "policy": "Grok canceled, no automatic replacement",
+    "passesConsumed": 2,
+    "maxPasses": 2,
+    "affectedEvidence": "Prior all-width carousel and image-placement evidence superseded. Historical reports/pass objects preserved."
+  },
+  "release": {
+    "authority": "Continuing Harry's explicit V8 share-host release request. Existing main Production mapping; connected GitHub PR only. PR1 already merged, this bounded amendment needs follow-up PR on same branch/DAB-47.",
+    "priorBlockerResolved": {
+      "productionDeployment": "dpl_PTgEh6LwG6t4KzeeNrASnz7i2C6A",
+      "source": "c0508e3c4bedd83e4eb96ae316f21b7035ccc1c9",
+      "note": "Vercel eventually built prior Git commits without login/settings changes. Earlier claim authenticated dashboard was required did not prove root cause; recorded as a cleared delay, not an outage."
+    }
+  },
+  "originalAssetsUnchanged": 114,
+  "checkedFilesSha256": {
+    "dist/full-site.css": "d68aaf76c513f64fb56bd07c773c54d2e4c5d075a7b08a273495a2679366d985",
+    "dist/index.html": "05e2ded3b0f3f6e62c4cb7b5199d737bc79f0fede4a80a2d3e466242789524fa",
+    "dist/home-v2.html": "3921b1d62dbcc1598323e3ee89653e5e921ae01b6aba5c5c9f5fdf8357957f7a",
+    "dist/home-white.html": "e038a7fff6a777679c3479c23867e2af9d8dd3f5fea9336a24ea95a9469eb198",
+    "dist/home-v2-alt.html": "a48c5c84049debfe579cfea52d5876a797241c93e9af3df24b70d5cae2332422",
+    "dist/our-work/index.html": "0fc384574ac84ba835d4041faeabfcc2a19d62ea3c92a66faed3a53f6d2c751d",
+    "dist/project/knight-frank-chatswood/index.html": "3e89ac8c383bb13132b7d000b55a244ad32f3a9dc9fd80aae1388e3a85c16cf8",
+    "content/site-pages.json": "89e9a3f74cc5e64ea675e5cffeb67188e0cf88e21e8ec7c2a4da4bfa80f33d06",
+    "dist/assets/knight-frank-parking-entrance.webp": "c4c058eb6ddbe4264425ed770575dcf5f30e1108f180ff397f6be3438b14bac1",
+    "dist/express-pay.html": "b9d6231dfe00ace6cb155df71d6c66779e7181511ac1926d46d364f1b7a21eef",
+    "dist/step-pay.html": "9bf8659ff1f913e630d408cdaab669a53333f0d03e105cf5450db44df6a1ebf4"
+  },
+  "additionalEvent": "parkezi:2026-11-05:mobile-menu-footer-cleanup:v1",
+  "mobileMenu": {
+    "event": "parkezi:2026-11-05:mobile-menu-footer-cleanup:v1",
+    "checks": [
+      {
+        "bottomBorder": "0px",
+        "buttons": [
+          {
+            "font": "14px",
+            "height": 52,
+            "href": "tel:1300309998",
+            "scrollWidth": 132,
+            "text": "1300 309 9981300 309 998",
+            "width": 132
+          },
+          {
+            "font": "14px",
+            "height": 52,
+            "href": "#enquire",
+            "scrollWidth": 130,
+            "text": "ContactContact",
+            "width": 132
+          }
+        ],
+        "documentWidth": 320,
+        "extraRows": 0,
+        "open": true,
+        "topSignin": true,
+        "width": 320
+      },
+      {
+        "bottomBorder": "0px",
+        "buttons": [
+          {
+            "font": "14px",
+            "height": 52,
+            "href": "tel:1300309998",
+            "scrollWidth": 164,
+            "text": "1300 309 9981300 309 998",
+            "width": 164
+          },
+          {
+            "font": "14px",
+            "height": 52,
+            "href": "#enquire",
+            "scrollWidth": 162,
+            "text": "ContactContact",
+            "width": 164
+          }
+        ],
+        "documentWidth": 390,
+        "extraRows": 0,
+        "open": true,
+        "topSignin": true,
+        "width": 390
+      },
+      {
+        "bottomBorder": "0px",
+        "buttons": [
+          {
+            "font": "14px",
+            "height": 52,
+            "href": "tel:1300309998",
+            "scrollWidth": 348,
+            "text": "1300 309 9981300 309 998",
+            "width": 348
+          },
+          {
+            "font": "14px",
+            "height": 52,
+            "href": "#enquire",
+            "scrollWidth": 346,
+            "text": "ContactContact",
+            "width": 348
+          }
+        ],
+        "documentWidth": 768,
+        "extraRows": 0,
+        "open": false,
+        "topSignin": true,
+        "width": 768
+      }
+    ],
+    "contactJourney": {
+      "enquiryExists": true,
+      "hash": "#enquire",
+      "open": false
+    },
+    "final390": {
+      "buttons": [
+        {
+          "height": 52,
+          "width": 164
+        },
+        {
+          "height": 52,
+          "width": 164
+        }
+      ],
+      "chatDisplay": "none",
+      "extraRows": 0,
+      "open": true
+    },
+    "screenshot": "/Users/harrylang/.t3/userdata/browser-artifacts/browser-screenshot-127-0-0-1-mw3xtyjn-71585987.png",
+    "note": "768px pass measured closed menu boxes during resize;320/390 menu open. Native final390 open and Contact journey verified. Chat wrapper hidden only while mobile menu open to avoid covering Contact. No messages or service settings changed."
+  },
+  "unchangedMainContent": [
+    "dist/express-pay.html",
+    "dist/step-pay.html",
+    "dist/products/step-and-pay/index.html",
+    "dist/services/paid-parking/index.html",
+    "dist/services/two-way/index.html",
+    "dist/services/one-way/index.html"
+  ],
+  "unchangedMobileAndModelJS": "dist/full-site.js",
+  "mobileMenuStaticPagesChecked": 57,
+  "menuCheckExclusion": "Internal style-guide page is an unchanged historic design reference, excluded from client navigation amendment.",
+  "supersededUnpublishedObject": {
+    "sha": "a5263ddd211de00a674a2a2121d8c5eade6464bb",
+    "tree": "33896f70c704efde9c829a3bcc437c98795e2cad",
+    "reason": "Harry added menu correction before publication; never pushed and not a review pass."
+  }
+}

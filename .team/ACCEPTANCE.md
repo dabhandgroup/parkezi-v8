@@ -114,3 +114,16 @@ These supersede conflicting paired/capacity and release restrictions above only 
 - FINAL-03: Actual Swiper desktop/mobile with2/3/4visible families, common physical image baseline, centred stage and original combined Mini image. No observed overflow at320/390/768/1024/1280/1440. Physical touch/native Safari and hosted-auth rendering separately unverified.
 - FINAL-04: Node24 build242protected files,19tests,58HTML/52routes/11654references/62schemas;854curated paragraph units with0unmatched preserved rich paragraphs, all114original assets unchanged and original homepage/Express section IDs present. Comparison explicitly distinguishes intentional source exclusions from verified presence.
 - FINAL-05: Exact remote commit/tree and connected Git deployment readback; same PR through existing main mapping to requested V8 host only. Preserve gate/noindex, private delivery limits,2/2prior ledger and Grok cancellation. No new reviewer or client-domain launch. DAB-47 remains In Progress pending Harry acceptance and excluded launch work.
+
+## Desktop restoration - 5 November 2026
+
+Event parkezi:2026-11-05:desktop-hero-hover-photo-restoration:v1.
+
+- HERO-R01: Original desktop composition shows all five families with SolarGate on left behind units and captions hidden until hover/focus. Single standard Step. At971/1024/1280/1440 no document overflow.
+- HERO-R02: Current mobile/tablet Swiper retained,2panels at320/390 and3at768, original combined Mini; native next/End reach last window with proper disabled control.
+- HERO-R03: Reliable actual outdoor equipment, visually distinct/no standing person. Knight Frank original car photo restored as lossless WebP on home/work/project views; all original assets preserved.
+- HERO-R04: Model selector/gallery, product pages and compact system CTAs unchanged;19tests/static/source audit, final owner evidence and Git deployment identity. Prior review2/2cap preserved; no replacement reviewer or implied acceptance.
+
+## Mobile menu finish - 5 November 2026
+
+Event parkezi:2026-11-05:mobile-menu-footer-cleanup:v1. Keep approved mobile Swiper and Explore PARKEZI. Equal phone/Contact buttons; remove email, duplicate customer sign-in and divider beneath actions. Top sign-in stays. Applied to57client headers; internal style-guide is an unchanged historic reference. Both buttons132x52at320 and164x52at390; no footer rows/border or document overflow. Native Contact closes menu and reaches#enquire. Chat wrapper hides only while mobile menu is open, so Contact stays clear. Header-only changes supersede earlier whole-product-HTML equality claim; product main content, selector/gallery, CTAs and mobile/model JS unchanged. Include in same follow-up release. Prepareda5263ddd object never pushed.

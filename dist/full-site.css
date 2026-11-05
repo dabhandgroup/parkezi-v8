@@ -359,7 +359,17 @@ body.design-v7 .system-enquiry-card .system-field-error { display: block; color:
   .system-footer-cta-buttons .button { flex: 1 1 100%; justify-content: center; }
 }
 
-/* One coherent product carousel on desktop, tablet and phone. */
+/* Original desktop composition and hover/focus product labels. */
+.desktop-product-stage .unit-caption { opacity: 0 !important; visibility: hidden; }
+.desktop-product-stage .hero-unit:hover .unit-caption,
+.desktop-product-stage .hero-unit:focus-visible .unit-caption { opacity: 1 !important; visibility: visible; }
+@media (min-width:971px) {
+  body.design-v7 .product-stage[data-mobile-products],
+  body.design-v7 .mobile-product-controls { display: none; }
+}
+@media (max-width:970px) {
+  .desktop-product-stage { display: none !important; }
+/* Retain the approved scrolling product panels on mobile and tablet. */
 body.design-v7 .product-stage.individual-units[data-mobile-products] { position: relative; display: block; width: min(calc(100% - 42px),960px); max-width: none; height: clamp(260px,34vw,410px); aspect-ratio: auto; left: auto; margin: 24px auto 0 !important; padding: 0; transform: none; overflow: hidden; }
 body.design-v7 .product-stage[data-mobile-products] .swiper-wrapper { height: 100%; align-items: stretch; }
 body.design-v7 .product-stage[data-mobile-products] .hero-unit.swiper-slide { display: grid; grid-template-columns: minmax(0,1fr); grid-template-rows: minmax(0,1fr) 34px; gap: 10px; position: relative !important; left: auto !important; right: auto; top: auto; bottom: auto !important; height: 100% !important; min-width: 0; min-height: 0; padding: 14px 10px; margin: 0; aspect-ratio: auto; transform: none !important; justify-items: center; align-items: end; background: transparent; pointer-events: auto; }
@@ -384,6 +394,8 @@ body.design-v7.black-hero .mobile-product-controls button { border-color: #fffff
 @media (hover:hover) { .hero-unit:hover .hero-product-art { transform: translateY(-10px); } }
 @media (prefers-reduced-motion:reduce) { .hero-product-art { transition: none; } }
 
+}
+
 @media (prefers-reduced-motion:reduce) { .model-options,.model-trigger,.model-trigger > .icon { transition: none; } .hero-unit:hover .hero-product-art { transform: none; } }
 
 /* Long gallery captions must wrap inside the product column on small screens. */
@@ -393,3 +405,11 @@ body.design-v7.black-hero .mobile-product-controls button { border-color: #fffff
 .gallery-controls > div { flex: none; }
 .pdp-grid > * { min-width: 0; }
 .pdp-actions { flex-wrap: wrap; }
+
+/* Mobile menu ends with two matching actions. */
+@media (max-width:970px) {
+  body.menu-open .crisp-client { display: none !important; }
+  body.design-v7 .header-v4 .mobile-menu-bottom { grid-template-columns: minmax(0,1fr) minmax(0,1fr); gap: 12px; border: 0; }
+  body.design-v7 .header-v4 .mobile-menu-bottom > .button { display: flex; align-items: center; justify-content: center; gap: 7px; width: 100%; min-width: 0; height: 52px; min-height: 52px; padding: 12px 8px; font-size: 14px; line-height: 1.2; white-space: nowrap; }
+  body.design-v7 .header-v4 .mobile-menu-bottom > .button > .icon { width: 16px; height: 16px; flex: none; }
+}
