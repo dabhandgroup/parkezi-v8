@@ -437,3 +437,12 @@ body.design-v7.black-hero .mobile-product-controls button { border-color: #fffff
 /* The embedded chat is in the host DOM, so editable text can keep the same floor. */
 body.design-v7 .crisp-client :is(input,textarea,select)[name][class],
 body.design-v7 .crisp-client [contenteditable="true"][class] { font-size: max(1rem,16px) !important; }
+
+/* Compact system features remain a readable semantic list. */
+.editorial-copy .system-feature-list { display: grid; gap: 8px; margin: 22px 0; padding: 18px 20px; list-style: none; background: #f4f6f8; border: 1px solid #e7ecf0; border-radius: 12px; }
+.editorial-copy .system-feature-list > li { display: flex; align-items: flex-start; gap: 10px; margin: 0; padding: 0; color: #526472; font-size: 16px; line-height: 1.5; }
+.system-feature-list > li > .icon { flex: none; width: 16px; height: 16px; margin-top: 4px; color: #6b8393; }
+.system-feature-list > li > span { min-width: 0; }
+@media (max-width:520px) {
+  .editorial-copy .system-feature-list { padding: 16px; }
+}
