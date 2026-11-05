@@ -1,0 +1,752 @@
+{
+  "event": "parkezi:2026-11-05:compact-system-feature-checklist:v1",
+  "date": "2026-11-05T20:59:32.493Z",
+  "type": "owner-self-check",
+  "independentReview": false,
+  "parentCommit": "fe7bdbfe438ee0ffeaef30aa9fc529dc9397538d",
+  "scope": [
+    "dist/full-site.css",
+    "scripts/build-pages.mjs",
+    "dist/services/two-way/index.html",
+    "dist/services/one-way/index.html",
+    "dist/services/paid-parking/index.html"
+  ],
+  "before": [
+    {
+      "height": 369.0078125,
+      "items": [
+        "Number plate recognition for authorised vehicles",
+        "Access rules for residents, staff and visitors",
+        "Control security gates, boom gates and garage doors",
+        "Live occupancy and vehicle counts",
+        "Cloud management and reporting"
+      ],
+      "overflow": false,
+      "width": 320
+    },
+    {
+      "height": 337.5625,
+      "items": [
+        "Number plate recognition for authorised vehicles",
+        "Access rules for residents, staff and visitors",
+        "Control security gates, boom gates and garage doors",
+        "Live occupancy and vehicle counts",
+        "Cloud management and reporting"
+      ],
+      "overflow": false,
+      "width": 390
+    },
+    {
+      "height": 243.2265625,
+      "items": [
+        "Number plate recognition for authorised vehicles",
+        "Access rules for residents, staff and visitors",
+        "Control security gates, boom gates and garage doors",
+        "Live occupancy and vehicle counts",
+        "Cloud management and reporting"
+      ],
+      "overflow": false,
+      "width": 1280
+    }
+  ],
+  "after": [
+    {
+      "background": "rgb(244, 246, 248)",
+      "gap": "8px",
+      "headingLines": [
+        {
+          "lines": 0,
+          "text": "Systems"
+        },
+        {
+          "lines": 0,
+          "text": "Products"
+        },
+        {
+          "lines": 0,
+          "text": "About Parkezi"
+        },
+        {
+          "lines": 0,
+          "text": "Integrations"
+        },
+        {
+          "lines": 1,
+          "text": "Two-Way parking"
+        },
+        {
+          "lines": 1,
+          "text": "Discuss your site"
+        },
+        {
+          "lines": 1,
+          "text": "Control entry and exit"
+        },
+        {
+          "lines": 2,
+          "text": "Configure your system"
+        },
+        {
+          "lines": 1,
+          "text": "Let\u2019s talk parking."
+        }
+      ],
+      "height": 306,
+      "items": [
+        {
+          "contained": true,
+          "font": "16px",
+          "svg": true,
+          "text": "Number plate recognition for authorised vehicles"
+        },
+        {
+          "contained": true,
+          "font": "16px",
+          "svg": true,
+          "text": "Access rules for residents, staff and visitors"
+        },
+        {
+          "contained": true,
+          "font": "16px",
+          "svg": true,
+          "text": "Control security gates, boom gates and garage doors"
+        },
+        {
+          "contained": true,
+          "font": "16px",
+          "svg": true,
+          "text": "Live occupancy and vehicle counts"
+        },
+        {
+          "contained": true,
+          "font": "16px",
+          "svg": true,
+          "text": "Cloud management and reporting"
+        }
+      ],
+      "overflow": false,
+      "route": "/services/two-way/",
+      "width": 320
+    },
+    {
+      "background": "rgb(244, 246, 248)",
+      "gap": "8px",
+      "headingLines": [
+        {
+          "lines": 0,
+          "text": "Systems"
+        },
+        {
+          "lines": 0,
+          "text": "Products"
+        },
+        {
+          "lines": 0,
+          "text": "About Parkezi"
+        },
+        {
+          "lines": 0,
+          "text": "Integrations"
+        },
+        {
+          "lines": 1,
+          "text": "Two-Way parking"
+        },
+        {
+          "lines": 1,
+          "text": "Discuss your site"
+        },
+        {
+          "lines": 1,
+          "text": "Control entry and exit"
+        },
+        {
+          "lines": 1,
+          "text": "Configure your system"
+        },
+        {
+          "lines": 1,
+          "text": "Let\u2019s talk parking."
+        }
+      ],
+      "height": 258,
+      "items": [
+        {
+          "contained": true,
+          "font": "16px",
+          "svg": true,
+          "text": "Number plate recognition for authorised vehicles"
+        },
+        {
+          "contained": true,
+          "font": "16px",
+          "svg": true,
+          "text": "Access rules for residents, staff and visitors"
+        },
+        {
+          "contained": true,
+          "font": "16px",
+          "svg": true,
+          "text": "Control security gates, boom gates and garage doors"
+        },
+        {
+          "contained": true,
+          "font": "16px",
+          "svg": true,
+          "text": "Live occupancy and vehicle counts"
+        },
+        {
+          "contained": true,
+          "font": "16px",
+          "svg": true,
+          "text": "Cloud management and reporting"
+        }
+      ],
+      "overflow": false,
+      "route": "/services/two-way/",
+      "width": 390
+    },
+    {
+      "background": "rgb(244, 246, 248)",
+      "gap": "8px",
+      "headingLines": [
+        {
+          "lines": 0,
+          "text": "Systems"
+        },
+        {
+          "lines": 0,
+          "text": "Products"
+        },
+        {
+          "lines": 0,
+          "text": "About Parkezi"
+        },
+        {
+          "lines": 0,
+          "text": "Integrations"
+        },
+        {
+          "lines": 1,
+          "text": "Two-Way parking"
+        },
+        {
+          "lines": 1,
+          "text": "Discuss your site"
+        },
+        {
+          "lines": 1,
+          "text": "Control entry and exit"
+        },
+        {
+          "lines": 1,
+          "text": "Configure your system"
+        },
+        {
+          "lines": 1,
+          "text": "Let\u2019s talk parking."
+        }
+      ],
+      "height": 190,
+      "items": [
+        {
+          "contained": true,
+          "font": "16px",
+          "svg": true,
+          "text": "Number plate recognition for authorised vehicles"
+        },
+        {
+          "contained": true,
+          "font": "16px",
+          "svg": true,
+          "text": "Access rules for residents, staff and visitors"
+        },
+        {
+          "contained": true,
+          "font": "16px",
+          "svg": true,
+          "text": "Control security gates, boom gates and garage doors"
+        },
+        {
+          "contained": true,
+          "font": "16px",
+          "svg": true,
+          "text": "Live occupancy and vehicle counts"
+        },
+        {
+          "contained": true,
+          "font": "16px",
+          "svg": true,
+          "text": "Cloud management and reporting"
+        }
+      ],
+      "overflow": false,
+      "route": "/services/two-way/",
+      "width": 1280
+    },
+    {
+      "background": "rgb(244, 246, 248)",
+      "gap": "8px",
+      "headingLines": [
+        {
+          "lines": 0,
+          "text": "Systems"
+        },
+        {
+          "lines": 0,
+          "text": "Products"
+        },
+        {
+          "lines": 0,
+          "text": "About Parkezi"
+        },
+        {
+          "lines": 0,
+          "text": "Integrations"
+        },
+        {
+          "lines": 1,
+          "text": "One-Way parking"
+        },
+        {
+          "lines": 1,
+          "text": "Discuss your site"
+        },
+        {
+          "lines": 2,
+          "text": "A simpler access setup"
+        },
+        {
+          "lines": 2,
+          "text": "Configure your system"
+        },
+        {
+          "lines": 1,
+          "text": "Let\u2019s talk parking."
+        }
+      ],
+      "height": 202,
+      "items": [
+        {
+          "contained": true,
+          "font": "16px",
+          "svg": true,
+          "text": "ANPR entry for registered vehicles"
+        },
+        {
+          "contained": true,
+          "font": "16px",
+          "svg": true,
+          "text": "Site-specific access rules"
+        },
+        {
+          "contained": true,
+          "font": "16px",
+          "svg": true,
+          "text": "Induction-loop opening on exit"
+        },
+        {
+          "contained": true,
+          "font": "16px",
+          "svg": true,
+          "text": "Cloud-based access management"
+        }
+      ],
+      "overflow": false,
+      "route": "/services/one-way/",
+      "width": 320
+    },
+    {
+      "background": "rgb(244, 246, 248)",
+      "gap": "8px",
+      "headingLines": [
+        {
+          "lines": 0,
+          "text": "Systems"
+        },
+        {
+          "lines": 0,
+          "text": "Products"
+        },
+        {
+          "lines": 0,
+          "text": "About Parkezi"
+        },
+        {
+          "lines": 0,
+          "text": "Integrations"
+        },
+        {
+          "lines": 1,
+          "text": "One-Way parking"
+        },
+        {
+          "lines": 1,
+          "text": "Discuss your site"
+        },
+        {
+          "lines": 1,
+          "text": "A simpler access setup"
+        },
+        {
+          "lines": 1,
+          "text": "Configure your system"
+        },
+        {
+          "lines": 1,
+          "text": "Let\u2019s talk parking."
+        }
+      ],
+      "height": 154,
+      "items": [
+        {
+          "contained": true,
+          "font": "16px",
+          "svg": true,
+          "text": "ANPR entry for registered vehicles"
+        },
+        {
+          "contained": true,
+          "font": "16px",
+          "svg": true,
+          "text": "Site-specific access rules"
+        },
+        {
+          "contained": true,
+          "font": "16px",
+          "svg": true,
+          "text": "Induction-loop opening on exit"
+        },
+        {
+          "contained": true,
+          "font": "16px",
+          "svg": true,
+          "text": "Cloud-based access management"
+        }
+      ],
+      "overflow": false,
+      "route": "/services/one-way/",
+      "width": 390
+    },
+    {
+      "background": "rgb(244, 246, 248)",
+      "gap": "8px",
+      "headingLines": [
+        {
+          "lines": 0,
+          "text": "Systems"
+        },
+        {
+          "lines": 0,
+          "text": "Products"
+        },
+        {
+          "lines": 0,
+          "text": "About Parkezi"
+        },
+        {
+          "lines": 0,
+          "text": "Integrations"
+        },
+        {
+          "lines": 1,
+          "text": "One-Way parking"
+        },
+        {
+          "lines": 1,
+          "text": "Discuss your site"
+        },
+        {
+          "lines": 1,
+          "text": "A simpler access setup"
+        },
+        {
+          "lines": 1,
+          "text": "Configure your system"
+        },
+        {
+          "lines": 1,
+          "text": "Let\u2019s talk parking."
+        }
+      ],
+      "height": 158,
+      "items": [
+        {
+          "contained": true,
+          "font": "16px",
+          "svg": true,
+          "text": "ANPR entry for registered vehicles"
+        },
+        {
+          "contained": true,
+          "font": "16px",
+          "svg": true,
+          "text": "Site-specific access rules"
+        },
+        {
+          "contained": true,
+          "font": "16px",
+          "svg": true,
+          "text": "Induction-loop opening on exit"
+        },
+        {
+          "contained": true,
+          "font": "16px",
+          "svg": true,
+          "text": "Cloud-based access management"
+        }
+      ],
+      "overflow": false,
+      "route": "/services/one-way/",
+      "width": 1280
+    },
+    {
+      "background": "rgb(244, 246, 248)",
+      "gap": "8px",
+      "headingLines": [
+        {
+          "lines": 0,
+          "text": "Systems"
+        },
+        {
+          "lines": 0,
+          "text": "Products"
+        },
+        {
+          "lines": 0,
+          "text": "About Parkezi"
+        },
+        {
+          "lines": 0,
+          "text": "Integrations"
+        },
+        {
+          "lines": 1,
+          "text": "Paid Parking"
+        },
+        {
+          "lines": 1,
+          "text": "Discuss your site"
+        },
+        {
+          "lines": 1,
+          "text": "Payments and access"
+        },
+        {
+          "lines": 2,
+          "text": "Configure your system"
+        },
+        {
+          "lines": 1,
+          "text": "Let\u2019s talk parking."
+        }
+      ],
+      "height": 250,
+      "items": [
+        {
+          "contained": true,
+          "font": "16px",
+          "svg": true,
+          "text": "ANPR, QR codes and NFC access options"
+        },
+        {
+          "contained": true,
+          "font": "16px",
+          "svg": true,
+          "text": "Tariffs and free-parking periods configured for your site"
+        },
+        {
+          "contained": true,
+          "font": "16px",
+          "svg": true,
+          "text": "Visitor payments alongside staff and resident access"
+        },
+        {
+          "contained": true,
+          "font": "16px",
+          "svg": true,
+          "text": "Parking revenue paid to your account, less processing fees"
+        }
+      ],
+      "overflow": false,
+      "route": "/services/paid-parking/",
+      "width": 320
+    },
+    {
+      "background": "rgb(244, 246, 248)",
+      "gap": "8px",
+      "headingLines": [
+        {
+          "lines": 0,
+          "text": "Systems"
+        },
+        {
+          "lines": 0,
+          "text": "Products"
+        },
+        {
+          "lines": 0,
+          "text": "About Parkezi"
+        },
+        {
+          "lines": 0,
+          "text": "Integrations"
+        },
+        {
+          "lines": 1,
+          "text": "Paid Parking"
+        },
+        {
+          "lines": 1,
+          "text": "Discuss your site"
+        },
+        {
+          "lines": 1,
+          "text": "Payments and access"
+        },
+        {
+          "lines": 1,
+          "text": "Configure your system"
+        },
+        {
+          "lines": 1,
+          "text": "Let\u2019s talk parking."
+        }
+      ],
+      "height": 250,
+      "items": [
+        {
+          "contained": true,
+          "font": "16px",
+          "svg": true,
+          "text": "ANPR, QR codes and NFC access options"
+        },
+        {
+          "contained": true,
+          "font": "16px",
+          "svg": true,
+          "text": "Tariffs and free-parking periods configured for your site"
+        },
+        {
+          "contained": true,
+          "font": "16px",
+          "svg": true,
+          "text": "Visitor payments alongside staff and resident access"
+        },
+        {
+          "contained": true,
+          "font": "16px",
+          "svg": true,
+          "text": "Parking revenue paid to your account, less processing fees"
+        }
+      ],
+      "overflow": false,
+      "route": "/services/paid-parking/",
+      "width": 390
+    },
+    {
+      "background": "rgb(244, 246, 248)",
+      "gap": "8px",
+      "headingLines": [
+        {
+          "lines": 0,
+          "text": "Systems"
+        },
+        {
+          "lines": 0,
+          "text": "Products"
+        },
+        {
+          "lines": 0,
+          "text": "About Parkezi"
+        },
+        {
+          "lines": 0,
+          "text": "Integrations"
+        },
+        {
+          "lines": 1,
+          "text": "Paid Parking"
+        },
+        {
+          "lines": 1,
+          "text": "Discuss your site"
+        },
+        {
+          "lines": 1,
+          "text": "Payments and access"
+        },
+        {
+          "lines": 1,
+          "text": "Configure your system"
+        },
+        {
+          "lines": 1,
+          "text": "Let\u2019s talk parking."
+        }
+      ],
+      "height": 158,
+      "items": [
+        {
+          "contained": true,
+          "font": "16px",
+          "svg": true,
+          "text": "ANPR, QR codes and NFC access options"
+        },
+        {
+          "contained": true,
+          "font": "16px",
+          "svg": true,
+          "text": "Tariffs and free-parking periods configured for your site"
+        },
+        {
+          "contained": true,
+          "font": "16px",
+          "svg": true,
+          "text": "Visitor payments alongside staff and resident access"
+        },
+        {
+          "contained": true,
+          "font": "16px",
+          "svg": true,
+          "text": "Parking revenue paid to your account, less processing fees"
+        }
+      ],
+      "overflow": false,
+      "route": "/services/paid-parking/",
+      "width": 1280
+    }
+  ],
+  "contentPreserved": true,
+  "browser": "Supported T3 browser, local static candidate. CSS viewport widths, no simulator/Playwright.",
+  "visualChecks": [
+    "Two-Way list scrolled into view at1280 and390; SVG ticks aligned, pale panel, no clipping."
+  ],
+  "limits": [
+    "Not independent review. Existing2/2ledger remains exhausted and Grok canceled.",
+    "Prior57-route audit belongs to490866a/fe7bdbf; changed shared CSS and three system pages require this scoped follow-up evidence. Other prior measured routes were not all rerun.",
+    "No real form submissions or authenticated external journeys."
+  ],
+  "tests": {
+    "passed": 20,
+    "failed": 0,
+    "static": {
+      "html": 58,
+      "routes": 52,
+      "references": 11841,
+      "schemas": 62
+    },
+    "content": {
+      "sourceRoutes": 52,
+      "curatedUnits": 854,
+      "unmatchedRichParagraphs": 0
+    }
+  },
+  "hashes": {
+    "dist/full-site.css": "3cedcb4ac8701c40be359a50e46fbf889f82f5f762808e448e9a3f39c9303f98",
+    "scripts/build-pages.mjs": "4c8efb71a30b4ee1f08b3bb30f304c9dec86396fd614fbfd09389a0f72387d33",
+    "dist/services/two-way/index.html": "8f4091340e39a8d0033e9541032804e6208e80701f3bf8e224af27829cf18933",
+    "dist/services/one-way/index.html": "605f2f07201e0b218fd03223040ff9d346be8a4df3efff1968330941fe7c43ab",
+    "dist/services/paid-parking/index.html": "c9cb7456469ee6781a4304a3dc53745966bc6dba5619fc2d78506a1c4e2281bf"
+  }
+}
