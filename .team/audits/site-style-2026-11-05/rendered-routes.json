@@ -1,0 +1,4562 @@
+[
+  {
+    "brokenImages": [],
+    "documentWidth": 390,
+    "faqs": {
+      "unstyled": 0,
+      "visible": 0
+    },
+    "forms": [
+      {
+        "context": {
+          "enquiry_page": "/about-us/",
+          "enquiry_page_title": "About PARKEZI",
+          "enquiry_page_url": "http://127.0.0.1:4293/about-us/"
+        },
+        "id": "enquiryForm"
+      },
+      {
+        "context": {
+          "enquiry_page": "/about-us/",
+          "enquiry_page_title": "About PARKEZI",
+          "enquiry_page_url": "http://127.0.0.1:4293/about-us/"
+        },
+        "id": "newsletterPreview"
+      }
+    ],
+    "h1": [
+      {
+        "lines": 1,
+        "tag": "H1",
+        "text": "About PARKEZI"
+      }
+    ],
+    "minEditableFont": 16,
+    "overflow": false,
+    "overlaps": [],
+    "route": "/about-us/",
+    "tallHeadings": [],
+    "title": "About PARKEZI",
+    "width": 390
+  },
+  {
+    "brokenImages": [],
+    "documentWidth": 1280,
+    "faqs": {
+      "unstyled": 0,
+      "visible": 0
+    },
+    "forms": [
+      {
+        "context": {
+          "enquiry_page": "/about-us/",
+          "enquiry_page_title": "About PARKEZI",
+          "enquiry_page_url": "http://127.0.0.1:4293/about-us/"
+        },
+        "id": "enquiryForm"
+      },
+      {
+        "context": {
+          "enquiry_page": "/about-us/",
+          "enquiry_page_title": "About PARKEZI",
+          "enquiry_page_url": "http://127.0.0.1:4293/about-us/"
+        },
+        "id": "newsletterPreview"
+      }
+    ],
+    "h1": [
+      {
+        "lines": 1,
+        "tag": "H1",
+        "text": "About PARKEZI"
+      }
+    ],
+    "minEditableFont": 16,
+    "overflow": false,
+    "overlaps": [],
+    "route": "/about-us/",
+    "tallHeadings": [],
+    "title": "About PARKEZI",
+    "width": 1280
+  },
+  {
+    "brokenImages": [],
+    "documentWidth": 390,
+    "faqs": {
+      "unstyled": 0,
+      "visible": 0
+    },
+    "forms": [
+      {
+        "context": {
+          "enquiry_page": "/blog/",
+          "enquiry_page_title": "Parking insights",
+          "enquiry_page_url": "http://127.0.0.1:4293/blog/"
+        },
+        "id": "enquiryForm"
+      },
+      {
+        "context": {
+          "enquiry_page": "/blog/",
+          "enquiry_page_title": "Parking insights",
+          "enquiry_page_url": "http://127.0.0.1:4293/blog/"
+        },
+        "id": "newsletterPreview"
+      }
+    ],
+    "h1": [
+      {
+        "lines": 1,
+        "tag": "H1",
+        "text": "Parking insights"
+      }
+    ],
+    "minEditableFont": 16,
+    "overflow": false,
+    "overlaps": [],
+    "route": "/blog/",
+    "tallHeadings": [],
+    "title": "Parking Technology Insights",
+    "width": 390
+  },
+  {
+    "brokenImages": [],
+    "documentWidth": 1280,
+    "faqs": {
+      "unstyled": 0,
+      "visible": 0
+    },
+    "forms": [
+      {
+        "context": {
+          "enquiry_page": "/blog/",
+          "enquiry_page_title": "Parking insights",
+          "enquiry_page_url": "http://127.0.0.1:4293/blog/"
+        },
+        "id": "enquiryForm"
+      },
+      {
+        "context": {
+          "enquiry_page": "/blog/",
+          "enquiry_page_title": "Parking insights",
+          "enquiry_page_url": "http://127.0.0.1:4293/blog/"
+        },
+        "id": "newsletterPreview"
+      }
+    ],
+    "h1": [
+      {
+        "lines": 1,
+        "tag": "H1",
+        "text": "Parking insights"
+      }
+    ],
+    "minEditableFont": 16,
+    "overflow": false,
+    "overlaps": [],
+    "route": "/blog/",
+    "tallHeadings": [],
+    "title": "Parking Technology Insights",
+    "width": 1280
+  },
+  {
+    "brokenImages": [],
+    "documentWidth": 390,
+    "faqs": {
+      "unstyled": 0,
+      "visible": 0
+    },
+    "forms": [
+      {
+        "context": {
+          "enquiry_page": "/contact/",
+          "enquiry_page_title": "Contact PARKEZI",
+          "enquiry_page_url": "http://127.0.0.1:4293/contact/"
+        },
+        "id": "enquiryForm"
+      },
+      {
+        "context": {
+          "enquiry_page": "/contact/",
+          "enquiry_page_title": "Contact PARKEZI",
+          "enquiry_page_url": "http://127.0.0.1:4293/contact/"
+        },
+        "id": "newsletterPreview"
+      }
+    ],
+    "h1": [
+      {
+        "lines": 1,
+        "tag": "H1",
+        "text": "Contact PARKEZI"
+      }
+    ],
+    "minEditableFont": 16,
+    "overflow": false,
+    "overlaps": [],
+    "route": "/contact/",
+    "tallHeadings": [],
+    "title": "Contact Parkezi",
+    "width": 390
+  },
+  {
+    "brokenImages": [],
+    "documentWidth": 1280,
+    "faqs": {
+      "unstyled": 0,
+      "visible": 0
+    },
+    "forms": [
+      {
+        "context": {
+          "enquiry_page": "/contact/",
+          "enquiry_page_title": "Contact PARKEZI",
+          "enquiry_page_url": "http://127.0.0.1:4293/contact/"
+        },
+        "id": "enquiryForm"
+      },
+      {
+        "context": {
+          "enquiry_page": "/contact/",
+          "enquiry_page_title": "Contact PARKEZI",
+          "enquiry_page_url": "http://127.0.0.1:4293/contact/"
+        },
+        "id": "newsletterPreview"
+      }
+    ],
+    "h1": [
+      {
+        "lines": 1,
+        "tag": "H1",
+        "text": "Contact PARKEZI"
+      }
+    ],
+    "minEditableFont": 16,
+    "overflow": false,
+    "overlaps": [],
+    "route": "/contact/",
+    "tallHeadings": [],
+    "title": "Contact Parkezi",
+    "width": 1280
+  },
+  {
+    "brokenImages": [],
+    "documentWidth": 390,
+    "faqs": {
+      "unstyled": 0,
+      "visible": 6
+    },
+    "forms": [
+      {
+        "context": {
+          "enquiry_page": "/express-pay.html",
+          "enquiry_page_title": "Express Pay",
+          "enquiry_page_url": "http://127.0.0.1:4293/express-pay.html"
+        },
+        "id": "enquiryForm"
+      },
+      {
+        "context": {
+          "enquiry_page": "/express-pay.html",
+          "enquiry_page_title": "Express Pay",
+          "enquiry_page_url": "http://127.0.0.1:4293/express-pay.html"
+        },
+        "id": "newsletterPreview"
+      }
+    ],
+    "h1": [
+      {
+        "lines": 1,
+        "tag": "H1",
+        "text": "Express Pay"
+      }
+    ],
+    "minEditableFont": 16,
+    "overflow": false,
+    "overlaps": [],
+    "route": "/express-pay.html",
+    "tallHeadings": [],
+    "title": "Express Pay | Parkezi",
+    "width": 390
+  },
+  {
+    "brokenImages": [],
+    "documentWidth": 1280,
+    "faqs": {
+      "unstyled": 0,
+      "visible": 6
+    },
+    "forms": [
+      {
+        "context": {
+          "enquiry_page": "/express-pay.html",
+          "enquiry_page_title": "Express Pay",
+          "enquiry_page_url": "http://127.0.0.1:4293/express-pay.html"
+        },
+        "id": "enquiryForm"
+      },
+      {
+        "context": {
+          "enquiry_page": "/express-pay.html",
+          "enquiry_page_title": "Express Pay",
+          "enquiry_page_url": "http://127.0.0.1:4293/express-pay.html"
+        },
+        "id": "newsletterPreview"
+      }
+    ],
+    "h1": [
+      {
+        "lines": 1,
+        "tag": "H1",
+        "text": "Express Pay"
+      }
+    ],
+    "minEditableFont": 16,
+    "overflow": false,
+    "overlaps": [],
+    "route": "/express-pay.html",
+    "tallHeadings": [],
+    "title": "Express Pay | Parkezi",
+    "width": 1280
+  },
+  {
+    "brokenImages": [],
+    "documentWidth": 390,
+    "faqs": {
+      "unstyled": 0,
+      "visible": 13
+    },
+    "forms": [
+      {
+        "context": {
+          "enquiry_page": "/faqs/",
+          "enquiry_page_title": "Parking questions",
+          "enquiry_page_url": "http://127.0.0.1:4293/faqs/"
+        },
+        "id": "enquiryForm"
+      },
+      {
+        "context": {
+          "enquiry_page": "/faqs/",
+          "enquiry_page_title": "Parking questions",
+          "enquiry_page_url": "http://127.0.0.1:4293/faqs/"
+        },
+        "id": "newsletterPreview"
+      }
+    ],
+    "h1": [
+      {
+        "lines": 1,
+        "tag": "H1",
+        "text": "Parking questions"
+      }
+    ],
+    "minEditableFont": 16,
+    "overflow": false,
+    "overlaps": [],
+    "route": "/faqs/",
+    "tallHeadings": [],
+    "title": "Parking Automation FAQs",
+    "width": 390
+  },
+  {
+    "brokenImages": [],
+    "documentWidth": 1280,
+    "faqs": {
+      "unstyled": 0,
+      "visible": 13
+    },
+    "forms": [
+      {
+        "context": {
+          "enquiry_page": "/faqs/",
+          "enquiry_page_title": "Parking questions",
+          "enquiry_page_url": "http://127.0.0.1:4293/faqs/"
+        },
+        "id": "enquiryForm"
+      },
+      {
+        "context": {
+          "enquiry_page": "/faqs/",
+          "enquiry_page_title": "Parking questions",
+          "enquiry_page_url": "http://127.0.0.1:4293/faqs/"
+        },
+        "id": "newsletterPreview"
+      }
+    ],
+    "h1": [
+      {
+        "lines": 1,
+        "tag": "H1",
+        "text": "Parking questions"
+      }
+    ],
+    "minEditableFont": 16,
+    "overflow": false,
+    "overlaps": [],
+    "route": "/faqs/",
+    "tallHeadings": [],
+    "title": "Parking Automation FAQs",
+    "width": 1280
+  },
+  {
+    "brokenImages": [],
+    "documentWidth": 390,
+    "faqs": {
+      "unstyled": 0,
+      "visible": 5
+    },
+    "forms": [
+      {
+        "context": {
+          "enquiry_page": "/home-v2-alt.html",
+          "enquiry_page_title": "Your car park, your way.",
+          "enquiry_page_url": "http://127.0.0.1:4293/home-v2-alt.html"
+        },
+        "id": "enquiryForm"
+      },
+      {
+        "context": {
+          "enquiry_page": "/home-v2-alt.html",
+          "enquiry_page_title": "Your car park, your way.",
+          "enquiry_page_url": "http://127.0.0.1:4293/home-v2-alt.html"
+        },
+        "id": "newsletterPreview"
+      }
+    ],
+    "h1": [
+      {
+        "lines": 2,
+        "tag": "H1",
+        "text": "Your car park, your way."
+      }
+    ],
+    "minEditableFont": 16,
+    "overflow": false,
+    "overlaps": [],
+    "route": "/home-v2-alt.html",
+    "tallHeadings": [],
+    "title": "Parkezi | Your car park, your way",
+    "width": 390
+  },
+  {
+    "brokenImages": [],
+    "documentWidth": 1280,
+    "faqs": {
+      "unstyled": 0,
+      "visible": 5
+    },
+    "forms": [
+      {
+        "context": {
+          "enquiry_page": "/home-v2-alt.html",
+          "enquiry_page_title": "Your car park, your way.",
+          "enquiry_page_url": "http://127.0.0.1:4293/home-v2-alt.html"
+        },
+        "id": "enquiryForm"
+      },
+      {
+        "context": {
+          "enquiry_page": "/home-v2-alt.html",
+          "enquiry_page_title": "Your car park, your way.",
+          "enquiry_page_url": "http://127.0.0.1:4293/home-v2-alt.html"
+        },
+        "id": "newsletterPreview"
+      }
+    ],
+    "h1": [
+      {
+        "lines": 1,
+        "tag": "H1",
+        "text": "Your car park, your way."
+      }
+    ],
+    "minEditableFont": 16,
+    "overflow": false,
+    "overlaps": [],
+    "route": "/home-v2-alt.html",
+    "tallHeadings": [],
+    "title": "Parkezi | Your car park, your way",
+    "width": 1280
+  },
+  {
+    "brokenImages": [],
+    "documentWidth": 390,
+    "faqs": {
+      "unstyled": 0,
+      "visible": 5
+    },
+    "forms": [
+      {
+        "context": {
+          "enquiry_page": "/home-v2.html",
+          "enquiry_page_title": "Your car park, your way.",
+          "enquiry_page_url": "http://127.0.0.1:4293/home-v2.html"
+        },
+        "id": "enquiryForm"
+      },
+      {
+        "context": {
+          "enquiry_page": "/home-v2.html",
+          "enquiry_page_title": "Your car park, your way.",
+          "enquiry_page_url": "http://127.0.0.1:4293/home-v2.html"
+        },
+        "id": "newsletterPreview"
+      }
+    ],
+    "h1": [
+      {
+        "lines": 2,
+        "tag": "H1",
+        "text": "Your car park, your way."
+      }
+    ],
+    "minEditableFont": 16,
+    "overflow": false,
+    "overlaps": [],
+    "route": "/home-v2.html",
+    "tallHeadings": [],
+    "title": "Parkezi | Your car park, your way",
+    "width": 390
+  },
+  {
+    "brokenImages": [],
+    "documentWidth": 1280,
+    "faqs": {
+      "unstyled": 0,
+      "visible": 5
+    },
+    "forms": [
+      {
+        "context": {
+          "enquiry_page": "/home-v2.html",
+          "enquiry_page_title": "Your car park, your way.",
+          "enquiry_page_url": "http://127.0.0.1:4293/home-v2.html"
+        },
+        "id": "enquiryForm"
+      },
+      {
+        "context": {
+          "enquiry_page": "/home-v2.html",
+          "enquiry_page_title": "Your car park, your way.",
+          "enquiry_page_url": "http://127.0.0.1:4293/home-v2.html"
+        },
+        "id": "newsletterPreview"
+      }
+    ],
+    "h1": [
+      {
+        "lines": 1,
+        "tag": "H1",
+        "text": "Your car park, your way."
+      }
+    ],
+    "minEditableFont": 16,
+    "overflow": false,
+    "overlaps": [],
+    "route": "/home-v2.html",
+    "tallHeadings": [],
+    "title": "Parkezi | Your car park, your way",
+    "width": 1280
+  },
+  {
+    "brokenImages": [],
+    "documentWidth": 390,
+    "faqs": {
+      "unstyled": 0,
+      "visible": 5
+    },
+    "forms": [
+      {
+        "context": {
+          "enquiry_page": "/home-white.html",
+          "enquiry_page_title": "Your car park, your way.",
+          "enquiry_page_url": "http://127.0.0.1:4293/home-white.html"
+        },
+        "id": "enquiryForm"
+      },
+      {
+        "context": {
+          "enquiry_page": "/home-white.html",
+          "enquiry_page_title": "Your car park, your way.",
+          "enquiry_page_url": "http://127.0.0.1:4293/home-white.html"
+        },
+        "id": "newsletterPreview"
+      }
+    ],
+    "h1": [
+      {
+        "lines": 2,
+        "tag": "H1",
+        "text": "Your car park, your way."
+      }
+    ],
+    "minEditableFont": 16,
+    "overflow": false,
+    "overlaps": [],
+    "route": "/home-white.html",
+    "tallHeadings": [],
+    "title": "Parkezi | Your car park, your way",
+    "width": 390
+  },
+  {
+    "brokenImages": [],
+    "documentWidth": 1280,
+    "faqs": {
+      "unstyled": 0,
+      "visible": 5
+    },
+    "forms": [
+      {
+        "context": {
+          "enquiry_page": "/home-white.html",
+          "enquiry_page_title": "Your car park, your way.",
+          "enquiry_page_url": "http://127.0.0.1:4293/home-white.html"
+        },
+        "id": "enquiryForm"
+      },
+      {
+        "context": {
+          "enquiry_page": "/home-white.html",
+          "enquiry_page_title": "Your car park, your way.",
+          "enquiry_page_url": "http://127.0.0.1:4293/home-white.html"
+        },
+        "id": "newsletterPreview"
+      }
+    ],
+    "h1": [
+      {
+        "lines": 1,
+        "tag": "H1",
+        "text": "Your car park, your way."
+      }
+    ],
+    "minEditableFont": 16,
+    "overflow": false,
+    "overlaps": [],
+    "route": "/home-white.html",
+    "tallHeadings": [],
+    "title": "Parkezi | Your car park, your way",
+    "width": 1280
+  },
+  {
+    "brokenImages": [],
+    "documentWidth": 390,
+    "faqs": {
+      "unstyled": 0,
+      "visible": 5
+    },
+    "forms": [
+      {
+        "context": {
+          "enquiry_page": "/",
+          "enquiry_page_title": "Your car park, your way.",
+          "enquiry_page_url": "http://127.0.0.1:4293/"
+        },
+        "id": "enquiryForm"
+      },
+      {
+        "context": {
+          "enquiry_page": "/",
+          "enquiry_page_title": "Your car park, your way.",
+          "enquiry_page_url": "http://127.0.0.1:4293/"
+        },
+        "id": "newsletterPreview"
+      }
+    ],
+    "h1": [
+      {
+        "lines": 2,
+        "tag": "H1",
+        "text": "Your car park, your way."
+      }
+    ],
+    "minEditableFont": 16,
+    "overflow": false,
+    "overlaps": [],
+    "route": "/",
+    "tallHeadings": [],
+    "title": "Parkezi | Your car park, your way",
+    "width": 390
+  },
+  {
+    "brokenImages": [],
+    "documentWidth": 1280,
+    "faqs": {
+      "unstyled": 0,
+      "visible": 5
+    },
+    "forms": [
+      {
+        "context": {
+          "enquiry_page": "/",
+          "enquiry_page_title": "Your car park, your way.",
+          "enquiry_page_url": "http://127.0.0.1:4293/"
+        },
+        "id": "enquiryForm"
+      },
+      {
+        "context": {
+          "enquiry_page": "/",
+          "enquiry_page_title": "Your car park, your way.",
+          "enquiry_page_url": "http://127.0.0.1:4293/"
+        },
+        "id": "newsletterPreview"
+      }
+    ],
+    "h1": [
+      {
+        "lines": 1,
+        "tag": "H1",
+        "text": "Your car park, your way."
+      }
+    ],
+    "minEditableFont": 16,
+    "overflow": false,
+    "overlaps": [],
+    "route": "/",
+    "tallHeadings": [],
+    "title": "Parkezi | Your car park, your way",
+    "width": 1280
+  },
+  {
+    "brokenImages": [],
+    "documentWidth": 390,
+    "faqs": {
+      "unstyled": 0,
+      "visible": 0
+    },
+    "forms": [
+      {
+        "context": {
+          "enquiry_page": "/installation/",
+          "enquiry_page_title": "Installation",
+          "enquiry_page_url": "http://127.0.0.1:4293/installation/"
+        },
+        "id": "enquiryForm"
+      },
+      {
+        "context": {
+          "enquiry_page": "/installation/",
+          "enquiry_page_title": "Installation",
+          "enquiry_page_url": "http://127.0.0.1:4293/installation/"
+        },
+        "id": "newsletterPreview"
+      }
+    ],
+    "h1": [
+      {
+        "lines": 1,
+        "tag": "H1",
+        "text": "Installation"
+      }
+    ],
+    "minEditableFont": 16,
+    "overflow": false,
+    "overlaps": [],
+    "route": "/installation/",
+    "tallHeadings": [],
+    "title": "Parking System Installation",
+    "width": 390
+  },
+  {
+    "brokenImages": [],
+    "documentWidth": 1280,
+    "faqs": {
+      "unstyled": 0,
+      "visible": 0
+    },
+    "forms": [
+      {
+        "context": {
+          "enquiry_page": "/installation/",
+          "enquiry_page_title": "Installation",
+          "enquiry_page_url": "http://127.0.0.1:4293/installation/"
+        },
+        "id": "enquiryForm"
+      },
+      {
+        "context": {
+          "enquiry_page": "/installation/",
+          "enquiry_page_title": "Installation",
+          "enquiry_page_url": "http://127.0.0.1:4293/installation/"
+        },
+        "id": "newsletterPreview"
+      }
+    ],
+    "h1": [
+      {
+        "lines": 1,
+        "tag": "H1",
+        "text": "Installation"
+      }
+    ],
+    "minEditableFont": 16,
+    "overflow": false,
+    "overlaps": [],
+    "route": "/installation/",
+    "tallHeadings": [],
+    "title": "Parking System Installation",
+    "width": 1280
+  },
+  {
+    "brokenImages": [],
+    "documentWidth": 390,
+    "faqs": {
+      "unstyled": 0,
+      "visible": 0
+    },
+    "forms": [
+      {
+        "context": {
+          "enquiry_page": "/integrations/adaptive-recognition/",
+          "enquiry_page_title": "Adaptive Recognition",
+          "enquiry_page_url": "http://127.0.0.1:4293/integrations/adaptive-recognition/"
+        },
+        "id": "enquiryForm"
+      },
+      {
+        "context": {
+          "enquiry_page": "/integrations/adaptive-recognition/",
+          "enquiry_page_title": "Adaptive Recognition",
+          "enquiry_page_url": "http://127.0.0.1:4293/integrations/adaptive-recognition/"
+        },
+        "id": "newsletterPreview"
+      }
+    ],
+    "h1": [
+      {
+        "lines": 1,
+        "tag": "H1",
+        "text": "Adaptive Recognition"
+      }
+    ],
+    "minEditableFont": 16,
+    "overflow": false,
+    "overlaps": [],
+    "route": "/integrations/adaptive-recognition/",
+    "tallHeadings": [],
+    "title": "Adaptive Recognition Integration - Parkezi",
+    "width": 390
+  },
+  {
+    "brokenImages": [],
+    "documentWidth": 1280,
+    "faqs": {
+      "unstyled": 0,
+      "visible": 0
+    },
+    "forms": [
+      {
+        "context": {
+          "enquiry_page": "/integrations/adaptive-recognition/",
+          "enquiry_page_title": "Adaptive Recognition",
+          "enquiry_page_url": "http://127.0.0.1:4293/integrations/adaptive-recognition/"
+        },
+        "id": "enquiryForm"
+      },
+      {
+        "context": {
+          "enquiry_page": "/integrations/adaptive-recognition/",
+          "enquiry_page_title": "Adaptive Recognition",
+          "enquiry_page_url": "http://127.0.0.1:4293/integrations/adaptive-recognition/"
+        },
+        "id": "newsletterPreview"
+      }
+    ],
+    "h1": [
+      {
+        "lines": 1,
+        "tag": "H1",
+        "text": "Adaptive Recognition"
+      }
+    ],
+    "minEditableFont": 16,
+    "overflow": false,
+    "overlaps": [],
+    "route": "/integrations/adaptive-recognition/",
+    "tallHeadings": [],
+    "title": "Adaptive Recognition Integration - Parkezi",
+    "width": 1280
+  },
+  {
+    "brokenImages": [],
+    "documentWidth": 390,
+    "faqs": {
+      "unstyled": 0,
+      "visible": 0
+    },
+    "forms": [
+      {
+        "context": {
+          "enquiry_page": "/integrations/beninca/",
+          "enquiry_page_title": "Beninca",
+          "enquiry_page_url": "http://127.0.0.1:4293/integrations/beninca/"
+        },
+        "id": "enquiryForm"
+      },
+      {
+        "context": {
+          "enquiry_page": "/integrations/beninca/",
+          "enquiry_page_title": "Beninca",
+          "enquiry_page_url": "http://127.0.0.1:4293/integrations/beninca/"
+        },
+        "id": "newsletterPreview"
+      }
+    ],
+    "h1": [
+      {
+        "lines": 1,
+        "tag": "H1",
+        "text": "Beninca"
+      }
+    ],
+    "minEditableFont": 16,
+    "overflow": false,
+    "overlaps": [],
+    "route": "/integrations/beninca/",
+    "tallHeadings": [],
+    "title": "Beninca Gate Integration - Parkezi",
+    "width": 390
+  },
+  {
+    "brokenImages": [],
+    "documentWidth": 1280,
+    "faqs": {
+      "unstyled": 0,
+      "visible": 0
+    },
+    "forms": [
+      {
+        "context": {
+          "enquiry_page": "/integrations/beninca/",
+          "enquiry_page_title": "Beninca",
+          "enquiry_page_url": "http://127.0.0.1:4293/integrations/beninca/"
+        },
+        "id": "enquiryForm"
+      },
+      {
+        "context": {
+          "enquiry_page": "/integrations/beninca/",
+          "enquiry_page_title": "Beninca",
+          "enquiry_page_url": "http://127.0.0.1:4293/integrations/beninca/"
+        },
+        "id": "newsletterPreview"
+      }
+    ],
+    "h1": [
+      {
+        "lines": 1,
+        "tag": "H1",
+        "text": "Beninca"
+      }
+    ],
+    "minEditableFont": 16,
+    "overflow": false,
+    "overlaps": [],
+    "route": "/integrations/beninca/",
+    "tallHeadings": [],
+    "title": "Beninca Gate Integration - Parkezi",
+    "width": 1280
+  },
+  {
+    "brokenImages": [],
+    "documentWidth": 390,
+    "faqs": {
+      "unstyled": 0,
+      "visible": 0
+    },
+    "forms": [
+      {
+        "context": {
+          "enquiry_page": "/integrations/selea/",
+          "enquiry_page_title": "Selea",
+          "enquiry_page_url": "http://127.0.0.1:4293/integrations/selea/"
+        },
+        "id": "enquiryForm"
+      },
+      {
+        "context": {
+          "enquiry_page": "/integrations/selea/",
+          "enquiry_page_title": "Selea",
+          "enquiry_page_url": "http://127.0.0.1:4293/integrations/selea/"
+        },
+        "id": "newsletterPreview"
+      }
+    ],
+    "h1": [
+      {
+        "lines": 1,
+        "tag": "H1",
+        "text": "Selea"
+      }
+    ],
+    "minEditableFont": 16,
+    "overflow": false,
+    "overlaps": [],
+    "route": "/integrations/selea/",
+    "tallHeadings": [],
+    "title": "Selea - Parkezi Integrations",
+    "width": 390
+  },
+  {
+    "brokenImages": [],
+    "documentWidth": 1280,
+    "faqs": {
+      "unstyled": 0,
+      "visible": 0
+    },
+    "forms": [
+      {
+        "context": {
+          "enquiry_page": "/integrations/selea/",
+          "enquiry_page_title": "Selea",
+          "enquiry_page_url": "http://127.0.0.1:4293/integrations/selea/"
+        },
+        "id": "enquiryForm"
+      },
+      {
+        "context": {
+          "enquiry_page": "/integrations/selea/",
+          "enquiry_page_title": "Selea",
+          "enquiry_page_url": "http://127.0.0.1:4293/integrations/selea/"
+        },
+        "id": "newsletterPreview"
+      }
+    ],
+    "h1": [
+      {
+        "lines": 1,
+        "tag": "H1",
+        "text": "Selea"
+      }
+    ],
+    "minEditableFont": 16,
+    "overflow": false,
+    "overlaps": [],
+    "route": "/integrations/selea/",
+    "tallHeadings": [],
+    "title": "Selea - Parkezi Integrations",
+    "width": 1280
+  },
+  {
+    "brokenImages": [],
+    "documentWidth": 390,
+    "faqs": {
+      "unstyled": 0,
+      "visible": 0
+    },
+    "forms": [
+      {
+        "context": {
+          "enquiry_page": "/integrations/windcave/",
+          "enquiry_page_title": "Windcave",
+          "enquiry_page_url": "http://127.0.0.1:4293/integrations/windcave/"
+        },
+        "id": "enquiryForm"
+      },
+      {
+        "context": {
+          "enquiry_page": "/integrations/windcave/",
+          "enquiry_page_title": "Windcave",
+          "enquiry_page_url": "http://127.0.0.1:4293/integrations/windcave/"
+        },
+        "id": "newsletterPreview"
+      }
+    ],
+    "h1": [
+      {
+        "lines": 1,
+        "tag": "H1",
+        "text": "Windcave"
+      }
+    ],
+    "minEditableFont": 16,
+    "overflow": false,
+    "overlaps": [],
+    "route": "/integrations/windcave/",
+    "tallHeadings": [],
+    "title": "Windcave Payment Integration - Parkezi",
+    "width": 390
+  },
+  {
+    "brokenImages": [],
+    "documentWidth": 1280,
+    "faqs": {
+      "unstyled": 0,
+      "visible": 0
+    },
+    "forms": [
+      {
+        "context": {
+          "enquiry_page": "/integrations/windcave/",
+          "enquiry_page_title": "Windcave",
+          "enquiry_page_url": "http://127.0.0.1:4293/integrations/windcave/"
+        },
+        "id": "enquiryForm"
+      },
+      {
+        "context": {
+          "enquiry_page": "/integrations/windcave/",
+          "enquiry_page_title": "Windcave",
+          "enquiry_page_url": "http://127.0.0.1:4293/integrations/windcave/"
+        },
+        "id": "newsletterPreview"
+      }
+    ],
+    "h1": [
+      {
+        "lines": 1,
+        "tag": "H1",
+        "text": "Windcave"
+      }
+    ],
+    "minEditableFont": 16,
+    "overflow": false,
+    "overlaps": [],
+    "route": "/integrations/windcave/",
+    "tallHeadings": [],
+    "title": "Windcave Payment Integration - Parkezi",
+    "width": 1280
+  },
+  {
+    "brokenImages": [],
+    "documentWidth": 390,
+    "faqs": {
+      "unstyled": 0,
+      "visible": 0
+    },
+    "forms": [
+      {
+        "context": {
+          "enquiry_page": "/legal/privacy-policy/",
+          "enquiry_page_title": "Privacy policy",
+          "enquiry_page_url": "http://127.0.0.1:4293/legal/privacy-policy/"
+        },
+        "id": "enquiryForm"
+      },
+      {
+        "context": {
+          "enquiry_page": "/legal/privacy-policy/",
+          "enquiry_page_title": "Privacy policy",
+          "enquiry_page_url": "http://127.0.0.1:4293/legal/privacy-policy/"
+        },
+        "id": "newsletterPreview"
+      }
+    ],
+    "h1": [
+      {
+        "lines": 1,
+        "tag": "H1",
+        "text": "Privacy policy"
+      }
+    ],
+    "minEditableFont": 16,
+    "overflow": false,
+    "overlaps": [],
+    "route": "/legal/privacy-policy/",
+    "tallHeadings": [],
+    "title": "Privacy Policy - Parkezi",
+    "width": 390
+  },
+  {
+    "brokenImages": [],
+    "documentWidth": 1280,
+    "faqs": {
+      "unstyled": 0,
+      "visible": 0
+    },
+    "forms": [
+      {
+        "context": {
+          "enquiry_page": "/legal/privacy-policy/",
+          "enquiry_page_title": "Privacy policy",
+          "enquiry_page_url": "http://127.0.0.1:4293/legal/privacy-policy/"
+        },
+        "id": "enquiryForm"
+      },
+      {
+        "context": {
+          "enquiry_page": "/legal/privacy-policy/",
+          "enquiry_page_title": "Privacy policy",
+          "enquiry_page_url": "http://127.0.0.1:4293/legal/privacy-policy/"
+        },
+        "id": "newsletterPreview"
+      }
+    ],
+    "h1": [
+      {
+        "lines": 1,
+        "tag": "H1",
+        "text": "Privacy policy"
+      }
+    ],
+    "minEditableFont": 16,
+    "overflow": false,
+    "overlaps": [],
+    "route": "/legal/privacy-policy/",
+    "tallHeadings": [],
+    "title": "Privacy Policy - Parkezi",
+    "width": 1280
+  },
+  {
+    "brokenImages": [],
+    "documentWidth": 390,
+    "faqs": {
+      "unstyled": 0,
+      "visible": 0
+    },
+    "forms": [
+      {
+        "context": {
+          "enquiry_page": "/our-work/",
+          "enquiry_page_title": "PARKEZI projects",
+          "enquiry_page_url": "http://127.0.0.1:4293/our-work/"
+        },
+        "id": "enquiryForm"
+      },
+      {
+        "context": {
+          "enquiry_page": "/our-work/",
+          "enquiry_page_title": "PARKEZI projects",
+          "enquiry_page_url": "http://127.0.0.1:4293/our-work/"
+        },
+        "id": "newsletterPreview"
+      }
+    ],
+    "h1": [
+      {
+        "lines": 1,
+        "tag": "H1",
+        "text": "PARKEZI projects"
+      }
+    ],
+    "minEditableFont": 16,
+    "overflow": false,
+    "overlaps": [],
+    "route": "/our-work/",
+    "tallHeadings": [],
+    "title": "Parking Automation Projects",
+    "width": 390
+  },
+  {
+    "brokenImages": [],
+    "documentWidth": 1280,
+    "faqs": {
+      "unstyled": 0,
+      "visible": 0
+    },
+    "forms": [
+      {
+        "context": {
+          "enquiry_page": "/our-work/",
+          "enquiry_page_title": "PARKEZI projects",
+          "enquiry_page_url": "http://127.0.0.1:4293/our-work/"
+        },
+        "id": "enquiryForm"
+      },
+      {
+        "context": {
+          "enquiry_page": "/our-work/",
+          "enquiry_page_title": "PARKEZI projects",
+          "enquiry_page_url": "http://127.0.0.1:4293/our-work/"
+        },
+        "id": "newsletterPreview"
+      }
+    ],
+    "h1": [
+      {
+        "lines": 1,
+        "tag": "H1",
+        "text": "PARKEZI projects"
+      }
+    ],
+    "minEditableFont": 16,
+    "overflow": false,
+    "overlaps": [],
+    "route": "/our-work/",
+    "tallHeadings": [],
+    "title": "Parking Automation Projects",
+    "width": 1280
+  },
+  {
+    "brokenImages": [],
+    "documentWidth": 390,
+    "faqs": {
+      "unstyled": 0,
+      "visible": 0
+    },
+    "forms": [
+      {
+        "context": {
+          "enquiry_page": "/post/anpr-cameras-improve-two-way-parking-systems-in-high-traffic-sites/",
+          "enquiry_page_title": "Managing two-way traffic",
+          "enquiry_page_url": "http://127.0.0.1:4293/post/anpr-cameras-improve-two-way-parking-systems-in-high-traffic-sites/"
+        },
+        "id": "enquiryForm"
+      },
+      {
+        "context": {
+          "enquiry_page": "/post/anpr-cameras-improve-two-way-parking-systems-in-high-traffic-sites/",
+          "enquiry_page_title": "Managing two-way traffic",
+          "enquiry_page_url": "http://127.0.0.1:4293/post/anpr-cameras-improve-two-way-parking-systems-in-high-traffic-sites/"
+        },
+        "id": "newsletterPreview"
+      }
+    ],
+    "h1": [
+      {
+        "lines": 2,
+        "tag": "H1",
+        "text": "Managing two-way traffic"
+      }
+    ],
+    "minEditableFont": 16,
+    "overflow": false,
+    "overlaps": [],
+    "route": "/post/anpr-cameras-improve-two-way-parking-systems-in-high-traffic-sites/",
+    "tallHeadings": [],
+    "title": "ANPR for Two-Way Parking Systems | Parkezi",
+    "width": 390
+  },
+  {
+    "brokenImages": [],
+    "documentWidth": 1280,
+    "faqs": {
+      "unstyled": 0,
+      "visible": 0
+    },
+    "forms": [
+      {
+        "context": {
+          "enquiry_page": "/post/anpr-cameras-improve-two-way-parking-systems-in-high-traffic-sites/",
+          "enquiry_page_title": "Managing two-way traffic",
+          "enquiry_page_url": "http://127.0.0.1:4293/post/anpr-cameras-improve-two-way-parking-systems-in-high-traffic-sites/"
+        },
+        "id": "enquiryForm"
+      },
+      {
+        "context": {
+          "enquiry_page": "/post/anpr-cameras-improve-two-way-parking-systems-in-high-traffic-sites/",
+          "enquiry_page_title": "Managing two-way traffic",
+          "enquiry_page_url": "http://127.0.0.1:4293/post/anpr-cameras-improve-two-way-parking-systems-in-high-traffic-sites/"
+        },
+        "id": "newsletterPreview"
+      }
+    ],
+    "h1": [
+      {
+        "lines": 1,
+        "tag": "H1",
+        "text": "Managing two-way traffic"
+      }
+    ],
+    "minEditableFont": 16,
+    "overflow": false,
+    "overlaps": [],
+    "route": "/post/anpr-cameras-improve-two-way-parking-systems-in-high-traffic-sites/",
+    "tallHeadings": [],
+    "title": "ANPR for Two-Way Parking Systems | Parkezi",
+    "width": 1280
+  },
+  {
+    "brokenImages": [],
+    "documentWidth": 390,
+    "faqs": {
+      "unstyled": 0,
+      "visible": 0
+    },
+    "forms": [
+      {
+        "context": {
+          "enquiry_page": "/post/choose-the-right-parking-access-control-system-for-your-site/",
+          "enquiry_page_title": "Choosing access control",
+          "enquiry_page_url": "http://127.0.0.1:4293/post/choose-the-right-parking-access-control-system-for-your-site/"
+        },
+        "id": "enquiryForm"
+      },
+      {
+        "context": {
+          "enquiry_page": "/post/choose-the-right-parking-access-control-system-for-your-site/",
+          "enquiry_page_title": "Choosing access control",
+          "enquiry_page_url": "http://127.0.0.1:4293/post/choose-the-right-parking-access-control-system-for-your-site/"
+        },
+        "id": "newsletterPreview"
+      }
+    ],
+    "h1": [
+      {
+        "lines": 2,
+        "tag": "H1",
+        "text": "Choosing access control"
+      }
+    ],
+    "minEditableFont": 16,
+    "overflow": false,
+    "overlaps": [],
+    "route": "/post/choose-the-right-parking-access-control-system-for-your-site/",
+    "tallHeadings": [],
+    "title": "Choosing a Parking Access Control System | Parkezi",
+    "width": 390
+  },
+  {
+    "brokenImages": [],
+    "documentWidth": 1280,
+    "faqs": {
+      "unstyled": 0,
+      "visible": 0
+    },
+    "forms": [
+      {
+        "context": {
+          "enquiry_page": "/post/choose-the-right-parking-access-control-system-for-your-site/",
+          "enquiry_page_title": "Choosing access control",
+          "enquiry_page_url": "http://127.0.0.1:4293/post/choose-the-right-parking-access-control-system-for-your-site/"
+        },
+        "id": "enquiryForm"
+      },
+      {
+        "context": {
+          "enquiry_page": "/post/choose-the-right-parking-access-control-system-for-your-site/",
+          "enquiry_page_title": "Choosing access control",
+          "enquiry_page_url": "http://127.0.0.1:4293/post/choose-the-right-parking-access-control-system-for-your-site/"
+        },
+        "id": "newsletterPreview"
+      }
+    ],
+    "h1": [
+      {
+        "lines": 1,
+        "tag": "H1",
+        "text": "Choosing access control"
+      }
+    ],
+    "minEditableFont": 16,
+    "overflow": false,
+    "overlaps": [],
+    "route": "/post/choose-the-right-parking-access-control-system-for-your-site/",
+    "tallHeadings": [],
+    "title": "Choosing a Parking Access Control System | Parkezi",
+    "width": 1280
+  },
+  {
+    "brokenImages": [],
+    "documentWidth": 390,
+    "faqs": {
+      "unstyled": 0,
+      "visible": 0
+    },
+    "forms": [
+      {
+        "context": {
+          "enquiry_page": "/post/contactless-vs-traditional-parking-systems-which-is-right-for-your-site/",
+          "enquiry_page_title": "Contactless or traditional?",
+          "enquiry_page_url": "http://127.0.0.1:4293/post/contactless-vs-traditional-parking-systems-which-is-right-for-your-site/"
+        },
+        "id": "enquiryForm"
+      },
+      {
+        "context": {
+          "enquiry_page": "/post/contactless-vs-traditional-parking-systems-which-is-right-for-your-site/",
+          "enquiry_page_title": "Contactless or traditional?",
+          "enquiry_page_url": "http://127.0.0.1:4293/post/contactless-vs-traditional-parking-systems-which-is-right-for-your-site/"
+        },
+        "id": "newsletterPreview"
+      }
+    ],
+    "h1": [
+      {
+        "lines": 2,
+        "tag": "H1",
+        "text": "Contactless or traditional?"
+      }
+    ],
+    "minEditableFont": 16,
+    "overflow": false,
+    "overlaps": [],
+    "route": "/post/contactless-vs-traditional-parking-systems-which-is-right-for-your-site/",
+    "tallHeadings": [],
+    "title": "Contactless vs Traditional Parking Systems: Which Is Right for Your Site?",
+    "width": 390
+  },
+  {
+    "brokenImages": [],
+    "documentWidth": 1280,
+    "faqs": {
+      "unstyled": 0,
+      "visible": 0
+    },
+    "forms": [
+      {
+        "context": {
+          "enquiry_page": "/post/contactless-vs-traditional-parking-systems-which-is-right-for-your-site/",
+          "enquiry_page_title": "Contactless or traditional?",
+          "enquiry_page_url": "http://127.0.0.1:4293/post/contactless-vs-traditional-parking-systems-which-is-right-for-your-site/"
+        },
+        "id": "enquiryForm"
+      },
+      {
+        "context": {
+          "enquiry_page": "/post/contactless-vs-traditional-parking-systems-which-is-right-for-your-site/",
+          "enquiry_page_title": "Contactless or traditional?",
+          "enquiry_page_url": "http://127.0.0.1:4293/post/contactless-vs-traditional-parking-systems-which-is-right-for-your-site/"
+        },
+        "id": "newsletterPreview"
+      }
+    ],
+    "h1": [
+      {
+        "lines": 1,
+        "tag": "H1",
+        "text": "Contactless or traditional?"
+      }
+    ],
+    "minEditableFont": 16,
+    "overflow": false,
+    "overlaps": [],
+    "route": "/post/contactless-vs-traditional-parking-systems-which-is-right-for-your-site/",
+    "tallHeadings": [],
+    "title": "Contactless vs Traditional Parking Systems: Which Is Right for Your Site?",
+    "width": 1280
+  },
+  {
+    "brokenImages": [],
+    "documentWidth": 390,
+    "faqs": {
+      "unstyled": 0,
+      "visible": 0
+    },
+    "forms": [
+      {
+        "context": {
+          "enquiry_page": "/post/five-common-parking-management-challenges-and-how-anpr-solves-them/",
+          "enquiry_page_title": "Solving parking challenges",
+          "enquiry_page_url": "http://127.0.0.1:4293/post/five-common-parking-management-challenges-and-how-anpr-solves-them/"
+        },
+        "id": "enquiryForm"
+      },
+      {
+        "context": {
+          "enquiry_page": "/post/five-common-parking-management-challenges-and-how-anpr-solves-them/",
+          "enquiry_page_title": "Solving parking challenges",
+          "enquiry_page_url": "http://127.0.0.1:4293/post/five-common-parking-management-challenges-and-how-anpr-solves-them/"
+        },
+        "id": "newsletterPreview"
+      }
+    ],
+    "h1": [
+      {
+        "lines": 2,
+        "tag": "H1",
+        "text": "Solving parking challenges"
+      }
+    ],
+    "minEditableFont": 16,
+    "overflow": false,
+    "overlaps": [],
+    "route": "/post/five-common-parking-management-challenges-and-how-anpr-solves-them/",
+    "tallHeadings": [],
+    "title": "5 Parking Challenges and How ANPR Solves Them",
+    "width": 390
+  },
+  {
+    "brokenImages": [],
+    "documentWidth": 1280,
+    "faqs": {
+      "unstyled": 0,
+      "visible": 0
+    },
+    "forms": [
+      {
+        "context": {
+          "enquiry_page": "/post/five-common-parking-management-challenges-and-how-anpr-solves-them/",
+          "enquiry_page_title": "Solving parking challenges",
+          "enquiry_page_url": "http://127.0.0.1:4293/post/five-common-parking-management-challenges-and-how-anpr-solves-them/"
+        },
+        "id": "enquiryForm"
+      },
+      {
+        "context": {
+          "enquiry_page": "/post/five-common-parking-management-challenges-and-how-anpr-solves-them/",
+          "enquiry_page_title": "Solving parking challenges",
+          "enquiry_page_url": "http://127.0.0.1:4293/post/five-common-parking-management-challenges-and-how-anpr-solves-them/"
+        },
+        "id": "newsletterPreview"
+      }
+    ],
+    "h1": [
+      {
+        "lines": 1,
+        "tag": "H1",
+        "text": "Solving parking challenges"
+      }
+    ],
+    "minEditableFont": 16,
+    "overflow": false,
+    "overlaps": [],
+    "route": "/post/five-common-parking-management-challenges-and-how-anpr-solves-them/",
+    "tallHeadings": [],
+    "title": "5 Parking Challenges and How ANPR Solves Them",
+    "width": 1280
+  },
+  {
+    "brokenImages": [],
+    "documentWidth": 390,
+    "faqs": {
+      "unstyled": 0,
+      "visible": 0
+    },
+    "forms": [
+      {
+        "context": {
+          "enquiry_page": "/post/how-anpr-improves-security-in-commercial-and-residential-car-parks/",
+          "enquiry_page_title": "ANPR and site security",
+          "enquiry_page_url": "http://127.0.0.1:4293/post/how-anpr-improves-security-in-commercial-and-residential-car-parks/"
+        },
+        "id": "enquiryForm"
+      },
+      {
+        "context": {
+          "enquiry_page": "/post/how-anpr-improves-security-in-commercial-and-residential-car-parks/",
+          "enquiry_page_title": "ANPR and site security",
+          "enquiry_page_url": "http://127.0.0.1:4293/post/how-anpr-improves-security-in-commercial-and-residential-car-parks/"
+        },
+        "id": "newsletterPreview"
+      }
+    ],
+    "h1": [
+      {
+        "lines": 1,
+        "tag": "H1",
+        "text": "ANPR and site security"
+      }
+    ],
+    "minEditableFont": 16,
+    "overflow": false,
+    "overlaps": [],
+    "route": "/post/how-anpr-improves-security-in-commercial-and-residential-car-parks/",
+    "tallHeadings": [],
+    "title": "How ANPR Improves Security in Commercial and Residential Car Parks",
+    "width": 390
+  },
+  {
+    "brokenImages": [],
+    "documentWidth": 1280,
+    "faqs": {
+      "unstyled": 0,
+      "visible": 0
+    },
+    "forms": [
+      {
+        "context": {
+          "enquiry_page": "/post/how-anpr-improves-security-in-commercial-and-residential-car-parks/",
+          "enquiry_page_title": "ANPR and site security",
+          "enquiry_page_url": "http://127.0.0.1:4293/post/how-anpr-improves-security-in-commercial-and-residential-car-parks/"
+        },
+        "id": "enquiryForm"
+      },
+      {
+        "context": {
+          "enquiry_page": "/post/how-anpr-improves-security-in-commercial-and-residential-car-parks/",
+          "enquiry_page_title": "ANPR and site security",
+          "enquiry_page_url": "http://127.0.0.1:4293/post/how-anpr-improves-security-in-commercial-and-residential-car-parks/"
+        },
+        "id": "newsletterPreview"
+      }
+    ],
+    "h1": [
+      {
+        "lines": 1,
+        "tag": "H1",
+        "text": "ANPR and site security"
+      }
+    ],
+    "minEditableFont": 16,
+    "overflow": false,
+    "overlaps": [],
+    "route": "/post/how-anpr-improves-security-in-commercial-and-residential-car-parks/",
+    "tallHeadings": [],
+    "title": "How ANPR Improves Security in Commercial and Residential Car Parks",
+    "width": 1280
+  },
+  {
+    "brokenImages": [],
+    "documentWidth": 390,
+    "faqs": {
+      "unstyled": 0,
+      "visible": 0
+    },
+    "forms": [
+      {
+        "context": {
+          "enquiry_page": "/post/how-cloud-parking-management-software-simplifies-multi-site-operations/",
+          "enquiry_page_title": "Managing multiple sites",
+          "enquiry_page_url": "http://127.0.0.1:4293/post/how-cloud-parking-management-software-simplifies-multi-site-operations/"
+        },
+        "id": "enquiryForm"
+      },
+      {
+        "context": {
+          "enquiry_page": "/post/how-cloud-parking-management-software-simplifies-multi-site-operations/",
+          "enquiry_page_title": "Managing multiple sites",
+          "enquiry_page_url": "http://127.0.0.1:4293/post/how-cloud-parking-management-software-simplifies-multi-site-operations/"
+        },
+        "id": "newsletterPreview"
+      }
+    ],
+    "h1": [
+      {
+        "lines": 2,
+        "tag": "H1",
+        "text": "Managing multiple sites"
+      }
+    ],
+    "minEditableFont": 16,
+    "overflow": false,
+    "overlaps": [],
+    "route": "/post/how-cloud-parking-management-software-simplifies-multi-site-operations/",
+    "tallHeadings": [],
+    "title": "How Cloud Parking Management Software Simplifies Multi-Site Operations",
+    "width": 390
+  },
+  {
+    "brokenImages": [],
+    "documentWidth": 1280,
+    "faqs": {
+      "unstyled": 0,
+      "visible": 0
+    },
+    "forms": [
+      {
+        "context": {
+          "enquiry_page": "/post/how-cloud-parking-management-software-simplifies-multi-site-operations/",
+          "enquiry_page_title": "Managing multiple sites",
+          "enquiry_page_url": "http://127.0.0.1:4293/post/how-cloud-parking-management-software-simplifies-multi-site-operations/"
+        },
+        "id": "enquiryForm"
+      },
+      {
+        "context": {
+          "enquiry_page": "/post/how-cloud-parking-management-software-simplifies-multi-site-operations/",
+          "enquiry_page_title": "Managing multiple sites",
+          "enquiry_page_url": "http://127.0.0.1:4293/post/how-cloud-parking-management-software-simplifies-multi-site-operations/"
+        },
+        "id": "newsletterPreview"
+      }
+    ],
+    "h1": [
+      {
+        "lines": 1,
+        "tag": "H1",
+        "text": "Managing multiple sites"
+      }
+    ],
+    "minEditableFont": 16,
+    "overflow": false,
+    "overlaps": [],
+    "route": "/post/how-cloud-parking-management-software-simplifies-multi-site-operations/",
+    "tallHeadings": [],
+    "title": "How Cloud Parking Management Software Simplifies Multi-Site Operations",
+    "width": 1280
+  },
+  {
+    "brokenImages": [],
+    "documentWidth": 390,
+    "faqs": {
+      "unstyled": 0,
+      "visible": 0
+    },
+    "forms": [
+      {
+        "context": {
+          "enquiry_page": "/post/how-do-boom-gates-work/",
+          "enquiry_page_title": "How boom gates work",
+          "enquiry_page_url": "http://127.0.0.1:4293/post/how-do-boom-gates-work/"
+        },
+        "id": "enquiryForm"
+      },
+      {
+        "context": {
+          "enquiry_page": "/post/how-do-boom-gates-work/",
+          "enquiry_page_title": "How boom gates work",
+          "enquiry_page_url": "http://127.0.0.1:4293/post/how-do-boom-gates-work/"
+        },
+        "id": "newsletterPreview"
+      }
+    ],
+    "h1": [
+      {
+        "lines": 1,
+        "tag": "H1",
+        "text": "How boom gates work"
+      }
+    ],
+    "minEditableFont": 16,
+    "overflow": false,
+    "overlaps": [],
+    "route": "/post/how-do-boom-gates-work/",
+    "tallHeadings": [],
+    "title": "How Boom Gates Work - Parkezi",
+    "width": 390
+  },
+  {
+    "brokenImages": [],
+    "documentWidth": 1280,
+    "faqs": {
+      "unstyled": 0,
+      "visible": 0
+    },
+    "forms": [
+      {
+        "context": {
+          "enquiry_page": "/post/how-do-boom-gates-work/",
+          "enquiry_page_title": "How boom gates work",
+          "enquiry_page_url": "http://127.0.0.1:4293/post/how-do-boom-gates-work/"
+        },
+        "id": "enquiryForm"
+      },
+      {
+        "context": {
+          "enquiry_page": "/post/how-do-boom-gates-work/",
+          "enquiry_page_title": "How boom gates work",
+          "enquiry_page_url": "http://127.0.0.1:4293/post/how-do-boom-gates-work/"
+        },
+        "id": "newsletterPreview"
+      }
+    ],
+    "h1": [
+      {
+        "lines": 1,
+        "tag": "H1",
+        "text": "How boom gates work"
+      }
+    ],
+    "minEditableFont": 16,
+    "overflow": false,
+    "overlaps": [],
+    "route": "/post/how-do-boom-gates-work/",
+    "tallHeadings": [],
+    "title": "How Boom Gates Work - Parkezi",
+    "width": 1280
+  },
+  {
+    "brokenImages": [],
+    "documentWidth": 390,
+    "faqs": {
+      "unstyled": 0,
+      "visible": 0
+    },
+    "forms": [
+      {
+        "context": {
+          "enquiry_page": "/post/how-much-does-a-parking-automation-system-cost-in-australia/",
+          "enquiry_page_title": "Parking system costs",
+          "enquiry_page_url": "http://127.0.0.1:4293/post/how-much-does-a-parking-automation-system-cost-in-australia/"
+        },
+        "id": "enquiryForm"
+      },
+      {
+        "context": {
+          "enquiry_page": "/post/how-much-does-a-parking-automation-system-cost-in-australia/",
+          "enquiry_page_title": "Parking system costs",
+          "enquiry_page_url": "http://127.0.0.1:4293/post/how-much-does-a-parking-automation-system-cost-in-australia/"
+        },
+        "id": "newsletterPreview"
+      }
+    ],
+    "h1": [
+      {
+        "lines": 1,
+        "tag": "H1",
+        "text": "Parking system costs"
+      }
+    ],
+    "minEditableFont": 16,
+    "overflow": false,
+    "overlaps": [],
+    "route": "/post/how-much-does-a-parking-automation-system-cost-in-australia/",
+    "tallHeadings": [],
+    "title": "Parking Automation System Costs in Australia",
+    "width": 390
+  },
+  {
+    "brokenImages": [],
+    "documentWidth": 1280,
+    "faqs": {
+      "unstyled": 0,
+      "visible": 0
+    },
+    "forms": [
+      {
+        "context": {
+          "enquiry_page": "/post/how-much-does-a-parking-automation-system-cost-in-australia/",
+          "enquiry_page_title": "Parking system costs",
+          "enquiry_page_url": "http://127.0.0.1:4293/post/how-much-does-a-parking-automation-system-cost-in-australia/"
+        },
+        "id": "enquiryForm"
+      },
+      {
+        "context": {
+          "enquiry_page": "/post/how-much-does-a-parking-automation-system-cost-in-australia/",
+          "enquiry_page_title": "Parking system costs",
+          "enquiry_page_url": "http://127.0.0.1:4293/post/how-much-does-a-parking-automation-system-cost-in-australia/"
+        },
+        "id": "newsletterPreview"
+      }
+    ],
+    "h1": [
+      {
+        "lines": 1,
+        "tag": "H1",
+        "text": "Parking system costs"
+      }
+    ],
+    "minEditableFont": 16,
+    "overflow": false,
+    "overlaps": [],
+    "route": "/post/how-much-does-a-parking-automation-system-cost-in-australia/",
+    "tallHeadings": [],
+    "title": "Parking Automation System Costs in Australia",
+    "width": 1280
+  },
+  {
+    "brokenImages": [],
+    "documentWidth": 390,
+    "faqs": {
+      "unstyled": 0,
+      "visible": 0
+    },
+    "forms": [
+      {
+        "context": {
+          "enquiry_page": "/post/how-ticketless-parking-improves-customer-experience-and-revenue/",
+          "enquiry_page_title": "Ticketless parking benefits",
+          "enquiry_page_url": "http://127.0.0.1:4293/post/how-ticketless-parking-improves-customer-experience-and-revenue/"
+        },
+        "id": "enquiryForm"
+      },
+      {
+        "context": {
+          "enquiry_page": "/post/how-ticketless-parking-improves-customer-experience-and-revenue/",
+          "enquiry_page_title": "Ticketless parking benefits",
+          "enquiry_page_url": "http://127.0.0.1:4293/post/how-ticketless-parking-improves-customer-experience-and-revenue/"
+        },
+        "id": "newsletterPreview"
+      }
+    ],
+    "h1": [
+      {
+        "lines": 2,
+        "tag": "H1",
+        "text": "Ticketless parking benefits"
+      }
+    ],
+    "minEditableFont": 16,
+    "overflow": false,
+    "overlaps": [],
+    "route": "/post/how-ticketless-parking-improves-customer-experience-and-revenue/",
+    "tallHeadings": [],
+    "title": "How Ticketless Parking Improves Experience and Revenue",
+    "width": 390
+  },
+  {
+    "brokenImages": [],
+    "documentWidth": 1280,
+    "faqs": {
+      "unstyled": 0,
+      "visible": 0
+    },
+    "forms": [
+      {
+        "context": {
+          "enquiry_page": "/post/how-ticketless-parking-improves-customer-experience-and-revenue/",
+          "enquiry_page_title": "Ticketless parking benefits",
+          "enquiry_page_url": "http://127.0.0.1:4293/post/how-ticketless-parking-improves-customer-experience-and-revenue/"
+        },
+        "id": "enquiryForm"
+      },
+      {
+        "context": {
+          "enquiry_page": "/post/how-ticketless-parking-improves-customer-experience-and-revenue/",
+          "enquiry_page_title": "Ticketless parking benefits",
+          "enquiry_page_url": "http://127.0.0.1:4293/post/how-ticketless-parking-improves-customer-experience-and-revenue/"
+        },
+        "id": "newsletterPreview"
+      }
+    ],
+    "h1": [
+      {
+        "lines": 1,
+        "tag": "H1",
+        "text": "Ticketless parking benefits"
+      }
+    ],
+    "minEditableFont": 16,
+    "overflow": false,
+    "overlaps": [],
+    "route": "/post/how-ticketless-parking-improves-customer-experience-and-revenue/",
+    "tallHeadings": [],
+    "title": "How Ticketless Parking Improves Experience and Revenue",
+    "width": 1280
+  },
+  {
+    "brokenImages": [],
+    "documentWidth": 390,
+    "faqs": {
+      "unstyled": 0,
+      "visible": 0
+    },
+    "forms": [
+      {
+        "context": {
+          "enquiry_page": "/post/how-ticketless-parking-validation-works-for-retail-and-hospitality-sites/",
+          "enquiry_page_title": "Ticketless parking validation",
+          "enquiry_page_url": "http://127.0.0.1:4293/post/how-ticketless-parking-validation-works-for-retail-and-hospitality-sites/"
+        },
+        "id": "enquiryForm"
+      },
+      {
+        "context": {
+          "enquiry_page": "/post/how-ticketless-parking-validation-works-for-retail-and-hospitality-sites/",
+          "enquiry_page_title": "Ticketless parking validation",
+          "enquiry_page_url": "http://127.0.0.1:4293/post/how-ticketless-parking-validation-works-for-retail-and-hospitality-sites/"
+        },
+        "id": "newsletterPreview"
+      }
+    ],
+    "h1": [
+      {
+        "lines": 2,
+        "tag": "H1",
+        "text": "Ticketless parking validation"
+      }
+    ],
+    "minEditableFont": 16,
+    "overflow": false,
+    "overlaps": [],
+    "route": "/post/how-ticketless-parking-validation-works-for-retail-and-hospitality-sites/",
+    "tallHeadings": [],
+    "title": "Ticketless Parking Validation for Retail & Hospitality",
+    "width": 390
+  },
+  {
+    "brokenImages": [],
+    "documentWidth": 1280,
+    "faqs": {
+      "unstyled": 0,
+      "visible": 0
+    },
+    "forms": [
+      {
+        "context": {
+          "enquiry_page": "/post/how-ticketless-parking-validation-works-for-retail-and-hospitality-sites/",
+          "enquiry_page_title": "Ticketless parking validation",
+          "enquiry_page_url": "http://127.0.0.1:4293/post/how-ticketless-parking-validation-works-for-retail-and-hospitality-sites/"
+        },
+        "id": "enquiryForm"
+      },
+      {
+        "context": {
+          "enquiry_page": "/post/how-ticketless-parking-validation-works-for-retail-and-hospitality-sites/",
+          "enquiry_page_title": "Ticketless parking validation",
+          "enquiry_page_url": "http://127.0.0.1:4293/post/how-ticketless-parking-validation-works-for-retail-and-hospitality-sites/"
+        },
+        "id": "newsletterPreview"
+      }
+    ],
+    "h1": [
+      {
+        "lines": 1,
+        "tag": "H1",
+        "text": "Ticketless parking validation"
+      }
+    ],
+    "minEditableFont": 16,
+    "overflow": false,
+    "overlaps": [],
+    "route": "/post/how-ticketless-parking-validation-works-for-retail-and-hospitality-sites/",
+    "tallHeadings": [],
+    "title": "Ticketless Parking Validation for Retail & Hospitality",
+    "width": 1280
+  },
+  {
+    "brokenImages": [],
+    "documentWidth": 390,
+    "faqs": {
+      "unstyled": 0,
+      "visible": 0
+    },
+    "forms": [
+      {
+        "context": {
+          "enquiry_page": "/post/improve-parking-revenue-without-increasing-fees/",
+          "enquiry_page_title": "Improve parking revenue",
+          "enquiry_page_url": "http://127.0.0.1:4293/post/improve-parking-revenue-without-increasing-fees/"
+        },
+        "id": "enquiryForm"
+      },
+      {
+        "context": {
+          "enquiry_page": "/post/improve-parking-revenue-without-increasing-fees/",
+          "enquiry_page_title": "Improve parking revenue",
+          "enquiry_page_url": "http://127.0.0.1:4293/post/improve-parking-revenue-without-increasing-fees/"
+        },
+        "id": "newsletterPreview"
+      }
+    ],
+    "h1": [
+      {
+        "lines": 2,
+        "tag": "H1",
+        "text": "Improve parking revenue"
+      }
+    ],
+    "minEditableFont": 16,
+    "overflow": false,
+    "overlaps": [],
+    "route": "/post/improve-parking-revenue-without-increasing-fees/",
+    "tallHeadings": [],
+    "title": "Improve Parking Revenue Without Raising Fees | Parkezi",
+    "width": 390
+  },
+  {
+    "brokenImages": [],
+    "documentWidth": 1280,
+    "faqs": {
+      "unstyled": 0,
+      "visible": 0
+    },
+    "forms": [
+      {
+        "context": {
+          "enquiry_page": "/post/improve-parking-revenue-without-increasing-fees/",
+          "enquiry_page_title": "Improve parking revenue",
+          "enquiry_page_url": "http://127.0.0.1:4293/post/improve-parking-revenue-without-increasing-fees/"
+        },
+        "id": "enquiryForm"
+      },
+      {
+        "context": {
+          "enquiry_page": "/post/improve-parking-revenue-without-increasing-fees/",
+          "enquiry_page_title": "Improve parking revenue",
+          "enquiry_page_url": "http://127.0.0.1:4293/post/improve-parking-revenue-without-increasing-fees/"
+        },
+        "id": "newsletterPreview"
+      }
+    ],
+    "h1": [
+      {
+        "lines": 1,
+        "tag": "H1",
+        "text": "Improve parking revenue"
+      }
+    ],
+    "minEditableFont": 16,
+    "overflow": false,
+    "overlaps": [],
+    "route": "/post/improve-parking-revenue-without-increasing-fees/",
+    "tallHeadings": [],
+    "title": "Improve Parking Revenue Without Raising Fees | Parkezi",
+    "width": 1280
+  },
+  {
+    "brokenImages": [],
+    "documentWidth": 390,
+    "faqs": {
+      "unstyled": 0,
+      "visible": 0
+    },
+    "forms": [
+      {
+        "context": {
+          "enquiry_page": "/post/smart-parking-for-property-developers-adding-value-with-automation/",
+          "enquiry_page_title": "Parking for property developers",
+          "enquiry_page_url": "http://127.0.0.1:4293/post/smart-parking-for-property-developers-adding-value-with-automation/"
+        },
+        "id": "enquiryForm"
+      },
+      {
+        "context": {
+          "enquiry_page": "/post/smart-parking-for-property-developers-adding-value-with-automation/",
+          "enquiry_page_title": "Parking for property developers",
+          "enquiry_page_url": "http://127.0.0.1:4293/post/smart-parking-for-property-developers-adding-value-with-automation/"
+        },
+        "id": "newsletterPreview"
+      }
+    ],
+    "h1": [
+      {
+        "lines": 2,
+        "tag": "H1",
+        "text": "Parking for property developers"
+      }
+    ],
+    "minEditableFont": 16,
+    "overflow": false,
+    "overlaps": [],
+    "route": "/post/smart-parking-for-property-developers-adding-value-with-automation/",
+    "tallHeadings": [],
+    "title": "Smart Parking for Property Developers",
+    "width": 390
+  },
+  {
+    "brokenImages": [],
+    "documentWidth": 1280,
+    "faqs": {
+      "unstyled": 0,
+      "visible": 0
+    },
+    "forms": [
+      {
+        "context": {
+          "enquiry_page": "/post/smart-parking-for-property-developers-adding-value-with-automation/",
+          "enquiry_page_title": "Parking for property developers",
+          "enquiry_page_url": "http://127.0.0.1:4293/post/smart-parking-for-property-developers-adding-value-with-automation/"
+        },
+        "id": "enquiryForm"
+      },
+      {
+        "context": {
+          "enquiry_page": "/post/smart-parking-for-property-developers-adding-value-with-automation/",
+          "enquiry_page_title": "Parking for property developers",
+          "enquiry_page_url": "http://127.0.0.1:4293/post/smart-parking-for-property-developers-adding-value-with-automation/"
+        },
+        "id": "newsletterPreview"
+      }
+    ],
+    "h1": [
+      {
+        "lines": 1,
+        "tag": "H1",
+        "text": "Parking for property developers"
+      }
+    ],
+    "minEditableFont": 16,
+    "overflow": false,
+    "overlaps": [],
+    "route": "/post/smart-parking-for-property-developers-adding-value-with-automation/",
+    "tallHeadings": [],
+    "title": "Smart Parking for Property Developers",
+    "width": 1280
+  },
+  {
+    "brokenImages": [],
+    "documentWidth": 390,
+    "faqs": {
+      "unstyled": 0,
+      "visible": 0
+    },
+    "forms": [
+      {
+        "context": {
+          "enquiry_page": "/post/tenant-parking-quota-management-solves-a-common-commercial-property-problem/",
+          "enquiry_page_title": "Tenant parking quotas",
+          "enquiry_page_url": "http://127.0.0.1:4293/post/tenant-parking-quota-management-solves-a-common-commercial-property-problem/"
+        },
+        "id": "enquiryForm"
+      },
+      {
+        "context": {
+          "enquiry_page": "/post/tenant-parking-quota-management-solves-a-common-commercial-property-problem/",
+          "enquiry_page_title": "Tenant parking quotas",
+          "enquiry_page_url": "http://127.0.0.1:4293/post/tenant-parking-quota-management-solves-a-common-commercial-property-problem/"
+        },
+        "id": "newsletterPreview"
+      }
+    ],
+    "h1": [
+      {
+        "lines": 1,
+        "tag": "H1",
+        "text": "Tenant parking quotas"
+      }
+    ],
+    "minEditableFont": 16,
+    "overflow": false,
+    "overlaps": [],
+    "route": "/post/tenant-parking-quota-management-solves-a-common-commercial-property-problem/",
+    "tallHeadings": [],
+    "title": "Tenant Parking Quota Management Explained | Parkezi",
+    "width": 390
+  },
+  {
+    "brokenImages": [],
+    "documentWidth": 1280,
+    "faqs": {
+      "unstyled": 0,
+      "visible": 0
+    },
+    "forms": [
+      {
+        "context": {
+          "enquiry_page": "/post/tenant-parking-quota-management-solves-a-common-commercial-property-problem/",
+          "enquiry_page_title": "Tenant parking quotas",
+          "enquiry_page_url": "http://127.0.0.1:4293/post/tenant-parking-quota-management-solves-a-common-commercial-property-problem/"
+        },
+        "id": "enquiryForm"
+      },
+      {
+        "context": {
+          "enquiry_page": "/post/tenant-parking-quota-management-solves-a-common-commercial-property-problem/",
+          "enquiry_page_title": "Tenant parking quotas",
+          "enquiry_page_url": "http://127.0.0.1:4293/post/tenant-parking-quota-management-solves-a-common-commercial-property-problem/"
+        },
+        "id": "newsletterPreview"
+      }
+    ],
+    "h1": [
+      {
+        "lines": 1,
+        "tag": "H1",
+        "text": "Tenant parking quotas"
+      }
+    ],
+    "minEditableFont": 16,
+    "overflow": false,
+    "overlaps": [],
+    "route": "/post/tenant-parking-quota-management-solves-a-common-commercial-property-problem/",
+    "tallHeadings": [],
+    "title": "Tenant Parking Quota Management Explained | Parkezi",
+    "width": 1280
+  },
+  {
+    "brokenImages": [],
+    "documentWidth": 390,
+    "faqs": {
+      "unstyled": 0,
+      "visible": 0
+    },
+    "forms": [
+      {
+        "context": {
+          "enquiry_page": "/post/the-future-of-parking-automation-in-australia/",
+          "enquiry_page_title": "Parking automation ahead",
+          "enquiry_page_url": "http://127.0.0.1:4293/post/the-future-of-parking-automation-in-australia/"
+        },
+        "id": "enquiryForm"
+      },
+      {
+        "context": {
+          "enquiry_page": "/post/the-future-of-parking-automation-in-australia/",
+          "enquiry_page_title": "Parking automation ahead",
+          "enquiry_page_url": "http://127.0.0.1:4293/post/the-future-of-parking-automation-in-australia/"
+        },
+        "id": "newsletterPreview"
+      }
+    ],
+    "h1": [
+      {
+        "lines": 2,
+        "tag": "H1",
+        "text": "Parking automation ahead"
+      }
+    ],
+    "minEditableFont": 16,
+    "overflow": false,
+    "overlaps": [],
+    "route": "/post/the-future-of-parking-automation-in-australia/",
+    "tallHeadings": [],
+    "title": "The Future of Parking Automation in Australia",
+    "width": 390
+  },
+  {
+    "brokenImages": [],
+    "documentWidth": 1280,
+    "faqs": {
+      "unstyled": 0,
+      "visible": 0
+    },
+    "forms": [
+      {
+        "context": {
+          "enquiry_page": "/post/the-future-of-parking-automation-in-australia/",
+          "enquiry_page_title": "Parking automation ahead",
+          "enquiry_page_url": "http://127.0.0.1:4293/post/the-future-of-parking-automation-in-australia/"
+        },
+        "id": "enquiryForm"
+      },
+      {
+        "context": {
+          "enquiry_page": "/post/the-future-of-parking-automation-in-australia/",
+          "enquiry_page_title": "Parking automation ahead",
+          "enquiry_page_url": "http://127.0.0.1:4293/post/the-future-of-parking-automation-in-australia/"
+        },
+        "id": "newsletterPreview"
+      }
+    ],
+    "h1": [
+      {
+        "lines": 1,
+        "tag": "H1",
+        "text": "Parking automation ahead"
+      }
+    ],
+    "minEditableFont": 16,
+    "overflow": false,
+    "overlaps": [],
+    "route": "/post/the-future-of-parking-automation-in-australia/",
+    "tallHeadings": [],
+    "title": "The Future of Parking Automation in Australia",
+    "width": 1280
+  },
+  {
+    "brokenImages": [],
+    "documentWidth": 390,
+    "faqs": {
+      "unstyled": 0,
+      "visible": 0
+    },
+    "forms": [
+      {
+        "context": {
+          "enquiry_page": "/post/what-to-look-for-in-an-automatic-number-plate-recognition-system/",
+          "enquiry_page_title": "Choosing ANPR",
+          "enquiry_page_url": "http://127.0.0.1:4293/post/what-to-look-for-in-an-automatic-number-plate-recognition-system/"
+        },
+        "id": "enquiryForm"
+      },
+      {
+        "context": {
+          "enquiry_page": "/post/what-to-look-for-in-an-automatic-number-plate-recognition-system/",
+          "enquiry_page_title": "Choosing ANPR",
+          "enquiry_page_url": "http://127.0.0.1:4293/post/what-to-look-for-in-an-automatic-number-plate-recognition-system/"
+        },
+        "id": "newsletterPreview"
+      }
+    ],
+    "h1": [
+      {
+        "lines": 1,
+        "tag": "H1",
+        "text": "Choosing ANPR"
+      }
+    ],
+    "minEditableFont": 16,
+    "overflow": false,
+    "overlaps": [],
+    "route": "/post/what-to-look-for-in-an-automatic-number-plate-recognition-system/",
+    "tallHeadings": [],
+    "title": "Choosing an ANPR System - Parkezi",
+    "width": 390
+  },
+  {
+    "brokenImages": [],
+    "documentWidth": 1280,
+    "faqs": {
+      "unstyled": 0,
+      "visible": 0
+    },
+    "forms": [
+      {
+        "context": {
+          "enquiry_page": "/post/what-to-look-for-in-an-automatic-number-plate-recognition-system/",
+          "enquiry_page_title": "Choosing ANPR",
+          "enquiry_page_url": "http://127.0.0.1:4293/post/what-to-look-for-in-an-automatic-number-plate-recognition-system/"
+        },
+        "id": "enquiryForm"
+      },
+      {
+        "context": {
+          "enquiry_page": "/post/what-to-look-for-in-an-automatic-number-plate-recognition-system/",
+          "enquiry_page_title": "Choosing ANPR",
+          "enquiry_page_url": "http://127.0.0.1:4293/post/what-to-look-for-in-an-automatic-number-plate-recognition-system/"
+        },
+        "id": "newsletterPreview"
+      }
+    ],
+    "h1": [
+      {
+        "lines": 1,
+        "tag": "H1",
+        "text": "Choosing ANPR"
+      }
+    ],
+    "minEditableFont": 16,
+    "overflow": false,
+    "overlaps": [],
+    "route": "/post/what-to-look-for-in-an-automatic-number-plate-recognition-system/",
+    "tallHeadings": [],
+    "title": "Choosing an ANPR System - Parkezi",
+    "width": 1280
+  },
+  {
+    "brokenImages": [],
+    "documentWidth": 390,
+    "faqs": {
+      "unstyled": 0,
+      "visible": 0
+    },
+    "forms": [
+      {
+        "context": {
+          "enquiry_page": "/post/why-automatic-number-plate-recognition-anpr-carpark-access-systems-make-sense-for-strata-managers-and-residents-alike/",
+          "enquiry_page_title": "ANPR for strata",
+          "enquiry_page_url": "http://127.0.0.1:4293/post/why-automatic-number-plate-recognition-anpr-carpark-access-systems-make-sense-for-strata-managers-and-residents-alike/"
+        },
+        "id": "enquiryForm"
+      },
+      {
+        "context": {
+          "enquiry_page": "/post/why-automatic-number-plate-recognition-anpr-carpark-access-systems-make-sense-for-strata-managers-and-residents-alike/",
+          "enquiry_page_title": "ANPR for strata",
+          "enquiry_page_url": "http://127.0.0.1:4293/post/why-automatic-number-plate-recognition-anpr-carpark-access-systems-make-sense-for-strata-managers-and-residents-alike/"
+        },
+        "id": "newsletterPreview"
+      }
+    ],
+    "h1": [
+      {
+        "lines": 1,
+        "tag": "H1",
+        "text": "ANPR for strata"
+      }
+    ],
+    "minEditableFont": 16,
+    "overflow": false,
+    "overlaps": [],
+    "route": "/post/why-automatic-number-plate-recognition-anpr-carpark-access-systems-make-sense-for-strata-managers-and-residents-alike/",
+    "tallHeadings": [],
+    "title": "ANPR Parking for Strata - Parkezi",
+    "width": 390
+  },
+  {
+    "brokenImages": [],
+    "documentWidth": 1280,
+    "faqs": {
+      "unstyled": 0,
+      "visible": 0
+    },
+    "forms": [
+      {
+        "context": {
+          "enquiry_page": "/post/why-automatic-number-plate-recognition-anpr-carpark-access-systems-make-sense-for-strata-managers-and-residents-alike/",
+          "enquiry_page_title": "ANPR for strata",
+          "enquiry_page_url": "http://127.0.0.1:4293/post/why-automatic-number-plate-recognition-anpr-carpark-access-systems-make-sense-for-strata-managers-and-residents-alike/"
+        },
+        "id": "enquiryForm"
+      },
+      {
+        "context": {
+          "enquiry_page": "/post/why-automatic-number-plate-recognition-anpr-carpark-access-systems-make-sense-for-strata-managers-and-residents-alike/",
+          "enquiry_page_title": "ANPR for strata",
+          "enquiry_page_url": "http://127.0.0.1:4293/post/why-automatic-number-plate-recognition-anpr-carpark-access-systems-make-sense-for-strata-managers-and-residents-alike/"
+        },
+        "id": "newsletterPreview"
+      }
+    ],
+    "h1": [
+      {
+        "lines": 1,
+        "tag": "H1",
+        "text": "ANPR for strata"
+      }
+    ],
+    "minEditableFont": 16,
+    "overflow": false,
+    "overlaps": [],
+    "route": "/post/why-automatic-number-plate-recognition-anpr-carpark-access-systems-make-sense-for-strata-managers-and-residents-alike/",
+    "tallHeadings": [],
+    "title": "ANPR Parking for Strata - Parkezi",
+    "width": 1280
+  },
+  {
+    "brokenImages": [],
+    "documentWidth": 390,
+    "faqs": {
+      "unstyled": 0,
+      "visible": 0
+    },
+    "forms": [
+      {
+        "context": {
+          "enquiry_page": "/post/why-sydney-property-managers-are-investing-in-parking-automation/",
+          "enquiry_page_title": "Parking for Sydney properties",
+          "enquiry_page_url": "http://127.0.0.1:4293/post/why-sydney-property-managers-are-investing-in-parking-automation/"
+        },
+        "id": "enquiryForm"
+      },
+      {
+        "context": {
+          "enquiry_page": "/post/why-sydney-property-managers-are-investing-in-parking-automation/",
+          "enquiry_page_title": "Parking for Sydney properties",
+          "enquiry_page_url": "http://127.0.0.1:4293/post/why-sydney-property-managers-are-investing-in-parking-automation/"
+        },
+        "id": "newsletterPreview"
+      }
+    ],
+    "h1": [
+      {
+        "lines": 2,
+        "tag": "H1",
+        "text": "Parking for Sydney properties"
+      }
+    ],
+    "minEditableFont": 16,
+    "overflow": false,
+    "overlaps": [],
+    "route": "/post/why-sydney-property-managers-are-investing-in-parking-automation/",
+    "tallHeadings": [],
+    "title": "Sydney Property Managers & Parking Automation | Parkezi",
+    "width": 390
+  },
+  {
+    "brokenImages": [],
+    "documentWidth": 1280,
+    "faqs": {
+      "unstyled": 0,
+      "visible": 0
+    },
+    "forms": [
+      {
+        "context": {
+          "enquiry_page": "/post/why-sydney-property-managers-are-investing-in-parking-automation/",
+          "enquiry_page_title": "Parking for Sydney properties",
+          "enquiry_page_url": "http://127.0.0.1:4293/post/why-sydney-property-managers-are-investing-in-parking-automation/"
+        },
+        "id": "enquiryForm"
+      },
+      {
+        "context": {
+          "enquiry_page": "/post/why-sydney-property-managers-are-investing-in-parking-automation/",
+          "enquiry_page_title": "Parking for Sydney properties",
+          "enquiry_page_url": "http://127.0.0.1:4293/post/why-sydney-property-managers-are-investing-in-parking-automation/"
+        },
+        "id": "newsletterPreview"
+      }
+    ],
+    "h1": [
+      {
+        "lines": 1,
+        "tag": "H1",
+        "text": "Parking for Sydney properties"
+      }
+    ],
+    "minEditableFont": 16,
+    "overflow": false,
+    "overlaps": [],
+    "route": "/post/why-sydney-property-managers-are-investing-in-parking-automation/",
+    "tallHeadings": [],
+    "title": "Sydney Property Managers & Parking Automation | Parkezi",
+    "width": 1280
+  },
+  {
+    "brokenImages": [],
+    "documentWidth": 390,
+    "faqs": {
+      "unstyled": 0,
+      "visible": 0
+    },
+    "forms": [
+      {
+        "context": {
+          "enquiry_page": "/pricing/",
+          "enquiry_page_title": "Purchase plans",
+          "enquiry_page_url": "http://127.0.0.1:4293/pricing/"
+        },
+        "id": "enquiryForm"
+      },
+      {
+        "context": {
+          "enquiry_page": "/pricing/",
+          "enquiry_page_title": "Purchase plans",
+          "enquiry_page_url": "http://127.0.0.1:4293/pricing/"
+        },
+        "id": "newsletterPreview"
+      }
+    ],
+    "h1": [
+      {
+        "lines": 1,
+        "tag": "H1",
+        "text": "Purchase plans"
+      }
+    ],
+    "minEditableFont": 16,
+    "overflow": false,
+    "overlaps": [],
+    "route": "/pricing/",
+    "tallHeadings": [],
+    "title": "Parking System Pricing",
+    "width": 390
+  },
+  {
+    "brokenImages": [],
+    "documentWidth": 1280,
+    "faqs": {
+      "unstyled": 0,
+      "visible": 0
+    },
+    "forms": [
+      {
+        "context": {
+          "enquiry_page": "/pricing/",
+          "enquiry_page_title": "Purchase plans",
+          "enquiry_page_url": "http://127.0.0.1:4293/pricing/"
+        },
+        "id": "enquiryForm"
+      },
+      {
+        "context": {
+          "enquiry_page": "/pricing/",
+          "enquiry_page_title": "Purchase plans",
+          "enquiry_page_url": "http://127.0.0.1:4293/pricing/"
+        },
+        "id": "newsletterPreview"
+      }
+    ],
+    "h1": [
+      {
+        "lines": 1,
+        "tag": "H1",
+        "text": "Purchase plans"
+      }
+    ],
+    "minEditableFont": 16,
+    "overflow": false,
+    "overlaps": [],
+    "route": "/pricing/",
+    "tallHeadings": [],
+    "title": "Parking System Pricing",
+    "width": 1280
+  },
+  {
+    "brokenImages": [],
+    "documentWidth": 390,
+    "faqs": {
+      "unstyled": 0,
+      "visible": 6
+    },
+    "forms": [
+      {
+        "context": {
+          "enquiry_page": "/products/express-pay/",
+          "enquiry_page_title": "Express Pay",
+          "enquiry_page_url": "http://127.0.0.1:4293/products/express-pay/"
+        },
+        "id": "enquiryForm"
+      },
+      {
+        "context": {
+          "enquiry_page": "/products/express-pay/",
+          "enquiry_page_title": "Express Pay",
+          "enquiry_page_url": "http://127.0.0.1:4293/products/express-pay/"
+        },
+        "id": "newsletterPreview"
+      }
+    ],
+    "h1": [
+      {
+        "lines": 1,
+        "tag": "H1",
+        "text": "Express Pay"
+      }
+    ],
+    "minEditableFont": 16,
+    "overflow": false,
+    "overlaps": [],
+    "route": "/products/express-pay/",
+    "tallHeadings": [],
+    "title": "Express Pay | Parkezi",
+    "width": 390
+  },
+  {
+    "brokenImages": [],
+    "documentWidth": 1280,
+    "faqs": {
+      "unstyled": 0,
+      "visible": 6
+    },
+    "forms": [
+      {
+        "context": {
+          "enquiry_page": "/products/express-pay/",
+          "enquiry_page_title": "Express Pay",
+          "enquiry_page_url": "http://127.0.0.1:4293/products/express-pay/"
+        },
+        "id": "enquiryForm"
+      },
+      {
+        "context": {
+          "enquiry_page": "/products/express-pay/",
+          "enquiry_page_title": "Express Pay",
+          "enquiry_page_url": "http://127.0.0.1:4293/products/express-pay/"
+        },
+        "id": "newsletterPreview"
+      }
+    ],
+    "h1": [
+      {
+        "lines": 1,
+        "tag": "H1",
+        "text": "Express Pay"
+      }
+    ],
+    "minEditableFont": 16,
+    "overflow": false,
+    "overlaps": [],
+    "route": "/products/express-pay/",
+    "tallHeadings": [],
+    "title": "Express Pay | Parkezi",
+    "width": 1280
+  },
+  {
+    "brokenImages": [],
+    "documentWidth": 390,
+    "faqs": {
+      "unstyled": 0,
+      "visible": 6
+    },
+    "forms": [
+      {
+        "context": {
+          "enquiry_page": "/products/info-board/",
+          "enquiry_page_title": "Info Board",
+          "enquiry_page_url": "http://127.0.0.1:4293/products/info-board/"
+        },
+        "id": "enquiryForm"
+      },
+      {
+        "context": {
+          "enquiry_page": "/products/info-board/",
+          "enquiry_page_title": "Info Board",
+          "enquiry_page_url": "http://127.0.0.1:4293/products/info-board/"
+        },
+        "id": "newsletterPreview"
+      }
+    ],
+    "h1": [
+      {
+        "lines": 1,
+        "tag": "H1",
+        "text": "Info Board"
+      }
+    ],
+    "minEditableFont": 16,
+    "overflow": false,
+    "overlaps": [],
+    "route": "/products/info-board/",
+    "tallHeadings": [],
+    "title": "Info Board - Parkezi Products",
+    "width": 390
+  },
+  {
+    "brokenImages": [],
+    "documentWidth": 1280,
+    "faqs": {
+      "unstyled": 0,
+      "visible": 6
+    },
+    "forms": [
+      {
+        "context": {
+          "enquiry_page": "/products/info-board/",
+          "enquiry_page_title": "Info Board",
+          "enquiry_page_url": "http://127.0.0.1:4293/products/info-board/"
+        },
+        "id": "enquiryForm"
+      },
+      {
+        "context": {
+          "enquiry_page": "/products/info-board/",
+          "enquiry_page_title": "Info Board",
+          "enquiry_page_url": "http://127.0.0.1:4293/products/info-board/"
+        },
+        "id": "newsletterPreview"
+      }
+    ],
+    "h1": [
+      {
+        "lines": 1,
+        "tag": "H1",
+        "text": "Info Board"
+      }
+    ],
+    "minEditableFont": 16,
+    "overflow": false,
+    "overlaps": [],
+    "route": "/products/info-board/",
+    "tallHeadings": [],
+    "title": "Info Board - Parkezi Products",
+    "width": 1280
+  },
+  {
+    "brokenImages": [],
+    "documentWidth": 390,
+    "faqs": {
+      "unstyled": 0,
+      "visible": 6
+    },
+    "forms": [
+      {
+        "context": {
+          "enquiry_page": "/products/scan-and-go/",
+          "enquiry_page_title": "Scan & Go",
+          "enquiry_page_url": "http://127.0.0.1:4293/products/scan-and-go/"
+        },
+        "id": "enquiryForm"
+      },
+      {
+        "context": {
+          "enquiry_page": "/products/scan-and-go/",
+          "enquiry_page_title": "Scan & Go",
+          "enquiry_page_url": "http://127.0.0.1:4293/products/scan-and-go/"
+        },
+        "id": "newsletterPreview"
+      }
+    ],
+    "h1": [
+      {
+        "lines": 1,
+        "tag": "H1",
+        "text": "Scan & Go"
+      }
+    ],
+    "minEditableFont": 16,
+    "overflow": false,
+    "overlaps": [],
+    "route": "/products/scan-and-go/",
+    "tallHeadings": [],
+    "title": "Scan & Go Parking System - Parkezi",
+    "width": 390
+  },
+  {
+    "brokenImages": [],
+    "documentWidth": 1280,
+    "faqs": {
+      "unstyled": 0,
+      "visible": 6
+    },
+    "forms": [
+      {
+        "context": {
+          "enquiry_page": "/products/scan-and-go/",
+          "enquiry_page_title": "Scan & Go",
+          "enquiry_page_url": "http://127.0.0.1:4293/products/scan-and-go/"
+        },
+        "id": "enquiryForm"
+      },
+      {
+        "context": {
+          "enquiry_page": "/products/scan-and-go/",
+          "enquiry_page_title": "Scan & Go",
+          "enquiry_page_url": "http://127.0.0.1:4293/products/scan-and-go/"
+        },
+        "id": "newsletterPreview"
+      }
+    ],
+    "h1": [
+      {
+        "lines": 1,
+        "tag": "H1",
+        "text": "Scan & Go"
+      }
+    ],
+    "minEditableFont": 16,
+    "overflow": false,
+    "overlaps": [],
+    "route": "/products/scan-and-go/",
+    "tallHeadings": [],
+    "title": "Scan & Go Parking System - Parkezi",
+    "width": 1280
+  },
+  {
+    "brokenImages": [],
+    "documentWidth": 390,
+    "faqs": {
+      "unstyled": 0,
+      "visible": 6
+    },
+    "forms": [
+      {
+        "context": {
+          "enquiry_page": "/products/scan-and-go-mini/",
+          "enquiry_page_title": "Scan & Go Mini",
+          "enquiry_page_url": "http://127.0.0.1:4293/products/scan-and-go-mini/"
+        },
+        "id": "enquiryForm"
+      },
+      {
+        "context": {
+          "enquiry_page": "/products/scan-and-go-mini/",
+          "enquiry_page_title": "Scan & Go Mini",
+          "enquiry_page_url": "http://127.0.0.1:4293/products/scan-and-go-mini/"
+        },
+        "id": "newsletterPreview"
+      }
+    ],
+    "h1": [
+      {
+        "lines": 1,
+        "tag": "H1",
+        "text": "Scan & Go Mini"
+      }
+    ],
+    "minEditableFont": 16,
+    "overflow": false,
+    "overlaps": [],
+    "route": "/products/scan-and-go-mini/",
+    "tallHeadings": [],
+    "title": "Scan & Go Mini System - Parkezi",
+    "width": 390
+  },
+  {
+    "brokenImages": [],
+    "documentWidth": 1280,
+    "faqs": {
+      "unstyled": 0,
+      "visible": 6
+    },
+    "forms": [
+      {
+        "context": {
+          "enquiry_page": "/products/scan-and-go-mini/",
+          "enquiry_page_title": "Scan & Go Mini",
+          "enquiry_page_url": "http://127.0.0.1:4293/products/scan-and-go-mini/"
+        },
+        "id": "enquiryForm"
+      },
+      {
+        "context": {
+          "enquiry_page": "/products/scan-and-go-mini/",
+          "enquiry_page_title": "Scan & Go Mini",
+          "enquiry_page_url": "http://127.0.0.1:4293/products/scan-and-go-mini/"
+        },
+        "id": "newsletterPreview"
+      }
+    ],
+    "h1": [
+      {
+        "lines": 1,
+        "tag": "H1",
+        "text": "Scan & Go Mini"
+      }
+    ],
+    "minEditableFont": 16,
+    "overflow": false,
+    "overlaps": [],
+    "route": "/products/scan-and-go-mini/",
+    "tallHeadings": [],
+    "title": "Scan & Go Mini System - Parkezi",
+    "width": 1280
+  },
+  {
+    "brokenImages": [],
+    "documentWidth": 390,
+    "faqs": {
+      "unstyled": 0,
+      "visible": 6
+    },
+    "forms": [
+      {
+        "context": {
+          "enquiry_page": "/products/solargate-mobile-boom-gate/",
+          "enquiry_page_title": "SolarGate+",
+          "enquiry_page_url": "http://127.0.0.1:4293/products/solargate-mobile-boom-gate/"
+        },
+        "id": "enquiryForm"
+      },
+      {
+        "context": {
+          "enquiry_page": "/products/solargate-mobile-boom-gate/",
+          "enquiry_page_title": "SolarGate+",
+          "enquiry_page_url": "http://127.0.0.1:4293/products/solargate-mobile-boom-gate/"
+        },
+        "id": "newsletterPreview"
+      }
+    ],
+    "h1": [
+      {
+        "lines": 1,
+        "tag": "H1",
+        "text": "SolarGate+"
+      }
+    ],
+    "minEditableFont": 16,
+    "overflow": false,
+    "overlaps": [],
+    "route": "/products/solargate-mobile-boom-gate/",
+    "tallHeadings": [],
+    "title": "Parkezi | SolarGate+ Mobile Boom Gate",
+    "width": 390
+  },
+  {
+    "brokenImages": [],
+    "documentWidth": 1280,
+    "faqs": {
+      "unstyled": 0,
+      "visible": 6
+    },
+    "forms": [
+      {
+        "context": {
+          "enquiry_page": "/products/solargate-mobile-boom-gate/",
+          "enquiry_page_title": "SolarGate+",
+          "enquiry_page_url": "http://127.0.0.1:4293/products/solargate-mobile-boom-gate/"
+        },
+        "id": "enquiryForm"
+      },
+      {
+        "context": {
+          "enquiry_page": "/products/solargate-mobile-boom-gate/",
+          "enquiry_page_title": "SolarGate+",
+          "enquiry_page_url": "http://127.0.0.1:4293/products/solargate-mobile-boom-gate/"
+        },
+        "id": "newsletterPreview"
+      }
+    ],
+    "h1": [
+      {
+        "lines": 1,
+        "tag": "H1",
+        "text": "SolarGate+"
+      }
+    ],
+    "minEditableFont": 16,
+    "overflow": false,
+    "overlaps": [],
+    "route": "/products/solargate-mobile-boom-gate/",
+    "tallHeadings": [],
+    "title": "Parkezi | SolarGate+ Mobile Boom Gate",
+    "width": 1280
+  },
+  {
+    "brokenImages": [],
+    "documentWidth": 390,
+    "faqs": {
+      "unstyled": 0,
+      "visible": 6
+    },
+    "forms": [
+      {
+        "context": {
+          "enquiry_page": "/products/step-and-pay/",
+          "enquiry_page_title": "Step & Pay",
+          "enquiry_page_url": "http://127.0.0.1:4293/products/step-and-pay/"
+        },
+        "id": "enquiryForm"
+      },
+      {
+        "context": {
+          "enquiry_page": "/products/step-and-pay/",
+          "enquiry_page_title": "Step & Pay",
+          "enquiry_page_url": "http://127.0.0.1:4293/products/step-and-pay/"
+        },
+        "id": "newsletterPreview"
+      }
+    ],
+    "h1": [
+      {
+        "lines": 1,
+        "tag": "H1",
+        "text": "Step & Pay"
+      }
+    ],
+    "minEditableFont": 16,
+    "overflow": false,
+    "overlaps": [],
+    "route": "/products/step-and-pay/",
+    "tallHeadings": [],
+    "title": "Step & Pay | Parkezi",
+    "width": 390
+  },
+  {
+    "brokenImages": [],
+    "documentWidth": 1280,
+    "faqs": {
+      "unstyled": 0,
+      "visible": 6
+    },
+    "forms": [
+      {
+        "context": {
+          "enquiry_page": "/products/step-and-pay/",
+          "enquiry_page_title": "Step & Pay",
+          "enquiry_page_url": "http://127.0.0.1:4293/products/step-and-pay/"
+        },
+        "id": "enquiryForm"
+      },
+      {
+        "context": {
+          "enquiry_page": "/products/step-and-pay/",
+          "enquiry_page_title": "Step & Pay",
+          "enquiry_page_url": "http://127.0.0.1:4293/products/step-and-pay/"
+        },
+        "id": "newsletterPreview"
+      }
+    ],
+    "h1": [
+      {
+        "lines": 1,
+        "tag": "H1",
+        "text": "Step & Pay"
+      }
+    ],
+    "minEditableFont": 16,
+    "overflow": false,
+    "overlaps": [],
+    "route": "/products/step-and-pay/",
+    "tallHeadings": [],
+    "title": "Step & Pay | Parkezi",
+    "width": 1280
+  },
+  {
+    "brokenImages": [],
+    "documentWidth": 390,
+    "faqs": {
+      "unstyled": 0,
+      "visible": 0
+    },
+    "forms": [
+      {
+        "context": {
+          "enquiry_page": "/project/cleanaway-eastern-creek-site/",
+          "enquiry_page_title": "Cleanaway Eastern Creek",
+          "enquiry_page_url": "http://127.0.0.1:4293/project/cleanaway-eastern-creek-site/"
+        },
+        "id": "enquiryForm"
+      },
+      {
+        "context": {
+          "enquiry_page": "/project/cleanaway-eastern-creek-site/",
+          "enquiry_page_title": "Cleanaway Eastern Creek",
+          "enquiry_page_url": "http://127.0.0.1:4293/project/cleanaway-eastern-creek-site/"
+        },
+        "id": "newsletterPreview"
+      }
+    ],
+    "h1": [
+      {
+        "lines": 2,
+        "tag": "H1",
+        "text": "Cleanaway Eastern Creek"
+      }
+    ],
+    "minEditableFont": 16,
+    "overflow": false,
+    "overlaps": [],
+    "route": "/project/cleanaway-eastern-creek-site/",
+    "tallHeadings": [],
+    "title": "Parking Control for Cleanaway Eastern Creek - Parkezi",
+    "width": 390
+  },
+  {
+    "brokenImages": [],
+    "documentWidth": 1280,
+    "faqs": {
+      "unstyled": 0,
+      "visible": 0
+    },
+    "forms": [
+      {
+        "context": {
+          "enquiry_page": "/project/cleanaway-eastern-creek-site/",
+          "enquiry_page_title": "Cleanaway Eastern Creek",
+          "enquiry_page_url": "http://127.0.0.1:4293/project/cleanaway-eastern-creek-site/"
+        },
+        "id": "enquiryForm"
+      },
+      {
+        "context": {
+          "enquiry_page": "/project/cleanaway-eastern-creek-site/",
+          "enquiry_page_title": "Cleanaway Eastern Creek",
+          "enquiry_page_url": "http://127.0.0.1:4293/project/cleanaway-eastern-creek-site/"
+        },
+        "id": "newsletterPreview"
+      }
+    ],
+    "h1": [
+      {
+        "lines": 2,
+        "tag": "H1",
+        "text": "Cleanaway Eastern Creek"
+      }
+    ],
+    "minEditableFont": 16,
+    "overflow": false,
+    "overlaps": [],
+    "route": "/project/cleanaway-eastern-creek-site/",
+    "tallHeadings": [],
+    "title": "Parking Control for Cleanaway Eastern Creek - Parkezi",
+    "width": 1280
+  },
+  {
+    "brokenImages": [],
+    "documentWidth": 390,
+    "faqs": {
+      "unstyled": 0,
+      "visible": 0
+    },
+    "forms": [
+      {
+        "context": {
+          "enquiry_page": "/project/knight-frank-chatswood/",
+          "enquiry_page_title": "Knight Frank Chatswood",
+          "enquiry_page_url": "http://127.0.0.1:4293/project/knight-frank-chatswood/"
+        },
+        "id": "enquiryForm"
+      },
+      {
+        "context": {
+          "enquiry_page": "/project/knight-frank-chatswood/",
+          "enquiry_page_title": "Knight Frank Chatswood",
+          "enquiry_page_url": "http://127.0.0.1:4293/project/knight-frank-chatswood/"
+        },
+        "id": "newsletterPreview"
+      }
+    ],
+    "h1": [
+      {
+        "lines": 2,
+        "tag": "H1",
+        "text": "Knight Frank Chatswood"
+      }
+    ],
+    "minEditableFont": 16,
+    "overflow": false,
+    "overlaps": [],
+    "route": "/project/knight-frank-chatswood/",
+    "tallHeadings": [],
+    "title": "Smart Parking for Knight Frank Chatswood - Parkezi",
+    "width": 390
+  },
+  {
+    "brokenImages": [],
+    "documentWidth": 1280,
+    "faqs": {
+      "unstyled": 0,
+      "visible": 0
+    },
+    "forms": [
+      {
+        "context": {
+          "enquiry_page": "/project/knight-frank-chatswood/",
+          "enquiry_page_title": "Knight Frank Chatswood",
+          "enquiry_page_url": "http://127.0.0.1:4293/project/knight-frank-chatswood/"
+        },
+        "id": "enquiryForm"
+      },
+      {
+        "context": {
+          "enquiry_page": "/project/knight-frank-chatswood/",
+          "enquiry_page_title": "Knight Frank Chatswood",
+          "enquiry_page_url": "http://127.0.0.1:4293/project/knight-frank-chatswood/"
+        },
+        "id": "newsletterPreview"
+      }
+    ],
+    "h1": [
+      {
+        "lines": 2,
+        "tag": "H1",
+        "text": "Knight Frank Chatswood"
+      }
+    ],
+    "minEditableFont": 16,
+    "overflow": false,
+    "overlaps": [],
+    "route": "/project/knight-frank-chatswood/",
+    "tallHeadings": [],
+    "title": "Smart Parking for Knight Frank Chatswood - Parkezi",
+    "width": 1280
+  },
+  {
+    "brokenImages": [],
+    "documentWidth": 390,
+    "faqs": {
+      "unstyled": 0,
+      "visible": 0
+    },
+    "forms": [
+      {
+        "context": {
+          "enquiry_page": "/project/mercure-hotel-sydney-manly/",
+          "enquiry_page_title": "Mercure Manly",
+          "enquiry_page_url": "http://127.0.0.1:4293/project/mercure-hotel-sydney-manly/"
+        },
+        "id": "enquiryForm"
+      },
+      {
+        "context": {
+          "enquiry_page": "/project/mercure-hotel-sydney-manly/",
+          "enquiry_page_title": "Mercure Manly",
+          "enquiry_page_url": "http://127.0.0.1:4293/project/mercure-hotel-sydney-manly/"
+        },
+        "id": "newsletterPreview"
+      }
+    ],
+    "h1": [
+      {
+        "lines": 1,
+        "tag": "H1",
+        "text": "Mercure Manly"
+      }
+    ],
+    "minEditableFont": 16,
+    "overflow": false,
+    "overlaps": [],
+    "route": "/project/mercure-hotel-sydney-manly/",
+    "tallHeadings": [],
+    "title": "Parking Automation for Mercure Manly - Parkezi",
+    "width": 390
+  },
+  {
+    "brokenImages": [],
+    "documentWidth": 1280,
+    "faqs": {
+      "unstyled": 0,
+      "visible": 0
+    },
+    "forms": [
+      {
+        "context": {
+          "enquiry_page": "/project/mercure-hotel-sydney-manly/",
+          "enquiry_page_title": "Mercure Manly",
+          "enquiry_page_url": "http://127.0.0.1:4293/project/mercure-hotel-sydney-manly/"
+        },
+        "id": "enquiryForm"
+      },
+      {
+        "context": {
+          "enquiry_page": "/project/mercure-hotel-sydney-manly/",
+          "enquiry_page_title": "Mercure Manly",
+          "enquiry_page_url": "http://127.0.0.1:4293/project/mercure-hotel-sydney-manly/"
+        },
+        "id": "newsletterPreview"
+      }
+    ],
+    "h1": [
+      {
+        "lines": 1,
+        "tag": "H1",
+        "text": "Mercure Manly"
+      }
+    ],
+    "minEditableFont": 16,
+    "overflow": false,
+    "overlaps": [],
+    "route": "/project/mercure-hotel-sydney-manly/",
+    "tallHeadings": [],
+    "title": "Parking Automation for Mercure Manly - Parkezi",
+    "width": 1280
+  },
+  {
+    "brokenImages": [],
+    "documentWidth": 390,
+    "faqs": {
+      "unstyled": 0,
+      "visible": 0
+    },
+    "forms": [
+      {
+        "context": {
+          "enquiry_page": "/project/mercure-sydney-macquarie-park/",
+          "enquiry_page_title": "Mercure Macquarie Park",
+          "enquiry_page_url": "http://127.0.0.1:4293/project/mercure-sydney-macquarie-park/"
+        },
+        "id": "enquiryForm"
+      },
+      {
+        "context": {
+          "enquiry_page": "/project/mercure-sydney-macquarie-park/",
+          "enquiry_page_title": "Mercure Macquarie Park",
+          "enquiry_page_url": "http://127.0.0.1:4293/project/mercure-sydney-macquarie-park/"
+        },
+        "id": "newsletterPreview"
+      }
+    ],
+    "h1": [
+      {
+        "lines": 2,
+        "tag": "H1",
+        "text": "Mercure Macquarie Park"
+      }
+    ],
+    "minEditableFont": 16,
+    "overflow": false,
+    "overlaps": [],
+    "route": "/project/mercure-sydney-macquarie-park/",
+    "tallHeadings": [],
+    "title": "Smart Parking at Mercure Sydney Mac Park - Parkezi",
+    "width": 390
+  },
+  {
+    "brokenImages": [],
+    "documentWidth": 1280,
+    "faqs": {
+      "unstyled": 0,
+      "visible": 0
+    },
+    "forms": [
+      {
+        "context": {
+          "enquiry_page": "/project/mercure-sydney-macquarie-park/",
+          "enquiry_page_title": "Mercure Macquarie Park",
+          "enquiry_page_url": "http://127.0.0.1:4293/project/mercure-sydney-macquarie-park/"
+        },
+        "id": "enquiryForm"
+      },
+      {
+        "context": {
+          "enquiry_page": "/project/mercure-sydney-macquarie-park/",
+          "enquiry_page_title": "Mercure Macquarie Park",
+          "enquiry_page_url": "http://127.0.0.1:4293/project/mercure-sydney-macquarie-park/"
+        },
+        "id": "newsletterPreview"
+      }
+    ],
+    "h1": [
+      {
+        "lines": 2,
+        "tag": "H1",
+        "text": "Mercure Macquarie Park"
+      }
+    ],
+    "minEditableFont": 16,
+    "overflow": false,
+    "overlaps": [],
+    "route": "/project/mercure-sydney-macquarie-park/",
+    "tallHeadings": [],
+    "title": "Smart Parking at Mercure Sydney Mac Park - Parkezi",
+    "width": 1280
+  },
+  {
+    "brokenImages": [],
+    "documentWidth": 390,
+    "faqs": {
+      "unstyled": 0,
+      "visible": 0
+    },
+    "forms": [
+      {
+        "context": {
+          "enquiry_page": "/project/parklea-markets/",
+          "enquiry_page_title": "Parklea Markets",
+          "enquiry_page_url": "http://127.0.0.1:4293/project/parklea-markets/"
+        },
+        "id": "enquiryForm"
+      },
+      {
+        "context": {
+          "enquiry_page": "/project/parklea-markets/",
+          "enquiry_page_title": "Parklea Markets",
+          "enquiry_page_url": "http://127.0.0.1:4293/project/parklea-markets/"
+        },
+        "id": "newsletterPreview"
+      }
+    ],
+    "h1": [
+      {
+        "lines": 1,
+        "tag": "H1",
+        "text": "Parklea Markets"
+      }
+    ],
+    "minEditableFont": 16,
+    "overflow": false,
+    "overlaps": [],
+    "route": "/project/parklea-markets/",
+    "tallHeadings": [],
+    "title": "Parking Upgrade for Parklea Markets - Parkezi",
+    "width": 390
+  },
+  {
+    "brokenImages": [],
+    "documentWidth": 1280,
+    "faqs": {
+      "unstyled": 0,
+      "visible": 0
+    },
+    "forms": [
+      {
+        "context": {
+          "enquiry_page": "/project/parklea-markets/",
+          "enquiry_page_title": "Parklea Markets",
+          "enquiry_page_url": "http://127.0.0.1:4293/project/parklea-markets/"
+        },
+        "id": "enquiryForm"
+      },
+      {
+        "context": {
+          "enquiry_page": "/project/parklea-markets/",
+          "enquiry_page_title": "Parklea Markets",
+          "enquiry_page_url": "http://127.0.0.1:4293/project/parklea-markets/"
+        },
+        "id": "newsletterPreview"
+      }
+    ],
+    "h1": [
+      {
+        "lines": 1,
+        "tag": "H1",
+        "text": "Parklea Markets"
+      }
+    ],
+    "minEditableFont": 16,
+    "overflow": false,
+    "overlaps": [],
+    "route": "/project/parklea-markets/",
+    "tallHeadings": [],
+    "title": "Parking Upgrade for Parklea Markets - Parkezi",
+    "width": 1280
+  },
+  {
+    "brokenImages": [],
+    "documentWidth": 390,
+    "faqs": {
+      "unstyled": 0,
+      "visible": 0
+    },
+    "forms": [
+      {
+        "context": {
+          "enquiry_page": "/project/parkly-penrith/",
+          "enquiry_page_title": "Parkly Penrith",
+          "enquiry_page_url": "http://127.0.0.1:4293/project/parkly-penrith/"
+        },
+        "id": "enquiryForm"
+      },
+      {
+        "context": {
+          "enquiry_page": "/project/parkly-penrith/",
+          "enquiry_page_title": "Parkly Penrith",
+          "enquiry_page_url": "http://127.0.0.1:4293/project/parkly-penrith/"
+        },
+        "id": "newsletterPreview"
+      }
+    ],
+    "h1": [
+      {
+        "lines": 1,
+        "tag": "H1",
+        "text": "Parkly Penrith"
+      }
+    ],
+    "minEditableFont": 16,
+    "overflow": false,
+    "overlaps": [],
+    "route": "/project/parkly-penrith/",
+    "tallHeadings": [],
+    "title": "Smart Parking Systems for Parkly Penrith - Parkezi",
+    "width": 390
+  },
+  {
+    "brokenImages": [],
+    "documentWidth": 1280,
+    "faqs": {
+      "unstyled": 0,
+      "visible": 0
+    },
+    "forms": [
+      {
+        "context": {
+          "enquiry_page": "/project/parkly-penrith/",
+          "enquiry_page_title": "Parkly Penrith",
+          "enquiry_page_url": "http://127.0.0.1:4293/project/parkly-penrith/"
+        },
+        "id": "enquiryForm"
+      },
+      {
+        "context": {
+          "enquiry_page": "/project/parkly-penrith/",
+          "enquiry_page_title": "Parkly Penrith",
+          "enquiry_page_url": "http://127.0.0.1:4293/project/parkly-penrith/"
+        },
+        "id": "newsletterPreview"
+      }
+    ],
+    "h1": [
+      {
+        "lines": 1,
+        "tag": "H1",
+        "text": "Parkly Penrith"
+      }
+    ],
+    "minEditableFont": 16,
+    "overflow": false,
+    "overlaps": [],
+    "route": "/project/parkly-penrith/",
+    "tallHeadings": [],
+    "title": "Smart Parking Systems for Parkly Penrith - Parkezi",
+    "width": 1280
+  },
+  {
+    "brokenImages": [],
+    "documentWidth": 390,
+    "faqs": {
+      "unstyled": 0,
+      "visible": 0
+    },
+    "forms": [
+      {
+        "context": {
+          "enquiry_page": "/project/quest-apartments/",
+          "enquiry_page_title": "Quest Apartments",
+          "enquiry_page_url": "http://127.0.0.1:4293/project/quest-apartments/"
+        },
+        "id": "enquiryForm"
+      },
+      {
+        "context": {
+          "enquiry_page": "/project/quest-apartments/",
+          "enquiry_page_title": "Quest Apartments",
+          "enquiry_page_url": "http://127.0.0.1:4293/project/quest-apartments/"
+        },
+        "id": "newsletterPreview"
+      }
+    ],
+    "h1": [
+      {
+        "lines": 1,
+        "tag": "H1",
+        "text": "Quest Apartments"
+      }
+    ],
+    "minEditableFont": 16,
+    "overflow": false,
+    "overlaps": [],
+    "route": "/project/quest-apartments/",
+    "tallHeadings": [],
+    "title": "Parking Automation for Quest Apartments - Parkezi",
+    "width": 390
+  },
+  {
+    "brokenImages": [],
+    "documentWidth": 1280,
+    "faqs": {
+      "unstyled": 0,
+      "visible": 0
+    },
+    "forms": [
+      {
+        "context": {
+          "enquiry_page": "/project/quest-apartments/",
+          "enquiry_page_title": "Quest Apartments",
+          "enquiry_page_url": "http://127.0.0.1:4293/project/quest-apartments/"
+        },
+        "id": "enquiryForm"
+      },
+      {
+        "context": {
+          "enquiry_page": "/project/quest-apartments/",
+          "enquiry_page_title": "Quest Apartments",
+          "enquiry_page_url": "http://127.0.0.1:4293/project/quest-apartments/"
+        },
+        "id": "newsletterPreview"
+      }
+    ],
+    "h1": [
+      {
+        "lines": 1,
+        "tag": "H1",
+        "text": "Quest Apartments"
+      }
+    ],
+    "minEditableFont": 16,
+    "overflow": false,
+    "overlaps": [],
+    "route": "/project/quest-apartments/",
+    "tallHeadings": [],
+    "title": "Parking Automation for Quest Apartments - Parkezi",
+    "width": 1280
+  },
+  {
+    "brokenImages": [],
+    "documentWidth": 390,
+    "faqs": {
+      "unstyled": 0,
+      "visible": 0
+    },
+    "forms": [
+      {
+        "context": {
+          "enquiry_page": "/project/tasman-holiday-parks/",
+          "enquiry_page_title": "Tasman Holiday Parks",
+          "enquiry_page_url": "http://127.0.0.1:4293/project/tasman-holiday-parks/"
+        },
+        "id": "enquiryForm"
+      },
+      {
+        "context": {
+          "enquiry_page": "/project/tasman-holiday-parks/",
+          "enquiry_page_title": "Tasman Holiday Parks",
+          "enquiry_page_url": "http://127.0.0.1:4293/project/tasman-holiday-parks/"
+        },
+        "id": "newsletterPreview"
+      }
+    ],
+    "h1": [
+      {
+        "lines": 1,
+        "tag": "H1",
+        "text": "Tasman Holiday Parks"
+      }
+    ],
+    "minEditableFont": 16,
+    "overflow": false,
+    "overlaps": [],
+    "route": "/project/tasman-holiday-parks/",
+    "tallHeadings": [],
+    "title": "Smart Parking at Tasman Holiday Parks - Parkezi",
+    "width": 390
+  },
+  {
+    "brokenImages": [],
+    "documentWidth": 1280,
+    "faqs": {
+      "unstyled": 0,
+      "visible": 0
+    },
+    "forms": [
+      {
+        "context": {
+          "enquiry_page": "/project/tasman-holiday-parks/",
+          "enquiry_page_title": "Tasman Holiday Parks",
+          "enquiry_page_url": "http://127.0.0.1:4293/project/tasman-holiday-parks/"
+        },
+        "id": "enquiryForm"
+      },
+      {
+        "context": {
+          "enquiry_page": "/project/tasman-holiday-parks/",
+          "enquiry_page_title": "Tasman Holiday Parks",
+          "enquiry_page_url": "http://127.0.0.1:4293/project/tasman-holiday-parks/"
+        },
+        "id": "newsletterPreview"
+      }
+    ],
+    "h1": [
+      {
+        "lines": 1,
+        "tag": "H1",
+        "text": "Tasman Holiday Parks"
+      }
+    ],
+    "minEditableFont": 16,
+    "overflow": false,
+    "overlaps": [],
+    "route": "/project/tasman-holiday-parks/",
+    "tallHeadings": [],
+    "title": "Smart Parking at Tasman Holiday Parks - Parkezi",
+    "width": 1280
+  },
+  {
+    "brokenImages": [],
+    "documentWidth": 390,
+    "faqs": {
+      "unstyled": 0,
+      "visible": 0
+    },
+    "forms": [
+      {
+        "context": {
+          "enquiry_page": "/services/integrations/",
+          "enquiry_page_title": "Hardware integrations",
+          "enquiry_page_url": "http://127.0.0.1:4293/services/integrations/"
+        },
+        "id": "enquiryForm"
+      },
+      {
+        "context": {
+          "enquiry_page": "/services/integrations/",
+          "enquiry_page_title": "Hardware integrations",
+          "enquiry_page_url": "http://127.0.0.1:4293/services/integrations/"
+        },
+        "id": "newsletterPreview"
+      }
+    ],
+    "h1": [
+      {
+        "lines": 1,
+        "tag": "H1",
+        "text": "Hardware integrations"
+      }
+    ],
+    "minEditableFont": 16,
+    "overflow": false,
+    "overlaps": [],
+    "route": "/services/integrations/",
+    "tallHeadings": [],
+    "title": "Integrations - Parkezi Services",
+    "width": 390
+  },
+  {
+    "brokenImages": [],
+    "documentWidth": 1280,
+    "faqs": {
+      "unstyled": 0,
+      "visible": 0
+    },
+    "forms": [
+      {
+        "context": {
+          "enquiry_page": "/services/integrations/",
+          "enquiry_page_title": "Hardware integrations",
+          "enquiry_page_url": "http://127.0.0.1:4293/services/integrations/"
+        },
+        "id": "enquiryForm"
+      },
+      {
+        "context": {
+          "enquiry_page": "/services/integrations/",
+          "enquiry_page_title": "Hardware integrations",
+          "enquiry_page_url": "http://127.0.0.1:4293/services/integrations/"
+        },
+        "id": "newsletterPreview"
+      }
+    ],
+    "h1": [
+      {
+        "lines": 1,
+        "tag": "H1",
+        "text": "Hardware integrations"
+      }
+    ],
+    "minEditableFont": 16,
+    "overflow": false,
+    "overlaps": [],
+    "route": "/services/integrations/",
+    "tallHeadings": [],
+    "title": "Integrations - Parkezi Services",
+    "width": 1280
+  },
+  {
+    "brokenImages": [],
+    "documentWidth": 390,
+    "faqs": {
+      "unstyled": 0,
+      "visible": 0
+    },
+    "forms": [
+      {
+        "context": {
+          "enquiry_page": "/services/maintenance/",
+          "enquiry_page_title": "Maintenance and support",
+          "enquiry_page_url": "http://127.0.0.1:4293/services/maintenance/"
+        },
+        "id": "enquiryForm"
+      },
+      {
+        "context": {
+          "enquiry_page": "/services/maintenance/",
+          "enquiry_page_title": "Maintenance and support",
+          "enquiry_page_url": "http://127.0.0.1:4293/services/maintenance/"
+        },
+        "id": "newsletterPreview"
+      }
+    ],
+    "h1": [
+      {
+        "lines": 2,
+        "tag": "H1",
+        "text": "Maintenance and support"
+      }
+    ],
+    "minEditableFont": 16,
+    "overflow": false,
+    "overlaps": [],
+    "route": "/services/maintenance/",
+    "tallHeadings": [],
+    "title": "Maintenance - Parkezi Services",
+    "width": 390
+  },
+  {
+    "brokenImages": [],
+    "documentWidth": 1280,
+    "faqs": {
+      "unstyled": 0,
+      "visible": 0
+    },
+    "forms": [
+      {
+        "context": {
+          "enquiry_page": "/services/maintenance/",
+          "enquiry_page_title": "Maintenance and support",
+          "enquiry_page_url": "http://127.0.0.1:4293/services/maintenance/"
+        },
+        "id": "enquiryForm"
+      },
+      {
+        "context": {
+          "enquiry_page": "/services/maintenance/",
+          "enquiry_page_title": "Maintenance and support",
+          "enquiry_page_url": "http://127.0.0.1:4293/services/maintenance/"
+        },
+        "id": "newsletterPreview"
+      }
+    ],
+    "h1": [
+      {
+        "lines": 2,
+        "tag": "H1",
+        "text": "Maintenance and support"
+      }
+    ],
+    "minEditableFont": 16,
+    "overflow": false,
+    "overlaps": [],
+    "route": "/services/maintenance/",
+    "tallHeadings": [],
+    "title": "Maintenance - Parkezi Services",
+    "width": 1280
+  },
+  {
+    "brokenImages": [],
+    "documentWidth": 390,
+    "faqs": {
+      "unstyled": 0,
+      "visible": 0
+    },
+    "forms": [
+      {
+        "context": {
+          "enquiry_page": "/services/one-way/",
+          "enquiry_page_title": "One-Way parking",
+          "enquiry_page_url": "http://127.0.0.1:4293/services/one-way/"
+        },
+        "id": "enquiryForm"
+      },
+      {
+        "context": {
+          "enquiry_page": "/services/one-way/",
+          "enquiry_page_title": "One-Way parking",
+          "enquiry_page_url": "http://127.0.0.1:4293/services/one-way/"
+        },
+        "id": "newsletterPreview"
+      }
+    ],
+    "h1": [
+      {
+        "lines": 1,
+        "tag": "H1",
+        "text": "One-Way parking"
+      }
+    ],
+    "minEditableFont": 16,
+    "overflow": false,
+    "overlaps": [],
+    "route": "/services/one-way/",
+    "tallHeadings": [],
+    "title": "One-Way Parking Systems - Parkezi",
+    "width": 390
+  },
+  {
+    "brokenImages": [],
+    "documentWidth": 1280,
+    "faqs": {
+      "unstyled": 0,
+      "visible": 0
+    },
+    "forms": [
+      {
+        "context": {
+          "enquiry_page": "/services/one-way/",
+          "enquiry_page_title": "One-Way parking",
+          "enquiry_page_url": "http://127.0.0.1:4293/services/one-way/"
+        },
+        "id": "enquiryForm"
+      },
+      {
+        "context": {
+          "enquiry_page": "/services/one-way/",
+          "enquiry_page_title": "One-Way parking",
+          "enquiry_page_url": "http://127.0.0.1:4293/services/one-way/"
+        },
+        "id": "newsletterPreview"
+      }
+    ],
+    "h1": [
+      {
+        "lines": 1,
+        "tag": "H1",
+        "text": "One-Way parking"
+      }
+    ],
+    "minEditableFont": 16,
+    "overflow": false,
+    "overlaps": [],
+    "route": "/services/one-way/",
+    "tallHeadings": [],
+    "title": "One-Way Parking Systems - Parkezi",
+    "width": 1280
+  },
+  {
+    "brokenImages": [],
+    "documentWidth": 390,
+    "faqs": {
+      "unstyled": 0,
+      "visible": 0
+    },
+    "forms": [
+      {
+        "context": {
+          "enquiry_page": "/services/paid-parking/",
+          "enquiry_page_title": "Paid Parking",
+          "enquiry_page_url": "http://127.0.0.1:4293/services/paid-parking/"
+        },
+        "id": "enquiryForm"
+      },
+      {
+        "context": {
+          "enquiry_page": "/services/paid-parking/",
+          "enquiry_page_title": "Paid Parking",
+          "enquiry_page_url": "http://127.0.0.1:4293/services/paid-parking/"
+        },
+        "id": "newsletterPreview"
+      }
+    ],
+    "h1": [
+      {
+        "lines": 1,
+        "tag": "H1",
+        "text": "Paid Parking"
+      }
+    ],
+    "minEditableFont": 16,
+    "overflow": false,
+    "overlaps": [],
+    "route": "/services/paid-parking/",
+    "tallHeadings": [],
+    "title": "Paid Parking Systems - Parkezi",
+    "width": 390
+  },
+  {
+    "brokenImages": [],
+    "documentWidth": 1280,
+    "faqs": {
+      "unstyled": 0,
+      "visible": 0
+    },
+    "forms": [
+      {
+        "context": {
+          "enquiry_page": "/services/paid-parking/",
+          "enquiry_page_title": "Paid Parking",
+          "enquiry_page_url": "http://127.0.0.1:4293/services/paid-parking/"
+        },
+        "id": "enquiryForm"
+      },
+      {
+        "context": {
+          "enquiry_page": "/services/paid-parking/",
+          "enquiry_page_title": "Paid Parking",
+          "enquiry_page_url": "http://127.0.0.1:4293/services/paid-parking/"
+        },
+        "id": "newsletterPreview"
+      }
+    ],
+    "h1": [
+      {
+        "lines": 1,
+        "tag": "H1",
+        "text": "Paid Parking"
+      }
+    ],
+    "minEditableFont": 16,
+    "overflow": false,
+    "overlaps": [],
+    "route": "/services/paid-parking/",
+    "tallHeadings": [],
+    "title": "Paid Parking Systems - Parkezi",
+    "width": 1280
+  },
+  {
+    "brokenImages": [],
+    "documentWidth": 390,
+    "faqs": {
+      "unstyled": 0,
+      "visible": 0
+    },
+    "forms": [
+      {
+        "context": {
+          "enquiry_page": "/services/two-way/",
+          "enquiry_page_title": "Two-Way parking",
+          "enquiry_page_url": "http://127.0.0.1:4293/services/two-way/"
+        },
+        "id": "enquiryForm"
+      },
+      {
+        "context": {
+          "enquiry_page": "/services/two-way/",
+          "enquiry_page_title": "Two-Way parking",
+          "enquiry_page_url": "http://127.0.0.1:4293/services/two-way/"
+        },
+        "id": "newsletterPreview"
+      }
+    ],
+    "h1": [
+      {
+        "lines": 1,
+        "tag": "H1",
+        "text": "Two-Way parking"
+      }
+    ],
+    "minEditableFont": 16,
+    "overflow": false,
+    "overlaps": [],
+    "route": "/services/two-way/",
+    "tallHeadings": [],
+    "title": "Two-Way Parking Systems - Parkezi",
+    "width": 390
+  },
+  {
+    "brokenImages": [],
+    "documentWidth": 1280,
+    "faqs": {
+      "unstyled": 0,
+      "visible": 0
+    },
+    "forms": [
+      {
+        "context": {
+          "enquiry_page": "/services/two-way/",
+          "enquiry_page_title": "Two-Way parking",
+          "enquiry_page_url": "http://127.0.0.1:4293/services/two-way/"
+        },
+        "id": "enquiryForm"
+      },
+      {
+        "context": {
+          "enquiry_page": "/services/two-way/",
+          "enquiry_page_title": "Two-Way parking",
+          "enquiry_page_url": "http://127.0.0.1:4293/services/two-way/"
+        },
+        "id": "newsletterPreview"
+      }
+    ],
+    "h1": [
+      {
+        "lines": 1,
+        "tag": "H1",
+        "text": "Two-Way parking"
+      }
+    ],
+    "minEditableFont": 16,
+    "overflow": false,
+    "overlaps": [],
+    "route": "/services/two-way/",
+    "tallHeadings": [],
+    "title": "Two-Way Parking Systems - Parkezi",
+    "width": 1280
+  },
+  {
+    "brokenImages": [],
+    "documentWidth": 390,
+    "faqs": {
+      "unstyled": 0,
+      "visible": 6
+    },
+    "forms": [
+      {
+        "context": {
+          "enquiry_page": "/step-pay.html",
+          "enquiry_page_title": "Step & Pay",
+          "enquiry_page_url": "http://127.0.0.1:4293/step-pay.html"
+        },
+        "id": "enquiryForm"
+      },
+      {
+        "context": {
+          "enquiry_page": "/step-pay.html",
+          "enquiry_page_title": "Step & Pay",
+          "enquiry_page_url": "http://127.0.0.1:4293/step-pay.html"
+        },
+        "id": "newsletterPreview"
+      }
+    ],
+    "h1": [
+      {
+        "lines": 1,
+        "tag": "H1",
+        "text": "Step & Pay"
+      }
+    ],
+    "minEditableFont": 16,
+    "overflow": false,
+    "overlaps": [],
+    "route": "/step-pay.html",
+    "tallHeadings": [],
+    "title": "Step & Pay | Parkezi",
+    "width": 390
+  },
+  {
+    "brokenImages": [],
+    "documentWidth": 1280,
+    "faqs": {
+      "unstyled": 0,
+      "visible": 6
+    },
+    "forms": [
+      {
+        "context": {
+          "enquiry_page": "/step-pay.html",
+          "enquiry_page_title": "Step & Pay",
+          "enquiry_page_url": "http://127.0.0.1:4293/step-pay.html"
+        },
+        "id": "enquiryForm"
+      },
+      {
+        "context": {
+          "enquiry_page": "/step-pay.html",
+          "enquiry_page_title": "Step & Pay",
+          "enquiry_page_url": "http://127.0.0.1:4293/step-pay.html"
+        },
+        "id": "newsletterPreview"
+      }
+    ],
+    "h1": [
+      {
+        "lines": 1,
+        "tag": "H1",
+        "text": "Step & Pay"
+      }
+    ],
+    "minEditableFont": 16,
+    "overflow": false,
+    "overlaps": [],
+    "route": "/step-pay.html",
+    "tallHeadings": [],
+    "title": "Step & Pay | Parkezi",
+    "width": 1280
+  },
+  {
+    "brokenImages": [],
+    "documentWidth": 390,
+    "faqs": {
+      "unstyled": 0,
+      "visible": 0
+    },
+    "forms": [
+      {
+        "context": {
+          "enquiry_page": "/success/newsletter/",
+          "enquiry_page_title": "PARKEZI updates",
+          "enquiry_page_url": "http://127.0.0.1:4293/success/newsletter/"
+        },
+        "id": "enquiryForm"
+      },
+      {
+        "context": {
+          "enquiry_page": "/success/newsletter/",
+          "enquiry_page_title": "PARKEZI updates",
+          "enquiry_page_url": "http://127.0.0.1:4293/success/newsletter/"
+        },
+        "id": "newsletterPreview"
+      }
+    ],
+    "h1": [
+      {
+        "lines": 1,
+        "tag": "H1",
+        "text": "PARKEZI updates"
+      }
+    ],
+    "minEditableFont": 16,
+    "overflow": false,
+    "overlaps": [],
+    "route": "/success/newsletter/",
+    "tallHeadings": [],
+    "title": "PARKEZI updates | PARKEZI",
+    "width": 390
+  },
+  {
+    "brokenImages": [],
+    "documentWidth": 1280,
+    "faqs": {
+      "unstyled": 0,
+      "visible": 0
+    },
+    "forms": [
+      {
+        "context": {
+          "enquiry_page": "/success/newsletter/",
+          "enquiry_page_title": "PARKEZI updates",
+          "enquiry_page_url": "http://127.0.0.1:4293/success/newsletter/"
+        },
+        "id": "enquiryForm"
+      },
+      {
+        "context": {
+          "enquiry_page": "/success/newsletter/",
+          "enquiry_page_title": "PARKEZI updates",
+          "enquiry_page_url": "http://127.0.0.1:4293/success/newsletter/"
+        },
+        "id": "newsletterPreview"
+      }
+    ],
+    "h1": [
+      {
+        "lines": 1,
+        "tag": "H1",
+        "text": "PARKEZI updates"
+      }
+    ],
+    "minEditableFont": 16,
+    "overflow": false,
+    "overlaps": [],
+    "route": "/success/newsletter/",
+    "tallHeadings": [],
+    "title": "PARKEZI updates | PARKEZI",
+    "width": 1280
+  },
+  {
+    "brokenImages": [],
+    "documentWidth": 390,
+    "faqs": {
+      "unstyled": 0,
+      "visible": 0
+    },
+    "forms": [
+      {
+        "context": {
+          "enquiry_page": "/systems/",
+          "enquiry_page_title": "Parking systems",
+          "enquiry_page_url": "http://127.0.0.1:4293/systems/"
+        },
+        "id": "enquiryForm"
+      },
+      {
+        "context": {
+          "enquiry_page": "/systems/",
+          "enquiry_page_title": "Parking systems",
+          "enquiry_page_url": "http://127.0.0.1:4293/systems/"
+        },
+        "id": "newsletterPreview"
+      }
+    ],
+    "h1": [
+      {
+        "lines": 1,
+        "tag": "H1",
+        "text": "Parking systems"
+      }
+    ],
+    "minEditableFont": 16,
+    "overflow": false,
+    "overlaps": [],
+    "route": "/systems/",
+    "tallHeadings": [],
+    "title": "Parking Automation Systems",
+    "width": 390
+  },
+  {
+    "brokenImages": [],
+    "documentWidth": 1280,
+    "faqs": {
+      "unstyled": 0,
+      "visible": 0
+    },
+    "forms": [
+      {
+        "context": {
+          "enquiry_page": "/systems/",
+          "enquiry_page_title": "Parking systems",
+          "enquiry_page_url": "http://127.0.0.1:4293/systems/"
+        },
+        "id": "enquiryForm"
+      },
+      {
+        "context": {
+          "enquiry_page": "/systems/",
+          "enquiry_page_title": "Parking systems",
+          "enquiry_page_url": "http://127.0.0.1:4293/systems/"
+        },
+        "id": "newsletterPreview"
+      }
+    ],
+    "h1": [
+      {
+        "lines": 1,
+        "tag": "H1",
+        "text": "Parking systems"
+      }
+    ],
+    "minEditableFont": 16,
+    "overflow": false,
+    "overlaps": [],
+    "route": "/systems/",
+    "tallHeadings": [],
+    "title": "Parking Automation Systems",
+    "width": 1280
+  },
+  {
+    "brokenImages": [],
+    "documentWidth": 390,
+    "faqs": {
+      "unstyled": 0,
+      "visible": 0
+    },
+    "forms": [
+      {
+        "context": {
+          "enquiry_page": "/testimonials/",
+          "enquiry_page_title": "Reviews",
+          "enquiry_page_url": "http://127.0.0.1:4293/testimonials/"
+        },
+        "id": "enquiryForm"
+      },
+      {
+        "context": {
+          "enquiry_page": "/testimonials/",
+          "enquiry_page_title": "Reviews",
+          "enquiry_page_url": "http://127.0.0.1:4293/testimonials/"
+        },
+        "id": "newsletterPreview"
+      }
+    ],
+    "h1": [
+      {
+        "lines": 1,
+        "tag": "H1",
+        "text": "Reviews"
+      }
+    ],
+    "minEditableFont": 16,
+    "overflow": false,
+    "overlaps": [],
+    "route": "/testimonials/",
+    "tallHeadings": [],
+    "title": "Parkezi Client Testimonials",
+    "width": 390
+  },
+  {
+    "brokenImages": [],
+    "documentWidth": 1280,
+    "faqs": {
+      "unstyled": 0,
+      "visible": 0
+    },
+    "forms": [
+      {
+        "context": {
+          "enquiry_page": "/testimonials/",
+          "enquiry_page_title": "Reviews",
+          "enquiry_page_url": "http://127.0.0.1:4293/testimonials/"
+        },
+        "id": "enquiryForm"
+      },
+      {
+        "context": {
+          "enquiry_page": "/testimonials/",
+          "enquiry_page_title": "Reviews",
+          "enquiry_page_url": "http://127.0.0.1:4293/testimonials/"
+        },
+        "id": "newsletterPreview"
+      }
+    ],
+    "h1": [
+      {
+        "lines": 1,
+        "tag": "H1",
+        "text": "Reviews"
+      }
+    ],
+    "minEditableFont": 16,
+    "overflow": false,
+    "overlaps": [],
+    "route": "/testimonials/",
+    "tallHeadings": [],
+    "title": "Parkezi Client Testimonials",
+    "width": 1280
+  }
+]

@@ -1,0 +1,245 @@
+{
+  "event": "parkezi:2026-11-05:enquiry-attribution-faq-site-check:v1",
+  "photoEvent": "parkezi:2026-11-05:why-photos-professional-rebalance:v1",
+  "checkedAt": "2026-11-05T20:29:24.277Z",
+  "checkType": "Owning GPT self-check, not independent review",
+  "baseline": "30754ff276eb2f5594652c099b5607e356fb298a",
+  "scope": [
+    "Automatic hidden page path/title/URL on enquiry and newsletter-preview forms, excluding query/fragment and third-party forms",
+    "Shared native FAQ structure/styles/SVG icons, show-all placement/count label, top-aligned heading",
+    "Professional team-advice image for Effortless, professional equipment demonstration restored to Reliable",
+    "Whole client route rendering/geometry/field/FAQ/loaded-image/page-context checks; scoped chat editable16px fix"
+  ],
+  "browser": {
+    "environment": "Owned T3 background incognito Chromium; built static local candidate127.0.0.1:4293",
+    "routeCount": 57,
+    "widths": [
+      390,
+      1280
+    ],
+    "layouts": 114,
+    "findingsAfterFix": [],
+    "additional320": [
+      {
+        "brokenImages": [],
+        "documentWidth": 320,
+        "faqs": {
+          "unstyled": 0,
+          "visible": 6
+        },
+        "forms": [
+          {
+            "context": {
+              "enquiry_page": "/step-pay.html",
+              "enquiry_page_title": "Step & Pay",
+              "enquiry_page_url": "http://127.0.0.1:4293/step-pay.html"
+            },
+            "id": "enquiryForm"
+          },
+          {
+            "context": {
+              "enquiry_page": "/step-pay.html",
+              "enquiry_page_title": "Step & Pay",
+              "enquiry_page_url": "http://127.0.0.1:4293/step-pay.html"
+            },
+            "id": "newsletterPreview"
+          }
+        ],
+        "h1": [
+          {
+            "lines": 1,
+            "tag": "H1",
+            "text": "Step & Pay"
+          }
+        ],
+        "minEditableFont": 16,
+        "overflow": false,
+        "overlaps": [],
+        "route": "/step-pay.html",
+        "tallHeadings": [],
+        "title": "Step & Pay | Parkezi",
+        "width": 320
+      },
+      {
+        "brokenImages": [],
+        "documentWidth": 320,
+        "faqs": {
+          "unstyled": 0,
+          "visible": 13
+        },
+        "forms": [
+          {
+            "context": {
+              "enquiry_page": "/faqs/",
+              "enquiry_page_title": "Parking questions",
+              "enquiry_page_url": "http://127.0.0.1:4293/faqs/"
+            },
+            "id": "enquiryForm"
+          },
+          {
+            "context": {
+              "enquiry_page": "/faqs/",
+              "enquiry_page_title": "Parking questions",
+              "enquiry_page_url": "http://127.0.0.1:4293/faqs/"
+            },
+            "id": "newsletterPreview"
+          }
+        ],
+        "h1": [
+          {
+            "lines": 1,
+            "tag": "H1",
+            "text": "Parking questions"
+          }
+        ],
+        "minEditableFont": 16,
+        "overflow": false,
+        "overlaps": [],
+        "route": "/faqs/",
+        "tallHeadings": [],
+        "title": "Parking Automation FAQs",
+        "width": 320
+      },
+      {
+        "brokenImages": [],
+        "documentWidth": 320,
+        "faqs": {
+          "unstyled": 0,
+          "visible": 0
+        },
+        "forms": [
+          {
+            "context": {
+              "enquiry_page": "/services/paid-parking/",
+              "enquiry_page_title": "Paid Parking",
+              "enquiry_page_url": "http://127.0.0.1:4293/services/paid-parking/"
+            },
+            "id": "enquiryForm"
+          },
+          {
+            "context": {
+              "enquiry_page": "/services/paid-parking/",
+              "enquiry_page_title": "Paid Parking",
+              "enquiry_page_url": "http://127.0.0.1:4293/services/paid-parking/"
+            },
+            "id": "newsletterPreview"
+          }
+        ],
+        "h1": [
+          {
+            "lines": 1,
+            "tag": "H1",
+            "text": "Paid Parking"
+          }
+        ],
+        "minEditableFont": 16,
+        "overflow": false,
+        "overlaps": [],
+        "route": "/services/paid-parking/",
+        "tallHeadings": [],
+        "title": "Paid Parking Systems - Parkezi",
+        "width": 320
+      }
+    ],
+    "faqDesktopInitial": {
+      "context": {
+        "enquiry_page": "/step-pay.html",
+        "enquiry_page_title": "Step & Pay",
+        "enquiry_page_url": "http://127.0.0.1:4293/step-pay.html"
+      },
+      "overflow": false,
+      "sectionColumns": "455.828px 638.164px",
+      "showAllParent": "faq-list faq-items",
+      "summary": {
+        "font": "18px",
+        "icon": true,
+        "listStyle": "none",
+        "padding": "22px"
+      },
+      "width": 1280
+    },
+    "faqNativeExpand": {
+      "allQuestions": 16,
+      "firstOpen": true,
+      "showAllExpanded": "true",
+      "visibleQuestions": 16
+    },
+    "faqFinalExpandCollapse": {
+      "collapsedButton": "Show all questionsShow all questions",
+      "expanded": "false",
+      "listTop": 238.9921875,
+      "questionCount": 16,
+      "titleTop": 238.9921875,
+      "visibleQuestions": 6
+    },
+    "faqMobile": {
+      "answerFont": "16px",
+      "context": {
+        "enquiry_page": "/step-pay.html",
+        "enquiry_page_title": "Step & Pay",
+        "enquiry_page_url": "http://127.0.0.1:4293/step-pay.html"
+      },
+      "fieldFont": "16px",
+      "firstOpen": true,
+      "iconTransform": "matrix(0.985067, 0.172171, -0.172171, 0.985067, 0, 0)",
+      "summaryHeight": 87
+    },
+    "photos": [
+      {
+        "loaded": true,
+        "src": "assets/parkezi-express-pay-exhibition.webp",
+        "title": "Contactless"
+      },
+      {
+        "loaded": true,
+        "src": "assets/parkezi-team-advice.webp",
+        "title": "Effortless"
+      },
+      {
+        "loaded": true,
+        "src": "assets/parkezi-product-demonstration.webp",
+        "title": "Reliable"
+      }
+    ],
+    "renderedRoutes": ".team/audits/site-style-2026-11-05/rendered-routes.json",
+    "limits": [
+      "Measured all57client HTML routes at390/1280, including offscreen layout geometry, visible FAQ styling, editable text sizes, loaded-image failures and actual FormData page context.",
+      "Visual inspection and native interactive checks focus on the amended FAQ/photo/form surfaces. This is not an exhaustive screenshot review of every scroll position or every external journey.",
+      "Physical touch/Safari and authenticated hosted UI are unverified; no real submissions/messages. Existing private gate/noindex/unconnected form delivery retained.",
+      "Crisp's13.6px composer was confirmed in the host DOM and corrected with scoped CSS to16px. Vendor service configuration unchanged."
+    ]
+  },
+  "validation": {
+    "node": "24.18.0",
+    "testsPassed": 20,
+    "testsFailed": 0,
+    "protectedFiles": 243,
+    "htmlFiles": 58,
+    "clientRoutes": 57,
+    "sourceRoutes": 52,
+    "curatedParagraphUnits": 854,
+    "unmatchedPreservedRichBodyParagraphs": 0,
+    "localReferences": 11828,
+    "schemas": 62
+  },
+  "review": {
+    "passesConsumed": 2,
+    "maxPasses": 2,
+    "policy": "Grok canceled; no replacement reviewer. Earlier FAQ/photo/form evidence superseded; historical reports/ledger preserved."
+  },
+  "release": {
+    "authority": "Continue Harry's explicit V8 share-host release through connected GitHub and existing main Production mapping, no client-domain/settings/direct-upload change.",
+    "status": "Local candidate verified, publication receipt recorded separately."
+  },
+  "allExistingAssetsUnchanged": 162,
+  "approvedHeroMobileMenuFragmentsUnchanged": true,
+  "checkedFilesSha256": {
+    "dist/full-site.css": "9bfc88b77866d2efa4059bbb4cc212bb5b8e529b85fbc8e56867856e0bc76a6b",
+    "dist/full-site.js": "56f6ead303d2bffb77d4f61c55058179b9216f4bdf506738cf3f0f7abfea9a8f",
+    "dist/refinements-v4.js": "b65925411d6c3f54f9464f99dc13cf8f088f62d2147406290c6a34c3d37a776f",
+    "dist/index.html": "8165f849df550654caf671c3a0e0c8b6164a9e830755bfbddb9dbe6dec7797cd",
+    "dist/step-pay.html": "672ba8c657daa79ae8ff63a2f4481a051641a716857bfe9ef70cd0c3ef059893",
+    "dist/express-pay.html": "db64bac08b80ee2aa82aa6fd0940ba6651ea023f90cff4e4d7e4e8d41412129a",
+    "scripts/build-pages.mjs": "90f7a7ef9fb2ec360f951c9a1582d7dd6cbf70178c91ec46ea6ac02a2eb911b5"
+  }
+}

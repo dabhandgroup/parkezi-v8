@@ -28,7 +28,7 @@ test('mobile hero Swiper retains drag, controls and range feedback',async()=>{
   const stage={events:{},classList:{add(){}},querySelectorAll:()=>units,appendChild(){},addEventListener(k,fn){this.events[k]=fn;}};
   const previous={},next={},position={textContent:''};
   const controls={querySelector:s=>s==='[data-product-previous]'?previous:s==='[data-product-next]'?next:position};
-  const document={querySelector:s=>s==='[data-mobile-products]'?stage:s==='[data-mobile-product-controls]'?controls:null,createElement:()=>({appendChild(){}})};
+  const document={querySelectorAll:()=>[],querySelector:s=>s==='[data-mobile-products]'?stage:s==='[data-mobile-product-controls]'?controls:null,createElement:()=>({appendChild(){}})};
   class Swiper { constructor(el,options){assert.equal(el,stage);this.params=options;this.activeIndex=0;this.isBeginning=true;this.isEnd=false;instance=this;options.on.init(this);}slideTo(index){this.activeIndex=Math.min(index,3);this.isBeginning=this.activeIndex===0;this.isEnd=this.activeIndex===3;this.params.on.slideChange(this);} }
   vm.runInNewContext(await readFile('dist/full-site.js','utf8'),{document,window:{Swiper,matchMedia:()=>({matches:true})}});
   assert.equal(instance.params.simulateTouch,true);assert.equal(instance.params.grabCursor,true);assert.equal(instance.params.slidesPerView,2);assert.equal(instance.params.breakpoints[900].slidesPerView,4);assert.equal(instance.params.navigation.nextEl,next);assert.equal(position.textContent,'1-2 of 5');

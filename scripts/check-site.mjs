@@ -87,5 +87,5 @@ for(const name of ['express-pay.html','step-pay.html']){
   assert.ok(gallery.indexOf('assets/step-pay.webp')<gallery.indexOf('assets/step-pay-wide-navy.webp'));
  }
 }
-const report={htmlFiles:htmlFiles.length,sourceRoutes:coverage.entries.length,localReferences:references,structuredDataBlocks:schemas,sourceOnlyChecks:true,browserChecks:'Recorded separately in .team/reviews/owner-desktop-hero-restoration-2026-11-05.json; static checks do not establish browser acceptance'};
+const report={htmlFiles:htmlFiles.length,sourceRoutes:coverage.entries.length,localReferences:references,structuredDataBlocks:schemas,sourceOnlyChecks:true,browserChecks:'Recorded separately in .team/reviews/owner-faq-form-site-check-2026-11-05.json; static checks do not establish browser acceptance'};
 console.log(JSON.stringify(report,null,2));
