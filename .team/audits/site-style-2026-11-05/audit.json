@@ -1,0 +1,259 @@
+{
+  "schemaVersion": 1,
+  "project": {
+    "id": "parkezi-v8",
+    "name": "PARKEZI V8",
+    "auditId": "faq-form-layout-2026-11-05",
+    "auditDate": "2026-11-05",
+    "siteUrl": "https://parkezi-v8.vercel.app",
+    "environment": "Local final candidate for authorised V8 Git release",
+    "mode": "implementation",
+    "scope": "FAQ/form/photo amendments and layout checks on57client HTML routes at390/1280. Internal historical style-guide excluded.",
+    "changePolicy": "Authorised observed UI fixes and connected GitHub release to V8 only. Preserve gate/noindex and existing unconnected delivery. No client-domain, provider/settings changes or real submissions.",
+    "intro": "Owner checks and implementation evidence. These checks are not independent review or a guarantee about every external journey.",
+    "accent": "#334f64",
+    "demonstration": false
+  },
+  "coverage": [
+    {
+      "label": "Client routes rendered",
+      "value": 57,
+      "method": "Actual supported T3 browser navigations; internal style-guide excluded."
+    },
+    {
+      "label": "Phone/desktop layouts measured",
+      "value": 114,
+      "method": "Each route at390and1280px after font loading. Overflow, headings, section geometry, FAQ styles, editable fonts, loaded images and FormData page context."
+    },
+    {
+      "label": "Additional narrow template checks",
+      "value": 3,
+      "method": "Step,FAQindex,Paid Parking at320px."
+    },
+    {
+      "label": "Owner automated tests passed",
+      "value": 20,
+      "method": "Node24 native test suite."
+    },
+    {
+      "label": "Curated source paragraph units",
+      "value": 854,
+      "method": "52route source comparison with0unmatched preserved rich-body units; intentional exclusions explicit."
+    }
+  ],
+  "limitations": [
+    "Visual/native control inspection focused on the amended FAQ/photo/form surfaces. Not every scroll position or external journey has a screenshot review.",
+    "Physical touch/Safari and authenticated hosted journeys are unverified. Private gate/noindex and unconnected enquiry delivery remain.",
+    "No real submissions, payments, client messages or provider/permission changes.",
+    "Grok canceled; owning GPT checks are not independent review. Prior2/2reports preserved."
+  ],
+  "guardrails": [
+    "Connected GitHub builds only for authorised V8 host.",
+    "Preserve approved desktop/mobile hero, model selector, mobile menu and Knight Frank.",
+    "Keep original assets and all source FAQ answer text.",
+    "No Playwright or website simulator."
+  ],
+  "batches": [
+    {
+      "id": "fixes",
+      "title": "FAQ, forms and photo refinement",
+      "description": "Bounded user amendments plus the observed widget text fault.",
+      "checks": [
+        "Actual browser state",
+        "Shared source correction",
+        "Current candidate verification"
+      ]
+    }
+  ],
+  "issues": [
+    {
+      "id": "FAQ-01",
+      "title": "Restore FAQ accordion styling",
+      "priority": "P2",
+      "priorityReason": "Direct Harry request or observed readable-control fault in the authorised site check.",
+      "batch": "fixes",
+      "evidenceState": "confirmed",
+      "status": "verified",
+      "finding": "Step & Pay and generated product FAQ lists used faq-list instead of the styled faq-items class. The Show all button was a third grid child; native triangles, cramped rows and large gaps were visible.",
+      "benefit": "Expected: clearer information, consistent controls and useful enquiry context. No conversion uplift claimed.",
+      "action": "Share native disclosure styling, actual SVG icons, top-aligned heading, place Show all inside list and remove hardcoded13count from collapse label.",
+      "steps": [
+        "Reproduce the source/browser state.",
+        "Apply the bounded shared fix.",
+        "Recheck actual rendered controls and source preservation."
+      ],
+      "acceptance": [
+        "Styled rows and readable answers.",
+        "Native expand and show-all/collapse work.",
+        "No overflow at checked widths."
+      ],
+      "scope": "Affected shared client templates and the stated page.",
+      "owner": "Owning GPT, HTML/CSS/JavaScript source",
+      "risk": "Preserve approved content, assets, navigation, form destinations and validation.",
+      "rollback": "Reverse only this change against baseline30754ff; preserve earlier reports.",
+      "pages": [
+        {
+          "url": "https://parkezi-v8.vercel.app/step-pay.html",
+          "label": "Restore FAQ accordion styling"
+        }
+      ],
+      "evidence": [
+        {
+          "label": "Actual source and T3 browser check",
+          "detail": "Step & Pay and generated product FAQ lists used faq-list instead of the styled faq-items class. The Show all button was a third grid child; native triangles, cramped rows and large gaps were visible. 57routes/114layouts have0unstyled visible FAQ summaries; Step native expand and16question show-all/collapse pass.320px answer/input text16px.",
+          "checkedAt": "2026-11-05"
+        }
+      ],
+      "verification": [
+        {
+          "check": "Owner local browser/source check",
+          "result": "passed",
+          "detail": "57routes/114layouts have0unstyled visible FAQ summaries; Step native expand and16question show-all/collapse pass.320px answer/input text16px."
+        }
+      ],
+      "notes": "Local candidate verification; hosted authenticated journeys and physical Safari/touch remain unverified."
+    },
+    {
+      "id": "FORM-02",
+      "title": "Include enquiry page context",
+      "priority": "P2",
+      "priorityReason": "Direct Harry request or observed readable-control fault in the authorised site check.",
+      "batch": "fixes",
+      "evidenceState": "confirmed",
+      "status": "verified",
+      "finding": "Enquiry forms had no automatic source-page metadata.",
+      "benefit": "Expected: clearer information, consistent controls and useful enquiry context. No conversion uplift claimed.",
+      "action": "Add hidden enquiry_page/title/url to enquiry and newsletter-preview forms, refresh at submit, omit query/fragment and exclude third-party forms.",
+      "steps": [
+        "Reproduce the source/browser state.",
+        "Apply the bounded shared fix.",
+        "Recheck actual rendered controls and source preservation."
+      ],
+      "acceptance": [
+        "Actual FormData contains correct route/title/URL.",
+        "No duplicate hidden fields or endpoint changes."
+      ],
+      "scope": "Affected shared client templates and the stated page.",
+      "owner": "Owning GPT, HTML/CSS/JavaScript source",
+      "risk": "Preserve approved content, assets, navigation, form destinations and validation.",
+      "rollback": "Reverse only this change against baseline30754ff; preserve earlier reports.",
+      "pages": [
+        {
+          "url": "https://parkezi-v8.vercel.app/contact/",
+          "label": "Include enquiry page context"
+        }
+      ],
+      "evidence": [
+        {
+          "label": "Actual source and T3 browser check",
+          "detail": "Enquiry forms had no automatic source-page metadata. All57routes at390/1280 contain correct page context in actual FormData.20tests pass including query/fragment exclusion and alias refresh. No real submission.",
+          "checkedAt": "2026-11-05"
+        }
+      ],
+      "verification": [
+        {
+          "check": "Owner local browser/source check",
+          "result": "passed",
+          "detail": "All57routes at390/1280 contain correct page context in actual FormData.20tests pass including query/fragment exclusion and alias refresh. No real submission."
+        }
+      ],
+      "notes": "Local candidate verification; hosted authenticated journeys and physical Safari/touch remain unverified."
+    },
+    {
+      "id": "CHAT-03",
+      "title": "Keep chat text readable",
+      "priority": "P2",
+      "priorityReason": "Direct Harry request or observed readable-control fault in the authorised site check.",
+      "batch": "fixes",
+      "evidenceState": "confirmed",
+      "status": "verified",
+      "finding": "The host-DOM vendor composer overrode text to13.6px despite the site field floor.",
+      "benefit": "Expected: clearer information, consistent controls and useful enquiry context. No conversion uplift claimed.",
+      "action": "Scoped CSS for named vendor editable controls to maintain at least16px.",
+      "steps": [
+        "Reproduce the source/browser state.",
+        "Apply the bounded shared fix.",
+        "Recheck actual rendered controls and source preservation."
+      ],
+      "acceptance": [
+        "Actual vendor composer computes16px.",
+        "No service setting or message submission."
+      ],
+      "scope": "Affected shared client templates and the stated page.",
+      "owner": "Owning GPT, HTML/CSS/JavaScript source",
+      "risk": "Preserve approved content, assets, navigation, form destinations and validation.",
+      "rollback": "Reverse only this change against baseline30754ff; preserve earlier reports.",
+      "pages": [
+        {
+          "url": "https://parkezi-v8.vercel.app/",
+          "label": "Keep chat text readable"
+        }
+      ],
+      "evidence": [
+        {
+          "label": "Actual source and T3 browser check",
+          "detail": "The host-DOM vendor composer overrode text to13.6px despite the site field floor. Confirmed13.6px before and16px after. No sub16px rendered editable controls in final114layouts.",
+          "checkedAt": "2026-11-05"
+        }
+      ],
+      "verification": [
+        {
+          "check": "Owner local browser/source check",
+          "result": "passed",
+          "detail": "Confirmed13.6px before and16px after. No sub16px rendered editable controls in final114layouts."
+        }
+      ],
+      "notes": "Local candidate verification; hosted authenticated journeys and physical Safari/touch remain unverified."
+    },
+    {
+      "id": "PHOTO-04",
+      "title": "Rebalance professional photographs",
+      "priority": "P3",
+      "priorityReason": "Direct Harry request or observed readable-control fault in the authorised site check.",
+      "batch": "fixes",
+      "evidenceState": "confirmed",
+      "status": "verified",
+      "finding": "Harry requested the demonstration photo back for Reliable and a different professional photo for Effortless.",
+      "benefit": "Expected: clearer information, consistent controls and useful enquiry context. No conversion uplift claimed.",
+      "action": "Retain Contactless, use team-advice in middle and equipment demonstration on right.",
+      "steps": [
+        "Reproduce the source/browser state.",
+        "Apply the bounded shared fix.",
+        "Recheck actual rendered controls and source preservation."
+      ],
+      "acceptance": [
+        "Accurate captions, professional source set and coherent rendered crop.",
+        "Assets and approved hero/menu/Knight Frank preserved."
+      ],
+      "scope": "Affected shared client templates and the stated page.",
+      "owner": "Owning GPT, HTML/CSS/JavaScript source",
+      "risk": "Preserve approved content, assets, navigation, form destinations and validation.",
+      "rollback": "Reverse only this change against baseline30754ff; preserve earlier reports.",
+      "pages": [
+        {
+          "url": "https://parkezi-v8.vercel.app/",
+          "label": "Rebalance professional photographs"
+        }
+      ],
+      "evidence": [
+        {
+          "label": "Actual source and T3 browser check",
+          "detail": "Harry requested the demonstration photo back for Reliable and a different professional photo for Effortless. Three selected images loaded and crops inspected in actual homepage browser; all162existing asset blobs unchanged.",
+          "checkedAt": "2026-11-05"
+        }
+      ],
+      "verification": [
+        {
+          "check": "Owner local browser/source check",
+          "result": "passed",
+          "detail": "Three selected images loaded and crops inspected in actual homepage browser; all162existing asset blobs unchanged."
+        }
+      ],
+      "notes": "Local candidate verification; hosted authenticated journeys and physical Safari/touch remain unverified."
+    }
+  ],
+  "motion": [],
+  "links": [],
+  "assets": [],
+  "files": []
+}

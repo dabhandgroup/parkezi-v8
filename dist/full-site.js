@@ -84,3 +84,27 @@
     event.preventDefault();carousel.slideTo(event.key==='Home'?0:units.length-1);
   });
 })();
+
+// Carry page context with the form without asking visitors to type it.
+(() => {
+  const forms = document.querySelectorAll('#enquiryForm,#newsletterPreview');
+  forms.forEach(form => {
+    const refresh = () => {
+      const values = {
+        enquiry_page: window.location.pathname,
+        enquiry_page_title: document.querySelector('h1')?.textContent.trim() || document.title,
+        enquiry_page_url: window.location.origin + window.location.pathname
+      };
+      Object.entries(values).forEach(([name,value]) => {
+        let input = form.querySelector('input[name="' + name + '"]');
+        if (!input) {
+          input = document.createElement('input');
+          input.type = 'hidden'; input.name = name; form.appendChild(input);
+        }
+        input.value = value; input.defaultValue = value;
+      });
+    };
+    refresh();
+    form.addEventListener('submit',refresh,true);
+  });
+})();

@@ -27,9 +27,11 @@ const installations = await readFile('content/product-installations.html','utf8'
 const platform = section(home,'platform');
 const productFaqs = JSON.parse(await readFile('content/product-faqs.json','utf8'));
 function productQuestions(p) { return p.sourcePath==='products/solargate-mobile-boom-gate' ? [...productFaqs.solar,...productFaqs.common] : productFaqs.common; }
+const faqIcon = '<svg class="faq-icon icon" aria-hidden="true" focusable="false"><use href="#i-plus"></use></svg>';
 function productFaqBlock(p) {
   const questions=productQuestions(p);
-  return `<section class="section wrap product-faqs" id="faqs"><div class="section-header"><h2>Product questions</h2></div><div class="faq-list">${questions.map((q,i)=>`<details${i>=6?' data-extra-faq hidden':''}><summary>${esc(q.question)}<span></span></summary>${q.paragraphs.map(t=>`<p>${esc(t)}</p>`).join('')}</details>`).join('')}</div>${questions.length>6?'<button class="faq-show-all button button-outline" type="button" aria-expanded="false">Show all questions</button>':''}</section>`;
+  const more=questions.length>6?'<button class="faq-show-all button button-outline" type="button" aria-expanded="false">Show all questions</button>':'';
+  return `<section class="section wrap product-faqs" id="faqs"><div class="section-header"><h2>Product questions</h2></div><div class="faq-list faq-items">${questions.map((q,i)=>`<details${i>=6?' data-extra-faq hidden':''}><summary>${esc(q.question)}${faqIcon}</summary>${q.paragraphs.map(t=>`<p>${esc(t)}</p>`).join('')}</details>`).join('')}${more}</div></section>`;
 }
 const reviewCards = [...home.matchAll(/<article class="review-card\b[\s\S]*?<\/article>/g)].slice(0,4).map(m=>m[0].replace(' swiper-slide','')).join('');
 if ((reviewCards.match(/<article /g)||[]).length!==4) throw new Error('Expected four approved sample cards');
@@ -117,7 +119,7 @@ async function content(p) {
     case 'project': return hero(p)+(p.bodyHtml?editorial(p):`<section class="section wrap"><a class="text-link" href="/our-work/">View more PARKEZI projects ${icon('arrow')}</a></section>`);
     case 'faqs': {
       const faqs=p.faqs;
-      return hero(p,{noImage:true})+`<section class="section wrap"><div class="content-faq-list">${faqs.map(q=>`<details><summary>${esc(q.question)}</summary><div>${q.paragraphs.map(t=>`<p>${esc(t)}</p>`).join('')}</div></details>`).join('')}</div></section>`;
+      return hero(p,{noImage:true})+`<section class="section wrap"><div class="content-faq-list faq-items">${faqs.map(q=>`<details><summary>${esc(q.question)}${faqIcon}</summary><div>${q.paragraphs.map(t=>`<p>${esc(t)}</p>`).join('')}</div></details>`).join('')}</div></section>`;
     }
     case 'testimonials':return hero(p,{noImage:true})+`<section class="section wrap"><div class="section-header"><div class="google-subline"><img src="/assets/google.svg" alt="Google" width="28" height="28"><span>reviews</span></div><a class="google-button" href="https://share.google/VfGvd0vTujh7s6tyS" target="_blank" rel="noopener">View PARKEZI on Google ${icon('arrow')}</a></div><div class="site-review-grid">${reviewCards}</div></section>`;
     case 'contact':return hero(p,{noImage:true});

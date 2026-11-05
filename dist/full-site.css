@@ -413,3 +413,27 @@ body.design-v7.black-hero .mobile-product-controls button { border-color: #fffff
   body.design-v7 .header-v4 .mobile-menu-bottom > .button { display: flex; align-items: center; justify-content: center; gap: 7px; width: 100%; min-width: 0; height: 52px; min-height: 52px; padding: 12px 8px; font-size: 14px; line-height: 1.2; white-space: nowrap; }
   body.design-v7 .header-v4 .mobile-menu-bottom > .button > .icon { width: 16px; height: 16px; flex: none; }
 }
+
+/* Shared native FAQ disclosure styling across home, products and FAQ index. */
+.product-faqs { align-items: start; }
+.product-faqs > .section-header { margin-bottom: 0; align-items: flex-start; }
+:is(.faq-items,.faq-list,.content-faq-list) { min-width: 0; }
+:is(.faq-items,.faq-list,.content-faq-list) > details { margin: 0; padding: 0; border: 0; border-top: 1px solid #dce3e9; }
+:is(.faq-items,.faq-list,.content-faq-list) > details:last-of-type { border-bottom: 1px solid #dce3e9; }
+:is(.faq-items,.faq-list,.content-faq-list) summary { display: flex; align-items: center; gap: 20px; padding: 22px 0; font-size: 18px; font-weight: 500; line-height: 1.5; cursor: pointer; list-style: none; }
+:is(.faq-items,.faq-list,.content-faq-list) summary::marker { content: ''; }
+:is(.faq-items,.faq-list,.content-faq-list) summary::-webkit-details-marker { display: none; }
+:is(.faq-items,.faq-list,.content-faq-list) summary > .faq-icon { position: static; flex: none; width: 18px; height: 18px; margin-left: auto; color: #667786; transition: transform .2s; }
+:is(.faq-items,.faq-list,.content-faq-list) details[open] > summary > .faq-icon { transform: rotate(45deg); }
+:is(.faq-items,.faq-list,.content-faq-list) details > :is(p,div) { margin: 0 36px 20px 0; max-width: 720px; color: #63717c; font-size: 16px; line-height: 1.8; }
+:is(.faq-items,.faq-list,.content-faq-list) details > div p { margin: 0 0 14px; }
+:is(.faq-items,.faq-list,.content-faq-list) > .faq-show-all { display: inline-flex; align-items: center; justify-content: center; grid-column: auto; margin: 22px 0 0; padding: 12px 20px; min-height: 46px; font-size: 16px; line-height: 1.4; }
+@media (max-width:720px) {
+  :is(.faq-items,.faq-list,.content-faq-list) summary { padding-block: 18px; font-size: 17px; gap: 16px; }
+  :is(.faq-items,.faq-list,.content-faq-list) details > :is(p,div) { margin-right: 0; }
+}
+@media (prefers-reduced-motion:reduce) { .faq-icon { transition: none !important; } }
+
+/* The embedded chat is in the host DOM, so editable text can keep the same floor. */
+body.design-v7 .crisp-client :is(input,textarea,select)[name][class],
+body.design-v7 .crisp-client [contenteditable="true"][class] { font-size: max(1rem,16px) !important; }
