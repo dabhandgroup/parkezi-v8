@@ -1,0 +1,323 @@
+{
+  "knight-logo": {
+    "file": "assets/knight-frank-brand.webp",
+    "source": "/Users/harrylang/Documents/Clients/Parkezi/worktrees/dab-47-professional-photos/dist/assets/knight-frank-logo.avif",
+    "sourceSha256": "8d4d6f48fb877e2ad21a12dd7201e88cc4a3fb10c9a69b5c413b1dae5f29187b",
+    "sha256": "1dbe113461c5aaea31033bad1ad8fabd27938f585529e5210bdd052537cf1f83",
+    "bytes": 26668,
+    "dimensions": [
+      1200,
+      494
+    ],
+    "alt": "knight logo"
+  },
+  "quest-logo": {
+    "file": "assets/quest-apartments-brand.webp",
+    "source": "/Users/harrylang/Documents/Clients/Parkezi/worktrees/dab-47-professional-photos/dist/assets/quest-logo.avif",
+    "sourceSha256": "8f286a6715b639eb5ab38e757ce5884b034120d3f035390302938bd37874efef",
+    "sha256": "ee2ce3e88451a434229144bf6445a2e7559896d0225530de23a72a8db92c0153",
+    "bytes": 3806,
+    "dimensions": [
+      288,
+      175
+    ],
+    "alt": "quest logo"
+  },
+  "tasman-logo": {
+    "file": "assets/tasman-holiday-parks-brand.webp",
+    "source": "/Users/harrylang/Documents/Clients/Parkezi/worktrees/dab-47-professional-photos/dist/assets/tasman-logo.avif",
+    "sourceSha256": "0dfba78eedbd05b3092038514e1502dd0d5b7fa053163322a2e73e22ce04a0c9",
+    "sha256": "9188b130a118d4a9f2ae242d2988a5e3bba5ad3cfb5898ea024be9dc5cd2e90e",
+    "bytes": 17406,
+    "dimensions": [
+      1127,
+      417
+    ],
+    "alt": "tasman logo"
+  },
+  "solar-open": {
+    "file": "assets/solargate-portable-barrier.webp",
+    "source": "/Users/harrylang/Documents/Clients/Parkezi/worktrees/dab-47-professional-photos/dist/assets/solargate-open.avif",
+    "sourceSha256": "0e33cc425a7eccd51457b849e14b8cedd18030728695b6c87d6e6f2799537393",
+    "sha256": "4a80ebc9d27f15f75ffc6f6e239bb2211f1c472bb1b5cbda3781121d3c4c6215",
+    "bytes": 72754,
+    "dimensions": [
+      676,
+      1800
+    ],
+    "alt": "solar open"
+  },
+  "mercure-installation": {
+    "file": "assets/mercure-parking-installation.webp",
+    "source": "/Users/harrylang/Documents/Clients/Parkezi/worktrees/dab-47-professional-photos/dist/assets/mercure-install-0.avif",
+    "sourceSha256": "d3afdb874f13c6fc7c1bad1d1191460dc71e55e87928e4fa05ce9a4a0a5ff7e3",
+    "sha256": "332d17a0c2db080b99ec5aafe495c560474d47f8c7e9ff2cf6501f730b566f23",
+    "bytes": 78984,
+    "dimensions": [
+      1280,
+      1707
+    ],
+    "alt": "mercure installation"
+  },
+  "team-wide": {
+    "file": "assets/parkezi-exhibition-team-wide.webp",
+    "source": "/Users/harrylang/.t3/scratch/parkezi-feedback-2026-11-01/professional-photos/PARKEZI-NV-08.jpg",
+    "sourceSha256": "efdf5bbb661350d83cf04f0c7ab4bce95a3f9dfb96170b7b93aeed09e2421ce4",
+    "sha256": "2670400cb621e6ac5e9c6e417bc54528b5e644c2b694079d56322f4186a63f89",
+    "bytes": 166438,
+    "dimensions": [
+      1600,
+      1280
+    ],
+    "alt": "team wide"
+  },
+  "team-portrait": {
+    "file": "assets/parkezi-team-at-exhibition.webp",
+    "source": "/Users/harrylang/.t3/scratch/parkezi-feedback-2026-11-01/professional-photos/PARKEZI-NV-10.jpg",
+    "sourceSha256": "6a4872296c10938d45a49753fafe8190f56c1a6debbfbe63fb2ee6276ed2e5a3",
+    "sha256": "868cd3785ab240775cb777b4ddcd683be8f1b3389d95adacba7e77554bace341",
+    "bytes": 100182,
+    "dimensions": [
+      1440,
+      1800
+    ],
+    "alt": "team portrait"
+  },
+  "camera-detail": {
+    "file": "assets/parkezi-anpr-unit-detail.webp",
+    "source": "/Users/harrylang/.t3/scratch/parkezi-feedback-2026-11-01/professional-photos/PARKEZI-NV-05.jpg",
+    "sourceSha256": "7b28ced5d8621146a985d2294f3e07f5b30b593004abec51942ffe9bce89f553",
+    "sha256": "6837d3e6b81640b5f4cea41590051392d82680918212da47fd54720d4765c26b",
+    "bytes": 73782,
+    "dimensions": [
+      1440,
+      1800
+    ],
+    "alt": "camera detail"
+  },
+  "post/anpr-cameras-improve-two-way-parking-systems-in-high-traffic-sites": {
+    "file": "assets/article-anpr-cameras-improve-two-way-parking-systems-in-high-traffic-sites.webp",
+    "source": "https://www.parkezi.com.au/images/Two-way%20commercial%20parking%20by%20Parkezi.webp",
+    "sourceSha256": "63f487214017d1b111829c2689fca437c79b5e488a2b3912d6b9bce45f9fe5c1",
+    "sha256": "4f5f6fa49dce35a7390943cf8769260a583c5de8d707c8dad6b8005486ecb451",
+    "bytes": 99022,
+    "dimensions": [
+      1600,
+      640
+    ],
+    "alt": "Two Way Parking Systems in High-Traffic Sites"
+  },
+  "post/choose-the-right-parking-access-control-system-for-your-site": {
+    "file": "assets/article-choose-the-right-parking-access-control-system-for-your-site.webp",
+    "source": "https://www.parkezi.com.au/images/Right%20Parking%20Access%20Control%20System.webp",
+    "sourceSha256": "6c60c8a61b790c20eb384a5fb176b99c0a929cd8e69bf414cfec215bd707fec1",
+    "sha256": "9b2aa8627c626db211dc72c5b2fe9705b3c00df29ea9a5e41cdf9f27caa029ca",
+    "bytes": 78684,
+    "dimensions": [
+      1536,
+      1024
+    ],
+    "alt": "Parking Access Control System"
+  },
+  "post/contactless-vs-traditional-parking-systems-which-is-right-for-your-site": {
+    "file": "assets/article-contactless-vs-traditional-parking-systems-which-is-right-for-your-site.webp",
+    "source": "https://www.parkezi.com.au/images/698d26a47c761151cf20c605_contactless.webp",
+    "sourceSha256": "61825a3a7f46b92f8c0d033516dd118246c69f24ca47b17a60bb62f8937d2511",
+    "sha256": "6e4319aef45e60c56e9cd8bd812ce3471e42844941cc4439c2ef1c1b2170c992",
+    "bytes": 121676,
+    "dimensions": [
+      1536,
+      1024
+    ],
+    "alt": "Image with comparison: Contactless vs Traditional Parking Systems"
+  },
+  "post/five-common-parking-management-challenges-and-how-anpr-solves-them": {
+    "file": "assets/article-five-common-parking-management-challenges-and-how-anpr-solves-them.webp",
+    "source": "https://www.parkezi.com.au/images/69243f633580c7922f21a95d_parking-management-challenges.webp",
+    "sourceSha256": "74085ab5052c4fa510e8392ea59bd46b8529f1a320f6947ff609d9689829e943",
+    "sha256": "aa44101a9dfa7f88f69667223351a075db2225ac5b511c62e914a4a7007747be",
+    "bytes": 46312,
+    "dimensions": [
+      1536,
+      1024
+    ],
+    "alt": "Parking Management Challenges"
+  },
+  "post/how-anpr-improves-security-in-commercial-and-residential-car-parks": {
+    "file": "assets/article-how-anpr-improves-security-in-commercial-and-residential-car-parks.webp",
+    "source": "https://www.parkezi.com.au/images/69b1e4929429312784c1eef5_parkezi.webp",
+    "sourceSha256": "b5495fdfcad41d31353bb40d2aee03b67668e1691f5b14b0d44e95df572cd53d",
+    "sha256": "756c2adfb0fb76522d576a0c16f1a05e83eb710b176bbc5daf37116a6ee5b5b5",
+    "bytes": 61596,
+    "dimensions": [
+      1536,
+      1024
+    ],
+    "alt": "Parkezi ANPR car parking"
+  },
+  "post/how-cloud-parking-management-software-simplifies-multi-site-operations": {
+    "file": "assets/article-how-cloud-parking-management-software-simplifies-multi-site-operations.webp",
+    "source": "https://www.parkezi.com.au/images/69b1e53d18612a34856155ec_cloud.webp",
+    "sourceSha256": "58ebca0ee6f7c70866ce7575a163ecc282239762a633e4047690eb2601721784",
+    "sha256": "2ca7b9fc41f0dbda34b000c84151b9f1d0f84de85f3a7a464c2410527d51b7ab",
+    "bytes": 280120,
+    "dimensions": [
+      1536,
+      1024
+    ],
+    "alt": "Cloud car parking management system"
+  },
+  "post/how-do-boom-gates-work": {
+    "file": "assets/article-how-do-boom-gates-work.webp",
+    "source": "https://www.parkezi.com.au/images/673ac6fc80fa8f2f98eca6c9_6732394b811357b34087e889_6708e7128276306ea9523719_boom-gates.webp",
+    "sourceSha256": "34bc95a13ae65f0a781f9b85bfaa39aed1357441700013b9e94039d9e41394c9",
+    "sha256": "f3b1ec5bcf4978a6af6f4c4de387ba9210d56f420960ac360fcd6b955b7b7cb3",
+    "bytes": 43886,
+    "dimensions": [
+      1600,
+      670
+    ],
+    "alt": "How Do Boom Gates Work?"
+  },
+  "post/how-much-does-a-parking-automation-system-cost-in-australia": {
+    "file": "assets/article-how-much-does-a-parking-automation-system-cost-in-australia.webp",
+    "source": "https://www.parkezi.com.au/images/698d26058c875ef6ef9ec7d7_parking.webp",
+    "sourceSha256": "ad0e00a3a29e7e16b2227c1612ad2fc8669f1d95c4af5e6a77c345491cff1414",
+    "sha256": "e56d84a11f894d0027503e49e07211f376e968154965fab758832193c85e795a",
+    "bytes": 204032,
+    "dimensions": [
+      1536,
+      1024
+    ],
+    "alt": "Image with 2 cars: Parking Automation System Cost"
+  },
+  "post/how-ticketless-parking-improves-customer-experience-and-revenue": {
+    "file": "assets/article-how-ticketless-parking-improves-customer-experience-and-revenue.webp",
+    "source": "https://www.parkezi.com.au/images/6942a72c4b5f4c4f6b3e1f2b_ticketless-with-boom-gate.avif",
+    "sourceSha256": "7cfd6f06790b0c52eb781d8db24c79f589986ef27e28ba906b76451c8b920f70",
+    "sha256": "3618861992e17911afc877797d45c48d2a9cadb14e6112298cef62dc1ba6eee5",
+    "bytes": 105074,
+    "dimensions": [
+      1600,
+      978
+    ],
+    "alt": "Ticketless Entry with Parkezi"
+  },
+  "post/how-ticketless-parking-validation-works-for-retail-and-hospitality-sites": {
+    "file": "assets/article-how-ticketless-parking-validation-works-for-retail-and-hospitality-sites.webp",
+    "source": "https://www.parkezi.com.au/images/Ticketless%20Parking%20for%20Retail%20and%20Hospitality%20Sites.webp",
+    "sourceSha256": "31af5f1f4295713268b586c869e710c2d248654a29b817ec676f8c022b7139fe",
+    "sha256": "7443158c6aeea3da2b582a519a9e44404c527264ef668202d60d953796686ca5",
+    "bytes": 151882,
+    "dimensions": [
+      1536,
+      1024
+    ],
+    "alt": "Ticketless Parking at Retail and hospitality sites by Parkezi"
+  },
+  "post/improve-parking-revenue-without-increasing-fees": {
+    "file": "assets/article-improve-parking-revenue-without-increasing-fees.webp",
+    "source": "https://www.parkezi.com.au/images/Improve%20Parking%20Revenue.webp",
+    "sourceSha256": "1f9dc676a14f455add117ab0bd507642358f69ccb4a790b692840d9d0dfc8ccd",
+    "sha256": "a9a41d043423cbec33f201ac0a9fb57694a748cb9ca22dea715d395a529f306a",
+    "bytes": 89370,
+    "dimensions": [
+      1536,
+      1024
+    ],
+    "alt": "Increasing parking revenue with Parkezi"
+  },
+  "post/smart-parking-for-property-developers-adding-value-with-automation": {
+    "file": "assets/article-smart-parking-for-property-developers-adding-value-with-automation.webp",
+    "source": "https://www.parkezi.com.au/images/6942a7369a0bb7ae8041a369_smart-parking.avif",
+    "sourceSha256": "caf6197b9f29f9a311de1bb6b1c26453d263093ca29ebe8f0cf5c9e3eeaeacab",
+    "sha256": "b55073073597d2362700c17e12b7dff9b8d980d7db76749d83d553a1a781a902",
+    "bytes": 118366,
+    "dimensions": [
+      1600,
+      978
+    ],
+    "alt": "Modern parking system with Parkezi"
+  },
+  "post/tenant-parking-quota-management-solves-a-common-commercial-property-problem": {
+    "file": "assets/article-tenant-parking-quota-management-solves-a-common-commercial-property-problem.webp",
+    "source": "https://www.parkezi.com.au/images/Tenant%20Parking%20Quota%20Management.webp",
+    "sourceSha256": "a5c794f6e9773e6a6d31f5a1a86631b0638f2b8a318155bf28a29577d63f9220",
+    "sha256": "8ec167cc832cd0d1bfd9502303a9fc14cacdf7f182da033e710afda2511af0b7",
+    "bytes": 120556,
+    "dimensions": [
+      1600,
+      854
+    ],
+    "alt": "Tenant Parking Quota Management"
+  },
+  "post/the-future-of-parking-automation-in-australia": {
+    "file": "assets/article-the-future-of-parking-automation-in-australia.webp",
+    "source": "https://www.parkezi.com.au/images/69243f576de00509606bca90_parking-automation-australia.webp",
+    "sourceSha256": "164ac7811e6b953ec5bcac89396d7cb7fae53ba7d55fdb9cb6996c0f62642645",
+    "sha256": "e6950f13716b8bc628a2bd08f55b3bb6387108c54a21090ad9e9426990f25b40",
+    "bytes": 126398,
+    "dimensions": [
+      1536,
+      1024
+    ],
+    "alt": "Parking Automation in Australia"
+  },
+  "post/what-to-look-for-in-an-automatic-number-plate-recognition-system": {
+    "file": "assets/article-what-to-look-for-in-an-automatic-number-plate-recognition-system.webp",
+    "source": "https://www.parkezi.com.au/images/673ac6fc80fa8f2f98eca6c8_6732394cc838e161df9b0a34_6708e7128276306ea9523717_anpr.webp",
+    "sourceSha256": "8100bd33989efb2b31d8d5e25a3a58f64de147e3e348288c3a8270c0f83b916b",
+    "sha256": "8487deda6d9fc8c1bc0c5520dcecbf676366becc2c3f655bce2a6df5698d8b9f",
+    "bytes": 136168,
+    "dimensions": [
+      1448,
+      966
+    ],
+    "alt": "What to look for in an Automatic Number Plate Recognition (Parkezi) system"
+  },
+  "post/why-automatic-number-plate-recognition-anpr-carpark-access-systems-make-sense-for-strata-managers-and-residents-alike": {
+    "file": "assets/article-why-automatic-number-plate-recognition-anpr-carpark-access-systems-make-sense-for-strata-managers-an.webp",
+    "source": "https://www.parkezi.com.au/images/673ac6fc80fa8f2f98eca6c7_6732394c6605da10db42e561_6708e7128276306ea9523718_strata.avif",
+    "sourceSha256": "2d515f3e0b451fa81f62c3648070fb929705b74b078c0d63b8feddb45fe6cccf",
+    "sha256": "c85b91c9264353fb868096097effb26095c121f3c46b4fac15bfff8dfd20df7d",
+    "bytes": 92158,
+    "dimensions": [
+      1120,
+      630
+    ],
+    "alt": "Why Automatic Number Plate Recognition (Anpr) Carpark Access Systems Make Sense for Strata Managers and Residents Alike"
+  },
+  "post/why-sydney-property-managers-are-investing-in-parking-automation": {
+    "file": "assets/article-why-sydney-property-managers-are-investing-in-parking-automation.webp",
+    "source": "https://www.parkezi.com.au/images/Parkezi%20Parking%20automation%20sydney.webp",
+    "sourceSha256": "a74515b2a98a6d399c7b0b8f0d762e353969acc0a877d45bbaf8479945564288",
+    "sha256": "2c7c40fdeb1c9de15b195e84c198be4c3077d4045a0e207a6aa62f29ef1d4a1b",
+    "bytes": 163988,
+    "dimensions": [
+      1600,
+      640
+    ],
+    "alt": "Parking Automation in Sydney"
+  },
+  "logo:parkly-penrith": {
+    "file": "assets/parkly-penrith-brand.webp",
+    "source": "https://www.parkezi.com.au/images/689c42e9d021918e5d976ff3_parklylogo.avif",
+    "sourceSha256": "91f7844e6b4ef0eec0163e0b7cb08b00379ee18ebf67f41ba30eb8e0f7bd68b7",
+    "sha256": "0f7517513cc5825e19ed8f9691d0b480b441fcd3596160758080a2651cc5576f",
+    "bytes": 4742,
+    "dimensions": [
+      400,
+      205
+    ],
+    "alt": "Parkly Penrith"
+  },
+  "logo:cleanaway-eastern-creek-site": {
+    "file": "assets/cleanaway-eastern-creek-site-brand.svg",
+    "source": "https://www.parkezi.com.au/images/673ac6fc80fa8f2f98eca6cc_cleanaway-seeklogo.svg",
+    "sourceSha256": "9835097cfee43c65b26f0ba8b8435c210134b97052b9968a9eb26060f9c6c38f",
+    "sha256": "9835097cfee43c65b26f0ba8b8435c210134b97052b9968a9eb26060f9c6c38f",
+    "bytes": 4456,
+    "dimensions": null,
+    "alt": "Cleanaway Eastern Creek Site"
+  }
+}

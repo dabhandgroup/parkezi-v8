@@ -51,11 +51,18 @@ test('one browser session opens every page and survives a fresh build and server
     const after = JSON.parse(await readFile('private/preview-config.json', 'utf8'));
     assert.equal(after.sessionSecret, before.sessionSecret);
     const { default: nextDeployment } = await import('../api/preview.mjs?fresh-deployment');
-    for (const path of ['/', '/home-v2.html', '/express-pay.html', '/style-guide/']) {
+    const coverage = JSON.parse(await readFile('content/route-coverage.json', 'utf8'));
+    const routes = new Set(['/home-v2.html', '/home-white.html', '/express-pay.html', '/step-pay.html', '/style-guide/', ...coverage.entries.flatMap(entry => entry.preview === '/' ? ['/'] : [entry.preview, entry.preview.slice(0, -1)])]);
+    assert.equal(coverage.sourceRoutes, 52);
+    for (const path of routes) {
       const page = await invoke(path, 'GET', { cookie }, undefined, nextDeployment);
       assert.equal(page.status, 200, path);
       assert.doesNotMatch(page.body, /id="preview-password"/);
       assert.match(page.headers['x-robots-tag'], /noindex/);
+      if (path === '/step-pay.html') {
+        assert.match(page.body, /<h1>Step &amp; Pay<\/h1>/);
+        assert.match(page.body, /id="screen-options"/);
+      }
     }
   } finally {
     if (oldPassword === undefined) delete process.env.PREVIEW_PASSWORD; else process.env.PREVIEW_PASSWORD = oldPassword;

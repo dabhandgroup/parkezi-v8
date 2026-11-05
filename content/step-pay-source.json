@@ -1,0 +1,19 @@
+{
+  "product": "Step & Pay",
+  "source": "Existing approved PARKEZI product descriptions in dist/app.js and Express Pay on-foot payment section",
+  "userCorrectionEvent": "parkezi:2026-11-01:34inch-step-pay-option:v1",
+  "userCorrection": "34-inch display is Step & Pay with a larger screen, not a separate product.",
+  "configurations": [
+    "Updated Step & Pay",
+    "Step & Pay with 34-inch screen"
+  ],
+  "limitations": "No price, default screen dimension, payment specification or availability claim beyond supplied source. Client-supplied artwork retained unchanged.",
+  "reusedLayout": "Existing Express Pay PDP gallery, overview, FAQs, product range, enquiry and footer",
+  "latestUserEvent": "parkezi:2026-11-03:product-models-sections-content-audit:v1",
+  "currentSelectorLabels": [
+    "Standard",
+    "Larger screen"
+  ],
+  "screenSizeStatus": "Pending confirmation: earlier request34-inch, latest voice uncertain7.4-inch. Do not show a numeric screen dimension in current model UI.",
+  "artworkTreatment": "Original alpha-enabled artwork reused with the same light studio background/drop shadow. No generated hardware or retouching."
+}

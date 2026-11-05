@@ -1,0 +1,292 @@
+{
+  "event": "parkezi:2026-11-05:catalogue-pair-scale-centre:v1",
+  "checkedAt": "2026-11-05T16:09:58.855Z",
+  "browser": "T3 owned background incognito Electron44/Chromium152",
+  "sourceBaseline": {
+    "shareURL": "https://parkezi-v8.vercel.app/",
+    "shareSHA": "0a3a83587619a6ed399c1d1ae79de4ddbe0c7df9",
+    "shareDeployment": "dpl_8Z6xqmZLM2v5Dj7p95MZTogQfApo",
+    "stagingBefore": "e614ac180f3f08aa98ac671043d2383500967a9a",
+    "baselineDesktopWidth": 1440,
+    "visibleUnits": [
+      {
+        "src": "assets/step-pay.webp",
+        "paintedHeight": 195.73054339171975,
+        "alphaThreshold": 160
+      },
+      {
+        "src": "assets/step-pay-wide-blue.webp",
+        "paintedHeight": 190.5604705810547,
+        "alphaThreshold": 160
+      }
+    ]
+  },
+  "calibration": "Current normalized staging units were already enlarged relative to Harry's older share screenshot. A further4% over staging targets roughly25% total, rather than compounding another25%. Both current units stay equal height and bottom-aligned.",
+  "measurements": [
+    {
+      "bottomDelta": [
+        0,
+        0
+      ],
+      "centreDelta": -0.00390625,
+      "contained": true,
+      "frame": {
+        "bottom": 1438.546875,
+        "height": 315,
+        "width": 218,
+        "x": 311,
+        "y": 1123.546875
+      },
+      "gap": 4,
+      "models": [
+        {
+          "bottom": 1430.546875,
+          "height": 305.75,
+          "width": 91.5390625,
+          "x": 312.7421875,
+          "y": 1124.796875
+        },
+        {
+          "bottom": 1430.546875,
+          "height": 305.734375,
+          "width": 118.96875,
+          "x": 408.28125,
+          "y": 1124.8125
+        }
+      ],
+      "scan": {
+        "bottom": 1430.546875,
+        "height": 294,
+        "width": 65.875,
+        "x": 659.0625,
+        "y": 1136.546875
+      },
+      "scrollWidth": 320,
+      "width": 320
+    },
+    {
+      "bottomDelta": [
+        0,
+        0
+      ],
+      "centreDelta": -0.00390625,
+      "contained": true,
+      "frame": {
+        "bottom": 1298.09375,
+        "height": 315,
+        "width": 225.953125,
+        "x": 321.953125,
+        "y": 983.09375
+      },
+      "gap": 4,
+      "models": [
+        {
+          "bottom": 1290.09375,
+          "height": 305.75,
+          "width": 91.5390625,
+          "x": 327.671875,
+          "y": 984.34375
+        },
+        {
+          "bottom": 1290.09375,
+          "height": 305.734375,
+          "width": 118.96875,
+          "x": 423.2109375,
+          "y": 984.359375
+        }
+      ],
+      "scan": {
+        "bottom": 1290.09375,
+        "height": 294,
+        "width": 65.875,
+        "x": 681.9453125,
+        "y": 996.09375
+      },
+      "scrollWidth": 390,
+      "width": 390
+    },
+    {
+      "bottomDelta": [
+        0,
+        0
+      ],
+      "centreDelta": -0.00390625,
+      "contained": true,
+      "frame": {
+        "bottom": 414.0546875,
+        "height": 212,
+        "width": 312,
+        "x": 410,
+        "y": 202.0546875
+      },
+      "gap": 4,
+      "models": [
+        {
+          "bottom": 406.0546875,
+          "height": 192.390625,
+          "width": 57.6015625,
+          "x": 497.765625,
+          "y": 213.6640625
+        },
+        {
+          "bottom": 406.0546875,
+          "height": 192.3828125,
+          "width": 74.859375,
+          "x": 559.3671875,
+          "y": 213.671875
+        }
+      ],
+      "scan": {
+        "bottom": 406.0546875,
+        "height": 185,
+        "width": 41.453125,
+        "x": 911.2734375,
+        "y": 221.0546875
+      },
+      "scrollWidth": 768,
+      "width": 768
+    },
+    {
+      "bottomDelta": [
+        0,
+        0
+      ],
+      "centreDelta": 0,
+      "contained": true,
+      "frame": {
+        "bottom": 492.9453125,
+        "height": 235,
+        "width": 155,
+        "x": 263,
+        "y": 257.9453125
+      },
+      "gap": 4,
+      "models": [
+        {
+          "bottom": 484.9453125,
+          "height": 219.4296875,
+          "width": 65.6953125,
+          "x": 262.9609375,
+          "y": 265.515625
+        },
+        {
+          "bottom": 484.9453125,
+          "height": 219.421875,
+          "width": 85.3828125,
+          "x": 332.65625,
+          "y": 265.5234375
+        }
+      ],
+      "scan": {
+        "bottom": 484.9453125,
+        "height": 211,
+        "width": 47.2734375,
+        "x": 526.859375,
+        "y": 273.9453125
+      },
+      "scrollWidth": 1101,
+      "width": 1101
+    },
+    {
+      "bottomDelta": [
+        0,
+        0
+      ],
+      "centreDelta": 0,
+      "contained": true,
+      "frame": {
+        "bottom": 514.546875,
+        "height": 264,
+        "width": 184.3984375,
+        "x": 308.3984375,
+        "y": 250.546875
+      },
+      "gap": 4,
+      "models": [
+        {
+          "bottom": 506.546875,
+          "height": 245.4140625,
+          "width": 73.4765625,
+          "x": 314.109375,
+          "y": 261.1328125
+        },
+        {
+          "bottom": 506.546875,
+          "height": 245.421875,
+          "width": 95.5,
+          "x": 391.5859375,
+          "y": 261.125
+        }
+      ],
+      "scan": {
+        "bottom": 506.546875,
+        "height": 236,
+        "width": 52.875,
+        "x": 613.5546875,
+        "y": 270.546875
+      },
+      "scrollWidth": 1280,
+      "width": 1280
+    },
+    {
+      "bottomDelta": [
+        0,
+        0
+      ],
+      "centreDelta": 0,
+      "contained": true,
+      "frame": {
+        "bottom": 519.546875,
+        "height": 264,
+        "width": 195.6015625,
+        "x": 371.59375,
+        "y": 255.546875
+      },
+      "gap": 4,
+      "models": [
+        {
+          "bottom": 511.546875,
+          "height": 245.4140625,
+          "width": 73.4765625,
+          "x": 382.90625,
+          "y": 266.1328125
+        },
+        {
+          "bottom": 511.546875,
+          "height": 245.421875,
+          "width": 95.5,
+          "x": 460.3828125,
+          "y": 266.125
+        }
+      ],
+      "scan": {
+        "bottom": 511.546875,
+        "height": 236,
+        "width": 52.875,
+        "x": 693.5546875,
+        "y": 275.546875
+      },
+      "scrollWidth": 1440,
+      "width": 1440
+    }
+  ],
+  "screenshotPaths": [
+    "/Users/harrylang/.t3/userdata/browser-artifacts/browser-screenshot-127-0-0-1-mw3qmq7t-6e369074.png"
+  ],
+  "unchanged": [
+    "Homepage hero/markup",
+    "Product-page model selector/gallery",
+    "All source/generated assets",
+    "Other product image sizes and baseline",
+    "Compact CTA"
+  ],
+  "limits": [
+    "Actual DOM/browser measurements; not physical touch/trusted keyboard/autofill certification.",
+    "Hosted exact Git candidate checked separately after publication; existing Vercel protection remains.",
+    "No independent review: Harry canceled default Grok; historical ledger preserved."
+  ],
+  "cleanup": {
+    "ownedLocalTabClosed": true,
+    "loopbackServerStopped": true
+  }
+}

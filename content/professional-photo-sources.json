@@ -1,0 +1,101 @@
+{
+  "sourceFolder": "https://drive.google.com/drive/folders/12ckdkhHQQq8h3cuFThalzN64_mS6YvOR",
+  "sourceArchive": "/Users/harrylang/Downloads/SAS-0001-20261101T111518Z-1-001.zip",
+  "artworkArchive": "reclaudeconnector.zip",
+  "transform": "WebP conversion and proportional downsize only; no hardware retouching, AI generation, background removal or cropping of exported files",
+  "assets": [
+    {
+      "source": "PARKEZI-NV-07.jpg",
+      "sourceSha256": "f4f4ac4259d17d7b55d2b21e8a4c280754462d0b10a63579ef6909aac5f102df",
+      "file": "dist/assets/parkezi-team-exhibition.webp",
+      "bytes": 164222,
+      "sha256": "6a6f5601191dcec551edbf7728cd0f6850286873193e4e57be4a47d5043a9225",
+      "dimensions": [
+        1600,
+        1280
+      ],
+      "use": "Company and support photo",
+      "active": true
+    },
+    {
+      "source": "PARKEZI-NV-11.jpg",
+      "sourceSha256": "cf5cf2369826939fa1c889d9f7424d4d7c5a1ac3d3ae1bf1497948005fbfae15",
+      "file": "dist/assets/parkezi-team-advice.webp",
+      "bytes": 54846,
+      "sha256": "d3424a88e46b92b60b04438dab8bee7eccdf18ea5e960643c162e1e92202f525",
+      "dimensions": [
+        1100,
+        1375
+      ],
+      "use": "Prepared derivative, not active after Harry restored original menus",
+      "active": false
+    },
+    {
+      "source": "PARKEZI-NV-09.jpg",
+      "sourceSha256": "1e7656f3e6371657487db4459c825bf1e77fd6252ecb2517e265e1e6109812a1",
+      "file": "dist/assets/parkezi-product-demonstration.webp",
+      "bytes": 65226,
+      "sha256": "135f64fd48f30946930648b4f3f3a180e6153c6dd8d492ee8086de023df31653",
+      "dimensions": [
+        1100,
+        1375
+      ],
+      "use": "Prepared derivative, not active after Harry restored original menus",
+      "active": false
+    },
+    {
+      "source": "PARKEZI-NV-06.jpg",
+      "sourceSha256": "83b8cf792966aa888ed5938218e45b143e33030fe1d700379dfdbeed4546a4b5",
+      "file": "dist/assets/parkezi-express-pay-exhibition.webp",
+      "bytes": 67620,
+      "sha256": "2b17d9e471f01816c2fbf76df30a72e7ab30abf559a9ee539aa1d79973ffd3bb",
+      "dimensions": [
+        1100,
+        1375
+      ],
+      "use": "Express Pay gallery",
+      "active": true
+    },
+    {
+      "source": "PARKEZI-NV-02.jpg",
+      "sourceSha256": "389243c0476700d3b5e6703faa97196ed028df1f9eb3b0ccda507340b214cdef",
+      "file": "dist/assets/parkezi-anpr-unit-exhibition.webp",
+      "bytes": 26608,
+      "sha256": "2e3f33b6aa916c2b8e05aa1892e724a957f13b15ee0ea7a23740c7e029a8354a",
+      "dimensions": [
+        1100,
+        1375
+      ],
+      "use": "Homepage camera/benefits photo",
+      "active": true
+    },
+    {
+      "source": "attachment-1.png",
+      "sourceSha256": "647bd7e93fc1e68cc17f279969bba1a1cc7277568688b4b5a500fb8c69498910",
+      "file": "dist/assets/parkezi-display-34-inch.webp",
+      "bytes": 57242,
+      "sha256": "12b0727f7f28fb896174b1fba5bbc56d9690399a93919724eb566eb708b712da",
+      "dimensions": [
+        1100,
+        1650
+      ],
+      "use": "Step & Pay page: 34-inch larger-screen configuration, not a separate product",
+      "active": true
+    },
+    {
+      "source": "attachment-2.png",
+      "sourceSha256": "bbcc2b4cd5ac17a8174786d3bfdeb9fb90794f265e3ed2a7b247f03697643921",
+      "file": "dist/assets/parkezi-step-pay-updated.webp",
+      "bytes": 56490,
+      "sha256": "22e3b806617edfadfb69eb4e843246b4f3aa84988115e41f823b56d243be538c",
+      "dimensions": [
+        1100,
+        1650
+      ],
+      "use": "Step & Pay page/configuration, existing page catalogue and on-foot payment artwork",
+      "active": true
+    }
+  ],
+  "correctionEvent": "parkezi:2026-11-01:restore-menus-dark-home:v1",
+  "productTaxonomyCorrection": "parkezi:2026-11-01:34inch-step-pay-option:v1"
+}

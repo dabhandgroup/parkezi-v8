@@ -1,0 +1,36 @@
+[
+  {
+    "source": "https://www.parkezi.com.au/images/OneWayShoppingCentre.avif",
+    "output": "dist/assets/paid-parking-original.webp",
+    "sourceSha256": "84404aaa6ae78113e6c8c452c0b9895a565e60764e3ad506aaca3ed4ed662714",
+    "outputSha256": "5b591a0a12b1204d335dc7f1d9288a83553ba5d5c824075d75ecb5167463d14b",
+    "size": [
+      400,
+      400
+    ],
+    "treatment": "Actual original Paid Parking menu photo from captured source URL; lossless format derivative, no retouch.",
+    "capturedOriginal": "/Users/harrylang/.t3/scratch/parkezi-product-audit-2026-11-03/OneWayShoppingCentre.avif"
+  },
+  {
+    "source": "dist/assets/two-way.avif",
+    "output": "dist/assets/two-way-parking-original.webp",
+    "sourceSha256": "983ff3ac6598bf3810aa7796121501928f0ac5298cef0054490a92ebd23311f0",
+    "outputSha256": "4c648fcd33980bc857addfbd785a86f9fed0c49bbb64c08b91acac4dd7bd14db",
+    "size": [
+      400,
+      400
+    ],
+    "treatment": "Same decoded source image, lossless WebP format conversion, no retouching."
+  },
+  {
+    "source": "dist/assets/one-way.avif",
+    "output": "dist/assets/one-way-parking-original.webp",
+    "sourceSha256": "b7c3e02afd78186b7b5749a1649f6e0d8e0efc3cb2ca878787c70a814679f85c",
+    "outputSha256": "5966b772751397f684a372e438944e30b693d4fe3ffe0ab88468a46c612faae4",
+    "size": [
+      400,
+      400
+    ],
+    "treatment": "Same decoded source image, lossless WebP format conversion, no retouching."
+  }
+]

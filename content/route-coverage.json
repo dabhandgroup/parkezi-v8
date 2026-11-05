@@ -1,0 +1,371 @@
+{
+  "capturedSource": "https://www.parkezi.com.au",
+  "sourceRoutes": 52,
+  "generatedRoutes": 51,
+  "entries": [
+    {
+      "source": "https://www.parkezi.com.au",
+      "preview": "/",
+      "file": "dist/index.html",
+      "kind": "existing",
+      "sourceSha256": "1377d44eb2a83d0dd9fe16943ef8df8f432c81ee0de482dac65f75992bc6719b"
+    },
+    {
+      "source": "https://www.parkezi.com.au/systems",
+      "preview": "/systems/",
+      "file": "dist/systems/index.html",
+      "kind": "systems",
+      "sourceSha256": "0019d6a1853bbf61bfb615b35c345c9ec70323df7b6d6d9f9e6092bbc5aac9c3"
+    },
+    {
+      "source": "https://www.parkezi.com.au/pricing",
+      "preview": "/pricing/",
+      "file": "dist/pricing/index.html",
+      "kind": "pricing",
+      "sourceSha256": "30a6d9b8492c19ef8af8a7c0b40e5df22ddee3dc098a2758f263d1c939494a96"
+    },
+    {
+      "source": "https://www.parkezi.com.au/our-work",
+      "preview": "/our-work/",
+      "file": "dist/our-work/index.html",
+      "kind": "our-work",
+      "sourceSha256": "c5d6f7c2bfadbf85ed03ca65cecb743086ad401744d6bf5c37de1da144507c58"
+    },
+    {
+      "source": "https://www.parkezi.com.au/installation",
+      "preview": "/installation/",
+      "file": "dist/installation/index.html",
+      "kind": "editorial",
+      "sourceSha256": "8a4551d5a730bb904fe3e5880fe7a5260de4bae39c16aea30151124a18bcd1d0"
+    },
+    {
+      "source": "https://www.parkezi.com.au/about-us",
+      "preview": "/about-us/",
+      "file": "dist/about-us/index.html",
+      "kind": "about-us",
+      "sourceSha256": "af0180b8de233a150b772d4dfb86948d5417fa6d1d2a7e03fbe5951f63fb130b"
+    },
+    {
+      "source": "https://www.parkezi.com.au/faqs",
+      "preview": "/faqs/",
+      "file": "dist/faqs/index.html",
+      "kind": "faqs",
+      "sourceSha256": "947910784601f0e3ff51214e2c8eab7e17741886bf8f81973b3471f18a8e5281"
+    },
+    {
+      "source": "https://www.parkezi.com.au/testimonials",
+      "preview": "/testimonials/",
+      "file": "dist/testimonials/index.html",
+      "kind": "testimonials",
+      "sourceSha256": "b14af7d4cfadeedb33fc0af81a63f535de8a0d56e9a4207c2d02bc25a939891e"
+    },
+    {
+      "source": "https://www.parkezi.com.au/contact",
+      "preview": "/contact/",
+      "file": "dist/contact/index.html",
+      "kind": "contact",
+      "sourceSha256": "b993e34997fb13ad055b3ed942571b767ea28cf9ec20bebc1ab3e5c68a2c2d4d"
+    },
+    {
+      "source": "https://www.parkezi.com.au/blog",
+      "preview": "/blog/",
+      "file": "dist/blog/index.html",
+      "kind": "blog",
+      "sourceSha256": "11e0e933f9522c17aac4323f8cfdcc08d8361b5bdb056bbcbec3d2cf375dea26"
+    },
+    {
+      "source": "https://www.parkezi.com.au/products/express-pay",
+      "preview": "/products/express-pay/",
+      "file": "dist/products/express-pay/index.html",
+      "kind": "existing",
+      "sourceSha256": "86eddcfa4c7a1f9d42cb2b86366909dc1f948bb2bc1a07edee26c073f24d19a3"
+    },
+    {
+      "source": "https://www.parkezi.com.au/products/step-and-pay",
+      "preview": "/products/step-and-pay/",
+      "file": "dist/products/step-and-pay/index.html",
+      "kind": "existing",
+      "sourceSha256": "228045c053d3592752982d5ba0f106aaad1bbe611f94a3c86a9d05646881612c"
+    },
+    {
+      "source": "https://www.parkezi.com.au/products/scan-and-go",
+      "preview": "/products/scan-and-go/",
+      "file": "dist/products/scan-and-go/index.html",
+      "kind": "product",
+      "sourceSha256": "7b2b3e27c3e2bc18527951c5725335dd86cee2c24e9dd6e3699374983363d782"
+    },
+    {
+      "source": "https://www.parkezi.com.au/products/scan-and-go-mini",
+      "preview": "/products/scan-and-go-mini/",
+      "file": "dist/products/scan-and-go-mini/index.html",
+      "kind": "product",
+      "sourceSha256": "d7bd05b6657fec28aaf05084eb2ae20ded10dea6dc18d8adb50e7097dd8772b2"
+    },
+    {
+      "source": "https://www.parkezi.com.au/products/solargate-mobile-boom-gate",
+      "preview": "/products/solargate-mobile-boom-gate/",
+      "file": "dist/products/solargate-mobile-boom-gate/index.html",
+      "kind": "product",
+      "sourceSha256": "d8056afd1ad02b786f23377275a11e6084f5a381a7149cdd77a968afcddc02f1"
+    },
+    {
+      "source": "https://www.parkezi.com.au/products/info-board",
+      "preview": "/products/info-board/",
+      "file": "dist/products/info-board/index.html",
+      "kind": "standard",
+      "sourceSha256": "25d475fc7fcb8d5c0aed81aefee1fab1c61d925b5fad3446c5769f0230f78bce"
+    },
+    {
+      "source": "https://www.parkezi.com.au/services/maintenance",
+      "preview": "/services/maintenance/",
+      "file": "dist/services/maintenance/index.html",
+      "kind": "service",
+      "sourceSha256": "0576877a3c3b39e8e55e241f19c68204907f96d4867492a33de48fa5e4015e9a"
+    },
+    {
+      "source": "https://www.parkezi.com.au/services/integrations",
+      "preview": "/services/integrations/",
+      "file": "dist/services/integrations/index.html",
+      "kind": "service",
+      "sourceSha256": "14d6e24a3e20a5898d6dbcc86d860103ebbbd093a004a27414fb9664525d2278"
+    },
+    {
+      "source": "https://www.parkezi.com.au/services/paid-parking",
+      "preview": "/services/paid-parking/",
+      "file": "dist/services/paid-parking/index.html",
+      "kind": "service",
+      "sourceSha256": "4747b16c59eaf626516e97920d01a9f906f66fb3a87a192cc019e66a00a4f256"
+    },
+    {
+      "source": "https://www.parkezi.com.au/services/two-way",
+      "preview": "/services/two-way/",
+      "file": "dist/services/two-way/index.html",
+      "kind": "service",
+      "sourceSha256": "db43bcfabfcdd88e67dca4b1f551efd17fbfa3010b1f6ce756ed06ccd05f467d"
+    },
+    {
+      "source": "https://www.parkezi.com.au/services/one-way",
+      "preview": "/services/one-way/",
+      "file": "dist/services/one-way/index.html",
+      "kind": "service",
+      "sourceSha256": "1841d562b26e3083cd8d6e548a023a2cd6a8e92c15f894cd634166c79de86f6c"
+    },
+    {
+      "source": "https://www.parkezi.com.au/integrations/beninca",
+      "preview": "/integrations/beninca/",
+      "file": "dist/integrations/beninca/index.html",
+      "kind": "integration",
+      "sourceSha256": "14410d08b880c8e0bde9a85cf2e58453ca60177fb7ebca80387b401d797d3081"
+    },
+    {
+      "source": "https://www.parkezi.com.au/integrations/selea",
+      "preview": "/integrations/selea/",
+      "file": "dist/integrations/selea/index.html",
+      "kind": "integration",
+      "sourceSha256": "737858ba745cf30df859b7a99119e9cfe9e9ce2b5710961e4d069f83a0d5f014"
+    },
+    {
+      "source": "https://www.parkezi.com.au/integrations/adaptive-recognition",
+      "preview": "/integrations/adaptive-recognition/",
+      "file": "dist/integrations/adaptive-recognition/index.html",
+      "kind": "integration",
+      "sourceSha256": "c34133e2446ccf525886365b1e66a002f624dd8c633ac461a5e65311fba49d2f"
+    },
+    {
+      "source": "https://www.parkezi.com.au/integrations/windcave",
+      "preview": "/integrations/windcave/",
+      "file": "dist/integrations/windcave/index.html",
+      "kind": "integration",
+      "sourceSha256": "09b246f7a47e01654ef7edcd636fbd172ce839862ac3f4f1fec2ac743fc8a16f"
+    },
+    {
+      "source": "https://www.parkezi.com.au/project/knight-frank-chatswood",
+      "preview": "/project/knight-frank-chatswood/",
+      "file": "dist/project/knight-frank-chatswood/index.html",
+      "kind": "project",
+      "sourceSha256": "f9d37baef0949ee9341fb3b7004c54f6e38a524987d8a9c41a0864a9126ae585"
+    },
+    {
+      "source": "https://www.parkezi.com.au/project/parklea-markets",
+      "preview": "/project/parklea-markets/",
+      "file": "dist/project/parklea-markets/index.html",
+      "kind": "project",
+      "sourceSha256": "ff9b27b2f4c4b25a92cfd67cbe75eee4670264b766da84db46d4ecfeddfac9a6"
+    },
+    {
+      "source": "https://www.parkezi.com.au/project/mercure-sydney-macquarie-park",
+      "preview": "/project/mercure-sydney-macquarie-park/",
+      "file": "dist/project/mercure-sydney-macquarie-park/index.html",
+      "kind": "project",
+      "sourceSha256": "b10a4978b2f9538c1539a2c126916a3564e9bbc47ce790d6c87223b3a22b0e80"
+    },
+    {
+      "source": "https://www.parkezi.com.au/project/mercure-hotel-sydney-manly",
+      "preview": "/project/mercure-hotel-sydney-manly/",
+      "file": "dist/project/mercure-hotel-sydney-manly/index.html",
+      "kind": "project",
+      "sourceSha256": "259ca4c3b8e3e338a7e1db048e8cb3ac17594003d10d286be645140b604ff796"
+    },
+    {
+      "source": "https://www.parkezi.com.au/project/parkly-penrith",
+      "preview": "/project/parkly-penrith/",
+      "file": "dist/project/parkly-penrith/index.html",
+      "kind": "project",
+      "sourceSha256": "d3c1e4d4fcb2864241176656bb0cbd6a85d0c76bcfb76d45f5b425c57218b932"
+    },
+    {
+      "source": "https://www.parkezi.com.au/project/quest-apartments",
+      "preview": "/project/quest-apartments/",
+      "file": "dist/project/quest-apartments/index.html",
+      "kind": "project",
+      "sourceSha256": "d0755cf6fdfa8b1c964e18bfe52dcc38c3a06b2c5a1f2d79c4d598969f245151"
+    },
+    {
+      "source": "https://www.parkezi.com.au/project/tasman-holiday-parks",
+      "preview": "/project/tasman-holiday-parks/",
+      "file": "dist/project/tasman-holiday-parks/index.html",
+      "kind": "project",
+      "sourceSha256": "37d2435bade05311bf6b0175a3aa38bc0467232d6ffd0789227af052a4bf5efd"
+    },
+    {
+      "source": "https://www.parkezi.com.au/project/cleanaway-eastern-creek-site",
+      "preview": "/project/cleanaway-eastern-creek-site/",
+      "file": "dist/project/cleanaway-eastern-creek-site/index.html",
+      "kind": "project",
+      "sourceSha256": "d1d2dca245e1e67cdf6d3472d2a131bf83857c12b460d2aa2251bbbcabb9af74"
+    },
+    {
+      "source": "https://www.parkezi.com.au/post/how-much-does-a-parking-automation-system-cost-in-australia",
+      "preview": "/post/how-much-does-a-parking-automation-system-cost-in-australia/",
+      "file": "dist/post/how-much-does-a-parking-automation-system-cost-in-australia/index.html",
+      "kind": "article",
+      "sourceSha256": "4cf7c53414a52d0d66b97893f2c751963a12a1da227f15a2d1e6564791e46fb9"
+    },
+    {
+      "source": "https://www.parkezi.com.au/post/how-ticketless-parking-improves-customer-experience-and-revenue",
+      "preview": "/post/how-ticketless-parking-improves-customer-experience-and-revenue/",
+      "file": "dist/post/how-ticketless-parking-improves-customer-experience-and-revenue/index.html",
+      "kind": "article",
+      "sourceSha256": "98f0b63380c32c589fbc07555a7ff7758fb5e385eb1626811112aa61c15e9414"
+    },
+    {
+      "source": "https://www.parkezi.com.au/post/contactless-vs-traditional-parking-systems-which-is-right-for-your-site",
+      "preview": "/post/contactless-vs-traditional-parking-systems-which-is-right-for-your-site/",
+      "file": "dist/post/contactless-vs-traditional-parking-systems-which-is-right-for-your-site/index.html",
+      "kind": "article",
+      "sourceSha256": "8903e7b4c6b44b1c6c8bfd130af14772efbd617088d0788b07741f121cfd3e99"
+    },
+    {
+      "source": "https://www.parkezi.com.au/post/five-common-parking-management-challenges-and-how-anpr-solves-them",
+      "preview": "/post/five-common-parking-management-challenges-and-how-anpr-solves-them/",
+      "file": "dist/post/five-common-parking-management-challenges-and-how-anpr-solves-them/index.html",
+      "kind": "article",
+      "sourceSha256": "a2b3e87929d4690bfe232e69744d7b3f1da66118ebd4c7e119d84b124b8084a4"
+    },
+    {
+      "source": "https://www.parkezi.com.au/post/how-anpr-improves-security-in-commercial-and-residential-car-parks",
+      "preview": "/post/how-anpr-improves-security-in-commercial-and-residential-car-parks/",
+      "file": "dist/post/how-anpr-improves-security-in-commercial-and-residential-car-parks/index.html",
+      "kind": "article",
+      "sourceSha256": "02adae4da80b34eb718a47faba9275cadb19fac253fef1f7adda23fac6070edd"
+    },
+    {
+      "source": "https://www.parkezi.com.au/post/how-cloud-parking-management-software-simplifies-multi-site-operations",
+      "preview": "/post/how-cloud-parking-management-software-simplifies-multi-site-operations/",
+      "file": "dist/post/how-cloud-parking-management-software-simplifies-multi-site-operations/index.html",
+      "kind": "article",
+      "sourceSha256": "6f186adad6c8600c48647327e0c4182cfe29181ffab806b94b6819419e9ec0db"
+    },
+    {
+      "source": "https://www.parkezi.com.au/post/how-do-boom-gates-work",
+      "preview": "/post/how-do-boom-gates-work/",
+      "file": "dist/post/how-do-boom-gates-work/index.html",
+      "kind": "article",
+      "sourceSha256": "5ecd2712eb98d46f27204fcb2b3e85d1dbb588c29f0826d43080964f5e662319"
+    },
+    {
+      "source": "https://www.parkezi.com.au/post/smart-parking-for-property-developers-adding-value-with-automation",
+      "preview": "/post/smart-parking-for-property-developers-adding-value-with-automation/",
+      "file": "dist/post/smart-parking-for-property-developers-adding-value-with-automation/index.html",
+      "kind": "article",
+      "sourceSha256": "0a73946cb7c23ff4778bdcdde6a9b18bfb984bb1f4eb86f38ac599689381cbed"
+    },
+    {
+      "source": "https://www.parkezi.com.au/post/the-future-of-parking-automation-in-australia",
+      "preview": "/post/the-future-of-parking-automation-in-australia/",
+      "file": "dist/post/the-future-of-parking-automation-in-australia/index.html",
+      "kind": "article",
+      "sourceSha256": "84da7d3a49e92cb7cb363cfe86eba37c9d1dccf8755168718775fe3ef968bb85"
+    },
+    {
+      "source": "https://www.parkezi.com.au/post/what-to-look-for-in-an-automatic-number-plate-recognition-system",
+      "preview": "/post/what-to-look-for-in-an-automatic-number-plate-recognition-system/",
+      "file": "dist/post/what-to-look-for-in-an-automatic-number-plate-recognition-system/index.html",
+      "kind": "article",
+      "sourceSha256": "a156330a68d410985cfce8a0e939e13cf1c3b5e0ac8155cb94d8a5075ee989e5"
+    },
+    {
+      "source": "https://www.parkezi.com.au/post/why-automatic-number-plate-recognition-anpr-carpark-access-systems-make-sense-for-strata-managers-and-residents-alike",
+      "preview": "/post/why-automatic-number-plate-recognition-anpr-carpark-access-systems-make-sense-for-strata-managers-and-residents-alike/",
+      "file": "dist/post/why-automatic-number-plate-recognition-anpr-carpark-access-systems-make-sense-for-strata-managers-and-residents-alike/index.html",
+      "kind": "article",
+      "sourceSha256": "eeea9eaf46527b0c46ea10c7b57dbba1294c48fa90e3c3a08e81eee7c0cab7de"
+    },
+    {
+      "source": "https://www.parkezi.com.au/legal/privacy-policy",
+      "preview": "/legal/privacy-policy/",
+      "file": "dist/legal/privacy-policy/index.html",
+      "kind": "legal",
+      "sourceSha256": "5b17c89b479f0df322ee5380b9473361b5e03f3897c02ddbe0aa7df33e912923"
+    },
+    {
+      "source": "https://www.parkezi.com.au/success/newsletter",
+      "preview": "/success/newsletter/",
+      "file": "dist/success/newsletter/index.html",
+      "kind": "newsletter",
+      "sourceSha256": "c621575c34faa33c79e24e501d0798e852dcf61757a70332a6fdf5027dea9e52"
+    },
+    {
+      "source": "https://www.parkezi.com.au/post/improve-parking-revenue-without-increasing-fees",
+      "preview": "/post/improve-parking-revenue-without-increasing-fees/",
+      "file": "dist/post/improve-parking-revenue-without-increasing-fees/index.html",
+      "kind": "article",
+      "sourceSha256": "c9f0e5204cac77dbb3c675e49439111343f55444c3bb7f982d86e65b49f4e5d1"
+    },
+    {
+      "source": "https://www.parkezi.com.au/post/why-sydney-property-managers-are-investing-in-parking-automation",
+      "preview": "/post/why-sydney-property-managers-are-investing-in-parking-automation/",
+      "file": "dist/post/why-sydney-property-managers-are-investing-in-parking-automation/index.html",
+      "kind": "article",
+      "sourceSha256": "09b7949c2c3d15fd2e2de56b84773d5fea02ed0fd1f55cd618309b1c1fcbbb19"
+    },
+    {
+      "source": "https://www.parkezi.com.au/post/choose-the-right-parking-access-control-system-for-your-site",
+      "preview": "/post/choose-the-right-parking-access-control-system-for-your-site/",
+      "file": "dist/post/choose-the-right-parking-access-control-system-for-your-site/index.html",
+      "kind": "article",
+      "sourceSha256": "6cdb74b6378e80c6d6bbdb85628c4e751ceced3dfa4d85d7488746a884106a5d"
+    },
+    {
+      "source": "https://www.parkezi.com.au/post/how-ticketless-parking-validation-works-for-retail-and-hospitality-sites",
+      "preview": "/post/how-ticketless-parking-validation-works-for-retail-and-hospitality-sites/",
+      "file": "dist/post/how-ticketless-parking-validation-works-for-retail-and-hospitality-sites/index.html",
+      "kind": "article",
+      "sourceSha256": "718bc49a8a475170340042dc4259e9f752d6970c3712b6039f767ea0a26e17a5"
+    },
+    {
+      "source": "https://www.parkezi.com.au/post/tenant-parking-quota-management-solves-a-common-commercial-property-problem",
+      "preview": "/post/tenant-parking-quota-management-solves-a-common-commercial-property-problem/",
+      "file": "dist/post/tenant-parking-quota-management-solves-a-common-commercial-property-problem/index.html",
+      "kind": "article",
+      "sourceSha256": "fc8b149d2ab8c4bcdc02adf408b37d51314665a01cf31921783a33f454fa8f55"
+    },
+    {
+      "source": "https://www.parkezi.com.au/post/anpr-cameras-improve-two-way-parking-systems-in-high-traffic-sites",
+      "preview": "/post/anpr-cameras-improve-two-way-parking-systems-in-high-traffic-sites/",
+      "file": "dist/post/anpr-cameras-improve-two-way-parking-systems-in-high-traffic-sites/index.html",
+      "kind": "article",
+      "sourceSha256": "66c055f9d85568eca84c00bba0981e2331ae146ba2e0634a5295cc32b0963c15"
+    }
+  ]
+}

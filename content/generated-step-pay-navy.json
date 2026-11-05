@@ -1,0 +1,27 @@
+{
+  "event": "parkezi:2026-11-04:compact-cta-responsive-step:v1",
+  "tool": "Built-in ChatGPT image_gen",
+  "selectedDefaultOutput": "/Users/harrylang/.codex/generated_images/01a1961c-1da4-7cb3-8742-00e25edd2c24/exec-7b7da587-0dc3-45b5-81bd-df53ef2cf1d1.png",
+  "instructionSummary": "Match the wider Step & Pay housing, pedestal and foot to the darker original navy/slate standard Step & Pay and Express Pay references. Preserve hardware, screen, PARKEZI branding, model proportions and actual transparent alpha. Remove excessive bright grey/blue finish. This is an instruction summary, not a recovered verbatim prompt.",
+  "verbatimPromptRecovered": false,
+  "promptRecoveryLimit": "The generation finished before context recovery. Its exact prompt was not persisted before compaction; no reconstruction is claimed.",
+  "references": [
+    "artwork/step-pay-wide-blue.png",
+    "dist/assets/step-pay.webp",
+    "dist/assets/express-pay.webp"
+  ],
+  "png": "artwork/step-pay-wide-navy.png",
+  "website": "dist/assets/step-pay-wide-navy.webp",
+  "dimensions": [
+    1024,
+    1536
+  ],
+  "alphaExtrema": [
+    0,
+    254
+  ],
+  "fullyTransparentPixels": 953299,
+  "limits": "Requested generated illustration, not an authentic photo or confirmed numerical screen specification. Earlier assets unchanged. WebP is a lossless codec derivative.",
+  "pngSha256": "14aa194ac186d9c3ad6bbdfd018f4819c2e0cebf28b42f291c94bf396dfd825d",
+  "webpSha256": "8562816063ae40e2c8e473ff65de81a164a9b0e0726c4b4cd071e569d25933df"
+}

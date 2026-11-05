@@ -2,6 +2,7 @@ import { cp, mkdir, readdir, readFile, rm, writeFile } from 'node:fs/promises';
 import path from 'node:path';
 import { createHash } from 'node:crypto';
 import { DEFAULT_PASSWORD_HASH } from '../server/preview-defaults.mjs';
+import './build-pages.mjs';
 
 await rm('private/site', { recursive: true, force: true });
 await mkdir('private/site', { recursive: true });

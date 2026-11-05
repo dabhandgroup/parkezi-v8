@@ -1,0 +1,557 @@
+{
+  "sourceCommit": "a6a890e07751a8849c18814981d30583f484c5c0",
+  "originalAssetCount": 114,
+  "allOriginalAssetBlobsUnchanged": true,
+  "assets": [
+    {
+      "path": "dist/assets/1_1.avif",
+      "gitBlob": "c8f0dbb133bbbf58755a32f4b3892adaeaed71f4"
+    },
+    {
+      "path": "dist/assets/BannerBW.avif",
+      "gitBlob": "4b61b5d7762ea9c54c43e609b4fb9b1d1d83fe22"
+    },
+    {
+      "path": "dist/assets/Benica.svg",
+      "gitBlob": "7559201a9c4c0361e5264f0dd844426a0a3de616"
+    },
+    {
+      "path": "dist/assets/Express-Pay_2.avif",
+      "gitBlob": "6ed4187ad657f6d63573809efb744fecaa311fe3"
+    },
+    {
+      "path": "dist/assets/SolarGate-HERO-Treated_1.avif",
+      "gitBlob": "bcdc514aa61dd52f3c9cb50df7c37c877a68752f"
+    },
+    {
+      "path": "dist/assets/SolarGateBG2_1.avif",
+      "gitBlob": "61ab4c5da056e8cdd182d4894953dc391a294383"
+    },
+    {
+      "path": "dist/assets/adaptive-recognition.svg",
+      "gitBlob": "c97c96f5248de5c8484fa13e0f37a48d4fa8d644"
+    },
+    {
+      "path": "dist/assets/ambulance-logo.avif",
+      "gitBlob": "04e8f4f34a8cdf199b10066a3b7129a354016d7f"
+    },
+    {
+      "path": "dist/assets/anpr-camera.avif",
+      "gitBlob": "9f1870d3ba5f86a8c3f253532c11b1f82a7b6a2b"
+    },
+    {
+      "path": "dist/assets/camera.webp",
+      "gitBlob": "9b545f10de58d4f35d6c521ec5a2355bd0071825"
+    },
+    {
+      "path": "dist/assets/contactless-pay.avif",
+      "gitBlob": "c8f0dbb133bbbf58755a32f4b3892adaeaed71f4"
+    },
+    {
+      "path": "dist/assets/ep-why-1.avif",
+      "gitBlob": "394b09aa15b609ca28d9df96beae0d815d924b12"
+    },
+    {
+      "path": "dist/assets/ep-why-2.avif",
+      "gitBlob": "93f5e25f8024c551f17444970f4d448c11f88f47"
+    },
+    {
+      "path": "dist/assets/ep-why-4.avif",
+      "gitBlob": "62fc6161eed3c664ff16ff51d53ccd2b66718d7e"
+    },
+    {
+      "path": "dist/assets/express-pay.webp",
+      "gitBlob": "62bda7e4e3a32e2b1327b6ff721ccb40e45ac4c3"
+    },
+    {
+      "path": "dist/assets/favicon.png",
+      "gitBlob": "15c29a74eaf4aea16c16eb5767a4ea7e57771313"
+    },
+    {
+      "path": "dist/assets/flags/ae.svg",
+      "gitBlob": "651ac8523d3d933827ccfbdf5dfd598e65bad442"
+    },
+    {
+      "path": "dist/assets/flags/ar.svg",
+      "gitBlob": "c753da103f3ceae0a975b6eda70c2776f7467c5f"
+    },
+    {
+      "path": "dist/assets/flags/au.svg",
+      "gitBlob": "96e80768bb7084e490fd34ad626f40d5cea1ac7b"
+    },
+    {
+      "path": "dist/assets/flags/bd.svg",
+      "gitBlob": "16b794debd08294403b4e61c61a17ae02bfa0a44"
+    },
+    {
+      "path": "dist/assets/flags/br.svg",
+      "gitBlob": "719a763caaf7cc2b1809fe05b5f06e5f12e47393"
+    },
+    {
+      "path": "dist/assets/flags/ca.svg",
+      "gitBlob": "c9b23b4988b326e10be7508e91919fd1d29ec852"
+    },
+    {
+      "path": "dist/assets/flags/ch.svg",
+      "gitBlob": "b42d6709cfaf22e773bc7aa5da7095eff742873e"
+    },
+    {
+      "path": "dist/assets/flags/cl.svg",
+      "gitBlob": "5b3c72fa7c26f80593b0757227deb9c4b77bdf34"
+    },
+    {
+      "path": "dist/assets/flags/cn.svg",
+      "gitBlob": "10d3489a0e60176c4db839ad958facf76717cbd1"
+    },
+    {
+      "path": "dist/assets/flags/co.svg",
+      "gitBlob": "ebd0a0fb2d4b374a6e3f6722436bd54ea89e0520"
+    },
+    {
+      "path": "dist/assets/flags/de.svg",
+      "gitBlob": "71aa2d2c30f576d3577b5c93c7cc2cc9de740da7"
+    },
+    {
+      "path": "dist/assets/flags/dk.svg",
+      "gitBlob": "563277f81d904ddf48573466c018c914d693bf6a"
+    },
+    {
+      "path": "dist/assets/flags/es.svg",
+      "gitBlob": "a296ebf7e186054afaa06f6a27991aa1b569a5a8"
+    },
+    {
+      "path": "dist/assets/flags/fi.svg",
+      "gitBlob": "470be2d07c9df2cbedfde2f27fa42cb3a59d3657"
+    },
+    {
+      "path": "dist/assets/flags/fj.svg",
+      "gitBlob": "332ae61d0b8a0ed313c3236f07884154f0e58a17"
+    },
+    {
+      "path": "dist/assets/flags/fr.svg",
+      "gitBlob": "4110e59e4ca59a4c8710f60ff8a0afbabfdc44b6"
+    },
+    {
+      "path": "dist/assets/flags/gb.svg",
+      "gitBlob": "799138319d8446a6407a3448185559f20b9e3415"
+    },
+    {
+      "path": "dist/assets/flags/gr.svg",
+      "gitBlob": "599741eec82f5c8729cfa503f552c9f781f5625b"
+    },
+    {
+      "path": "dist/assets/flags/hk.svg",
+      "gitBlob": "4fd55bc14b064e5c0359389c644716f69fe5a0c9"
+    },
+    {
+      "path": "dist/assets/flags/id.svg",
+      "gitBlob": "3b7c8fcfd96578480474bf942e1a0adb604dde0f"
+    },
+    {
+      "path": "dist/assets/flags/ie.svg",
+      "gitBlob": "049be14de14f4f67419f3c5e2f0c5d022b74ca39"
+    },
+    {
+      "path": "dist/assets/flags/il.svg",
+      "gitBlob": "f43be7e8ed7ae29d324f7f1aa0d46528e2a5c3af"
+    },
+    {
+      "path": "dist/assets/flags/in.svg",
+      "gitBlob": "bc47d74911bb32886aa9c611feb36e6fc54ff850"
+    },
+    {
+      "path": "dist/assets/flags/it.svg",
+      "gitBlob": "20a8bfdcc802296c682866e18c41a74fbaa702fd"
+    },
+    {
+      "path": "dist/assets/flags/jp.svg",
+      "gitBlob": "cc1c181ce9b2c22b5d29d04d7858d4d6ed0c878c"
+    },
+    {
+      "path": "dist/assets/flags/kr.svg",
+      "gitBlob": "6947eab2b3902872175f81d84f6966e170083c0d"
+    },
+    {
+      "path": "dist/assets/flags/lk.svg",
+      "gitBlob": "cbd660a54ac609f29fb6433dd3c637dab91c379f"
+    },
+    {
+      "path": "dist/assets/flags/mx.svg",
+      "gitBlob": "e3ec2bc596c05ef55ee501047b768a1702976e45"
+    },
+    {
+      "path": "dist/assets/flags/my.svg",
+      "gitBlob": "115f864d8acfc6776feb20d64b9bf852cd32e8e0"
+    },
+    {
+      "path": "dist/assets/flags/nl.svg",
+      "gitBlob": "e90f5b03511fe47d56930eea41341521579dc8fc"
+    },
+    {
+      "path": "dist/assets/flags/no.svg",
+      "gitBlob": "a5f2a152a932b85e30cfc1921325da0e300a75bb"
+    },
+    {
+      "path": "dist/assets/flags/np.svg",
+      "gitBlob": "624285684531217f6a9e99a98ca756965f4c5251"
+    },
+    {
+      "path": "dist/assets/flags/nz.svg",
+      "gitBlob": "935d8a749d943341ee885010bf1c31bd59809ab3"
+    },
+    {
+      "path": "dist/assets/flags/pg.svg",
+      "gitBlob": "7b7e77aad4a512ca0f47d050f6c89d627a47d352"
+    },
+    {
+      "path": "dist/assets/flags/ph.svg",
+      "gitBlob": "b910e24cd2292aacdab5731a0ddf17e3f6b42304"
+    },
+    {
+      "path": "dist/assets/flags/pk.svg",
+      "gitBlob": "4ddc19f8eaa824f521c01437355fc90e14b05d9d"
+    },
+    {
+      "path": "dist/assets/flags/pl.svg",
+      "gitBlob": "0fa5145241bd3e768773d91e501151fb9a43eadb"
+    },
+    {
+      "path": "dist/assets/flags/pt.svg",
+      "gitBlob": "2767cd4e9faa0beec0593e039b899f78c1831fcb"
+    },
+    {
+      "path": "dist/assets/flags/sa.svg",
+      "gitBlob": "596cf48bb7b6005ba3fb4da6d9d6ae0b6451fa0b"
+    },
+    {
+      "path": "dist/assets/flags/se.svg",
+      "gitBlob": "8ba745acaf2231a519e658852e8ef874dbeb8dc7"
+    },
+    {
+      "path": "dist/assets/flags/sg.svg",
+      "gitBlob": "c4dd4ac9ebe6171235ea7636444265cd2611b9ce"
+    },
+    {
+      "path": "dist/assets/flags/th.svg",
+      "gitBlob": "1e93a61e95bfe4bd0494ffa27d24dc4fd798eb95"
+    },
+    {
+      "path": "dist/assets/flags/tr.svg",
+      "gitBlob": "b96da21f0e98bfaeee3312cf938417bdc4ec2639"
+    },
+    {
+      "path": "dist/assets/flags/us.svg",
+      "gitBlob": "9cfd0c927f975b7afff364179c2b850e525236c3"
+    },
+    {
+      "path": "dist/assets/flags/vn.svg",
+      "gitBlob": "7e4bac8f4acf3a8dc4cda58e9a3696ca65f8e91e"
+    },
+    {
+      "path": "dist/assets/flags/za.svg",
+      "gitBlob": "d563adb90c0c20b32d666b9903b8ad88722f1372"
+    },
+    {
+      "path": "dist/assets/google.svg",
+      "gitBlob": "ba9d4bb9b50a701d42c10c40a2d432dcb68f8bc2"
+    },
+    {
+      "path": "dist/assets/indoor-express-pay.webp",
+      "gitBlob": "43a7517b5d0710f64a81b5a7d93a850e76546014"
+    },
+    {
+      "path": "dist/assets/knight-frank-logo.avif",
+      "gitBlob": "40763ec8d3806883b138cbe723f6b34942334abc"
+    },
+    {
+      "path": "dist/assets/knight-frank.avif",
+      "gitBlob": "af75760e990e457c23c85a1e3a2e0ae2ba4ff0dd"
+    },
+    {
+      "path": "dist/assets/mercure-case-logo.svg",
+      "gitBlob": "1da958b399c107101db4c38bb52255169e7dc6ed"
+    },
+    {
+      "path": "dist/assets/mercure-install-0.avif",
+      "gitBlob": "a02de11e71840596daac52e8d61a80b1b83bbaec"
+    },
+    {
+      "path": "dist/assets/mercure-install-1.avif",
+      "gitBlob": "7ace514cbaba602eab7f22006973b1ee351e1072"
+    },
+    {
+      "path": "dist/assets/mercure-install-2.avif",
+      "gitBlob": "3fc448abacffcada270e678ac09051a9c0588d07"
+    },
+    {
+      "path": "dist/assets/mercure-install-3.avif",
+      "gitBlob": "6e21e71e7e3434d3dacc28c4f80faa54687b50c8"
+    },
+    {
+      "path": "dist/assets/mercure-logo.avif",
+      "gitBlob": "604dc3ed5f12378d6c76c242fd75e30b6e250851"
+    },
+    {
+      "path": "dist/assets/mini-camera.webp",
+      "gitBlob": "e8c75ca290321fbea93537ca9a29573b76890745"
+    },
+    {
+      "path": "dist/assets/mini-controller.webp",
+      "gitBlob": "b38a4e005eccf1c8ae5522d488c18c2f9af30a1b"
+    },
+    {
+      "path": "dist/assets/northies-logo.avif",
+      "gitBlob": "d721af89c1639cac07d83a04add63ede2e057e9b"
+    },
+    {
+      "path": "dist/assets/one-way.avif",
+      "gitBlob": "56255986cc079b128cf170937b848034182c16ec"
+    },
+    {
+      "path": "dist/assets/parkezi-logo.svg",
+      "gitBlob": "8ce6d17d630208808a96950bf51ed8455f8c0922"
+    },
+    {
+      "path": "dist/assets/parking-entry.avif",
+      "gitBlob": "a907ee25c6e8fea0100778e661eb43532e05aa37"
+    },
+    {
+      "path": "dist/assets/parklea-logo.webp",
+      "gitBlob": "9b29121d1731492ae0a67ddcecce74f2a2c7e80f"
+    },
+    {
+      "path": "dist/assets/qr-code.svg",
+      "gitBlob": "17ca38ebe4dc47f5a03b9ac7437d0344bc7909fc"
+    },
+    {
+      "path": "dist/assets/quest-entry.avif",
+      "gitBlob": "eab3bd4c2c9d9ac6437b4750c215eb33d53f2722"
+    },
+    {
+      "path": "dist/assets/quest-installation-detail.avif",
+      "gitBlob": "cb20b3115cf41c48c87c7b1135ac8def484d2027"
+    },
+    {
+      "path": "dist/assets/quest-logo.avif",
+      "gitBlob": "19a63dbc3e5c4424dc8cbe3bc68bc01efd66e16d"
+    },
+    {
+      "path": "dist/assets/scan-go-mini.webp",
+      "gitBlob": "28d03fcf72ecd18317847b11fe9578d41da613c8"
+    },
+    {
+      "path": "dist/assets/scan-go.webp",
+      "gitBlob": "e614371443fc9bb6832a6a84e7444d6450c780c3"
+    },
+    {
+      "path": "dist/assets/smart-access-logo.jpg",
+      "gitBlob": "b157405b4e9390d1f7790819b948c59bfe6c858c"
+    },
+    {
+      "path": "dist/assets/smarter-parking.webp",
+      "gitBlob": "0236369c7ab8cb5df53307b0f4e2372324fdd823"
+    },
+    {
+      "path": "dist/assets/solar-cabinet-repair-v12.png",
+      "gitBlob": "5eb9ccee64c1895395d0111abbff4e9df53ed759"
+    },
+    {
+      "path": "dist/assets/solar-gate-closed.webp",
+      "gitBlob": "716e55d1b23255c4d7b4945f5803fc52338c7ead"
+    },
+    {
+      "path": "dist/assets/solargate-open.avif",
+      "gitBlob": "7672a3ddafd9440f8027b3aac44890fdf507cb3d"
+    },
+    {
+      "path": "dist/assets/step-pay.webp",
+      "gitBlob": "95e6e1e3b870ae5094bf1ec12369e79adca77d0e"
+    },
+    {
+      "path": "dist/assets/switzer-bold.woff2",
+      "gitBlob": "3b705d5de00005ae0ac30417329c0528ac5762e6"
+    },
+    {
+      "path": "dist/assets/switzer-medium.woff2",
+      "gitBlob": "1538323a80551dce857597eb05dc77f66cb0cf1a"
+    },
+    {
+      "path": "dist/assets/switzer-regular.woff2",
+      "gitBlob": "e7dc3b7f84d6b399b99a89681213c7deb0d5d6ac"
+    },
+    {
+      "path": "dist/assets/tasman-logo.avif",
+      "gitBlob": "ea68cb3e0499cb0a5e0433b64c161f1e38e42fac"
+    },
+    {
+      "path": "dist/assets/team.avif",
+      "gitBlob": "2adee6ddee207e5c67eb77699ef7165c4847bd90"
+    },
+    {
+      "path": "dist/assets/two-way.avif",
+      "gitBlob": "aa6d115c29edf7fa8da703aac6bf17cf30bd2caf"
+    },
+    {
+      "path": "dist/assets/vehicle-exit.avif",
+      "gitBlob": "5b6a0047289624f0c4e3b63b194dde3ca665aa0a"
+    },
+    {
+      "path": "dist/assets/vendor/flag-icons-LICENSE",
+      "gitBlob": "ee959dc1d045dc91fa3daed6ac73fef53700cf5f"
+    },
+    {
+      "path": "dist/assets/vendor/lucide-LICENSE.txt",
+      "gitBlob": "718bb3f0e44153809972abed31839375804bf652"
+    },
+    {
+      "path": "dist/assets/vendor/lucide/LICENSE",
+      "gitBlob": "718bb3f0e44153809972abed31839375804bf652"
+    },
+    {
+      "path": "dist/assets/vendor/lucide/building.svg",
+      "gitBlob": "d1a3f59b15f783a47dcc002eb6549726f7af3600"
+    },
+    {
+      "path": "dist/assets/vendor/lucide/list.svg",
+      "gitBlob": "0d88fb189cde6db143ee290aa12c255d7344f13c"
+    },
+    {
+      "path": "dist/assets/vendor/lucide/mail.svg",
+      "gitBlob": "4cff729d97c4b4daacb4d86220bf45b8e5c199fe"
+    },
+    {
+      "path": "dist/assets/vendor/lucide/map-pin.svg",
+      "gitBlob": "5d73fbd48b1e663493efaa4523b6c105f996146b"
+    },
+    {
+      "path": "dist/assets/vendor/lucide/message-square.svg",
+      "gitBlob": "5044bc7eff0567b1a3aee3242b8f628f88559ff1"
+    },
+    {
+      "path": "dist/assets/vendor/lucide/user.svg",
+      "gitBlob": "8e61592bbf912f26d2e6583dffd9b1e8ebec0193"
+    },
+    {
+      "path": "dist/assets/vendor/lucide/users.svg",
+      "gitBlob": "e31958f8795715f31b86d3c633652c20acb3a325"
+    },
+    {
+      "path": "dist/assets/vendor/lucide/wrench.svg",
+      "gitBlob": "3624343211c8555480270e5371b65c34d92700c0"
+    },
+    {
+      "path": "dist/assets/vendor/swiper-LICENSE",
+      "gitBlob": "a7876ca731acb4b434d775a69c5796b42da9ee43"
+    },
+    {
+      "path": "dist/assets/vendor/swiper-bundle.min.css",
+      "gitBlob": "c5bf0fb2b5e2d3a1c2333d8f2b710397cc87e214"
+    },
+    {
+      "path": "dist/assets/vendor/swiper-bundle.min.js",
+      "gitBlob": "343d5a3299fb725e5d4f069f6d864560e747dfee"
+    },
+    {
+      "path": "dist/assets/webclip.png",
+      "gitBlob": "a11c45b01d0f24b12b5dc132886376c59dbff054"
+    },
+    {
+      "path": "dist/assets/windcave.svg",
+      "gitBlob": "82898cddd459918abcc843163a3309914890b523"
+    }
+  ],
+  "sections": [
+    {
+      "file": "dist/index.html",
+      "originalSectionIds": [
+        "home",
+        "systems",
+        "products",
+        "support",
+        "platform",
+        "on-site",
+        "how-it-works",
+        "projects",
+        "reviews",
+        "features",
+        "faqs",
+        "enquire"
+      ],
+      "currentSectionIds": [
+        "home",
+        "systems",
+        "products",
+        "support",
+        "platform",
+        "on-site",
+        "how-it-works",
+        "projects",
+        "reviews",
+        "features",
+        "faqs",
+        "enquire"
+      ],
+      "removedIds": []
+    },
+    {
+      "file": "dist/home-v2.html",
+      "originalSectionIds": [
+        "home",
+        "systems",
+        "products",
+        "support",
+        "platform",
+        "on-site",
+        "how-it-works",
+        "projects",
+        "reviews",
+        "features",
+        "faqs",
+        "enquire"
+      ],
+      "currentSectionIds": [
+        "home",
+        "systems",
+        "products",
+        "support",
+        "platform",
+        "on-site",
+        "how-it-works",
+        "projects",
+        "reviews",
+        "features",
+        "faqs",
+        "enquire"
+      ],
+      "removedIds": []
+    },
+    {
+      "file": "dist/express-pay.html",
+      "originalSectionIds": [
+        "home",
+        "overview",
+        "journey",
+        "payment-options",
+        "features",
+        "products",
+        "faqs",
+        "enquire"
+      ],
+      "currentSectionIds": [
+        "home",
+        "overview",
+        "journey",
+        "payment-options",
+        "installations",
+        "features",
+        "products",
+        "support",
+        "platform",
+        "faqs",
+        "enquire"
+      ],
+      "removedIds": []
+    }
+  ],
+  "scope": "Original recovered HTML source plus the captured 52-route source comparison. Section IDs are structural evidence, not proof of semantic equivalence. Old diagram replaced on Harry instruction; shared details retained and source-specific exceptions documented in content audit."
+}
