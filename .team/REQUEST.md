@@ -53,3 +53,9 @@ Event `parkezi:2026-11-04:restore-compact-hero-separate-step:v1`. Harry rejects 
 ## Catalogue scale/centre - 5 November 2026
 
 Event `parkezi:2026-11-05:catalogue-pair-scale-centre:v1`. Harry requests closer, centred Step & Pay catalogue units, about25% larger than in the supplied screenshot, retaining aligned feet. Readback confirms screenshot share host still serves0a3a835, older than e614ac1 staging. Current normalized staging already enlarged the old artwork; a further4% gives about25% total at the reference desktop, rather than multiplying staging by another25%. Hero, model selector and all assets are unchanged.
+
+## Final active direction - 5 November 2026
+
+Harry explicitly repeated deploy to V8 when done after the final one-unit correction. Use connected GitHub only, same DAB-47/task branch/PR1. This task-specific authority permits the verified PR release through existing main to parkezi-v8.vercel.app; it does not launch the client domain or change branch/domain/protection settings. Original no-main limits above are historical for this now-authorised V8 release.
+
+One original standard Step & Pay in hero and all catalogue/related cards. Larger model stays only inside its custom product selector/gallery. Supersedes all previous pair sizing/gap work. Add five technician photos to relevant product galleries behind professional/approved images. Desktop/mobile hero must swipe/drag using Swiper, be centred and bottom-aligned, and Mini must retain its original combined image. Compare original content and preserve intentional source corrections. No new builder, issue or review.

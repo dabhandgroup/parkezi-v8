@@ -67,53 +67,20 @@
 (() => {
   const stage=document.querySelector('[data-mobile-products]');
   const controls=document.querySelector('[data-mobile-product-controls]');
-  if(!stage||!controls) return;
+  if(!stage||!controls||typeof window.Swiper!=='function') return;
   const units=[...stage.querySelectorAll(':scope > .hero-unit')];
-  const previous=controls.querySelector('[data-product-previous]');
-  const next=controls.querySelector('[data-product-next]');
-  const position=controls.querySelector('[data-product-position]');
-  const mobile=()=>window.matchMedia('(max-width:970px)').matches;
-  const maximum=()=>Math.max(0,stage.scrollWidth-stage.clientWidth);
-  const current=()=>units.reduce((best,item,index)=>Math.abs(item.offsetLeft-stage.scrollLeft)<Math.abs(units[best].offsetLeft-stage.scrollLeft)?index:best,0);
-  const sync=()=>{
-    const index=current();
-    const visible=Math.max(1,Math.round(stage.clientWidth/units[0].offsetWidth));
-    previous.disabled=stage.scrollLeft<=1;next.disabled=stage.scrollLeft>=maximum()-1;
-    const last=Math.min(units.length,index+visible);
-    position.textContent=last===index+1?`${index+1} of ${units.length}`:`${index+1}-${last} of ${units.length}`;
+  const wrapper=document.createElement('div');wrapper.className='swiper-wrapper';
+  units.forEach(unit=>{unit.classList.add('swiper-slide');wrapper.appendChild(unit);});
+  stage.appendChild(wrapper);stage.classList.add('swiper');
+  const previous=controls.querySelector('[data-product-previous]'),next=controls.querySelector('[data-product-next]'),position=controls.querySelector('[data-product-position]');
+  const sync=swiper=>{
+    const visible=Number(swiper.params.slidesPerView)||1,index=swiper.activeIndex||0;
+    previous.disabled=swiper.isBeginning;next.disabled=swiper.isEnd;
+    position.textContent=`${index+1}-${Math.min(units.length,index+visible)} of ${units.length}`;
   };
-  const go=index=>{
-    index=Math.max(0,Math.min(units.length-1,index));
-    if(!mobile()) return index;
-    stage.scrollTo({left:Math.min(units[index].offsetLeft,maximum()),behavior:window.matchMedia('(prefers-reduced-motion: reduce)').matches?'instant':'smooth'});
-    return index;
-  };
-  previous.addEventListener('click',()=>go(current()-1));
-  next.addEventListener('click',()=>go(current()+1));
-  stage.addEventListener('scroll',sync,{passive:true});
+  const carousel=new window.Swiper(stage,{slidesPerView:2,spaceBetween:12,simulateTouch:true,grabCursor:true,focusableElements:'input, select, option, textarea, video, label',threshold:6,breakpointsBase:'container',watchOverflow:true,speed:window.matchMedia('(prefers-reduced-motion: reduce)').matches?0:350,keyboard:{enabled:true,onlyInViewport:true,pageUpDown:false},mousewheel:{forceToAxis:true,releaseOnEdges:true},navigation:{prevEl:previous,nextEl:next},breakpoints:{650:{slidesPerView:3,spaceBetween:16},900:{slidesPerView:4,spaceBetween:16}},on:{init:sync,slideChange:sync,resize:sync,breakpoint:sync}});
   stage.addEventListener('keydown',event=>{
-    if(!mobile()||!['ArrowLeft','ArrowRight','Home','End'].includes(event.key)) return;
-    event.preventDefault();
-    const index=go(event.key==='Home'?0:event.key==='End'?units.length-1:current()+(event.key==='ArrowRight'?1:-1));
-    units[index].focus({preventScroll:true});
-  });
-  window.addEventListener('resize',sync);
-  sync();
-})();
-
-(() => {
-  document.querySelectorAll('.step-pair-card').forEach(card=>{
-    const reference=card.parentElement.querySelector('.product-image > img[src*="scan-go.webp"]');
-    if(!reference) return;
-    const sync=()=>{
-      const height=reference.getBoundingClientRect().height;
-      // Normalized staging cut-outs already enlarged the older shared artwork.
-      // This final adjustment targets about 25% over that shared desktop reference.
-      if(height>0) card.style.setProperty('--pair-display-height',`${Math.round(height*1.04*100)/100}px`);
-    };
-    sync();
-    if(typeof ResizeObserver!=='undefined') new ResizeObserver(sync).observe(reference);
-    else window.addEventListener('resize',sync);
-    reference.addEventListener('load',sync);
+    if(!['Home','End'].includes(event.key)) return;
+    event.preventDefault();carousel.slideTo(event.key==='Home'?0:units.length-1);
   });
 })();

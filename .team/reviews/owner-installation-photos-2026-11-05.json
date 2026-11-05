@@ -1,0 +1,185 @@
+{
+  "event": "parkezi:2026-11-05:installation-photos-v8-release:v1",
+  "checkedAt": "2026-11-05T18:13:17.992Z",
+  "checkType": "Owning GPT self-check, not independent review",
+  "baselineHead": "d52047c0c2771b12b55bf929dd314098c812e7f1",
+  "scope": [
+    "One standard Step & Pay in all home heroes and catalogue/related cards; larger-screen selector/gallery retained",
+    "All five client installation attachments appended to relevant product galleries; professional and approved lead images first",
+    "Genuine bundled Swiper on desktop/mobile, container breakpoints, original combined Mini cutout and bottom-aligned presentation frames",
+    "Source content completeness comparison"
+  ],
+  "browser": {
+    "environment": "Owned T3 background incognito Chromium; local built static output on 127.0.0.1:4291, no gate bypass on hosted site",
+    "resizes": [
+      {
+        "bottomDelta": 0,
+        "centreDelta": 0,
+        "expected": 133,
+        "overflow": false,
+        "per": 2,
+        "slideWidth": 133,
+        "stageWidth": 278,
+        "swiperWidth": 278,
+        "width": 320
+      },
+      {
+        "bottomDelta": 0,
+        "centreDelta": 0,
+        "expected": 168,
+        "overflow": false,
+        "per": 2,
+        "slideWidth": 168,
+        "stageWidth": 348,
+        "swiperWidth": 348,
+        "width": 390
+      },
+      {
+        "bottomDelta": 0,
+        "centreDelta": 0,
+        "expected": 231.33333333333334,
+        "overflow": false,
+        "per": 3,
+        "slideWidth": 231.328125,
+        "stageWidth": 726,
+        "swiperWidth": 726,
+        "width": 768
+      },
+      {
+        "bottomDelta": 0,
+        "centreDelta": 0,
+        "expected": 228,
+        "overflow": false,
+        "per": 4,
+        "slideWidth": 228,
+        "stageWidth": 960,
+        "swiperWidth": 960,
+        "width": 1024
+      },
+      {
+        "bottomDelta": 0,
+        "centreDelta": 0,
+        "expected": 228,
+        "overflow": false,
+        "per": 4,
+        "slideWidth": 228,
+        "stageWidth": 960,
+        "swiperWidth": 960,
+        "width": 1280
+      },
+      {
+        "bottomDelta": 0,
+        "centreDelta": 0,
+        "expected": 228,
+        "overflow": false,
+        "per": 4,
+        "slideWidth": 228,
+        "stageWidth": 960,
+        "swiperWidth": 960,
+        "width": 1440
+      }
+    ],
+    "gallery": {
+      "nativeModelSelection": {
+        "index": 1,
+        "model": "Larger screen"
+      },
+      "nativePhotoZoom": {
+        "label": "PARKEZI payment terminal installed beside a stone wall",
+        "source": "assets/parkezi-indoor-payment-stone.webp",
+        "zoom": true
+      },
+      "stepPhotoScreenshot": "/Users/harrylang/.t3/userdata/browser-artifacts/browser-screenshot-127-0-0-1-mw3uib4d-b36648db.png"
+    },
+    "step320": {
+      "documentWidth": 320,
+      "fieldSize": "16px",
+      "h1Lines": 0.9999332264957266,
+      "loaded": [
+        true,
+        true,
+        true,
+        true
+      ],
+      "thumbs": [
+        {
+          "width": 63.5,
+          "x": 18,
+          "y": 786.859375
+        },
+        {
+          "width": 63.5,
+          "x": 91.5,
+          "y": 786.859375
+        },
+        {
+          "width": 63.5,
+          "x": 165,
+          "y": 786.859375
+        },
+        {
+          "width": 63.5,
+          "x": 238.5,
+          "y": 786.859375
+        }
+      ],
+      "width": 320
+    },
+    "screenshots": {
+      "heroDesktop": "/Users/harrylang/.t3/userdata/browser-artifacts/browser-screenshot-127-0-0-1-mw3syv9a-166e5340.png",
+      "mini390": "/Users/harrylang/.t3/userdata/browser-artifacts/browser-screenshot-127-0-0-1-mw3tunqn-654db48a.png",
+      "step320": "/Users/harrylang/.t3/userdata/browser-artifacts/browser-screenshot-127-0-0-1-mw3v2o7b-badcb061.png"
+    },
+    "observations": [
+      "All hero frames share bottom baseline, centre error0 at320/390/768/1024/1280/1440; no document overflow at measured widths.",
+      "Actual native thumbnail click reached Scan gallery final new photo; all gallery images loaded. Express5slides, Step4slides, Scan4slides.",
+      "Actual native Step custom selection changed model to Larger screen and index1; native new photo zoom opened correct stone-wall image; Escape closed.",
+      "Native Home key restored hero start. Browser multi-event pointer replay exercised real Swiper handlers at1280 mouse and390 touch-type; single-hop native drag did not travel because first threshold move was consumed.",
+      "Step photo thumbnails fit in one row at320; no overflow; selector computed16px; Step heading1line. Hero h1two lines at320/390; Choose system2lines at320,1at390."
+    ],
+    "limits": [
+      "Physical device touch and Safari are unverified. No simulator or Playwright used.",
+      "Pointer replay is browser integration evidence, not a physical/native swipe.",
+      "Final Git-hosted authenticated rendering is separately limited by existing gate/SSO. No credential or protection changes. No real enquiry submissions."
+    ]
+  },
+  "validation": {
+    "node": "24.18.0",
+    "protectedFiles": 242,
+    "testsPassed": 19,
+    "testsFailed": 0,
+    "htmlFiles": 58,
+    "sourceRoutes": 52,
+    "sitemapRoutes": 45,
+    "localReferences": 11654,
+    "schemaBlocks": 62,
+    "curatedParagraphUnits": 854,
+    "unmatchedPreservedRichBodyParagraphs": 0,
+    "originalAssetsUnchanged": 114
+  },
+  "sourceAudit": {
+    "report": ".team/audits/content-2026-11-03/REPORT.md",
+    "comparison": ".team/audits/content-2026-11-03/before-after.html",
+    "originalRecovery": ".team/audits/content-2026-11-03/original-recovery-check.json",
+    "limits": "Source captured1November, not a new full live crawl. Paragraph/section evidence is not full semantic or visual parity. Explicit unsupported testimonial/rating/specification/placeholder exceptions retained."
+  },
+  "review": {
+    "policy": "Grok canceled by Harry4November. No replacement reviewer.",
+    "passesConsumed": 2,
+    "maxPasses": 2,
+    "affectedPriorEvidence": "Earlier paired catalogue, hero geometry and gallery counts are stale. Prior reports/ledger preserved; no independent PASS."
+  },
+  "release": {
+    "authority": "Harry explicitly requested deploying to parkezi-v8.vercel.app, repeated after final single-unit correction. Connected GitHub build only; task branch through PR1 to existing main Production mapping. No client-domain launch, settings or provider change.",
+    "status": "Candidate checked locally. Git publication/deployment receipt recorded separately after release."
+  },
+  "checkedFilesSha256": {
+    "dist/full-site.css": "d3b083fa8e7b79c674b29af8929ae53d19cb73caf7f55568ab458795f4b3e7fc",
+    "dist/full-site.js": "a1b0f261f0ee65a0d5151997fbbf933774ab9d2e818e2e9a86a0bd5a6aa1ef25",
+    "dist/professional-photos.css": "c6e42c7c11f2e0b0f308ff0ed706ca3fe05a552d906b0ecbc00ea04a573d9395",
+    "dist/index.html": "37d608a153442bf0ba2cab3091a6f3b178573d1d061a2e08aeeb171b82a2c3f5",
+    "dist/step-pay.html": "6398a7f29d5dc3323604f7a4bbbdf8080512a7cf62d9194386b665e9db9ff7e5",
+    "dist/express-pay.html": "9b8e396ffcecb110dd11f07c17fde2896c4e06b02f707cdcb39aa9ca272f214e",
+    "dist/products/scan-and-go/index.html": "7b5f236522c7fc3d20a8d8745af0a85ff8bbe99fc4c592498699033512ce022c"
+  }
+}

@@ -57,3 +57,15 @@ Presentation-only CSS frames normalize transparent margins without modifying the
 ## Homepage hero correction - 4 November 2026
 
 The homepage hero now uses only the original standard Step & Pay image in its original five-unit composition, per Harry. Both catalogue models and the product-page larger-screen selector remain; catalogue frames have8px separation at the approved Scan & Go height. Earlier artwork and generated siblings are preserved.
+
+## 5 November 2026 - single product artwork and installation gallery additions
+
+Events parkezi:2026-11-05:installation-photos-v8-release:v1, parkezi:2026-11-05:hero-swiper-mini-content-recheck:v1 and parkezi:2026-11-05:single-step-catalogue-correction:v1 supersede all paired hero/catalogue size and spacing directions above.
+
+The homepage hero and every catalogue/related card show one original standard Step & Pay. The larger-screen illustration remains available through the custom product-page selector and gallery. All generated/source assets are preserved. The hero now uses the existing bundled Swiper on desktop and mobile; Mini uses the original combined camera/controller image with one presentation frame.
+
+All five newly supplied technician photos are secondary gallery images. Express Pay appends the driveway payment terminal as slide5. Step & Pay appends the glass-entrance and stone-wall payment photos as slides3/4. Scan & Go appends the driveway overview/detail as slides3/4, after the original cutout and professional ANPR detail. Professional/approved lead images keep their order. Captions do not assert an unverified product specification or location. There is no new installation-page gallery.
+
+content/client-installation-photos.json records original attachment paths/hashes and proportional1200x1600 WebP derivatives. Inputs remain untouched. Combined derivative size1,981,980bytes. No AI retouching or cropping. The driveway photo has an obscured lower corner and stays secondary context. The larger-screen image is the previously requested illustration, not installation proof.
+
+Owner Chromium layout/gallery/model/zoom checks and actual limits are in .team/reviews/owner-installation-photos-2026-11-05.json. The refreshed52-route source comparison has854 curated paragraph units and no unmatched preserved rich-body paragraphs; intentional source corrections remain explicit. All114 original recovered asset blobs and original homepage/Express section IDs remain. This is not full semantic, physical-device or authenticated hosted verification.

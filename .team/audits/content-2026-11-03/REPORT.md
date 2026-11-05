@@ -9,8 +9,8 @@ This is an owner source-content audit, not independent or visual QA. All52 captu
 - **CONTENT-03 FIXED IN SOURCE** - Pricing/About/system configurations: Condensed copy omitted useful installation partner/site-work/training details, temporary integrated payments, loop exit, occupancy and barrier facts. Restored these captured facts without reintroducing conflicting numeric proof.
 - **CONTENT-04 FIXED IN SOURCE** - Paid/Two-Way/One-Way: People/exhibition hero images did not represent the system type. Reused the exact original menu photos as lossless WebP derivatives.
 - **CONTENT-05 PENDING CONFIRMATION** - Step & Pay: User gave uncertain7.4-inch versus earlier34-inch size. Standard/Larger screen UI has no numeric size claim; original artwork retained.
-- **CONTENT-07 FIXED IN SOURCE** - Step & Pay/homepage: Native model selector and reused larger artwork did not meet the requested custom UI/generated-image treatment. Custom animated listbox and ChatGPT transparent model illustration; both homepage units share one hover target, genuine Quest photos added.
-- **CONTENT-06 BLOCKED** - All routes/browser journeys: No current cloud/Chrome/simulator controls are available. Do not call this a visual, live-runtime or independent review. Actual selector/menu/mobile/font wrapping checks remain unverified.
+- **CONTENT-07 FIXED IN SOURCE** - Step & Pay/homepage: Native model selector and reused larger artwork did not meet the requested custom UI/generated-image treatment. Custom animated listbox and ChatGPT transparent model illustration; larger option stays in the product selector, homepage/catalogue use one standard unit; genuine Quest and supplied installation photos are secondary gallery content.
+- **CONTENT-06 BLOCKED** - All routes/browser journeys: Owner browser checks cover affected pages; full authenticated hosted journeys across every route remain unverified. See current owner browser report for observed gallery/hero/responsive checks. This source audit is not independent or complete hosted journey acceptance.
 
 ## Complete route matrix
 
@@ -73,4 +73,4 @@ Exact paragraph matches check preserved curated p/li units, not every wording ch
 
 ## Limits
 
-No current rendered desktop/mobile/font-loaded wrapping or dropdown interaction result is claimed. Hosted content behind the gate was not crawled through an invented session. The52-route local comparison and exact file hashes are complete; live visual/semantic owner acceptance remains open. The review cap has not been reset.
+This source report does not itself establish rendered desktop/mobile or dropdown interaction results; see the current owner browser evidence. Hosted content behind the gate was not crawled through an invented session. The52-route local comparison and exact file hashes are complete; live visual/semantic owner acceptance remains open. The review cap has not been reset.

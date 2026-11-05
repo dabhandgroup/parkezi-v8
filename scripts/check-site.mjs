@@ -81,11 +81,11 @@ for(const name of ['index.html','home-v2.html','home-v2-alt.html','home-white.ht
 for(const name of ['express-pay.html','step-pay.html']){
  const html=documents.get(path.join(root,name));const gallery=html.slice(html.indexOf('id="productGallery"')-200,html.indexOf('class="pdp-summary"'));
  const count=(gallery.match(/class="gallery-slide\b/g)||[]).length;
- assert.equal(count,name.startsWith('express')?4:2,`${name}: gallery count`);
+ assert.equal(count,name.startsWith('express')?5:4,`${name}: gallery count`);
  if(name.startsWith('step')){
   assert.match(gallery,/src="assets\/step-pay\.webp/);
   assert.ok(gallery.indexOf('assets/step-pay.webp')<gallery.indexOf('assets/step-pay-wide-navy.webp'));
  }
 }
-const report={htmlFiles:htmlFiles.length,sourceRoutes:coverage.entries.length,localReferences:references,structuredDataBlocks:schemas,sourceOnlyChecks:true,browserChecks:'Recorded separately in .team/reviews/owner-catalogue-scale-2026-11-05.json; static checks do not establish browser acceptance'};
+const report={htmlFiles:htmlFiles.length,sourceRoutes:coverage.entries.length,localReferences:references,structuredDataBlocks:schemas,sourceOnlyChecks:true,browserChecks:'Recorded separately in .team/reviews/owner-installation-photos-2026-11-05.json; static checks do not establish browser acceptance'};
 console.log(JSON.stringify(report,null,2));

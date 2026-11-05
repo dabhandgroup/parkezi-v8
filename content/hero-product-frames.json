@@ -1,0 +1,71 @@
+{
+  "event": "parkezi:2026-11-05:hero-swiper-mini-content-recheck:v1",
+  "transform": "Presentation frames from alpha bounds only; original pixels/assets unchanged. Single intact original Mini image.",
+  "frames": {
+    "express": {
+      "source": "express-pay.webp",
+      "canvas": [
+        249,
+        894
+      ],
+      "box": [
+        0,
+        1,
+        248,
+        891
+      ]
+    },
+    "step": {
+      "source": "step-pay.webp",
+      "canvas": [
+        157,
+        495
+      ],
+      "box": [
+        2,
+        1,
+        149,
+        492
+      ]
+    },
+    "scan": {
+      "source": "scan-go.webp",
+      "canvas": [
+        188,
+        839
+      ],
+      "box": [
+        1,
+        3,
+        188,
+        836
+      ]
+    },
+    "mini": {
+      "source": "scan-go-mini.webp",
+      "canvas": [
+        248,
+        1258
+      ],
+      "box": [
+        2,
+        5,
+        236,
+        1258
+      ]
+    },
+    "solar": {
+      "source": "solargate-portable-barrier.webp",
+      "canvas": [
+        676,
+        1800
+      ],
+      "box": [
+        46,
+        52,
+        664,
+        1765
+      ]
+    }
+  }
+}

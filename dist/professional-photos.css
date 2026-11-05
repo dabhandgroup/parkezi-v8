@@ -36,8 +36,8 @@
   aspect-ratio: 1;
 }
 
-/* Step & Pay uses the existing product-page gallery with two configurations. */
-.step-pay-page .gallery-thumbs { grid-template-columns: repeat(2, minmax(0, 88px)); }
+/* Keep both configurations and installation thumbnails together. */
+.step-pay-page .gallery-thumbs { grid-template-columns: repeat(4, minmax(0, 1fr)); max-width: 391px; }
 .step-pay-page .step-studio, .step-option-image { background: #050607; }
 .step-pay-page .step-studio img { object-fit: contain; filter: none; }
 .step-options { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 24px; }

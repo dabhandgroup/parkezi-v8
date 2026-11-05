@@ -104,3 +104,13 @@ SITE-04 source/build/auth evidence will be bound to the final candidate identity
 - SCALE-01: About25% visible increase against Harry screenshot/share0a3a835, accounting for existing staging normalization, rather than silently compounding size.
 - SCALE-02:4px positive gap, centred physical cut-out bounds, feet remain on the same neighbouring-product baseline; no clipped art/card/document overflow at320/390/768/1101/1280/1440.
 - SCALE-03: Homepage hero, selector/gallery, page markup and every image asset unchanged. Exact final source/build/20test/browser and Git Preview evidence recorded; hosted protection and release limits preserved.
+
+## Final active criteria - 5 November 2026
+
+These supersede conflicting paired/capacity and release restrictions above only for this authorised V8 batch.
+
+- FINAL-01: One standard Step image in all home heroes/catalogue/related cards. Larger model remains functional inside custom selector/gallery; all source artwork preserved.
+- FINAL-02: Five technician photos appended to Express/Step/Scan galleries, correct thumbnails/captions/zoom, professional/approved leads unchanged. No invented location/specification.
+- FINAL-03: Actual Swiper desktop/mobile with2/3/4visible families, common physical image baseline, centred stage and original combined Mini image. No observed overflow at320/390/768/1024/1280/1440. Physical touch/native Safari and hosted-auth rendering separately unverified.
+- FINAL-04: Node24 build242protected files,19tests,58HTML/52routes/11654references/62schemas;854curated paragraph units with0unmatched preserved rich paragraphs, all114original assets unchanged and original homepage/Express section IDs present. Comparison explicitly distinguishes intentional source exclusions from verified presence.
+- FINAL-05: Exact remote commit/tree and connected Git deployment readback; same PR through existing main mapping to requested V8 host only. Preserve gate/noindex, private delivery limits,2/2prior ledger and Grok cancellation. No new reviewer or client-domain launch. DAB-47 remains In Progress pending Harry acceptance and excluded launch work.

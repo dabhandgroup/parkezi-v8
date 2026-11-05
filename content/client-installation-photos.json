@@ -1,0 +1,71 @@
+{
+  "event": "parkezi:2026-11-05:installation-photos-v8-release:v1",
+  "transform": "Proportional resize and WebP codec only, no retouching/generation/cropping. Original attachments preserved.",
+  "photos": [
+    {
+      "source": "/Users/harrylang/.t3/userdata/attachments/mcp-launch-9748691fb872c2b16e1f94c8a39c09317ba17c93ebd3ad32b9ce18e78b2b3c67-d9915eb3-196b-4091-b0cb-d7a7717dd4ed.png",
+      "sourceSha256": "b8706c01754bdd0cf4aaa765d86d07f7258394204ac34a07f6955e714d0e0728",
+      "file": "dist/assets/parkezi-driveway-payment-installation.webp",
+      "sha256": "a57f5dd3e27e04e2254f76b277eb3bc44a4d3d925aeca10d6c9f481cd5c02f43",
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "bytes": 387562,
+      "alt": "PARKEZI payment terminal installed beside a driveway",
+      "policy": "Secondary installation context. Keep professional/approved lead images first. No location/model specification inferred."
+    },
+    {
+      "source": "/Users/harrylang/.t3/userdata/attachments/mcp-launch-9748691fb872c2b16e1f94c8a39c09317ba17c93ebd3ad32b9ce18e78b2b3c67-b66c14d8-5521-4629-a523-59c0ac074242.png",
+      "sourceSha256": "dbc7ef2b92dacdb67b1451f802e4316d66ec746db46201b59793795b859ff992",
+      "file": "dist/assets/parkezi-driveway-access-detail.webp",
+      "sha256": "66dd5a1053afe5dd6f5825595d34a86cad6a22a22b30149cbde3a5707569acc1",
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "bytes": 542690,
+      "alt": "PARKEZI access-control equipment beside a driveway",
+      "policy": "Secondary installation context. Keep professional/approved lead images first. No location/model specification inferred."
+    },
+    {
+      "source": "/Users/harrylang/.t3/userdata/attachments/mcp-launch-9748691fb872c2b16e1f94c8a39c09317ba17c93ebd3ad32b9ce18e78b2b3c67-aeb9589d-0b00-4b33-9a25-5bcfdf2a52dd.png",
+      "sourceSha256": "fbebe1016881b5859a5ab779a6d37577489d17605982114065803c39401cbcda",
+      "file": "dist/assets/parkezi-driveway-access-overview.webp",
+      "sha256": "ffb767a0adb6cbb78527623329de24d96835b6ce53fa0dc957baacfec987238d",
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "bytes": 568594,
+      "alt": "PARKEZI payment and access equipment at a vehicle entrance",
+      "policy": "Secondary installation context. Keep professional/approved lead images first. No location/model specification inferred."
+    },
+    {
+      "source": "/Users/harrylang/.t3/userdata/attachments/mcp-launch-9748691fb872c2b16e1f94c8a39c09317ba17c93ebd3ad32b9ce18e78b2b3c67-c594fb77-4048-4ec1-9317-b90a8af64b9a.png",
+      "sourceSha256": "a78d89b6bec206c449a87379d0991dcf2038b4ce67ce91bb11a4c7e292163fcd",
+      "file": "dist/assets/parkezi-indoor-payment-glass.webp",
+      "sha256": "58137d04df76e57dc588eb7718142329e2af0605d6d5cb32ba7c98575b4afee2",
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "bytes": 279096,
+      "alt": "PARKEZI payment terminal installed beside a glass entrance",
+      "policy": "Secondary installation context. Keep professional/approved lead images first. No location/model specification inferred."
+    },
+    {
+      "source": "/Users/harrylang/.t3/userdata/attachments/mcp-launch-9748691fb872c2b16e1f94c8a39c09317ba17c93ebd3ad32b9ce18e78b2b3c67-bd59462b-9405-40e9-aef3-d83798ec890a.png",
+      "sourceSha256": "3569745f8711d963967e10dbffd0ef740ccb53df888405aa156dd4f8ee111635",
+      "file": "dist/assets/parkezi-indoor-payment-stone.webp",
+      "sha256": "13bcfea18a2c317f6fdf9fe77faa749c4d5875ae485cd716b8124ebf66c29a43",
+      "dimensions": [
+        1200,
+        1600
+      ],
+      "bytes": 204038,
+      "alt": "PARKEZI payment terminal installed beside a stone wall",
+      "policy": "Secondary installation context. Keep professional/approved lead images first. No location/model specification inferred."
+    }
+  ]
+}

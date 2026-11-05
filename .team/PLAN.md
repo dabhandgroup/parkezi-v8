@@ -118,3 +118,13 @@ The old direct share-host promotion checklist is superseded by Harry's GitHub-on
 - [x] Add final4% over normalized staging size,4px gap, centred cut-out bounds and unchanged baseline.
 - [x] Actual local checks at320/390/768/1101/1280/1440: contained, centred within0.004px, feet exactly aligned with Scan & Go, no document overflow.
 - [ ] Final checks, exact same-branch Git Preview and owner receipt in mapped logs.
+
+## Final active batch - 5 November 2026
+
+- [x] Supersede all paired hero/catalogue art with one original standard Step. Preserve custom model selector/gallery and all source assets.
+- [x] Add five secondary installation photos to relevant product galleries, retaining professional leads and truthful captions.
+- [x] Use bundled Swiper for desktop/mobile hero, centre physical frames/common baseline, original combined Mini image; check actual responsive rendering and controls.
+- [x] Fix narrow product-grid/caption/action overflow and retain readable controls. Check thumbnails/model/zoom,19tests,58HTML/52routes/11654references/62schema blocks.
+- [x] Refresh original52-route comparison and confirm114original asset blobs unchanged; no original homepage/Express section IDs missing.
+- [ ] Publish exact tree to existing branch/PR; verify connected Git Preview then authorised main/V8 build and source/target identity.
+- [ ] Record release and browser limits in DAB-47, local/mapped logs; close owned test tab/server. No Done/client-domain launch or new reviewer.

@@ -95,3 +95,9 @@ Original a6a890e hero button fragments are reused exactly across four home varia
 ## Catalogue calibration result - 5 November 2026
 
 Verified current share host still serves0a3a835 while staging is e614ac1. At1440 the old standard body painted about195.7px high and larger model about190.6px, measured from object-fit geometry and alpha bounds. Current candidate paints both245.4px, about25-29% larger, using4% additional height over normalized staging. Pair gap4px, centre error at most0.004px, both foot bounds exactly aligned with the Scan & Go foot at six checked widths. No overflow/clipping. Initial subdirectory comparison missed root-relative module paths and produced fallback heights; discarded those staging measurements, restored correct root paths, then checked the actual built root. All hero/page/selector/image files unchanged.
+
+## Owner checkpoint - 5 November 2026
+
+Latest single-unit direction supersedes earlier pair scale/gap acceptance. Actual local Chromium checks pass for affected geometry/model/photo controls with separately recorded pointer-replay/native-touch limits. Original independent reports are preserved, but their hero/catalogue/gallery evidence is stale. Two passes remain consumed. Grok cancellation is not PASS and no replacement was launched.
+
+Harry repeated deployment to parkezi-v8.vercel.app after the correction. Correct project is linked to dabhandgroup/parkezi-v8; main is its existing Production role. Release via verified GitHub PR1, no direct upload or alias promotion. Product code remains HTML/CSS/JS with the existing Node24 gate adapter; no Next.js conversion. Source/head/tree and final hosted readback will be recorded in release receipts.

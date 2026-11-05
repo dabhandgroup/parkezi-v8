@@ -22,36 +22,18 @@ test('custom Step picker supports click, keyboard, dismissal and gallery synchro
   trigger.events.click();document.events.pointerdown({target:{}});assert.equal(trigger.attrs['aria-expanded'],'false');
 });
 
-test('mobile product row supports arrows, keyboard, swipe position and desktop no-op',async()=>{
-  let focused=-1,mobile=true;
-  const units=Array.from({length:5},(_,i)=>({offsetLeft:i*300,offsetWidth:284,focus(){focused=i;}}));
-  const stage={scrollLeft:0,clientWidth:584,scrollWidth:1484,events:{},querySelectorAll:()=>units,addEventListener(type,fn){this.events[type]=fn;},scrollTo({left,behavior}){this.scrollLeft=left;this.behavior=behavior;this.events.scroll?.();}};
-  const button=()=>({disabled:false,events:{},addEventListener(type,fn){this.events[type]=fn;}});
-  const previous=button(),next=button(),position={textContent:''};
+test('hero uses Swiper with desktop and mobile drag, controls and range feedback',async()=>{
+  let instance;
+  const units=Array.from({length:5},()=>({classList:{add(){}}}));
+  const stage={events:{},classList:{add(){}},querySelectorAll:()=>units,appendChild(){},addEventListener(k,fn){this.events[k]=fn;}};
+  const previous={},next={},position={textContent:''};
   const controls={querySelector:s=>s==='[data-product-previous]'?previous:s==='[data-product-next]'?next:position};
-  const document={querySelector:s=>s==='[data-mobile-products]'?stage:s==='[data-mobile-product-controls]'?controls:null,querySelectorAll:()=>[]};
-  const window={matchMedia:q=>({matches:q.includes('max-width')?mobile:true}),addEventListener(){}};
-  vm.runInNewContext(await readFile('dist/full-site.js','utf8'),{document,window});
-  assert.equal(previous.disabled,true);assert.equal(position.textContent,'1-2 of 5');
-  next.events.click();assert.equal(stage.scrollLeft,300);assert.equal(position.textContent,'2-3 of 5');assert.equal(stage.behavior,'instant');
-  const key=key=>({key,preventDefault(){}});
-  stage.events.keydown(key('End'));assert.equal(stage.scrollLeft,900);assert.equal(focused,4);assert.equal(next.disabled,true);assert.equal(position.textContent,'4-5 of 5');
-  next.events.click();assert.equal(stage.scrollLeft,900);assert.equal(next.disabled,true);
-  stage.scrollLeft=600;stage.events.scroll();assert.equal(position.textContent,'3-4 of 5');
-  stage.events.keydown(key('Home'));assert.equal(stage.scrollLeft,0);assert.equal(focused,0);
-  mobile=false;next.events.click();assert.equal(stage.scrollLeft,0);
-});
-
-test('catalogue Step pair keeps its adjusted scale after resizing',async()=>{
-  let height=200,change;
-  const reference={getBoundingClientRect:()=>({height}),addEventListener(){}};
-  const properties={};
-  const card={parentElement:{querySelector:selector=>{assert.equal(selector,'.product-image > img[src*="scan-go.webp"]');return reference;}},style:{setProperty:(key,value)=>{properties[key]=value;}}};
-  const document={querySelector:()=>null,querySelectorAll:()=>[card]};
-  class ResizeObserver { constructor(callback){change=callback;} observe(element){assert.equal(element,reference);} }
-  vm.runInNewContext(await readFile('dist/full-site.js','utf8'),{document,ResizeObserver});
-  assert.equal(properties['--pair-display-height'],'208px');
-  height=240;change();assert.equal(properties['--pair-display-height'],'249.6px');
+  const document={querySelector:s=>s==='[data-mobile-products]'?stage:s==='[data-mobile-product-controls]'?controls:null,createElement:()=>({appendChild(){}})};
+  class Swiper { constructor(el,options){assert.equal(el,stage);this.params=options;this.activeIndex=0;this.isBeginning=true;this.isEnd=false;instance=this;options.on.init(this);}slideTo(index){this.activeIndex=Math.min(index,3);this.isBeginning=this.activeIndex===0;this.isEnd=this.activeIndex===3;this.params.on.slideChange(this);} }
+  vm.runInNewContext(await readFile('dist/full-site.js','utf8'),{document,window:{Swiper,matchMedia:()=>({matches:true})}});
+  assert.equal(instance.params.simulateTouch,true);assert.equal(instance.params.grabCursor,true);assert.equal(instance.params.slidesPerView,2);assert.equal(instance.params.breakpoints[900].slidesPerView,4);assert.equal(instance.params.navigation.nextEl,next);assert.equal(position.textContent,'1-2 of 5');
+  stage.events.keydown({key:'End',preventDefault(){}});assert.equal(position.textContent,'4-5 of 5');assert.equal(next.disabled,true);
+  stage.events.keydown({key:'Home',preventDefault(){}});assert.equal(previous.disabled,true);assert.equal(position.textContent,'1-2 of 5');
 });
 
 test('all product pages have shared content/photos and Step uses only a custom two-model control',async()=>{
@@ -63,5 +45,5 @@ test('all product pages have shared content/photos and Step uses only a custom t
   }
   const step=await readFile('dist/step-pay.html','utf8');assert.match(step,/data-model-picker/);assert.match(step,/role="listbox"/);assert.match(step,/data-model-option="0"/);assert.match(step,/data-model-option="1"/);assert.doesNotMatch(step,/<select[^>]*id="stepModel"/);
   assert.match(step,/assets\/step-pay-wide-navy.webp/);assert.doesNotMatch(step,/class="gallery-slide step-studio"/);
-  const home=await readFile('dist/index.html','utf8');assert.doesNotMatch(home,/step-pair-stage/);assert.match(home,/Explore Step &amp; Pay/);assert.match(home,/step-pair-card/);
+  const home=await readFile('dist/index.html','utf8');assert.doesNotMatch(home,/step-pair-stage/);assert.match(home,/Explore Step &amp; Pay/);assert.doesNotMatch(home,/step-pair-card/);
 });
