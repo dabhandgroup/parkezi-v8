@@ -22,7 +22,7 @@ test('custom Step picker supports click, keyboard, dismissal and gallery synchro
   trigger.events.click();document.events.pointerdown({target:{}});assert.equal(trigger.attrs['aria-expanded'],'false');
 });
 
-test('hero uses Swiper with desktop and mobile drag, controls and range feedback',async()=>{
+test('mobile hero Swiper retains drag, controls and range feedback',async()=>{
   let instance;
   const units=Array.from({length:5},()=>({classList:{add(){}}}));
   const stage={events:{},classList:{add(){}},querySelectorAll:()=>units,appendChild(){},addEventListener(k,fn){this.events[k]=fn;}};

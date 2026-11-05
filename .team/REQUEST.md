@@ -59,3 +59,13 @@ Event `parkezi:2026-11-05:catalogue-pair-scale-centre:v1`. Harry requests closer
 Harry explicitly repeated deploy to V8 when done after the final one-unit correction. Use connected GitHub only, same DAB-47/task branch/PR1. This task-specific authority permits the verified PR release through existing main to parkezi-v8.vercel.app; it does not launch the client domain or change branch/domain/protection settings. Original no-main limits above are historical for this now-authorised V8 release.
 
 One original standard Step & Pay in hero and all catalogue/related cards. Larger model stays only inside its custom product selector/gallery. Supersedes all previous pair sizing/gap work. Add five technician photos to relevant product galleries behind professional/approved images. Desktop/mobile hero must swipe/drag using Swiper, be centred and bottom-aligned, and Mini must retain its original combined image. Compare original content and preserve intentional source corrections. No new builder, issue or review.
+
+## Desktop restoration - 5 November 2026
+
+Event parkezi:2026-11-05:desktop-hero-hover-photo-restoration:v1.
+
+Restore original compact desktop hero: five units, SolarGate behind on left, hover/focus-only labels. Keep current scrolling mobile layout and combined Mini. One standard Step outside product selector. Reliable changes to outdoor equipment installation, no standing person. Knight Frank original car replaces logo-only primary image. Continuing authorised V8 Git release, same DAB-47/branch; follow-up PR needed because PR1 merged.
+
+## Mobile menu finish - 5 November 2026
+
+Event parkezi:2026-11-05:mobile-menu-footer-cleanup:v1. Keep approved mobile Swiper and Explore PARKEZI. Equal phone/Contact buttons; remove email, duplicate customer sign-in and divider beneath actions. Top sign-in stays. Applied to57client headers; internal style-guide is an unchanged historic reference. Both buttons132x52at320 and164x52at390; no footer rows/border or document overflow. Native Contact closes menu and reaches#enquire. Chat wrapper hides only while mobile menu is open, so Contact stays clear. Header-only changes supersede earlier whole-product-HTML equality claim; product main content, selector/gallery, CTAs and mobile/model JS unchanged. Include in same follow-up release. Prepareda5263ddd object never pushed.

@@ -128,3 +128,17 @@ The old direct share-host promotion checklist is superseded by Harry's GitHub-on
 - [x] Refresh original52-route comparison and confirm114original asset blobs unchanged; no original homepage/Express section IDs missing.
 - [ ] Publish exact tree to existing branch/PR; verify connected Git Preview then authorised main/V8 build and source/target identity.
 - [ ] Record release and browser limits in DAB-47, local/mapped logs; close owned test tab/server. No Done/client-domain launch or new reviewer.
+
+## Desktop restoration - 5 November 2026
+
+Event parkezi:2026-11-05:desktop-hero-hover-photo-restoration:v1.
+
+- [x] Restore recovered original desktop composition/hover names separately from current mobile Swiper.
+- [x] Reliable actual equipment installation and Knight Frank original car photograph, source assets preserved.
+- [x] Actual local desktop/mobile resize/native hover/next/End/photo checks,19tests/static/source comparison; exact owner report.
+- [ ] Publish exact candidate through same task branch/follow-up GitHub PR and verify connected V8 build.
+- [ ] Read back DAB-47 and exact local/mapped logs; no new reviewer or Done claim.
+
+## Mobile menu finish - 5 November 2026
+
+Event parkezi:2026-11-05:mobile-menu-footer-cleanup:v1. Keep approved mobile Swiper and Explore PARKEZI. Equal phone/Contact buttons; remove email, duplicate customer sign-in and divider beneath actions. Top sign-in stays. Applied to57client headers; internal style-guide is an unchanged historic reference. Both buttons132x52at320 and164x52at390; no footer rows/border or document overflow. Native Contact closes menu and reaches#enquire. Chat wrapper hides only while mobile menu is open, so Contact stays clear. Header-only changes supersede earlier whole-product-HTML equality claim; product main content, selector/gallery, CTAs and mobile/model JS unchanged. Include in same follow-up release. Prepareda5263ddd object never pushed.

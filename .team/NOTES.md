@@ -101,3 +101,13 @@ Verified current share host still serves0a3a835 while staging is e614ac1. At1440
 Latest single-unit direction supersedes earlier pair scale/gap acceptance. Actual local Chromium checks pass for affected geometry/model/photo controls with separately recorded pointer-replay/native-touch limits. Original independent reports are preserved, but their hero/catalogue/gallery evidence is stale. Two passes remain consumed. Grok cancellation is not PASS and no replacement was launched.
 
 Harry repeated deployment to parkezi-v8.vercel.app after the correction. Correct project is linked to dabhandgroup/parkezi-v8; main is its existing Production role. Release via verified GitHub PR1, no direct upload or alias promotion. Product code remains HTML/CSS/JS with the existing Node24 gate adapter; no Next.js conversion. Source/head/tree and final hosted readback will be recorded in release receipts.
+
+## Desktop restoration - 5 November 2026
+
+Event parkezi:2026-11-05:desktop-hero-hover-photo-restoration:v1.
+
+Previous Vercel Git build delay cleared: productiondpl_PTgEh6LwG6t4KzeeNrASnz7i2C6A serves mainc0508e3, previewdpl_CwB11jKZDAscxWZeJ99b8uLbCxNq serves79dabf0. No login/reconnect/settings or direct deploy was needed. Root cause was unconfirmed. Current desktop correction supersedes the all-width carousel decision; retain mobile Swiper. Owner report distinguishes real native hover/keyboard/button checks from unverified physical touch/Safari.
+
+## Mobile menu finish - 5 November 2026
+
+Event parkezi:2026-11-05:mobile-menu-footer-cleanup:v1. Keep approved mobile Swiper and Explore PARKEZI. Equal phone/Contact buttons; remove email, duplicate customer sign-in and divider beneath actions. Top sign-in stays. Applied to57client headers; internal style-guide is an unchanged historic reference. Both buttons132x52at320 and164x52at390; no footer rows/border or document overflow. Native Contact closes menu and reaches#enquire. Chat wrapper hides only while mobile menu is open, so Contact stays clear. Header-only changes supersede earlier whole-product-HTML equality claim; product main content, selector/gallery, CTAs and mobile/model JS unchanged. Include in same follow-up release. Prepareda5263ddd object never pushed.

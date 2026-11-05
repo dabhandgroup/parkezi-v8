@@ -69,3 +69,9 @@ All five newly supplied technician photos are secondary gallery images. Express 
 content/client-installation-photos.json records original attachment paths/hashes and proportional1200x1600 WebP derivatives. Inputs remain untouched. Combined derivative size1,981,980bytes. No AI retouching or cropping. The driveway photo has an obscured lower corner and stays secondary context. The larger-screen image is the previously requested illustration, not installation proof.
 
 Owner Chromium layout/gallery/model/zoom checks and actual limits are in .team/reviews/owner-installation-photos-2026-11-05.json. The refreshed52-route source comparison has854 curated paragraph units and no unmatched preserved rich-body paragraphs; intentional source corrections remain explicit. All114 original recovered asset blobs and original homepage/Express section IDs remain. This is not full semantic, physical-device or authenticated hosted verification.
+
+## Desktop/photo correction - 5 November 2026
+
+Event parkezi:2026-11-05:desktop-hero-hover-photo-restoration:v1. Reliable now uses the supplied driveway access overview, an actual installation with no standing representative. Other professional Why Choose photos remain. Harry specifically requested the original Knight Frank car photo in place of the logo-only image; this supersedes the earlier logo replacement for that project only. Original1000x1000AVIF remains intact; knight-frank-parking-entrance.webp is a decoded-pixel-identical lossless derivative, used on the four home variants and generated work/project views. It is not restored to Express Pay gallery. Exact identities in content/homepage-restoration-2026-11-05.json.
+
+Desktop hero reuses the recovered original five-product composition, SolarGate behind on left and hover/focus names. Separate mobile markup retains the current Swiper and combined Mini. Original/generated assets and product-model gallery/selector remain unchanged.

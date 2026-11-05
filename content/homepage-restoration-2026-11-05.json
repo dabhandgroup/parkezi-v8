@@ -1,0 +1,22 @@
+{
+  "event": "parkezi:2026-11-05:desktop-hero-hover-photo-restoration:v1",
+  "desktopReference": "a6a890e07751a8849c18814981d30583f484c5c0:dist/home-v2.html",
+  "desktopMarkup": "Original five-product composition, unchanged product fragments; accessible decorative SVG attributes added. Desktop-only wrapper. Mobile remains separate existing Swiper.",
+  "reliable": {
+    "file": "dist/assets/parkezi-driveway-access-overview.webp",
+    "sha256": "ffb767a0adb6cbb78527623329de24d96835b6ce53fa0dc957baacfec987238d",
+    "reason": "Actual equipment installation, visibly distinct from exhibition portraits, no standing person."
+  },
+  "knightFrank": {
+    "source": "dist/assets/knight-frank.avif",
+    "sourceSha256": "a98dc19df1542c8a7da19a669c57105017ca3405e0520077dc0b73060951273d",
+    "file": "dist/assets/knight-frank-parking-entrance.webp",
+    "sha256": "c4c058eb6ddbe4264425ed770575dcf5f30e1108f180ff397f6be3438b14bac1",
+    "dimensions": [
+      1000,
+      1000
+    ],
+    "losslessDecodedPixelComparison": true,
+    "authority": "Harry explicitly requested restoring the original car image, superseding earlier logo-only treatment. Kept out of Express Pay gallery."
+  }
+}
