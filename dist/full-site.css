@@ -365,7 +365,7 @@ body.design-v7 .step-model-art { display: block; position: relative; flex: none;
 body.design-v7 .step-model-art > img { display: block; position: absolute; width: var(--art-width) !important; height: var(--art-height) !important; max-width: none !important; max-height: none; left: var(--art-left); top: var(--art-top); object-fit: fill; transform: none !important; }
 body.design-v7 .step-model-art + .step-model-art { margin-left: -3px; }
 body.design-v7 .step-pair-card .step-model-art { width: calc(var(--pair-display-height,248px) * var(--art-ratio)); max-width: none; }
-body.design-v7 .step-pair-card .step-model-art + .step-model-art { margin-left: 8px; }
+body.design-v7 .step-pair-card .step-model-art + .step-model-art { margin-left: 4px; }
 @media (min-width:721px) and (max-width:1100px) {
   body.design-v7 .product-grid { grid-auto-flow: column; grid-template-columns: none; grid-auto-columns: calc((100% - 12px) / 2); gap: 12px; overflow-x: auto; scroll-snap-type: x mandatory; padding-bottom: 14px; }
 }

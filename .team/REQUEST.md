@@ -49,3 +49,7 @@ Standing events `workforce:2026-11-04:cancel-grok-reviews:v1` and `workforce:202
 ## Hero restoration and catalogue gap - 4 November 2026
 
 Event `parkezi:2026-11-04:restore-compact-hero-separate-step:v1`. Harry rejects the wider/busier8c992ec hero and requests its original compact composition. Restore original five-unit desktop artwork with a single standard Step & Pay; retain mobile carousel and click-through to the approved two-model custom selector. Catalogue height is approved, but separate the two units visibly. Preserve all other approved content, compact CTA and original assets. Same task branch/PR and Git-only staging scope.
+
+## Catalogue scale/centre - 5 November 2026
+
+Event `parkezi:2026-11-05:catalogue-pair-scale-centre:v1`. Harry requests closer, centred Step & Pay catalogue units, about25% larger than in the supplied screenshot, retaining aligned feet. Readback confirms screenshot share host still serves0a3a835, older than e614ac1 staging. Current normalized staging already enlarged the old artwork; a further4% gives about25% total at the reference desktop, rather than multiplying staging by another25%. Hero, model selector and all assets are unchanged.

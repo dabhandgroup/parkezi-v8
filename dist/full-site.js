@@ -107,7 +107,9 @@
     if(!reference) return;
     const sync=()=>{
       const height=reference.getBoundingClientRect().height;
-      if(height>0) card.style.setProperty('--pair-display-height',`${height}px`);
+      // Normalized staging cut-outs already enlarged the older shared artwork.
+      // This final adjustment targets about 25% over that shared desktop reference.
+      if(height>0) card.style.setProperty('--pair-display-height',`${Math.round(height*1.04*100)/100}px`);
     };
     sync();
     if(typeof ResizeObserver!=='undefined') new ResizeObserver(sync).observe(reference);

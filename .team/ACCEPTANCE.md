@@ -98,3 +98,9 @@ SITE-04 source/build/auth evidence will be bound to the final candidate identity
 - RESTORE-02: Both catalogue models retain Scan & Go height and have a positive visible gap, with no card/document overflow at320/390/768/1024/1101/1280/1440.
 - RESTORE-03: Product model selector/gallery and three compact CTA HTML pages remain byte-identical to8c992ec; actual click-through and Larger screen selection work locally. Assets unchanged.
 - RESTORE-04: Build/tests/static/source checks plus current owner browser evidence recorded; exact final Git commit/tree and connected Preview verified. Hosted protection is not bypassed, prior reports/2-pass ledger retained, no default Grok/replacement review.
+
+## Current catalogue criteria - 5 November 2026
+
+- SCALE-01: About25% visible increase against Harry screenshot/share0a3a835, accounting for existing staging normalization, rather than silently compounding size.
+- SCALE-02:4px positive gap, centred physical cut-out bounds, feet remain on the same neighbouring-product baseline; no clipped art/card/document overflow at320/390/768/1101/1280/1440.
+- SCALE-03: Homepage hero, selector/gallery, page markup and every image asset unchanged. Exact final source/build/20test/browser and Git Preview evidence recorded; hosted protection and release limits preserved.

@@ -111,3 +111,10 @@ The old direct share-host promotion checklist is superseded by Harry's GitHub-on
 - [x] Catalogue pair keeps Scan & Go height and gains8px gap; minimum260px narrow-phone cards fit both units.
 - [x] Actual local browser checks at320/390/768/1024/1101/1280/1440, source/button comparisons, selector journey and20 tests.
 - [ ] Freeze the existing PR candidate and verify its connected Git Preview; owner log receipt records final source/deployment after publication. No Production change.
+
+## Catalogue scale/centre - 5 November 2026
+
+- [x] Verify actual share0a3a835 vs staginge614ac1 and compare visible image bodies.
+- [x] Add final4% over normalized staging size,4px gap, centred cut-out bounds and unchanged baseline.
+- [x] Actual local checks at320/390/768/1101/1280/1440: contained, centred within0.004px, feet exactly aligned with Scan & Go, no document overflow.
+- [ ] Final checks, exact same-branch Git Preview and owner receipt in mapped logs.

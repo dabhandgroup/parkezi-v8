@@ -42,7 +42,7 @@ test('mobile product row supports arrows, keyboard, swipe position and desktop n
   mobile=false;next.events.click();assert.equal(stage.scrollLeft,0);
 });
 
-test('catalogue Step pair matches Scan & Go height after resizing',async()=>{
+test('catalogue Step pair keeps its adjusted scale after resizing',async()=>{
   let height=200,change;
   const reference={getBoundingClientRect:()=>({height}),addEventListener(){}};
   const properties={};
@@ -50,8 +50,8 @@ test('catalogue Step pair matches Scan & Go height after resizing',async()=>{
   const document={querySelector:()=>null,querySelectorAll:()=>[card]};
   class ResizeObserver { constructor(callback){change=callback;} observe(element){assert.equal(element,reference);} }
   vm.runInNewContext(await readFile('dist/full-site.js','utf8'),{document,ResizeObserver});
-  assert.equal(properties['--pair-display-height'],'200px');
-  height=240;change();assert.equal(properties['--pair-display-height'],'240px');
+  assert.equal(properties['--pair-display-height'],'208px');
+  height=240;change();assert.equal(properties['--pair-display-height'],'249.6px');
 });
 
 test('all product pages have shared content/photos and Step uses only a custom two-model control',async()=>{
